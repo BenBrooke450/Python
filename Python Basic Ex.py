@@ -28,7 +28,7 @@ def multiplication_or_sum(num1, num2):
 
 
 
-
+####################################################################
 
 
 
@@ -37,6 +37,8 @@ def multiplication_or_sum(num1, num2):
 
 for i in range(10):
     print("Current Number",i,"Previous Numbner",i-1,"Sum:",i+(i-1))
+
+
 
 
 print("Printing current and previous number and their sum in a range(10)")
@@ -49,6 +51,10 @@ for i in range(1, 11):
     # modify previous number
     # set it to the current number
     previous_num = i
+
+
+
+####################################################################
 
 
 """Write a Python code to accept a string from the 
@@ -70,6 +76,12 @@ even("Not Hello")
 
 
 
+####################################################################
+
+
+
+
+
 """Write a Python code to remove characters
  from a string from 0 to n and return a new string."""
 
@@ -80,6 +92,9 @@ def remove(str,x):
     print(str[x:])
 
 remove(str,x)
+
+
+####################################################################
 
 
 
@@ -100,6 +115,9 @@ first_last(numbers_x)
 
 
 
+####################################################################
+
+
 
 
 
@@ -113,6 +131,13 @@ def five(num):
             print(num)
 
 five(list)
+
+
+
+
+####################################################################
+
+
 
 
 
@@ -148,6 +173,12 @@ for num in range(1,2):
 
 
 
+
+####################################################################
+
+
+
+
 """Write a Python code to check if the given number is palindrome. 
 A palindrome number is a number that is the same after reverse.
  For example, 545 is the palindrome number."""
@@ -166,6 +197,14 @@ def pan(x):
 
 print(pan(123))
 print(pan(252))
+
+
+
+
+####################################################################
+
+
+
 
 
 
@@ -212,6 +251,11 @@ def merge_list(list1, list2):
     return result_list
 
 
+
+####################################################################
+
+
+
 """For example, If the given integer number is 7536, the
  output shall be “6 3 5 7“, with a space separating the digits."""
 
@@ -241,6 +285,10 @@ def income(pay):
 income(18500)
 income(27000)
 
+
+
+
+####################################################################
 
 
 
