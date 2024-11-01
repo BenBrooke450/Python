@@ -4,6 +4,7 @@
 """Given two lists, l1 and l2, write a program to create
 a third list l3 by picking an odd element from
 the list l1 and even elements from the list l2."""
+from numpy.array_api import unique_counts
 
 l1 = [3, 6, 9, 12, 16, 17, 22]
 l2 = [4, 7, 13, 16, 23, 24, 28]
@@ -72,6 +73,7 @@ print(res)
 ####################################################################
 
 
+
 """Write a program to remove the item present at index 4 
 and add it to the 2nd position and at the end of the list."""
 
@@ -100,5 +102,50 @@ sample_list.append(element)
 print("List after Adding element at last ", sample_list)
 
 
+####################################################################
+
+
+"""Write a program to iterate a given list and count the occurrence 
+of each element and create a dictionary to show the count of each
+ element."""
+
+
+count_dict = dict()
+for item in sample_list:
+    if item in count_dict:
+        count_dict[item] += 1
+    else:
+        count_dict[item] = 1
+
+print("Printing count of each item  ", count_dict)
+
+
 
 ####################################################################
+
+
+
+"""Create a Python set such that it shows the element from both 
+lists in a pair"""
+
+first_list = [2, 3, 4, 5, 6, 7, 8]
+second_list = [4, 9, 16, 25, 36, 49, 64]
+
+y = set(zip(first_list,second_list))
+print(y)
+
+
+####################################################################
+
+
+"""Find the intersection (common) of two sets and remove 
+those elements from the first set"""
+
+first_set = {23, 42, 65, 57, 78, 83, 29}
+second_set = {57, 83, 29, 67, 73, 43, 48}
+
+a = first_set - second_set
+print(a)
+
+b = first_set - a
+print(b)
