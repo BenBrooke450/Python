@@ -120,7 +120,10 @@ for keys,values in ascii_dict.items():
     x.append(values)
     z = zip(x,y)
     print(dict(z))
-
+#{65: 'A'}
+#{65: 'A', 66: 'B'}
+#{65: 'A', 66: 'B', 67: 'C'}
+#{65: 'A', 66: 'B', 67: 'C', 68: 'D'}
 
 ####################################################################
 
@@ -132,5 +135,14 @@ sample_list = [10, 20, 60, 30, 20, 40, 30, 60, 70, 80]
 x = 0
 y = len(sample_list)
 
-def count_dub(sample_list):
-    for
+count_dict = dict()
+
+for item in sample_list:
+    if item in count_dict:
+        count_dict[item] += 1
+        if item > 1:
+            print(item)
+    else:
+        count_dict[item] = 1
+
+####################################################################
