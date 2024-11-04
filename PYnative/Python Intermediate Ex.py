@@ -145,4 +145,68 @@ for item in sample_list:
     else:
         count_dict[item] = 1
 
+#20
+#30
+#60
+
 ####################################################################
+
+"""Filter dictionary to contain keys present in the given list
+"""
+
+# Dictionary
+d1 = {'A': 65, 'B': 66, 'C': 67, 'D': 68, 'E': 69, 'F': 70}
+
+# Filter dict using following keys
+l1 = ['A', 'C', 'F']
+
+d2 = dict()
+
+for keys,values in d1.items():
+    if keys in l1:
+        d2.update({keys:values})
+
+print(d2)
+
+####################################################################
+
+"""Print the following number pattern
+1 1 1 1 1 
+2 2 2 2 
+3 3 3 
+4 4 
+5 """
+
+for nums in range(1,2):
+    print(nums,nums,nums,nums,nums)
+    for nums2 in range(2,3):
+        print(nums2,nums2,nums2,nums2)
+        for nums3 in range(3,4):
+            print(nums3,nums3,nums3)
+
+####################################################################
+
+"""Modify the element of a nested list inside the following list"""
+
+list1 = [5, [10, 15, [20, 25, [30, 35], 40], 45], 50]
+
+#[5, [10, 15, [20, 25, [30, 3500], 40], 45], 50]
+
+list1[1][2][2][1]=3500
+print(list1)
+#[5, [10, 15, [20, 25, [30, 3500], 40], 45], 50]
+
+####################################################################
+
+emp_dict = {
+    "company": {
+        "employee": {
+            "name": "Jess",
+            "payable": {
+                "salary": 9000,
+                "increment": 12
+            }
+        }
+    }
+}
+print(emp_dict['company']['employee']['payable']['increment'])
