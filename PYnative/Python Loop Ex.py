@@ -90,9 +90,10 @@ for item in numbers:
         print(item)
 
 
-####################################################################
+###################################################################
 
- """Count the total number of digits in a number"""
+
+"""Count the total number of digits in a number"""
 
 num1 = input("Count Digits",)
 number = int(num1)
