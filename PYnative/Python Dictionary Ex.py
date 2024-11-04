@@ -132,7 +132,7 @@ if 200 in sample_dict.values():
 
 ####################################################################
 
-Write a program to rename a key city to a location in the following dictionary.
+"""Write a program to rename a key city to a location in the following dictionary."""
 
 sample_dict = {
   "name": "Kelly",
@@ -144,4 +144,22 @@ sample_dict = {
 sample_dict['location'] = sample_dict.pop('city')
 
 print(sample_dict)
+
+
+####################################################################
+
+
+
+dict3 = {"k1":2.99,"k2":[1,2,3],"k3":{"insidekey":100}}
+
+print(dict3["k1"])
+#2.99
+
+print(dict3["k2"])
+#[1, 2, 3]
+
+print(dict3["k3"]["insidekey"])
+#100
+
+####################################################################
 
