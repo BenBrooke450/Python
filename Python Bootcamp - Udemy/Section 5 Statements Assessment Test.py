@@ -78,3 +78,4 @@ list = [words[0] for words in sts]
 print(list)
 
 #['C', 'a', 'l', 'o', 't', 'f', 'l', 'o', 'e', 'w', 'i', 't', 's']
+
