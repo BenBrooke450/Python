@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 7 Milestone Project - 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 8 Object Oriented Programming Homework Ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Python.Section 6 Functions and Methods Homework Ex.executor": "Run",
     "Python.Section 6 Functions and Methods Homework.executor": "Run",
     "Python.Section 7 Milestone Project - 1.executor": "Run",
+    "Python.Section 8 Object Oriented Programming Homework Ex.executor": "Run",
     "Python.abc.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -210,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731253436186</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731369332596</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731369332596</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
