@@ -161,32 +161,8 @@ def startgame():
                 print("Game over")
                 end = False
 
-
-
-
-
-
-    elif player == "player2":
-        print("player2 has cards:")
-        while True:
-            a = Game_mechanics_player2()
-            print("player2 choses")
-            b = choice(deck1)
-            print(b)
-            c = a.split(" ", 1)
-            print(c)
-            values.get(c)
-            d = b.split(" ", 1)
-            values.get(d)
-            if c > d:
-                deck2.append(a)
-            elif d < c:
-                deck1.append(d)
-            else:
-                print("They are the same, try again")
-                pass
     else:
-        print("No player chosen")
+        print("Player 2 is a bot, you need to pick player 1! :)")
 
 
 startgame()
