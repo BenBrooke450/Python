@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 12 Iterators and Generators Homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYnative/Python Classes and Objects Ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Python Basic Ex.executor": "Run",
+    "Python.Python Classes and Objects Ex.executor": "Run",
     "Python.Python Data Structures Ex.executor": "Run",
     "Python.Python Dictionary Ex.executor": "Run",
     "Python.Python Intermediate Ex.executor": "Run",
@@ -271,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731874803592</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731891063295</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731891063295</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
