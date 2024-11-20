@@ -49,9 +49,39 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 """
 
+from collections import Counter
 
 
+def converter(roman_number : str):
+    dic1 = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500
+        ,"M":1000,"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,
+            "CM":900}
 
+    dictt = Counter(roman_number)
+    dictt2 = dict(dictt.items())
+
+    dic2 = {}
+    i = 0
+    for key, value in dic1.items():
+        if key not in str(roman_number):
+            dic2[key] = i
+
+        elif key in str(roman_number):
+                dic2[key] = i + 1
+
+    dic2.update(dictt2)
+
+    i = 0
+
+    for key, value in dic2.items():
+        if len(key) > 2
+            value = value +
+
+
+    print(dic2)
+
+
+converter("MVIX")
 
 
 
@@ -59,23 +89,42 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 ####################################################################
 
 
+"""
 
-def converter(number : int):
-    dic1 = {1:"I",5:"V",10:"X",50:"L",100:"C",500:"D",1000:"M",4:"IV",9:"IX",40:"XL",90:"XC",400:"CD",900:"CM"}
-    list = [1,5,10,50,100,500,1000,4,9,40,90,400,900]
+import re
 
-    if 0 <= number < 10:
-        if number in list:
-            return dic1[number]
 
-        elif max(dic1.keys()) < number:
-            a = max(dic1.keys())
-            print(a*number)
+def converter(roman_number : str):
+    dic1 = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500
+        ,"M":1000,"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,
+            "CM":900}
+    dic2 = {}
+    i = 0
+    for  key, value in dic1.items():
+        if key not in str(roman_number):
+            dic2[key] = i
+
+
+        elif key in str(roman_number) or key == str(roman_number):
+            for letter in str(roman_number):
+                    dic2[key] = i + 1
+
+    return (dic2)
+
+
+
+
+print(converter("MXLVIIIV"))
+
+
+
+
+
 
 converter(3)
 
 
-""""   number % 10
+     number % 10
 
     ((number % 100) - (number % 10))
 
@@ -160,3 +209,37 @@ compont(1063)
 
 
 ####################################################################
+
+
+def comp(num :int):
+
+    list1 = []
+
+    zero = num % 10
+    if  zero > 0:
+        list1.append(zero)
+
+    first = (num % 100) - (num % 10)
+    if  first > 0:
+        list1.append(first)
+
+    second = (num % 1000) - (num % 100)
+    if  second > 0:
+        list1.append(second)
+
+    third = (num % 10000) - (num % 1000)
+    if  third > 0:
+        list1.append(third)
+
+    return list1
+
+print(comp(768))
+[8, 60, 700]
+
+
+print(comp(1152))
+[2, 50, 100, 1000]
+
+
+
+comp(1152)
