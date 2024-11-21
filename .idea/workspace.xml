@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Leetcode/14. Longest Common Prefix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/13. Roman to Integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/13. Roman to Integer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,33 +44,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1. Two Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13. Roman to Integer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2. Add Two Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9. Palindrome Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Basic Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Classes and Objects Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Data Structures Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Dictionary Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Intermediate Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Loop Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 10 Errors and Exceptions Homework Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 11 Milestone Project - 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 12 Iterators and Generators Homework.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 5 Statements Assessment Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 6 Function Practice Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 6 Functions and Methods Homework Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 6 Functions and Methods Homework.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 7 Milestone Project - 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 8 Object Oriented Programming - Challenge Overview Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 8 Object Oriented Programming Homework Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.abc.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1. Two Sum.executor": "Run",
+    "Python.13. Roman to Integer.executor": "Run",
+    "Python.14. Longest Common Prefix.executor": "Run",
+    "Python.2. Add Two Numbers.executor": "Run",
+    "Python.9. Palindrome Number.executor": "Run",
+    "Python.Crappy code.executor": "Run",
+    "Python.Python Basic Ex.executor": "Run",
+    "Python.Python Classes and Objects Ex.executor": "Run",
+    "Python.Python Data Structures Ex.executor": "Run",
+    "Python.Python Dictionary Ex.executor": "Run",
+    "Python.Python Intermediate Ex.executor": "Run",
+    "Python.Python Loop Ex.executor": "Run",
+    "Python.Section 10 Errors and Exceptions Homework Ex.executor": "Run",
+    "Python.Section 11 Milestone Project - 2.executor": "Run",
+    "Python.Section 12 Iterators and Generators Homework.executor": "Run",
+    "Python.Section 5 Statements Assessment Test.executor": "Run",
+    "Python.Section 6 Function Practice Ex.executor": "Run",
+    "Python.Section 6 Functions and Methods Homework Ex.executor": "Run",
+    "Python.Section 6 Functions and Methods Homework.executor": "Run",
+    "Python.Section 7 Milestone Project - 1.executor": "Run",
+    "Python.Section 8 Object Oriented Programming - Challenge Overview Ex.executor": "Run",
+    "Python.Section 8 Object Oriented Programming Homework Ex.executor": "Run",
+    "Python.abc.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PYnative" />
@@ -332,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732122273094</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1732142113287</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1732142113287</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
