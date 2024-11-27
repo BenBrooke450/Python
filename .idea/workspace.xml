@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/66. Plus One.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/67. Add Binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/69. Sqrt(x).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,8 @@
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
     "Python.58. Length of Last Word.executor": "Run",
     "Python.66. Plus One.executor": "Run",
+    "Python.67. Add Binary.executor": "Run",
+    "Python.69. Sqrt(x).executor": "Run",
     "Python.9. Palindrome Number.executor": "Run",
     "Python.Crappy code.executor": "Run",
     "Python.Python Basic Ex.executor": "Run",
@@ -386,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732562899313</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1732565640149</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1732565640149</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
