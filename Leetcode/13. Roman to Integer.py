@@ -49,39 +49,86 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 """
 
-from collections import Counter
 
+def converter(roman_number : str):
+
+    dic3 = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500
+        , "M": 1000, "IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400,
+            "CM": 900}
+
+
+    dic2 = {"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,
+            "CM":900}
+
+    list1 = []
+    list2 = []
+
+    m = roman_number
+
+    for less in dic2.keys():
+        print(less)
+        if less in m:
+            m = m.replace(less,"",1)
+            list2.append(m)
+        else:
+            list2.append(m)
+
+    for less in dic2.keys():
+        if less in roman_number:
+            list1.append(less)
+
+    if len(list2) > 0:
+        list1.extend(list2[-1])
+
+    return sum(dic3[key] for key in list1)
+
+
+
+print(converter("LVIII"))
+
+
+
+
+####################################################################
+
+"""
 
 def converter(roman_number : str):
     dic1 = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500
         ,"M":1000,"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,
             "CM":900}
 
-    dictt = Counter(roman_number)
-    dictt2 = dict(dictt.items())
+    dic2 = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500
+        ,"M":1000}
 
-    dic2 = {}
+    dic3 = {"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,
+            "CM":900}
+
+    dictt2 = list(dic1.keys())
+    print(dictt2)
+    list3 = []
     i = 0
-    for key, value in dic1.items():
-        if key not in str(roman_number):
-            dic2[key] = i
+    while True :
+        try:
+            z = roman_number[i]
+            list3.append(z)
+            q = roman_number[i] + roman_number[i + 1]
+            list3.append(q)
+            i = i + 1
 
-        elif key in str(roman_number):
-                dic2[key] = i + 1
+        except IndexError:
+            break
 
-    dic2.update(dictt2)
-
-    i = 0
-
-    for key, value in dic2.items():
-        if len(key) > 2
-            value = value +
-
-
-    print(dic2)
+    for roman in list3:
+        if roman in dic1:
+            print(roman)
 
 
-converter("MVIX")
+
+
+
+
+print(converter("MCMXCIV"))
 
 
 
@@ -89,7 +136,7 @@ converter("MVIX")
 ####################################################################
 
 
-"""
+
 
 import re
 
@@ -149,7 +196,7 @@ C             100
 D             500
 M             1000
 
-"""
+
 
 
 
@@ -243,3 +290,6 @@ print(comp(1152))
 
 
 comp(1152)
+
+
+"""
