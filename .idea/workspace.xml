@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/169. Majority Element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/263. Ugly Number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Python.169. Majority Element.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
+    "Python.263. Ugly Number.executor": "Debug",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
     "Python.58. Length of Last Word.executor": "Run",
     "Python.66. Plus One.executor": "Run",
@@ -459,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732924558904</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1732972458490</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1732972458491</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
