@@ -29,13 +29,10 @@ Explanation: There is no x where 3x = (-1).
 """
 import math
 
-from anaconda_cloud_auth import login
-
-
 def find_three(n : int):
     try:
         x = (math.log10(n) / math.log10(3))
-        if 3**(x) == n:
+        if (x)**3 == n:
             return True
 
     except ValueError:
