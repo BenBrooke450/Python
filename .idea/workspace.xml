@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/412. Fizz Buzz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/492. Construct the Rectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,9 @@
     "Python.342. Power of Four.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.412. Fizz Buzz.executor": "Run",
+    "Python.415. Add Strings.executor": "Run",
+    "Python.441. Arranging Coins.executor": "Run",
+    "Python.492. Construct the Rectangle.executor": "Run",
     "Python.58. Length of Last Word.executor": "Run",
     "Python.66. Plus One.executor": "Run",
     "Python.67. Add Binary.executor": "Run",
@@ -112,30 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1730399657893</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1730399657893</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1730399723109</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1730399723109</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1730399896504</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1730399896504</updated>
     </task>
     <task id="LOCAL-00006" summary="Basic">
       <option name="closed" value="true" />
@@ -505,7 +485,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733016008899</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733066809183</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1733066809184</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733066827708</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1733066827708</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733085272221</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1733085272222</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
