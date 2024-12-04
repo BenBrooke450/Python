@@ -25,6 +25,27 @@ Explanation: We return false because 3.742 * 3.742 = 14 and 3.742 is not an inte
 
 """
 
+def isPerfectSquare(number: int):
+    while number >= 1:
+
+        if number % (number ** (0.5)) == 0:
+            return True
+
+        return False
+
+
+
+
+
+
+print(isPerfectSquare(5))
+False
+
+
+
+####################################################################
+
+
 
 def isPerfectSquare(num: int) -> bool:
     print((list(map(lambda y: y * y == num, range(1, int((num / 2) + 1))))))
