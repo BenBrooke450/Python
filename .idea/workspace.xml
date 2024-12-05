@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2469. Convert the Temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1108. Defanging an IP Address.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   "keyToString": {
     "Python.1. Two Sum.executor": "Run",
     "Python.1025. Divisor Game.executor": "Run",
+    "Python.1108. Defanging an IP Address.executor": "Run",
     "Python.118. Pascal's Triangle.executor": "Run",
     "Python.121. Best Time to Buy and Sell Stock.executor": "Run",
     "Python.125. Valid Palindrome.executor": "Run",
@@ -58,6 +59,7 @@
     "Python.169. Majority Element.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
+    "Python.2011. Final Value of Variable After Performing Operations.executor": "Run",
     "Python.202. Happy Number.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
@@ -127,22 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1731448677377</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1731448677377</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1731523206547</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1731523206547</updated>
     </task>
     <task id="LOCAL-00020" summary="Basic">
       <option name="closed" value="true" />
@@ -520,7 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733411420309</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733412140599</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1733412140599</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733413119500</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1733413119500</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
