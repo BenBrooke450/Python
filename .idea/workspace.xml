@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1025. Divisor Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/3110. Score of a String.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/908. Smallest Range I.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/976. Largest Perimeter Triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/2469. Convert the Temperature.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +60,13 @@
     "Python.20. Valid Parentheses.executor": "Run",
     "Python.202. Happy Number.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
+    "Python.2469. Convert the Temperature.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
     "Python.268. Missing Number.executor": "Run",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
     "Python.292. Nim Game.executor": "Run",
+    "Python.3110. Score of a String.executor": "Run",
     "Python.326. Power of Three.executor": "Run",
     "Python.342. Power of Four.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
@@ -128,22 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1731253436186</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1731253436186</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1731369332596</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1731369332596</updated>
     </task>
     <task id="LOCAL-00018" summary="Basic">
       <option name="closed" value="true" />
@@ -521,7 +504,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733332833467</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733408541767</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1733408541768</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733411420309</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1733411420309</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
