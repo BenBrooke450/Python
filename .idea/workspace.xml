@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2942. Find Words Containing Character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/3280. Convert Date to Binary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Python.136. Single Number.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
+    "Python.1672. Richest Customer Wealth.executor": "Run",
     "Python.168. Excel Sheet Column Title.executor": "Run",
     "Python.169. Majority Element.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
@@ -74,6 +75,7 @@
     "Python.3110. Score of a String.executor": "Run",
     "Python.3190. Find Minimum Operations to Make All Elements Divisible by Three.executor": "Run",
     "Python.326. Power of Three.executor": "Run",
+    "Python.3280. Convert Date to Binary.executor": "Run",
     "Python.3289. The Two Sneaky Numbers of Digitville.executor": "Run",
     "Python.342. Power of Four.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
@@ -135,22 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1731981290808</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1731981290808</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1732053904790</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1732053904790</updated>
     </task>
     <task id="LOCAL-00028" summary="Basic">
       <option name="closed" value="true" />
@@ -528,7 +514,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733432767255</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733434591262</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1733434591263</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733435284988</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1733435284988</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
