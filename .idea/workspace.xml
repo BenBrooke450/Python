@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2037. Minimum Number of Moves to Seat Everyone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/2824. Count Pairs Whose Sum is Less than Target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1365. How Many Numbers Are Smaller Than the Current Number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2220. Minimum Bit Flips to Convert Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/1637. Widest Vertical Area Between Two Points Containing No Points.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,7 @@
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.13. Roman to Integer.executor": "Run",
     "Python.136. Single Number.executor": "Run",
+    "Python.1365. How Many Numbers Are Smaller Than the Current Number.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
@@ -148,22 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1732235770165</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1732235770165</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1732467487530</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1732467487530</updated>
     </task>
     <task id="LOCAL-00035" summary="Basic">
       <option name="closed" value="true" />
@@ -541,7 +524,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733451025803</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733497165946</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1733497165947</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733498847765</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1733498847765</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
