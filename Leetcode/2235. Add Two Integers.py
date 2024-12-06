@@ -16,5 +16,5 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 
 """
 
-def (num1 :int,num2:int):
+def number(num1 :int,num2:int):
     return num1 + num2
