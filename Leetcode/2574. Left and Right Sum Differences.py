@@ -31,3 +31,4 @@ The array answer is [|0 - 0|] = [0].
 
 
 def sum_up(list1 : list[int]):
+    pass
