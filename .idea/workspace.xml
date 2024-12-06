@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2235. Add Two Integers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/2413. Smallest Even Multiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/3146. Permutation Difference between Two Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/2037. Minimum Number of Moves to Seat Everyone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/2824. Count Pairs Whose Sum is Less than Target.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/2220. Minimum Bit Flips to Convert Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/1637. Widest Vertical Area Between Two Points Containing No Points.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +57,11 @@
     "Python.13. Roman to Integer.executor": "Run",
     "Python.136. Single Number.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
+    "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
+    "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
     "Python.1672. Richest Customer Wealth.executor": "Run",
+    "Python.1678. Goal Parser Interpretation.executor": "Run",
     "Python.168. Excel Sheet Column Title.executor": "Run",
     "Python.1684. Count the Number of Consistent Strings.executor": "Run",
     "Python.169. Majority Element.executor": "Run",
@@ -66,12 +69,16 @@
     "Python.20. Valid Parentheses.executor": "Run",
     "Python.2011. Final Value of Variable After Performing Operations.executor": "Run",
     "Python.202. Happy Number.executor": "Run",
+    "Python.2037. Minimum Number of Moves to Seat Everyone.executor": "Run",
+    "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
     "Python.268. Missing Number.executor": "Run",
+    "Python.2798. Number of Employees Who Met the Target.executor": "Run",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
+    "Python.2824. Count Pairs Whose Sum is Less than Target.executor": "Run",
     "Python.2894. Divisible and Non-divisible Sums Difference.executor": "Run",
     "Python.292. Nim Game.executor": "Run",
     "Python.2942. Find Words Containing Character.executor": "Run",
@@ -141,30 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1732122273094</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1732122273094</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1732142113287</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1732142113287</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1732214211076</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1732214211076</updated>
     </task>
     <task id="LOCAL-00033" summary="Basic">
       <option name="closed" value="true" />
@@ -534,7 +517,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733442040720</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733444384840</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1733444384841</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733444415364</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1733444415364</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733451025803</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1733451025803</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
