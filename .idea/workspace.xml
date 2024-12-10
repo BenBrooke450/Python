@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/482. License Key Formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/495. Teemo Attacking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +106,7 @@
     "Python.461. Hamming Distance.executor": "Run",
     "Python.482. License Key Formatting.executor": "Run",
     "Python.492. Construct the Rectangle.executor": "Run",
+    "Python.495. Teemo Attacking.executor": "Run",
     "Python.504. Base 7.executor": "Run",
     "Python.507. Perfect Number.executor": "Run",
     "Python.509. Fibonacci Number.executor": "Run",
@@ -160,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733003075857</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1733003075857</updated>
     </task>
     <task id="LOCAL-00050" summary="Basic">
       <option name="closed" value="true" />
@@ -553,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733767547491</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1733793107876</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1733793107876</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
