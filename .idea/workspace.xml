@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/599. Minimum Index Sum of Two Lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/643. Maximum Average Subarray I.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,9 @@
     "Python.58. Length of Last Word.executor": "Run",
     "Python.594. Longest Harmonious Subsequence.executor": "Run",
     "Python.599. Minimum Index Sum of Two Lists.executor": "Run",
+    "Python.605. Can Place Flowers.executor": "Run",
     "Python.628. Maximum Product of Three Numbers.executor": "Run",
+    "Python.643. Maximum Average Subarray I.executor": "Run",
     "Python.66. Plus One.executor": "Run",
     "Python.67. Add Binary.executor": "Run",
     "Python.69. Sqrt(x).executor": "Run",
@@ -172,30 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733324544840</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1733324544840</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733329083173</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1733329083173</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733332833467</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1733332833467</updated>
     </task>
     <task id="LOCAL-00065" summary="Basic">
       <option name="closed" value="true" />
@@ -565,7 +544,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734112531265</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734117950826</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1734117950826</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734118090086</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1734118090086</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734134715630</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1734134715630</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
