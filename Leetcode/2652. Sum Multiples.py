@@ -39,5 +39,5 @@ def bigrange(number:int):
 
 
 print(bigrange(9))
-
+#30
 
