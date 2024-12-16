@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1662. Check If Two String Arrays are Equivalent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1342. Number of Steps to Reduce a Number to Zero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.13. Roman to Integer.executor": "Run",
     "Python.1313. Decompress Run-Length Encoded List.executor": "Run",
+    "Python.1342. Number of Steps to Reduce a Number to Zero.executor": "Run",
     "Python.136. Single Number.executor": "Run",
     "Python.1365. How Many Numbers Are Smaller Than the Current Number.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
@@ -87,6 +89,7 @@
     "Python.2894. Divisible and Non-divisible Sums Difference.executor": "Run",
     "Python.292. Nim Game.executor": "Run",
     "Python.2942. Find Words Containing Character.executor": "Run",
+    "Python.2974. Minimum Number Game.executor": "Run",
     "Python.3065. Minimum Operations to Exceed Threshold Value I.executor": "Run",
     "Python.3110. Score of a String.executor": "Run",
     "Python.3146. Permutation Difference between Two Strings.executor": "Run",
@@ -181,30 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733420051620</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1733420051620</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733431728452</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1733431728453</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733432767255</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1733432767255</updated>
     </task>
     <task id="LOCAL-00075" summary="Basic">
       <option name="closed" value="true" />
@@ -574,7 +553,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734291895693</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734292885505</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1734292885505</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734293126568</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1734293126568</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734377041299</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1734377041299</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
