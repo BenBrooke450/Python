@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2652. Sum Multiples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/2535. Difference Between Element Sum and Digit Sum of an Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,7 @@
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
+    "Python.1528. Shuffle String.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
     "Python.1662. Check If Two String Arrays are Equivalent.executor": "Run",
     "Python.1672. Richest Customer Wealth.executor": "Run",
@@ -81,6 +82,7 @@
     "Python.231. Power of Two.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
+    "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
     "Python.2652. Sum Multiples.executor": "Run",
@@ -186,30 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733436179574</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1733436179575</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733442040720</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1733442040720</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733444384840</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1733444384841</updated>
     </task>
     <task id="LOCAL-00080" summary="Basic">
       <option name="closed" value="true" />
@@ -579,7 +557,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734379593231</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734380532900</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1734380532900</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734380548908</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1734380548908</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734387045267</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1734387045267</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
