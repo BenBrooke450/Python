@@ -33,9 +33,7 @@ def bigrange(number:int):
 
     for nums in range(0,number+1):
         if nums % 3 == 0 or nums % 5 == 0 or nums % 7 ==0:
-
             list3.append(nums)
-
 
     return sum(list3)
 
