@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2535. Difference Between Element Sum and Digit Sum of an Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1614. Maximum Nesting Depth of the Parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
     "Python.1528. Shuffle String.executor": "Run",
+    "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
     "Python.1662. Check If Two String Arrays are Equivalent.executor": "Run",
     "Python.1672. Richest Customer Wealth.executor": "Run",
@@ -80,6 +81,7 @@
     "Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor": "Run",
     "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
+    "Python.2367. Number of Arithmetic Triplets.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
@@ -188,22 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733444415364</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1733444415364</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733451025803</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1733451025803</updated>
     </task>
     <task id="LOCAL-00082" summary="Basic">
       <option name="closed" value="true" />
@@ -581,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734387045267</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734390807105</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1734390807105</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734394452515</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1734394452515</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
