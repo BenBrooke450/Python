@@ -73,6 +73,7 @@ def func(list1:list[int]):
 
 
 print(func([1,4,2,5,3]))
+#58
 
 
 
