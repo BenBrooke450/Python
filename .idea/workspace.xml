@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1732. Find the Highest Altitude.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +72,7 @@
     "Python.1732. Find the Highest Altitude.executor": "Run",
     "Python.1791. Find Center of Star Graph.executor": "Run",
     "Python.1816. Truncate Sentence.executor": "Run",
+    "Python.1832. Check if the Sentence Is Pangram.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
     "Python.2000. Reverse Prefix of Word.executor": "Run",
@@ -194,22 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733503549767</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1733503549768</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733504498547</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1733504498548</updated>
     </task>
     <task id="LOCAL-00088" summary="Basic">
       <option name="closed" value="true" />
@@ -587,7 +571,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734474304410</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734476250692</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1734476250692</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734477637809</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1734477637809</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
