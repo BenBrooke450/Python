@@ -32,8 +32,6 @@ Since both are equal the num is balanced.
 
 """
 
-
-
 def func(list1:list[int]):
 
     list2 = sum(int(x) for index, x in enumerate(list1) if index % 2 == 0)
@@ -44,6 +42,7 @@ def func(list1:list[int]):
         return True
     else:
         return False
+
 
 print(func("24123"))
 #True
