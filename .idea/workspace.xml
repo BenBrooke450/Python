@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2053. Kth Distinct String in an Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/3131. Find the Integer Added to Array I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1844. Replace All Digits with Characters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +78,7 @@
     "Python.1791. Find Center of Star Graph.executor": "Run",
     "Python.1816. Truncate Sentence.executor": "Run",
     "Python.1832. Check if the Sentence Is Pangram.executor": "Run",
+    "Python.1844. Replace All Digits with Characters.executor": "Run",
     "Python.1913. Maximum Product Difference Between Two Pairs.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
@@ -107,6 +107,7 @@
     "Python.2828. Check if a String Is an Acronym of Words.executor": "Run",
     "Python.2864. Maximum Odd Binary Number.executor": "Run",
     "Python.2894. Divisible and Non-divisible Sums Difference.executor": "Run",
+    "Python.2913. Subarrays Distinct Element Sum of Squares I.executor": "Run",
     "Python.292. Nim Game.executor": "Run",
     "Python.2942. Find Words Containing Character.executor": "Run",
     "Python.2956. Find Common Elements Between Two Arrays.executor": "Run",
@@ -210,22 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733862030288</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1733862030288</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1733872453959</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1733872453959</updated>
     </task>
     <task id="LOCAL-00104" summary="Basic">
       <option name="closed" value="true" />
@@ -603,7 +588,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735141720071</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1735153222532</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1735153222532</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1735254088716</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1735254088716</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
