@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1534. Count Good Triplets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/2697. Lexicographically Smallest Palindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +102,7 @@
     "Python.2652. Sum Multiples.executor": "Run",
     "Python.2656. Maximum Sum With Exactly K Elements.executor": "Run",
     "Python.268. Missing Number.executor": "Run",
+    "Python.2697. Lexicographically Smallest Palindrome.executor": "Run",
     "Python.2724. Sort By.executor": "Run",
     "Python.2798. Number of Employees Who Met the Target.executor": "Run",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
@@ -213,14 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734030495264</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1734030495264</updated>
     </task>
     <task id="LOCAL-00107" summary="Basic">
       <option name="closed" value="true" />
@@ -606,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735337886728</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1735400336311</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1735400336311</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
