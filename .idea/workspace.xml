@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1309. Decrypt String from Alphabet to Integer Mapping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
     "Python.13. Roman to Integer.executor": "Run",
+    "Python.1309. Decrypt String from Alphabet to Integer Mapping.executor": "Run",
     "Python.1313. Decompress Run-Length Encoded List.executor": "Run",
     "Python.1323. Maximum 69 Number.executor": "Run",
     "Python.1342. Number of Steps to Reduce a Number to Zero.executor": "Run",

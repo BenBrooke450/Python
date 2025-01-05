@@ -44,6 +44,7 @@ def minimumChairs(s: str):
 
 
 print(minimumChairs("ELELEEL"))
+#2
 
 
 
