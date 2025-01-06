@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1309. Decrypt String from Alphabet to Integer Mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1380. Lucky Numbers in a Matrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
     "Python.1342. Number of Steps to Reduce a Number to Zero.executor": "Run",
     "Python.136. Single Number.executor": "Run",
     "Python.1365. How Many Numbers Are Smaller Than the Current Number.executor": "Run",
+    "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
@@ -70,6 +70,7 @@
     "Python.1534. Count Good Triplets.executor": "Run",
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
     "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
+    "Python.1636. Sort Array by Increasing Frequency.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
     "Python.1662. Check If Two String Arrays are Equivalent.executor": "Run",
     "Python.1672. Richest Customer Wealth.executor": "Run",
@@ -106,6 +107,7 @@
     "Python.2485. Find the Pivot Integer.executor": "Run",
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
+    "Python.2553. Separate the Digits in an Array.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
     "Python.2652. Sum Multiples.executor": "Run",
@@ -228,22 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00119" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734289242810</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1734289242810</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734291895693</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1734291895693</updated>
     </task>
     <task id="LOCAL-00121" summary="Basic">
       <option name="closed" value="true" />
@@ -621,7 +607,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735922217157</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736112985164</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1736112985164</updated>
+    </task>
+    <task id="LOCAL-00169" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736126359721</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1736126359721</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
