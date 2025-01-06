@@ -54,6 +54,8 @@ def diStringMatch(s: str):
 
 
 print(diStringMatch("IDID"))
+#[0, 4, 1, 3, 2]
+
 
 
 
