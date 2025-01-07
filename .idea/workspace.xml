@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2427. Number of Common Factors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1652. Defuse the Bomb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
     "Python.1636. Sort Array by Increasing Frequency.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
+    "Python.1652. Defuse the Bomb.executor": "Run",
     "Python.1662. Check If Two String Arrays are Equivalent.executor": "Run",
     "Python.1672. Richest Customer Wealth.executor": "Run",
     "Python.1678. Goal Parser Interpretation.executor": "Run",
@@ -146,6 +147,7 @@
     "Python.3300. Minimum Element After Replacement With Digit Sum.executor": "Run",
     "Python.3340. Check Balanced String.executor": "Run",
     "Python.342. Power of Four.executor": "Run",
+    "Python.344. Reverse String.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.389. Find the Difference.executor": "Run",
     "Python.412. Fizz Buzz.executor": "Run",
@@ -235,22 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734380548908</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1734380548908</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734387045267</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1734387045267</updated>
     </task>
     <task id="LOCAL-00129" summary="Basic">
       <option name="closed" value="true" />
@@ -628,7 +614,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736267668511</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736268972555</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1736268972555</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736270846351</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1736270846351</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
