@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/942. DI String Match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1436. Destination City.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
+    "Python.1436. Destination City.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
     "Python.1528. Shuffle String.executor": "Run",
@@ -98,6 +99,7 @@
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
     "Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor": "Run",
+    "Python.2176. Count Equal and Divisible Pairs in an Array.executor": "Run",
     "Python.2215. Find the Difference of Two Arrays.executor": "Run",
     "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
@@ -232,30 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734377041299</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1734377041299</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734378958737</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1734378958737</updated>
-    </task>
-    <task id="LOCAL-00125" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734379593231</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1734379593231</updated>
     </task>
     <task id="LOCAL-00126" summary="Basic">
       <option name="closed" value="true" />
@@ -625,7 +603,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736178306871</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736181850918</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1736181850918</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736181957171</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1736181957171</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736250636599</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1736250636599</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
