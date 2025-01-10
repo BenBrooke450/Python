@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1652. Defuse the Bomb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1252. Cells with Odd Values in a Matrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Python.118. Pascal's Triangle.executor": "Run",
     "Python.121. Best Time to Buy and Sell Stock.executor": "Run",
     "Python.125. Valid Palindrome.executor": "Run",
+    "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
     "Python.13. Roman to Integer.executor": "Run",
     "Python.1309. Decrypt String from Alphabet to Integer Mapping.executor": "Run",
@@ -84,6 +85,7 @@
     "Python.1732. Find the Highest Altitude.executor": "Run",
     "Python.1768. Merge Strings Alternately.executor": "Run",
     "Python.1791. Find Center of Star Graph.executor": "Run",
+    "Python.1812. Determine Color of a Chessboard Square.executor": "Run",
     "Python.1816. Truncate Sentence.executor": "Run",
     "Python.1827. Minimum Operations to Make the Array Increasing.executor": "Run",
     "Python.1832. Check if the Sentence Is Pangram.executor": "Run",
@@ -237,22 +239,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734390807105</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1734390807105</updated>
-    </task>
-    <task id="LOCAL-00130" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734394452515</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1734394452515</updated>
     </task>
     <task id="LOCAL-00131" summary="Basic">
       <option name="closed" value="true" />
@@ -630,7 +616,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736270846351</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736281430400</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1736281430400</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736289970951</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1736289970951</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
