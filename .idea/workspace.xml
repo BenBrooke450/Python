@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/2710. Remove Trailing Zeros From a String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1748. Sum of Unique Elements.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +82,10 @@
     "Python.1684. Count the Number of Consistent Strings.executor": "Run",
     "Python.1688. Count of Matches in Tournament.executor": "Run",
     "Python.169. Majority Element.executor": "Run",
+    "Python.1704. Determine if String Halves Are Alike.executor": "Run",
     "Python.1725. Number Of Rectangles That Can Form The Largest Square.executor": "Run",
     "Python.1732. Find the Highest Altitude.executor": "Run",
+    "Python.1748. Sum of Unique Elements.executor": "Run",
     "Python.1768. Merge Strings Alternately.executor": "Run",
     "Python.1791. Find Center of Star Graph.executor": "Run",
     "Python.1812. Determine Color of a Chessboard Square.executor": "Run",
@@ -112,6 +114,7 @@
     "Python.2427. Number of Common Factors.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
     "Python.2485. Find the Pivot Integer.executor": "Run",
+    "Python.2500. Delete Greatest Value in Each Row.executor": "Run",
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
     "Python.2553. Separate the Digits in an Array.executor": "Run",
@@ -241,22 +244,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734472831398</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1734472831398</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734474304410</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1734474304410</updated>
     </task>
     <task id="LOCAL-00135" summary="Basic">
       <option name="closed" value="true" />
@@ -634,7 +621,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736527456035</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736620487474</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1736620487474</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736626167323</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1736626167323</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
