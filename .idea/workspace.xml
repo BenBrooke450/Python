@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/1700. Number of Students Unable to Eat Lunch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1941. Check if All Characters Have Equal Number of Occurrences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,7 @@
     "Python.169. Majority Element.executor": "Run",
     "Python.1700. Number of Students Unable to Eat Lunch.executor": "Run",
     "Python.1704. Determine if String Halves Are Alike.executor": "Run",
+    "Python.1716. Calculate Money in Leetcode Bank.executor": "Run",
     "Python.1725. Number Of Rectangles That Can Form The Largest Square.executor": "Run",
     "Python.1732. Find the Highest Altitude.executor": "Run",
     "Python.1748. Sum of Unique Elements.executor": "Run",
@@ -95,6 +96,7 @@
     "Python.1832. Check if the Sentence Is Pangram.executor": "Run",
     "Python.1844. Replace All Digits with Characters.executor": "Run",
     "Python.1913. Maximum Product Difference Between Two Pairs.executor": "Run",
+    "Python.1941. Check if All Characters Have Equal Number of Occurrences.executor": "Run",
     "Python.1967. Number of Strings That Appear as Substrings in Word.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
@@ -245,22 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734477637809</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1734477637809</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734482074957</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1734482074957</updated>
     </task>
     <task id="LOCAL-00138" summary="Basic">
       <option name="closed" value="true" />
@@ -638,7 +624,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736709567949</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736732697925</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1736732697925</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736734313878</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1736734313878</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
