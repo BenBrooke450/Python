@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Leetcode/3005. Count Elements With Maximum Frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/1207. Unique Number of Occurrences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/3184. Count Pairs That Form a Complete Day I.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
     "Python.1051. Height Checker.executor": "Run",
     "Python.1108. Defanging an IP Address.executor": "Run",
     "Python.118. Pascal's Triangle.executor": "Run",
+    "Python.1207. Unique Number of Occurrences.executor": "Run",
     "Python.121. Best Time to Buy and Sell Stock.executor": "Run",
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
@@ -62,6 +64,7 @@
     "Python.1342. Number of Steps to Reduce a Number to Zero.executor": "Run",
     "Python.136. Single Number.executor": "Run",
     "Python.1365. How Many Numbers Are Smaller Than the Current Number.executor": "Run",
+    "Python.1374. Generate a String With Characters That Have Odd Counts.executor": "Run",
     "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
@@ -152,6 +155,7 @@
     "Python.3131. Find the Integer Added to Array I.executor": "Run",
     "Python.3146. Permutation Difference between Two Strings.executor": "Run",
     "Python.3168. Minimum Number of Chairs in a Waiting Room.executor": "Run",
+    "Python.3184. Count Pairs That Form a Complete Day I.executor": "Run",
     "Python.3190. Find Minimum Operations to Make All Elements Divisible by Three.executor": "Run",
     "Python.326. Power of Three.executor": "Run",
     "Python.3280. Convert Date to Binary.executor": "Run",
@@ -249,22 +253,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00140" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734551082531</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1734551082532</updated>
-    </task>
-    <task id="LOCAL-00141" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1734554049884</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1734554049884</updated>
     </task>
     <task id="LOCAL-00142" summary="Basic">
       <option name="closed" value="true" />
@@ -642,7 +630,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736891459624</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736975291316</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1736975291317</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1736976747839</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1736976747839</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
