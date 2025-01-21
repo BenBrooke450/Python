@@ -42,9 +42,33 @@ Output: "pest"
 Explanation: licensePlate only contains the letter 's'.
 All the words contain 's', but among these "pest", "stew",
 and "show" are shortest. The answer is "pest" because it is the word that appears earliest of the 3.
-
 """
 
+
+def shortestCompletingWord(licensePlate: str, words: list[str]) -> str:
+
+    words_plate = [x.lower() for x in licensePlate if x.isalpha()]
+    list1 = []
+
+    for word in words:
+        n = 0
+        for letter in words_plate:
+            if (word.count(letter) >= (licensePlate.lower()).count(letter)) and letter in word:
+                n = n + 1
+                if len(words_plate) == n:
+                    list1.append(word)
+            else:
+                break
+
+    list1.sort(key = lambda x: len(x))
+
+    return list1[0]
+
+print(shortestCompletingWord(licensePlate = "1s3 PSt", words = ["step","steps","stripe","stepple"]))
+#steps
+
+print(shortestCompletingWord(licensePlate = "GrC8950", words = ["measure","other","every","base","according","level","meeting","none","marriage","rest"]))
+#according
 
 
 
