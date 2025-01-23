@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5efb23d-c87d-44bb-a36c-dc5fa4d569da" name="Changes" comment="Basic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BenBrooke450&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BenBrooke450/Python-Bootcamp.git&quot;,
+    &quot;accountId&quot;: &quot;926c8e9f-4898-4530-acdd-c5c1a6624df5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oP6lxCHkwqmUuzNldnTlZK3jbR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Section 10 Errors and Exceptions Handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 11 Milestone 2 Warmup Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 12 Python Decorators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 13 Python Generators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 14 Advanced Python Modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 5 Python Statements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 6 Methods and Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 7 Milestone Project - 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 8 Object Oriented Programming.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Section 8: Object Oriented Programming.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5efb23d-c87d-44bb-a36c-dc5fa4d569da" name="Changes" comment="" />
+      <created>1730759018033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730759018033</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1730841991697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730841991697</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1730937266716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730937266716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731025769638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731025769638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731182558927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731182558927</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731353357882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731353357882</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731441134193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731441134193</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731441140957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731441140957</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731441274164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731441274164</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731521780422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731521780422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731610318536</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731610318536</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731611608469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731611608470</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731886774354</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731886774355</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731887861342</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731887861342</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731888630496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731888630496</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1731952462678</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731952462678</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1734892784827</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734892784827</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
