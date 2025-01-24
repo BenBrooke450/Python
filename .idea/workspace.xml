@@ -5,207 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2124. Check if All A's Appears Before All B's.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2389. Longest Subsequence With Limited Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1. Two Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1. Two Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1025. Divisor Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1025. Divisor Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1051. Height Checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1051. Height Checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1108. Defanging an IP Address.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1108. Defanging an IP Address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/118. Pascal's Triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/118. Pascal's Triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1207. Unique Number of Occurrences.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1207. Unique Number of Occurrences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/121. Best Time to Buy and Sell Stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/121. Best Time to Buy and Sell Stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/125. Valid Palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/125. Valid Palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1252. Cells with Odd Values in a Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1252. Cells with Odd Values in a Matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1266. Minimum Time Visiting All Points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1266. Minimum Time Visiting All Points.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1295. Find Numbers with Even Number of Digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1295. Find Numbers with Even Number of Digits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/13. Roman to Integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/13. Roman to Integer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1309. Decrypt String from Alphabet to Integer Mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1309. Decrypt String from Alphabet to Integer Mapping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1313. Decompress Run-Length Encoded List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1313. Decompress Run-Length Encoded List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1323. Maximum 69 Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1323. Maximum 69 Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1342. Number of Steps to Reduce a Number to Zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1342. Number of Steps to Reduce a Number to Zero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/136. Single Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/136. Single Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1365. How Many Numbers Are Smaller Than the Current Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1365. How Many Numbers Are Smaller Than the Current Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1374. Generate a String With Characters That Have Odd Counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1374. Generate a String With Characters That Have Odd Counts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1380. Lucky Numbers in a Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1380. Lucky Numbers in a Matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/14. Longest Common Prefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/14. Longest Common Prefix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1403. Minimum Subsequence in Non-Increasing Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1403. Minimum Subsequence in Non-Increasing Order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1431. Kids With the Greatest Number of Candies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1431. Kids With the Greatest Number of Candies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1436. Destination City.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1436. Destination City.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1464. Maximum Product of Two Elements in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1464. Maximum Product of Two Elements in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1512. Number of Good Pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1512. Number of Good Pairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1528. Shuffle String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1528. Shuffle String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1534. Count Good Triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1534. Count Good Triplets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1588. Sum of All Odd Length Subarrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1588. Sum of All Odd Length Subarrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1614. Maximum Nesting Depth of the Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1614. Maximum Nesting Depth of the Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1636. Sort Array by Increasing Frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1636. Sort Array by Increasing Frequency.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1637. Widest Vertical Area Between Two Points Containing No Points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1637. Widest Vertical Area Between Two Points Containing No Points.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1652. Defuse the Bomb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1652. Defuse the Bomb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1662. Check If Two String Arrays are Equivalent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1662. Check If Two String Arrays are Equivalent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1672. Richest Customer Wealth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1672. Richest Customer Wealth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1678. Goal Parser Interpretation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1678. Goal Parser Interpretation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/168. Excel Sheet Column Title.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/168. Excel Sheet Column Title.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1684. Count the Number of Consistent Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1684. Count the Number of Consistent Strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1688. Count of Matches in Tournament.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1688. Count of Matches in Tournament.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/169. Majority Element.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/169. Majority Element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1700. Number of Students Unable to Eat Lunch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1700. Number of Students Unable to Eat Lunch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1704. Determine if String Halves Are Alike.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1704. Determine if String Halves Are Alike.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1716. Calculate Money in Leetcode Bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1716. Calculate Money in Leetcode Bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1725. Number Of Rectangles That Can Form The Largest Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1725. Number Of Rectangles That Can Form The Largest Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1732. Find the Highest Altitude.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1732. Find the Highest Altitude.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1748. Sum of Unique Elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1748. Sum of Unique Elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1768. Merge Strings Alternately.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1768. Merge Strings Alternately.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1791. Find Center of Star Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1791. Find Center of Star Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1812. Determine Color of a Chessboard Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1812. Determine Color of a Chessboard Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1816. Truncate Sentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1816. Truncate Sentence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1827. Minimum Operations to Make the Array Increasing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1827. Minimum Operations to Make the Array Increasing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1832. Check if the Sentence Is Pangram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1832. Check if the Sentence Is Pangram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1837. Sum of Digits in Base K.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1837. Sum of Digits in Base K.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1844. Replace All Digits with Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1844. Replace All Digits with Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1913. Maximum Product Difference Between Two Pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1913. Maximum Product Difference Between Two Pairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1941. Check if All Characters Have Equal Number of Occurrences.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1941. Check if All Characters Have Equal Number of Occurrences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1967. Number of Strings That Appear as Substrings in Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1967. Number of Strings That Appear as Substrings in Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/1979. Find Greatest Common Divisor of Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1979. Find Greatest Common Divisor of Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2. Add Two Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2. Add Two Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/20. Valid Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/20. Valid Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2000. Reverse Prefix of Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2000. Reverse Prefix of Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2011. Final Value of Variable After Performing Operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2011. Final Value of Variable After Performing Operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/202. Happy Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/202. Happy Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2037. Minimum Number of Moves to Seat Everyone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2037. Minimum Number of Moves to Seat Everyone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2053. Kth Distinct String in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2053. Kth Distinct String in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2057. Smallest Index With Equal Value.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2057. Smallest Index With Equal Value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2103. Rings and Rods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2103. Rings and Rods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2119. A Number After a Double Reversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2119. A Number After a Double Reversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2160. Minimum Sum of Four Digit Number After Splitting Digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2160. Minimum Sum of Four Digit Number After Splitting Digits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2176. Count Equal and Divisible Pairs in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2176. Count Equal and Divisible Pairs in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2215. Find the Difference of Two Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2215. Find the Difference of Two Arrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2235. Add Two Integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2235. Add Two Integers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/231. Power of Two.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/231. Power of Two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2315. Count Asterisks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2315. Count Asterisks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2367. Number of Arithmetic Triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2367. Number of Arithmetic Triplets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2413. Smallest Even Multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2413. Smallest Even Multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2427. Number of Common Factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2427. Number of Common Factors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2469. Convert the Temperature.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2469. Convert the Temperature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2485. Find the Pivot Integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2485. Find the Pivot Integer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2496. Maximum Value of a String in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2496. Maximum Value of a String in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2500. Delete Greatest Value in Each Row.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2500. Delete Greatest Value in Each Row.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2520. Count the Digits That Divide a Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2520. Count the Digits That Divide a Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2535. Difference Between Element Sum and Digit Sum of an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2535. Difference Between Element Sum and Digit Sum of an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2553. Separate the Digits in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2553. Separate the Digits in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2574. Left and Right Sum Differences.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2574. Left and Right Sum Differences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/258. Add Digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/258. Add Digits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/263. Ugly Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/263. Ugly Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2651. Calculate Delayed Arrival Time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2651. Calculate Delayed Arrival Time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2652. Sum Multiples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2652. Sum Multiples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2656. Maximum Sum With Exactly K Elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2656. Maximum Sum With Exactly K Elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2678. Number of Senior Citizens.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2678. Number of Senior Citizens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/268. Missing Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/268. Missing Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2697. Lexicographically Smallest Palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2697. Lexicographically Smallest Palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2710. Remove Trailing Zeros From a String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2710. Remove Trailing Zeros From a String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2744. Find Maximum Number of String Pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2744. Find Maximum Number of String Pairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2769. Find the Maximum Achievable Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2769. Find the Maximum Achievable Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2778. Sum of Squares of Special Elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2778. Sum of Squares of Special Elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2798. Number of Employees Who Met the Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2798. Number of Employees Who Met the Target.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/28. Find the Index of the First Occurrence in a String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/28. Find the Index of the First Occurrence in a String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2824. Count Pairs Whose Sum is Less than Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2824. Count Pairs Whose Sum is Less than Target.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2828. Check if a String Is an Acronym of Words.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2828. Check if a String Is an Acronym of Words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2864. Maximum Odd Binary Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2864. Maximum Odd Binary Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2894. Divisible and Non-divisible Sums Difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2894. Divisible and Non-divisible Sums Difference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2913. Subarrays Distinct Element Sum of Squares I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2913. Subarrays Distinct Element Sum of Squares I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/292. Nim Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/292. Nim Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2942. Find Words Containing Character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2942. Find Words Containing Character.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2956. Find Common Elements Between Two Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2956. Find Common Elements Between Two Arrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2960. Count Tested Devices After Test Operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2960. Count Tested Devices After Test Operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/2974. Minimum Number Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2974. Minimum Number Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3005. Count Elements With Maximum Frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3005. Count Elements With Maximum Frequency.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3019. Number of Changing Keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3019. Number of Changing Keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3042. Count Prefix and Suffix Pairs I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3042. Count Prefix and Suffix Pairs I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3065. Minimum Operations to Exceed Threshold Value I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3065. Minimum Operations to Exceed Threshold Value I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3099. Harshad Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3099. Harshad Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3110. Score of a String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3110. Score of a String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3131. Find the Integer Added to Array I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3131. Find the Integer Added to Array I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3146. Permutation Difference between Two Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3146. Permutation Difference between Two Strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3168. Minimum Number of Chairs in a Waiting Room.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3184. Count Pairs That Form a Complete Day I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3184. Count Pairs That Form a Complete Day I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3190. Find Minimum Operations to Make All Elements Divisible by Three.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3190. Find Minimum Operations to Make All Elements Divisible by Three.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3232. Find if Digit Game Can Be Won.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3232. Find if Digit Game Can Be Won.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3258. Count Substrings That Satisfy K-Constraint I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3258. Count Substrings That Satisfy K-Constraint I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/326. Power of Three.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/326. Power of Three.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3280. Convert Date to Binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3280. Convert Date to Binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3289. The Two Sneaky Numbers of Digitville.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3289. The Two Sneaky Numbers of Digitville.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3300. Minimum Element After Replacement With Digit Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3300. Minimum Element After Replacement With Digit Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/3340. Check Balanced String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3340. Check Balanced String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/342. Power of Four.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/342. Power of Four.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/344. Reverse String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/344. Reverse String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/367. Valid Perfect Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/367. Valid Perfect Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/389. Find the Difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/389. Find the Difference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/412. Fizz Buzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/412. Fizz Buzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/414. Third Maximum Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/414. Third Maximum Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/415. Add Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/415. Add Strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/441. Arranging Coins.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/441. Arranging Coins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/448. Find All Numbers Disappeared in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/448. Find All Numbers Disappeared in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/455. Assign Cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/455. Assign Cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/459. Repeated Substring Pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/459. Repeated Substring Pattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/482. License Key Formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/482. License Key Formatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/492. Construct the Rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/492. Construct the Rectangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/495. Teemo Attacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/495. Teemo Attacking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/496. Next Greater Element I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/496. Next Greater Element I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/500. Keyboard Row.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/500. Keyboard Row.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/504. Base 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/504. Base 7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/506. Relative Ranks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/506. Relative Ranks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/507. Perfect Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/507. Perfect Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/509. Fibonacci Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/509. Fibonacci Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/520. Detect Capital.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/520. Detect Capital.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/521. Longest Uncommon Subsequence I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/521. Longest Uncommon Subsequence I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/541. Reverse String II.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/541. Reverse String II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/551. Student Attendance Record I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/551. Student Attendance Record I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/557. Reverse Words in a String III.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/557. Reverse Words in a String III.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/561. Array Partition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/561. Array Partition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/575. Distribute Candies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/575. Distribute Candies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/58. Length of Last Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/58. Length of Last Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/594. Longest Harmonious Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/594. Longest Harmonious Subsequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/599. Minimum Index Sum of Two Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/599. Minimum Index Sum of Two Lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/605. Can Place Flowers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/605. Can Place Flowers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/628. Maximum Product of Three Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/628. Maximum Product of Three Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/643. Maximum Average Subarray I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/643. Maximum Average Subarray I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/657. Robot Return to Origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/657. Robot Return to Origin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/66. Plus One.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/66. Plus One.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/67. Add Binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/67. Add Binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/680. Valid Palindrome II.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/680. Valid Palindrome II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/682. Baseball Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/682. Baseball Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/69. Sqrt(x).py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/69. Sqrt(x).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/70. Climbing Stairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/70. Climbing Stairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/709. To Lower Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/709. To Lower Case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/724. Find Pivot Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/724. Find Pivot Index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/728. Self Dividing Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/728. Self Dividing Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/744. Find Smallest Letter Greater Than Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/744. Find Smallest Letter Greater Than Target.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/746. Min Cost Climbing Stairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/746. Min Cost Climbing Stairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/747. Largest Number At Least Twice of Others.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/747. Largest Number At Least Twice of Others.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/748. Shortest Completing Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/748. Shortest Completing Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/771. Jewels and Stones.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/771. Jewels and Stones.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/796. Rotate String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/796. Rotate String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/804. Unique Morse Code Words.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/804. Unique Morse Code Words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/806. Number of Lines To Write String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/806. Number of Lines To Write String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/819. Most Common Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/819. Most Common Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/824. Goat Latin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/824. Goat Latin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/832. Flipping an Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/832. Flipping an Image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/9. Palindrome Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/9. Palindrome Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/908. Smallest Range I.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/908. Smallest Range I.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/942. DI String Match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/942. DI String Match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/976. Largest Perimeter Triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/976. Largest Perimeter Triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYnative/Python Basic Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/PYnative/Python Basic Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYnative/Python Classes and Objects Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/PYnative/Python Classes and Objects Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYnative/Python Data Structures Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/PYnative/Python Data Structures Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYnative/Python Dictionary Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/PYnative/Python Dictionary Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYnative/Python Intermediate Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/PYnative/Python Intermediate Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYnative/Python Loop Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/PYnative/Python Loop Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 10 Errors and Exceptions Homework Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 10 Errors and Exceptions Homework Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 11 Milestone Project - 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 11 Milestone Project - 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 12 Iterators and Generators Homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 12 Iterators and Generators Homework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 5 Statements Assessment Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 5 Statements Assessment Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 6 Function Practice Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 6 Function Practice Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 6 Functions and Methods Homework Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 6 Functions and Methods Homework Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 7 Milestone Project - 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 7 Milestone Project - 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 8 Object Oriented Programming - Challenge Overview Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 8 Object Oriented Programming - Challenge Overview Ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Bootcamp - Udemy/Section 8 Object Oriented Programming Homework Ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Python Bootcamp - Udemy/Section 8 Object Oriented Programming Homework Ex.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,210 +45,217 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1. Two Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1025. Divisor Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1051. Height Checker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1108. Defanging an IP Address.executor&quot;: &quot;Run&quot;,
-    &quot;Python.118. Pascal's Triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1207. Unique Number of Occurrences.executor&quot;: &quot;Run&quot;,
-    &quot;Python.121. Best Time to Buy and Sell Stock.executor&quot;: &quot;Run&quot;,
-    &quot;Python.125. Valid Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1252. Cells with Odd Values in a Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1266. Minimum Time Visiting All Points.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1295. Find Numbers with Even Number of Digits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13. Roman to Integer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1309. Decrypt String from Alphabet to Integer Mapping.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1313. Decompress Run-Length Encoded List.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1323. Maximum 69 Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1342. Number of Steps to Reduce a Number to Zero.executor&quot;: &quot;Run&quot;,
-    &quot;Python.136. Single Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1365. How Many Numbers Are Smaller Than the Current Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1374. Generate a String With Characters That Have Odd Counts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1380. Lucky Numbers in a Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14. Longest Common Prefix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1403. Minimum Subsequence in Non-Increasing Order.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1431. Kids With the Greatest Number of Candies.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1436. Destination City.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1464. Maximum Product of Two Elements in an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1512. Number of Good Pairs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1528. Shuffle String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1534. Count Good Triplets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1588. Sum of All Odd Length Subarrays.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1614. Maximum Nesting Depth of the Parentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1636. Sort Array by Increasing Frequency.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1652. Defuse the Bomb.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1662. Check If Two String Arrays are Equivalent.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1672. Richest Customer Wealth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1678. Goal Parser Interpretation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.168. Excel Sheet Column Title.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1684. Count the Number of Consistent Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1688. Count of Matches in Tournament.executor&quot;: &quot;Run&quot;,
-    &quot;Python.169. Majority Element.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1700. Number of Students Unable to Eat Lunch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1704. Determine if String Halves Are Alike.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1716. Calculate Money in Leetcode Bank.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1725. Number Of Rectangles That Can Form The Largest Square.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1732. Find the Highest Altitude.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1748. Sum of Unique Elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1768. Merge Strings Alternately.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1791. Find Center of Star Graph.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1812. Determine Color of a Chessboard Square.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1816. Truncate Sentence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1827. Minimum Operations to Make the Array Increasing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1832. Check if the Sentence Is Pangram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1837. Sum of Digits in Base K.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1844. Replace All Digits with Characters.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1913. Maximum Product Difference Between Two Pairs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1941. Check if All Characters Have Equal Number of Occurrences.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1967. Number of Strings That Appear as Substrings in Word.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1979. Find Greatest Common Divisor of Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2. Add Two Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20. Valid Parentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2000. Reverse Prefix of Word.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2011. Final Value of Variable After Performing Operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.202. Happy Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2037. Minimum Number of Moves to Seat Everyone.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2053. Kth Distinct String in an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2057. Smallest Index With Equal Value.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2103. Rings and Rods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2119. A Number After a Double Reversal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2176. Count Equal and Divisible Pairs in an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2215. Find the Difference of Two Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2220. Minimum Bit Flips to Convert Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.231. Power of Two.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2315. Count Asterisks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2367. Number of Arithmetic Triplets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2427. Number of Common Factors.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2469. Convert the Temperature.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2485. Find the Pivot Integer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2496. Maximum Value of a String in an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2500. Delete Greatest Value in Each Row.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2520. Count the Digits That Divide a Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2553. Separate the Digits in an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.258. Add Digits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.263. Ugly Number.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.2652. Sum Multiples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2656. Maximum Sum With Exactly K Elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2678. Number of Senior Citizens.executor&quot;: &quot;Run&quot;,
-    &quot;Python.268. Missing Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2697. Lexicographically Smallest Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2710. Remove Trailing Zeros From a String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2724. Sort By.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2744. Find Maximum Number of String Pairs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2778. Sum of Squares of Special Elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2798. Number of Employees Who Met the Target.executor&quot;: &quot;Run&quot;,
-    &quot;Python.28. Find the Index of the First Occurrence in a String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2824. Count Pairs Whose Sum is Less than Target.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2828. Check if a String Is an Acronym of Words.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2864. Maximum Odd Binary Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2894. Divisible and Non-divisible Sums Difference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2913. Subarrays Distinct Element Sum of Squares I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.292. Nim Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2942. Find Words Containing Character.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2956. Find Common Elements Between Two Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2960. Count Tested Devices After Test Operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2974. Minimum Number Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3005. Count Elements With Maximum Frequency.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3019. Number of Changing Keys.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3042. Count Prefix and Suffix Pairs I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3065. Minimum Operations to Exceed Threshold Value I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3110. Score of a String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3131. Find the Integer Added to Array I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3146. Permutation Difference between Two Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3168. Minimum Number of Chairs in a Waiting Room.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3184. Count Pairs That Form a Complete Day I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3190. Find Minimum Operations to Make All Elements Divisible by Three.executor&quot;: &quot;Run&quot;,
-    &quot;Python.326. Power of Three.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3280. Convert Date to Binary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3289. The Two Sneaky Numbers of Digitville.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3300. Minimum Element After Replacement With Digit Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3340. Check Balanced String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.342. Power of Four.executor&quot;: &quot;Run&quot;,
-    &quot;Python.344. Reverse String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.367. Valid Perfect Square.executor&quot;: &quot;Run&quot;,
-    &quot;Python.389. Find the Difference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.412. Fizz Buzz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.414. Third Maximum Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.415. Add Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.441. Arranging Coins.executor&quot;: &quot;Run&quot;,
-    &quot;Python.448. Find All Numbers Disappeared in an Array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.455. Assign Cookies.executor&quot;: &quot;Run&quot;,
-    &quot;Python.459. Repeated Substring Pattern.executor&quot;: &quot;Run&quot;,
-    &quot;Python.461. Hamming Distance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.482. License Key Formatting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.492. Construct the Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.495. Teemo Attacking.executor&quot;: &quot;Run&quot;,
-    &quot;Python.496. Next Greater Element I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.500. Keyboard Row.executor&quot;: &quot;Run&quot;,
-    &quot;Python.504. Base 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.506. Relative Ranks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.507. Perfect Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.509. Fibonacci Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.520. Detect Capital.executor&quot;: &quot;Run&quot;,
-    &quot;Python.521. Longest Uncommon Subsequence I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.541. Reverse String II.executor&quot;: &quot;Run&quot;,
-    &quot;Python.551. Student Attendance Record I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.557. Reverse Words in a String III.executor&quot;: &quot;Run&quot;,
-    &quot;Python.561. Array Partition.executor&quot;: &quot;Run&quot;,
-    &quot;Python.575. Distribute Candies.executor&quot;: &quot;Run&quot;,
-    &quot;Python.58. Length of Last Word.executor&quot;: &quot;Run&quot;,
-    &quot;Python.594. Longest Harmonious Subsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.599. Minimum Index Sum of Two Lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.605. Can Place Flowers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.628. Maximum Product of Three Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.643. Maximum Average Subarray I.executor&quot;: &quot;Run&quot;,
-    &quot;Python.657. Robot Return to Origin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.66. Plus One.executor&quot;: &quot;Run&quot;,
-    &quot;Python.67. Add Binary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.680. Valid Palindrome II.executor&quot;: &quot;Run&quot;,
-    &quot;Python.682. Baseball Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.69. Sqrt(x).executor&quot;: &quot;Run&quot;,
-    &quot;Python.70. Climbing Stairs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.709. To Lower Case.executor&quot;: &quot;Run&quot;,
-    &quot;Python.724. Find Pivot Index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.728. Self Dividing Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.744. Find Smallest Letter Greater Than Target.executor&quot;: &quot;Run&quot;,
-    &quot;Python.746. Min Cost Climbing Stairs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.747. Largest Number At Least Twice of Others.executor&quot;: &quot;Run&quot;,
-    &quot;Python.748. Shortest Completing Word.executor&quot;: &quot;Run&quot;,
-    &quot;Python.771. Jewels and Stones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.796. Rotate String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.804. Unique Morse Code Words.executor&quot;: &quot;Run&quot;,
-    &quot;Python.806. Number of Lines To Write String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.819. Most Common Word.executor&quot;: &quot;Run&quot;,
-    &quot;Python.824. Goat Latin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.832. Flipping an Image.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9. Palindrome Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.942. DI String Match.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Crappy code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Basic Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Classes and Objects Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Data Structures Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Dictionary Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Intermediate Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Loop Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 10 Errors and Exceptions Homework Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 11 Milestone Project - 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 12 Iterators and Generators Homework.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 5 Statements Assessment Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 6 Function Practice Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 6 Functions and Methods Homework Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 6 Functions and Methods Homework.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 7 Milestone Project - 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 8 Object Oriented Programming - Challenge Overview Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Section 8 Object Oriented Programming Homework Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.abc.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1. Two Sum.executor": "Run",
+    "Python.1025. Divisor Game.executor": "Run",
+    "Python.1051. Height Checker.executor": "Run",
+    "Python.1108. Defanging an IP Address.executor": "Run",
+    "Python.118. Pascal's Triangle.executor": "Run",
+    "Python.1207. Unique Number of Occurrences.executor": "Run",
+    "Python.121. Best Time to Buy and Sell Stock.executor": "Run",
+    "Python.125. Valid Palindrome.executor": "Run",
+    "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
+    "Python.1266. Minimum Time Visiting All Points.executor": "Run",
+    "Python.1295. Find Numbers with Even Number of Digits.executor": "Run",
+    "Python.13. Roman to Integer.executor": "Run",
+    "Python.1309. Decrypt String from Alphabet to Integer Mapping.executor": "Run",
+    "Python.1313. Decompress Run-Length Encoded List.executor": "Run",
+    "Python.1323. Maximum 69 Number.executor": "Run",
+    "Python.1342. Number of Steps to Reduce a Number to Zero.executor": "Run",
+    "Python.136. Single Number.executor": "Run",
+    "Python.1365. How Many Numbers Are Smaller Than the Current Number.executor": "Run",
+    "Python.1374. Generate a String With Characters That Have Odd Counts.executor": "Run",
+    "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
+    "Python.14. Longest Common Prefix.executor": "Run",
+    "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
+    "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
+    "Python.1436. Destination City.executor": "Run",
+    "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
+    "Python.1512. Number of Good Pairs.executor": "Run",
+    "Python.1528. Shuffle String.executor": "Run",
+    "Python.1534. Count Good Triplets.executor": "Run",
+    "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
+    "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
+    "Python.1636. Sort Array by Increasing Frequency.executor": "Run",
+    "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
+    "Python.1652. Defuse the Bomb.executor": "Run",
+    "Python.1662. Check If Two String Arrays are Equivalent.executor": "Run",
+    "Python.1672. Richest Customer Wealth.executor": "Run",
+    "Python.1678. Goal Parser Interpretation.executor": "Run",
+    "Python.168. Excel Sheet Column Title.executor": "Run",
+    "Python.1684. Count the Number of Consistent Strings.executor": "Run",
+    "Python.1688. Count of Matches in Tournament.executor": "Run",
+    "Python.169. Majority Element.executor": "Run",
+    "Python.1700. Number of Students Unable to Eat Lunch.executor": "Run",
+    "Python.1704. Determine if String Halves Are Alike.executor": "Run",
+    "Python.1716. Calculate Money in Leetcode Bank.executor": "Run",
+    "Python.1725. Number Of Rectangles That Can Form The Largest Square.executor": "Run",
+    "Python.1732. Find the Highest Altitude.executor": "Run",
+    "Python.1748. Sum of Unique Elements.executor": "Run",
+    "Python.1768. Merge Strings Alternately.executor": "Run",
+    "Python.1791. Find Center of Star Graph.executor": "Run",
+    "Python.1812. Determine Color of a Chessboard Square.executor": "Run",
+    "Python.1816. Truncate Sentence.executor": "Run",
+    "Python.1827. Minimum Operations to Make the Array Increasing.executor": "Run",
+    "Python.1832. Check if the Sentence Is Pangram.executor": "Run",
+    "Python.1837. Sum of Digits in Base K.executor": "Run",
+    "Python.1844. Replace All Digits with Characters.executor": "Run",
+    "Python.1913. Maximum Product Difference Between Two Pairs.executor": "Run",
+    "Python.1941. Check if All Characters Have Equal Number of Occurrences.executor": "Run",
+    "Python.1967. Number of Strings That Appear as Substrings in Word.executor": "Run",
+    "Python.1979. Find Greatest Common Divisor of Array.executor": "Run",
+    "Python.2. Add Two Numbers.executor": "Run",
+    "Python.20. Valid Parentheses.executor": "Run",
+    "Python.2000. Reverse Prefix of Word.executor": "Run",
+    "Python.2011. Final Value of Variable After Performing Operations.executor": "Run",
+    "Python.202. Happy Number.executor": "Run",
+    "Python.2037. Minimum Number of Moves to Seat Everyone.executor": "Run",
+    "Python.2053. Kth Distinct String in an Array.executor": "Run",
+    "Python.2057. Smallest Index With Equal Value.executor": "Run",
+    "Python.2103. Rings and Rods.executor": "Run",
+    "Python.2119. A Number After a Double Reversal.executor": "Run",
+    "Python.2124. Check if All A's Appears Before All B's.executor": "Run",
+    "Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor": "Run",
+    "Python.2176. Count Equal and Divisible Pairs in an Array.executor": "Run",
+    "Python.2215. Find the Difference of Two Arrays.executor": "Run",
+    "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
+    "Python.231. Power of Two.executor": "Run",
+    "Python.2315. Count Asterisks.executor": "Run",
+    "Python.2367. Number of Arithmetic Triplets.executor": "Run",
+    "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
+    "Python.2427. Number of Common Factors.executor": "Run",
+    "Python.2469. Convert the Temperature.executor": "Run",
+    "Python.2485. Find the Pivot Integer.executor": "Run",
+    "Python.2496. Maximum Value of a String in an Array.executor": "Run",
+    "Python.2500. Delete Greatest Value in Each Row.executor": "Run",
+    "Python.2520. Count the Digits That Divide a Number.executor": "Run",
+    "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
+    "Python.2553. Separate the Digits in an Array.executor": "Run",
+    "Python.258. Add Digits.executor": "Run",
+    "Python.263. Ugly Number.executor": "Debug",
+    "Python.2652. Sum Multiples.executor": "Run",
+    "Python.2656. Maximum Sum With Exactly K Elements.executor": "Run",
+    "Python.2678. Number of Senior Citizens.executor": "Run",
+    "Python.268. Missing Number.executor": "Run",
+    "Python.2697. Lexicographically Smallest Palindrome.executor": "Run",
+    "Python.2710. Remove Trailing Zeros From a String.executor": "Run",
+    "Python.2724. Sort By.executor": "Run",
+    "Python.2744. Find Maximum Number of String Pairs.executor": "Run",
+    "Python.2778. Sum of Squares of Special Elements.executor": "Run",
+    "Python.2798. Number of Employees Who Met the Target.executor": "Run",
+    "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
+    "Python.2824. Count Pairs Whose Sum is Less than Target.executor": "Run",
+    "Python.2828. Check if a String Is an Acronym of Words.executor": "Run",
+    "Python.2864. Maximum Odd Binary Number.executor": "Run",
+    "Python.2894. Divisible and Non-divisible Sums Difference.executor": "Run",
+    "Python.2913. Subarrays Distinct Element Sum of Squares I.executor": "Run",
+    "Python.292. Nim Game.executor": "Run",
+    "Python.2942. Find Words Containing Character.executor": "Run",
+    "Python.2956. Find Common Elements Between Two Arrays.executor": "Run",
+    "Python.2960. Count Tested Devices After Test Operations.executor": "Run",
+    "Python.2974. Minimum Number Game.executor": "Run",
+    "Python.3005. Count Elements With Maximum Frequency.executor": "Run",
+    "Python.3019. Number of Changing Keys.executor": "Run",
+    "Python.3042. Count Prefix and Suffix Pairs I.executor": "Run",
+    "Python.3065. Minimum Operations to Exceed Threshold Value I.executor": "Run",
+    "Python.3110. Score of a String.executor": "Run",
+    "Python.3131. Find the Integer Added to Array I.executor": "Run",
+    "Python.3146. Permutation Difference between Two Strings.executor": "Run",
+    "Python.3168. Minimum Number of Chairs in a Waiting Room.executor": "Run",
+    "Python.3184. Count Pairs That Form a Complete Day I.executor": "Run",
+    "Python.3190. Find Minimum Operations to Make All Elements Divisible by Three.executor": "Run",
+    "Python.326. Power of Three.executor": "Run",
+    "Python.3280. Convert Date to Binary.executor": "Run",
+    "Python.3289. The Two Sneaky Numbers of Digitville.executor": "Run",
+    "Python.3300. Minimum Element After Replacement With Digit Sum.executor": "Run",
+    "Python.3340. Check Balanced String.executor": "Run",
+    "Python.342. Power of Four.executor": "Run",
+    "Python.344. Reverse String.executor": "Run",
+    "Python.367. Valid Perfect Square.executor": "Run",
+    "Python.389. Find the Difference.executor": "Run",
+    "Python.412. Fizz Buzz.executor": "Run",
+    "Python.414. Third Maximum Number.executor": "Run",
+    "Python.415. Add Strings.executor": "Run",
+    "Python.441. Arranging Coins.executor": "Run",
+    "Python.448. Find All Numbers Disappeared in an Array.executor": "Run",
+    "Python.455. Assign Cookies.executor": "Run",
+    "Python.459. Repeated Substring Pattern.executor": "Run",
+    "Python.461. Hamming Distance.executor": "Run",
+    "Python.482. License Key Formatting.executor": "Run",
+    "Python.492. Construct the Rectangle.executor": "Run",
+    "Python.495. Teemo Attacking.executor": "Run",
+    "Python.496. Next Greater Element I.executor": "Run",
+    "Python.500. Keyboard Row.executor": "Run",
+    "Python.504. Base 7.executor": "Run",
+    "Python.506. Relative Ranks.executor": "Run",
+    "Python.507. Perfect Number.executor": "Run",
+    "Python.509. Fibonacci Number.executor": "Run",
+    "Python.520. Detect Capital.executor": "Run",
+    "Python.521. Longest Uncommon Subsequence I.executor": "Run",
+    "Python.541. Reverse String II.executor": "Run",
+    "Python.551. Student Attendance Record I.executor": "Run",
+    "Python.557. Reverse Words in a String III.executor": "Run",
+    "Python.561. Array Partition.executor": "Run",
+    "Python.575. Distribute Candies.executor": "Run",
+    "Python.58. Length of Last Word.executor": "Run",
+    "Python.594. Longest Harmonious Subsequence.executor": "Run",
+    "Python.599. Minimum Index Sum of Two Lists.executor": "Run",
+    "Python.605. Can Place Flowers.executor": "Run",
+    "Python.628. Maximum Product of Three Numbers.executor": "Run",
+    "Python.643. Maximum Average Subarray I.executor": "Run",
+    "Python.657. Robot Return to Origin.executor": "Run",
+    "Python.66. Plus One.executor": "Run",
+    "Python.67. Add Binary.executor": "Run",
+    "Python.680. Valid Palindrome II.executor": "Run",
+    "Python.682. Baseball Game.executor": "Run",
+    "Python.69. Sqrt(x).executor": "Run",
+    "Python.70. Climbing Stairs.executor": "Run",
+    "Python.709. To Lower Case.executor": "Run",
+    "Python.724. Find Pivot Index.executor": "Run",
+    "Python.728. Self Dividing Numbers.executor": "Run",
+    "Python.744. Find Smallest Letter Greater Than Target.executor": "Run",
+    "Python.746. Min Cost Climbing Stairs.executor": "Run",
+    "Python.747. Largest Number At Least Twice of Others.executor": "Run",
+    "Python.748. Shortest Completing Word.executor": "Run",
+    "Python.771. Jewels and Stones.executor": "Run",
+    "Python.796. Rotate String.executor": "Run",
+    "Python.804. Unique Morse Code Words.executor": "Run",
+    "Python.806. Number of Lines To Write String.executor": "Run",
+    "Python.819. Most Common Word.executor": "Run",
+    "Python.824. Goat Latin.executor": "Run",
+    "Python.832. Flipping an Image.executor": "Run",
+    "Python.9. Palindrome Number.executor": "Run",
+    "Python.942. DI String Match.executor": "Run",
+    "Python.Crappy code.executor": "Run",
+    "Python.Python Basic Ex.executor": "Run",
+    "Python.Python Classes and Objects Ex.executor": "Run",
+    "Python.Python Data Structures Ex.executor": "Run",
+    "Python.Python Dictionary Ex.executor": "Run",
+    "Python.Python Intermediate Ex.executor": "Run",
+    "Python.Python Loop Ex.executor": "Run",
+    "Python.Section 10 Errors and Exceptions Homework Ex.executor": "Run",
+    "Python.Section 11 Milestone Project - 2.executor": "Run",
+    "Python.Section 12 Iterators and Generators Homework.executor": "Run",
+    "Python.Section 5 Statements Assessment Test.executor": "Run",
+    "Python.Section 6 Function Practice Ex.executor": "Run",
+    "Python.Section 6 Functions and Methods Homework Ex.executor": "Run",
+    "Python.Section 6 Functions and Methods Homework.executor": "Run",
+    "Python.Section 7 Milestone Project - 1.executor": "Run",
+    "Python.Section 8 Object Oriented Programming - Challenge Overview Ex.executor": "Run",
+    "Python.Section 8 Object Oriented Programming Homework Ex.executor": "Run",
+    "Python.abc.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python Practice",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python Practice" />
       <recent name="$PROJECT_DIR$/PYnative" />
@@ -467,14 +276,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00157" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1735509249813</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1735509249813</updated>
     </task>
     <task id="LOCAL-00158" summary="Basic">
       <option name="closed" value="true" />
@@ -860,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737656373817</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1737673840842</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1737673840842</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
