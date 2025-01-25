@@ -36,32 +36,32 @@ import numpy as np
 
 def answerQueries(nums: list[int], queries: list[int]) -> list[int]:
     sorted_nums = np.sort(np.array(nums))
-    n = 0
-    m = 1
     min_number = min(nums)
     sum_number = sum(nums)
-    list_new = []
-    while n != len(queries):
-        if queries[n] < min_number:
-            list_new.append(0)
-            n = n + 1
-            m = 0
-        elif queries[n] > sum_number:
-            list_new.append(len(nums))
-            n = n + 1
-            m = 0
-        elif sum(sorted_nums[:m]) > queries[n] :
-            list_new.append(len(sorted_nums[:m-1]))
-            n = n + 1
-        elif sum(sorted_nums[:m]) == queries[n]:
-            list_new.append(len(sorted_nums[:m]))
-            n = n + 1
-
-        else:
-            m = m + 1
-
-    return list_new
-
+    print(sorted_nums)
+    list1 = []
+    m = 0
+    for i1, q in enumerate(queries):
+        for i2, n in enumerate(sorted_nums):
+            m = n + m
+            if queries[i1] < min_number:
+                list1.append(0)
+                m = 0
+                break
+            elif queries[i1] > sum_number:
+                list1.append(len(nums))
+                m = 0
+                break
+            elif m >= queries[i1]:
+                if m > queries[i1]:
+                    list1.append(i2)
+                    m = 0
+                    break
+                elif m == queries[i1]:
+                    list1.append(i2 + 1)
+                    m = 0
+                    break
+    return list1
 
 
 print(answerQueries(nums = [4,5,2,1], queries = [3,10,21]))
