@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2255. Count Prefixes of a Given String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2570. Merge Two 2D Arrays by Summing Values.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +133,7 @@
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
     "Python.2553. Separate the Digits in an Array.executor": "Run",
+    "Python.2570. Merge Two 2D Arrays by Summing Values.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
     "Python.2652. Sum Multiples.executor": "Run",
@@ -278,14 +279,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00162" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1735658405829</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1735658405829</updated>
     </task>
     <task id="LOCAL-00163" summary="Basic">
       <option name="closed" value="true" />
@@ -671,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737827370172</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1737828539358</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1737828539358</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
