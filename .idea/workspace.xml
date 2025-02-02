@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3174. Clear Digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/977. Squares of a Sorted Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/821. Shortest Distance to a Character.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +126,7 @@
     "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2278. Percentage of Letter in String.executor": "Run",
+    "Python.2283. Check if Number Has Equal Digit Count and Digit Value.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
     "Python.2315. Count Asterisks.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
@@ -170,6 +170,7 @@
     "Python.3019. Number of Changing Keys.executor": "Run",
     "Python.3042. Count Prefix and Suffix Pairs I.executor": "Run",
     "Python.3065. Minimum Operations to Exceed Threshold Value I.executor": "Run",
+    "Python.3069. Distribute Elements Into Two Arrays I.executor": "Run",
     "Python.3079. Find the Sum of Encrypted Integers.executor": "Run",
     "Python.3110. Score of a String.executor": "Run",
     "Python.3131. Find the Integer Added to Array I.executor": "Run",
@@ -236,6 +237,7 @@
     "Python.804. Unique Morse Code Words.executor": "Run",
     "Python.806. Number of Lines To Write String.executor": "Run",
     "Python.819. Most Common Word.executor": "Run",
+    "Python.821. Shortest Distance to a Character.executor": "Run",
     "Python.824. Goat Latin.executor": "Run",
     "Python.832. Flipping an Image.executor": "Run",
     "Python.9. Palindrome Number.executor": "Run",
@@ -290,22 +292,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00173" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736181957171</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1736181957171</updated>
-    </task>
-    <task id="LOCAL-00174" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736250636599</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1736250636599</updated>
     </task>
     <task id="LOCAL-00175" summary="Basic">
       <option name="closed" value="true" />
@@ -683,7 +669,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738279857707</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1738340719460</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1738340719460</updated>
+    </task>
+    <task id="LOCAL-00223" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1738415787253</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1738415787253</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
