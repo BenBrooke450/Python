@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/821. Shortest Distance to a Character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1957. Delete Characters to Make Fancy String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2085. Count Common Words With One Occurrence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +107,7 @@
     "Python.1913. Maximum Product Difference Between Two Pairs.executor": "Run",
     "Python.1935. Maximum Number of Words You Can Type.executor": "Run",
     "Python.1941. Check if All Characters Have Equal Number of Occurrences.executor": "Run",
+    "Python.1957. Delete Characters to Make Fancy String.executor": "Run",
     "Python.1967. Number of Strings That Appear as Substrings in Word.executor": "Run",
     "Python.1979. Find Greatest Common Divisor of Array.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
@@ -116,6 +118,7 @@
     "Python.2037. Minimum Number of Moves to Seat Everyone.executor": "Run",
     "Python.2053. Kth Distinct String in an Array.executor": "Run",
     "Python.2057. Smallest Index With Equal Value.executor": "Run",
+    "Python.2085. Count Common Words With One Occurrence.executor": "Run",
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
     "Python.2124. Check if All A's Appears Before All B's.executor": "Run",
@@ -136,6 +139,7 @@
     "Python.2485. Find the Pivot Integer.executor": "Run",
     "Python.2496. Maximum Value of a String in an Array.executor": "Run",
     "Python.2500. Delete Greatest Value in Each Row.executor": "Run",
+    "Python.2506. Count Pairs Of Similar Strings.executor": "Run",
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
     "Python.2553. Separate the Digits in an Array.executor": "Run",
@@ -292,22 +296,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00175" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736267668511</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1736267668511</updated>
-    </task>
-    <task id="LOCAL-00176" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736268972555</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1736268972555</updated>
     </task>
     <task id="LOCAL-00177" summary="Basic">
       <option name="closed" value="true" />
@@ -685,7 +673,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738415787253</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1738532890147</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1738532890147</updated>
+    </task>
+    <task id="LOCAL-00225" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1738534837981</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1738534837982</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
