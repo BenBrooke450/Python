@@ -31,3 +31,22 @@ Output: 0
 Explanation: Change nums to be [4, 4, 4]. The score is max(nums) - min(nums) = 4 - 4 = 0.
 
 """
+
+
+def smallestRangeI(self, nums: list[int], k: int) -> int:
+    list1 = []
+    big_diff = k * 2
+    max_n = max(nums)
+    min_n = min(nums)
+    if (max_n - min_n) <= big_diff:
+        return 0
+    else:
+        return max_n - min_n - big_diff
+
+
+
+
+print(smallestRangeI([1,2,3,1,23,4],0))
+
+
+
