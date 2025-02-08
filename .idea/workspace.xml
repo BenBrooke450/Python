@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2042. Check if Numbers Are Ascending in a Sentence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2399. Check Distances Between Same Letters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1518. Water Bottles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/160. Find Words That Can Be Formed by Characters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,9 +75,11 @@
     "Python.1436. Destination City.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
+    "Python.1518. Water Bottles.executor": "Run",
     "Python.1528. Shuffle String.executor": "Run",
     "Python.1534. Count Good Triplets.executor": "Run",
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
+    "Python.160. Find Words That Can Be Formed by Characters.executor": "Run",
     "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
     "Python.1636. Sort Array by Increasing Frequency.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
@@ -249,6 +251,7 @@
     "Python.824. Goat Latin.executor": "Run",
     "Python.832. Flipping an Image.executor": "Run",
     "Python.9. Palindrome Number.executor": "Run",
+    "Python.922. Sort Array By Parity II.executor": "Run",
     "Python.942. DI String Match.executor": "Run",
     "Python.977. Squares of a Sorted Array.executor": "Run",
     "Python.Crappy code.executor": "Run",
@@ -300,22 +303,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00181" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736527456034</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1736527456035</updated>
-    </task>
-    <task id="LOCAL-00182" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736620487474</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1736620487474</updated>
     </task>
     <task id="LOCAL-00183" summary="Basic">
       <option name="closed" value="true" />
@@ -693,7 +680,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738848975554</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1738860195712</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1738860195712</updated>
+    </task>
+    <task id="LOCAL-00231" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1738963457501</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1738963457501</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
