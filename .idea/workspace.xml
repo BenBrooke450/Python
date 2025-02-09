@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1518. Water Bottles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/160. Find Words That Can Be Formed by Characters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +132,7 @@
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2278. Percentage of Letter in String.executor": "Run",
     "Python.2283. Check if Number Has Equal Digit Count and Digit Value.executor": "Run",
+    "Python.2309. Greatest English Letter in Upper and Lower Case.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
     "Python.2315. Count Asterisks.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
@@ -303,22 +302,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00183" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736626167323</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1736626167323</updated>
-    </task>
-    <task id="LOCAL-00184" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736709567949</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1736709567949</updated>
     </task>
     <task id="LOCAL-00185" summary="Basic">
       <option name="closed" value="true" />
@@ -696,7 +679,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738963457501</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739054202186</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1739054202186</updated>
+    </task>
+    <task id="LOCAL-00233" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739055481556</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1739055481556</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
