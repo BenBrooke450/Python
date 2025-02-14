@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2562. Find the Array Concatenation Value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1025. Divisor Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1025. Divisor Game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "Python.1051. Height Checker.executor": "Run",
     "Python.1108. Defanging an IP Address.executor": "Run",
     "Python.118. Pascal's Triangle.executor": "Run",
+    "Python.1200. Minimum Absolute Difference.executor": "Run",
     "Python.1207. Unique Number of Occurrences.executor": "Run",
     "Python.121. Best Time to Buy and Sell Stock.executor": "Run",
     "Python.1217. Minimum Cost to Move Chips to The Same Position.executor": "Run",
@@ -70,6 +71,7 @@
     "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
+    "Python.1408. String Matching in an Array.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1436. Destination City.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
@@ -80,6 +82,7 @@
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
     "Python.160. Find Words That Can Be Formed by Characters.executor": "Run",
     "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
+    "Python.1619. Mean of Array After Removing Some Elements.executor": "Run",
     "Python.1636. Sort Array by Increasing Frequency.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
     "Python.1652. Defuse the Bomb.executor": "Run",
@@ -147,6 +150,7 @@
     "Python.2500. Delete Greatest Value in Each Row.executor": "Run",
     "Python.2506. Count Pairs Of Similar Strings.executor": "Run",
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
+    "Python.2529. Maximum Count of Positive Integer and Negative Integer.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
     "Python.2553. Separate the Digits in an Array.executor": "Run",
     "Python.2562. Find the Array Concatenation Value.executor": "Run",
@@ -192,6 +196,7 @@
     "Python.3184. Count Pairs That Form a Complete Day I.executor": "Run",
     "Python.3190. Find Minimum Operations to Make All Elements Divisible by Three.executor": "Run",
     "Python.326. Power of Three.executor": "Run",
+    "Python.3274. Check if Two Chessboard Squares Have the Same Color.executor": "Run",
     "Python.3280. Convert Date to Binary.executor": "Run",
     "Python.3289. The Two Sneaky Numbers of Digitville.executor": "Run",
     "Python.3300. Minimum Element After Replacement With Digit Sum.executor": "Run",
@@ -256,6 +261,7 @@
     "Python.922. Sort Array By Parity II.executor": "Run",
     "Python.942. DI String Match.executor": "Run",
     "Python.977. Squares of a Sorted Array.executor": "Run",
+    "Python.999. Available Captures for Rook.executor": "Run",
     "Python.Crappy code.executor": "Run",
     "Python.Python Basic Ex.executor": "Run",
     "Python.Python Classes and Objects Ex.executor": "Run",
@@ -305,22 +311,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736883592605</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1736883592605</updated>
-    </task>
-    <task id="LOCAL-00188" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736891459624</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1736891459624</updated>
     </task>
     <task id="LOCAL-00189" summary="Basic">
       <option name="closed" value="true" />
@@ -698,7 +688,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739129105343</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739136877135</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1739136877135</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739454997922</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1739454997922</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

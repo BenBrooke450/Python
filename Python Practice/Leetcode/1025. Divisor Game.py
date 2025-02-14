@@ -32,20 +32,10 @@ Explanation: Alice chooses 1, Bob chooses 1, and Alice has no more moves.
 
 def game(number : int):
 
-    i = 0
-
-    while True:
-        gen = max(x for x in range(1,number) if number % x == 0)
-
-        number = number - gen
-
-        if number == 1:
-            if i % 2 == 0:
-                return False
-            else:
-                return True
-
-        i = i + 1
+    if number % 2 == 0:
+        return True
+    else:
+        return False
 
 
 print(game(16))
