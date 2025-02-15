@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1502. Can Make Arithmetic Progression From Sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2062. Count Vowel Substrings of a String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1025. Divisor Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1025. Divisor Game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +70,14 @@
     "Python.1365. How Many Numbers Are Smaller Than the Current Number.executor": "Run",
     "Python.1374. Generate a String With Characters That Have Odd Counts.executor": "Run",
     "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
+    "Python.1385. Find the Distance Value Between Two Arrays.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
     "Python.1408. String Matching in an Array.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1436. Destination City.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
+    "Python.1502. Can Make Arithmetic Progression From Sequence.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
     "Python.1518. Water Bottles.executor": "Run",
     "Python.1528. Shuffle String.executor": "Run",
@@ -124,6 +127,7 @@
     "Python.2042. Check if Numbers Are Ascending in a Sentence.executor": "Run",
     "Python.2053. Kth Distinct String in an Array.executor": "Run",
     "Python.2057. Smallest Index With Equal Value.executor": "Run",
+    "Python.2062. Count Vowel Substrings of a String.executor": "Run",
     "Python.2085. Count Common Words With One Occurrence.executor": "Run",
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
@@ -311,22 +315,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00189" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736975291316</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1736975291317</updated>
-    </task>
-    <task id="LOCAL-00190" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1736976747839</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1736976747839</updated>
     </task>
     <task id="LOCAL-00191" summary="Basic">
       <option name="closed" value="true" />
@@ -704,7 +692,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739454997922</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739534732066</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1739534732067</updated>
+    </task>
+    <task id="LOCAL-00239" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739536126639</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1739536126640</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
