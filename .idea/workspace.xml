@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1925. Count Square Sum Triples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2460. Apply Operations to an Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1544. Make The String Great.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1624. Largest Substring Between Two Equal Characters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,10 +84,12 @@
     "Python.1518. Water Bottles.executor": "Run",
     "Python.1528. Shuffle String.executor": "Run",
     "Python.1534. Count Good Triplets.executor": "Run",
+    "Python.1544. Make The String Great.executor": "Run",
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
     "Python.160. Find Words That Can Be Formed by Characters.executor": "Run",
     "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
     "Python.1619. Mean of Array After Removing Some Elements.executor": "Run",
+    "Python.1624. Largest Substring Between Two Equal Characters.executor": "Run",
     "Python.1636. Sort Array by Increasing Frequency.executor": "Run",
     "Python.1637. Widest Vertical Area Between Two Points Containing No Points.executor": "Run",
     "Python.1652. Defuse the Bomb.executor": "Run",
@@ -320,14 +322,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00195" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737329737054</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1737329737054</updated>
     </task>
     <task id="LOCAL-00196" summary="Basic">
       <option name="closed" value="true" />
@@ -713,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739816027505</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739837198113</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1739837198113</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
