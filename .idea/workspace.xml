@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1544. Make The String Great.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1624. Largest Substring Between Two Equal Characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2716. Minimize String Length.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3074. Apple Redistribution into Boxes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +142,7 @@
     "Python.2206. Divide Array Into Equal Pairs.executor": "Run",
     "Python.2215. Find the Difference of Two Arrays.executor": "Run",
     "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
+    "Python.2248. Intersection of Multiple Arrays.executor": "Run",
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2278. Percentage of Letter in String.executor": "Run",
     "Python.2283. Check if Number Has Equal Digit Count and Digit Value.executor": "Run",
@@ -322,22 +323,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00196" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737398606145</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1737398606145</updated>
-    </task>
-    <task id="LOCAL-00197" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737494184758</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1737494184758</updated>
     </task>
     <task id="LOCAL-00198" summary="Basic">
       <option name="closed" value="true" />
@@ -715,7 +700,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739837198113</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739910568674</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1739910568674</updated>
+    </task>
+    <task id="LOCAL-00246" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739913390050</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1739913390050</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
