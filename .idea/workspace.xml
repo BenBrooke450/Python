@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2706. Buy Two Chocolates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1925. Count Square Sum Triples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2460. Apply Operations to an Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +71,7 @@
     "Python.1374. Generate a String With Characters That Have Odd Counts.executor": "Run",
     "Python.1380. Lucky Numbers in a Matrix.executor": "Run",
     "Python.1385. Find the Distance Value Between Two Arrays.executor": "Run",
+    "Python.1394. Find Lucky Integer in an Array.executor": "Run",
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
     "Python.1408. String Matching in an Array.executor": "Run",
@@ -113,6 +115,7 @@
     "Python.1837. Sum of Digits in Base K.executor": "Run",
     "Python.1844. Replace All Digits with Characters.executor": "Run",
     "Python.1913. Maximum Product Difference Between Two Pairs.executor": "Run",
+    "Python.1925. Count Square Sum Triples.executor": "Run",
     "Python.1935. Maximum Number of Words You Can Type.executor": "Run",
     "Python.1941. Check if All Characters Have Equal Number of Occurrences.executor": "Run",
     "Python.1957. Delete Characters to Make Fancy String.executor": "Run",
@@ -147,6 +150,7 @@
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
+    "Python.2460. Apply Operations to an Array.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
     "Python.2485. Find the Pivot Integer.executor": "Run",
     "Python.2490. Circular Sentence.executor": "Run",
@@ -162,6 +166,7 @@
     "Python.2578. Split With Minimum Sum.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
+    "Python.2639. Find the Width of Columns of a Grid.executor": "Run",
     "Python.2652. Sum Multiples.executor": "Run",
     "Python.2656. Maximum Sum With Exactly K Elements.executor": "Run",
     "Python.2678. Number of Senior Citizens.executor": "Run",
@@ -315,22 +320,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737157933730</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1737157933730</updated>
-    </task>
-    <task id="LOCAL-00194" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737329217422</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1737329217422</updated>
     </task>
     <task id="LOCAL-00195" summary="Basic">
       <option name="closed" value="true" />
@@ -708,7 +697,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739718911948</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739719934456</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1739719934457</updated>
+    </task>
+    <task id="LOCAL-00243" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1739816027505</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1739816027505</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
