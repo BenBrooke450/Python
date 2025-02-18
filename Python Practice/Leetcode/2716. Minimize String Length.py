@@ -33,6 +33,7 @@ s becomes "cbd" after this.
 
 
 def minimizedStringLength(s: str) -> int:
+    pass
 
 
 
