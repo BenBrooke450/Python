@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/929. Unique Email Addresses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3206. Alternating Groups I.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +137,7 @@
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
     "Python.2124. Check if All A's Appears Before All B's.executor": "Run",
+    "Python.2138. Divide a String Into Groups of Size k.executor": "Run",
     "Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor": "Run",
     "Python.2176. Count Equal and Divisible Pairs in an Array.executor": "Run",
     "Python.2206. Divide Array Into Equal Pairs.executor": "Run",
@@ -207,6 +208,7 @@
     "Python.3174. Clear Digits.executor": "Run",
     "Python.3184. Count Pairs That Form a Complete Day I.executor": "Run",
     "Python.3190. Find Minimum Operations to Make All Elements Divisible by Three.executor": "Run",
+    "Python.3206. Alternating Groups I.executor": "Run",
     "Python.326. Power of Three.executor": "Run",
     "Python.3274. Check if Two Chessboard Squares Have the Same Color.executor": "Run",
     "Python.3280. Convert Date to Binary.executor": "Run",
@@ -269,6 +271,7 @@
     "Python.821. Shortest Distance to a Character.executor": "Run",
     "Python.824. Goat Latin.executor": "Run",
     "Python.832. Flipping an Image.executor": "Run",
+    "Python.892. Surface Area of 3D Shapes.executor": "Run",
     "Python.9. Palindrome Number.executor": "Run",
     "Python.922. Sort Array By Parity II.executor": "Run",
     "Python.929. Unique Email Addresses.executor": "Run",
@@ -324,22 +327,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00200" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737550197919</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1737550197919</updated>
-    </task>
-    <task id="LOCAL-00201" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737559490829</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1737559490829</updated>
     </task>
     <task id="LOCAL-00202" summary="Basic">
       <option name="closed" value="true" />
@@ -717,7 +704,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739917280262</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740063924479</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1740063924479</updated>
+    </task>
+    <task id="LOCAL-00250" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740071769541</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1740071769541</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
