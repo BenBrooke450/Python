@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3206. Alternating Groups I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/242. Valid Anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3120. Count the Number of Special Characters I.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,12 +148,14 @@
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2278. Percentage of Letter in String.executor": "Run",
     "Python.2283. Check if Number Has Equal Digit Count and Digit Value.executor": "Run",
+    "Python.2303. Calculate Amount Paid in Taxes.executor": "Run",
     "Python.2309. Greatest English Letter in Upper and Lower Case.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
     "Python.2315. Count Asterisks.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
+    "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
     "Python.2460. Apply Operations to an Array.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
@@ -202,6 +205,7 @@
     "Python.3069. Distribute Elements Into Two Arrays I.executor": "Run",
     "Python.3079. Find the Sum of Encrypted Integers.executor": "Run",
     "Python.3110. Score of a String.executor": "Run",
+    "Python.3120. Count the Number of Special Characters I.executor": "Run",
     "Python.3131. Find the Integer Added to Array I.executor": "Run",
     "Python.3146. Permutation Difference between Two Strings.executor": "Run",
     "Python.3168. Minimum Number of Chairs in a Waiting Room.executor": "Run",
@@ -327,22 +331,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00202" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737565882118</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1737565882118</updated>
-    </task>
-    <task id="LOCAL-00203" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737653525843</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1737653525843</updated>
     </task>
     <task id="LOCAL-00204" summary="Basic">
       <option name="closed" value="true" />
@@ -720,7 +708,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740071769541</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740138699650</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1740138699650</updated>
+    </task>
+    <task id="LOCAL-00252" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740141683416</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1740141683416</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
