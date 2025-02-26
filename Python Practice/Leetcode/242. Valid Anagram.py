@@ -18,7 +18,6 @@ Output: false
 
 
 def isAnagram(s: str, t: str) -> bool:
-
     t = ([x for x in t])
     s = ([x for x in s])
     t.sort()
