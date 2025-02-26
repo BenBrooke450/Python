@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/242. Valid Anagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3120. Count the Number of Special Characters I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1046. Last Stone Weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2395. Find Subarrays With Equal Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,9 @@
   "keyToString": {
     "Python.1. Two Sum.executor": "Run",
     "Python.1025. Divisor Game.executor": "Run",
+    "Python.1046. Last Stone Weight.executor": "Run",
     "Python.1051. Height Checker.executor": "Run",
+    "Python.1103. Distribute Candies to People.executor": "Run",
     "Python.1108. Defanging an IP Address.executor": "Run",
     "Python.118. Pascal's Triangle.executor": "Run",
     "Python.1200. Minimum Absolute Difference.executor": "Run",
@@ -138,6 +140,7 @@
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
     "Python.2124. Check if All A's Appears Before All B's.executor": "Run",
+    "Python.2129. Capitalize the Title.executor": "Run",
     "Python.2138. Divide a String Into Groups of Size k.executor": "Run",
     "Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor": "Run",
     "Python.2176. Count Equal and Divisible Pairs in an Array.executor": "Run",
@@ -154,6 +157,7 @@
     "Python.2315. Count Asterisks.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
+    "Python.2395. Find Subarrays With Equal Sum.executor": "Run",
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
@@ -331,22 +335,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00204" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737654386508</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1737654386508</updated>
-    </task>
-    <task id="LOCAL-00205" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737656373817</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1737656373817</updated>
     </task>
     <task id="LOCAL-00206" summary="Basic">
       <option name="closed" value="true" />
@@ -724,7 +712,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740141683416</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740338116984</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1740338116985</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740529888116</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1740529888116</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
