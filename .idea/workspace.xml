@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2224. Minimum Number of Operations to Convert Time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2899. Last Visited Integers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2908. Minimum Sum of Mountain Triplets I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3105. Longest Strictly Increasing or Strictly Decreasing Subarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +137,7 @@
     "Python.2053. Kth Distinct String in an Array.executor": "Run",
     "Python.2057. Smallest Index With Equal Value.executor": "Run",
     "Python.2062. Count Vowel Substrings of a String.executor": "Run",
+    "Python.2078. Two Furthest Houses With Different Colors.executor": "Run",
     "Python.2085. Count Common Words With One Occurrence.executor": "Run",
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
@@ -195,6 +198,7 @@
     "Python.2848. Points That Intersect With Cars.executor": "Run",
     "Python.2864. Maximum Odd Binary Number.executor": "Run",
     "Python.2894. Divisible and Non-divisible Sums Difference.executor": "Run",
+    "Python.2908. Minimum Sum of Mountain Triplets I.executor": "Run",
     "Python.2913. Subarrays Distinct Element Sum of Squares I.executor": "Run",
     "Python.292. Nim Game.executor": "Run",
     "Python.2923. Find Champion I.executor": "Run",
@@ -208,6 +212,7 @@
     "Python.3065. Minimum Operations to Exceed Threshold Value I.executor": "Run",
     "Python.3069. Distribute Elements Into Two Arrays I.executor": "Run",
     "Python.3079. Find the Sum of Encrypted Integers.executor": "Run",
+    "Python.3105. Longest Strictly Increasing or Strictly Decreasing Subarray.executor": "Run",
     "Python.3110. Score of a String.executor": "Run",
     "Python.3120. Count the Number of Special Characters I.executor": "Run",
     "Python.3131. Find the Integer Added to Array I.executor": "Run",
@@ -307,7 +312,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python Practice",
+    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -335,22 +340,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00207" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737749022819</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1737749022820</updated>
-    </task>
-    <task id="LOCAL-00208" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737766386440</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1737766386440</updated>
     </task>
     <task id="LOCAL-00209" summary="Basic">
       <option name="closed" value="true" />
@@ -728,7 +717,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740600226565</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740689474012</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1740689474012</updated>
+    </task>
+    <task id="LOCAL-00257" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740693216796</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1740693216796</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
