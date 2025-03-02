@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2899. Last Visited Integers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2908. Minimum Sum of Mountain Triplets I.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3105. Longest Strictly Increasing or Strictly Decreasing Subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1422. Maximum Score After Splitting a String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1822. Sign of the Product of an Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +77,7 @@
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
     "Python.1408. String Matching in an Array.executor": "Run",
+    "Python.1422. Maximum Score After Splitting a String.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1436. Destination City.executor": "Run",
     "Python.1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence.executor": "Run",
@@ -105,6 +105,7 @@
     "Python.169. Majority Element.executor": "Run",
     "Python.1700. Number of Students Unable to Eat Lunch.executor": "Run",
     "Python.1704. Determine if String Halves Are Alike.executor": "Run",
+    "Python.171. Excel Sheet Column Number.executor": "Run",
     "Python.1710. Maximum Units on a Truck.executor": "Run",
     "Python.1716. Calculate Money in Leetcode Bank.executor": "Run",
     "Python.1725. Number Of Rectangles That Can Form The Largest Square.executor": "Run",
@@ -198,6 +199,7 @@
     "Python.2848. Points That Intersect With Cars.executor": "Run",
     "Python.2864. Maximum Odd Binary Number.executor": "Run",
     "Python.2894. Divisible and Non-divisible Sums Difference.executor": "Run",
+    "Python.2899. Last Visited Integers.executor": "Run",
     "Python.2908. Minimum Sum of Mountain Triplets I.executor": "Run",
     "Python.2913. Subarrays Distinct Element Sum of Squares I.executor": "Run",
     "Python.292. Nim Game.executor": "Run",
@@ -340,22 +342,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00209" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737817707677</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1737817707678</updated>
-    </task>
-    <task id="LOCAL-00210" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737827370172</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1737827370172</updated>
     </task>
     <task id="LOCAL-00211" summary="Basic">
       <option name="closed" value="true" />
@@ -733,7 +719,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740693216796</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740783430127</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1740783430128</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1740875454958</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1740875454958</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
