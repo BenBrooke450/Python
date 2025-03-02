@@ -55,8 +55,29 @@ Process nums[4]: Another -1. This is consecutive to the previous -1, so k == 2. 
 
 
 def lastVisitedIntegers(nums: list[int]) -> list[int]:
+    ans = []
+    seen = []
+    k = 1
+    for n in nums:
+        if n > 0:
+            seen.insert(0,n)
+            k = 1
 
-    
+        elif n == -1:
+            if k <= len(seen):
+                ans.append(seen[k-1])
+                k = k + 1
+            else:
+                ans.append(-1)
+                k = k + 1
+    return ans
+
+print(lastVisitedIntegers([1,2,-1,-1,-1]))
+
+
+
+
+
 
 
 
