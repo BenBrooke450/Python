@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1413. Minimum Value to Get Positive Step by Step Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1903. Largest Odd Number in String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3090. Maximum Length Substring With Two Occurrences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3318. Find X-Sum of All K-Long Subarrays I.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,6 +215,7 @@
     "Python.3065. Minimum Operations to Exceed Threshold Value I.executor": "Run",
     "Python.3069. Distribute Elements Into Two Arrays I.executor": "Run",
     "Python.3079. Find the Sum of Encrypted Integers.executor": "Run",
+    "Python.3090. Maximum Length Substring With Two Occurrences.executor": "Run",
     "Python.3105. Longest Strictly Increasing or Strictly Decreasing Subarray.executor": "Run",
     "Python.3110. Score of a String.executor": "Run",
     "Python.3120. Count the Number of Special Characters I.executor": "Run",
@@ -230,6 +231,7 @@
     "Python.3280. Convert Date to Binary.executor": "Run",
     "Python.3289. The Two Sneaky Numbers of Digitville.executor": "Run",
     "Python.3300. Minimum Element After Replacement With Digit Sum.executor": "Run",
+    "Python.3318. Find X-Sum of All K-Long Subarrays I.executor": "Run",
     "Python.3340. Check Balanced String.executor": "Run",
     "Python.342. Power of Four.executor": "Run",
     "Python.344. Reverse String.executor": "Run",
@@ -331,7 +333,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-6a3326d57233-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.24807.21" />
       </set>
     </attachedChunks>
   </component>
@@ -343,14 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00213" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737913243062</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1737913243062</updated>
     </task>
     <task id="LOCAL-00214" summary="Basic">
       <option name="closed" value="true" />
@@ -736,7 +730,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741011725373</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741109444017</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1741109444017</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
