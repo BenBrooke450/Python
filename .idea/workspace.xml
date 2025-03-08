@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3417. Zigzag Grid Traversal With Skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/383. Ransom Note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2293. Min Max Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2717. Semi-Ordered Permutation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +156,7 @@
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2278. Percentage of Letter in String.executor": "Run",
     "Python.2283. Check if Number Has Equal Digit Count and Digit Value.executor": "Run",
+    "Python.2293. Min Max Game.executor": "Run",
     "Python.2303. Calculate Amount Paid in Taxes.executor": "Run",
     "Python.2309. Greatest English Letter in Upper and Lower Case.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
@@ -189,6 +190,7 @@
     "Python.268. Missing Number.executor": "Run",
     "Python.2697. Lexicographically Smallest Palindrome.executor": "Run",
     "Python.2710. Remove Trailing Zeros From a String.executor": "Run",
+    "Python.2717. Semi-Ordered Permutation.executor": "Run",
     "Python.2724. Sort By.executor": "Run",
     "Python.2744. Find Maximum Number of String Pairs.executor": "Run",
     "Python.2778. Sum of Squares of Special Elements.executor": "Run",
@@ -346,14 +348,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00215" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1737999277812</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1737999277812</updated>
     </task>
     <task id="LOCAL-00216" summary="Basic">
       <option name="closed" value="true" />
@@ -739,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741200443501</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741279619490</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1741279619490</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
