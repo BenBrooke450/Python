@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2164. Sort Even and Odd Indices Independently.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/217. Contains Duplicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/888. Fair Candy Swap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1137. N-th Tribonacci Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1137. N-th Tribonacci Number.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +55,7 @@
     "Python.1051. Height Checker.executor": "Run",
     "Python.1103. Distribute Candies to People.executor": "Run",
     "Python.1108. Defanging an IP Address.executor": "Run",
+    "Python.1137. N-th Tribonacci Number.executor": "Run",
     "Python.118. Pascal's Triangle.executor": "Run",
     "Python.1200. Minimum Absolute Difference.executor": "Run",
     "Python.1207. Unique Number of Occurrences.executor": "Run",
@@ -78,6 +85,7 @@
     "Python.1436. Destination City.executor": "Run",
     "Python.1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
+    "Python.1491. Average Salary Excluding the Minimum and Maximum Salary.executor": "Run",
     "Python.1502. Can Make Arithmetic Progression From Sequence.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
     "Python.1518. Water Bottles.executor": "Run",
@@ -137,17 +145,21 @@
     "Python.2062. Count Vowel Substrings of a String.executor": "Run",
     "Python.2078. Two Furthest Houses With Different Colors.executor": "Run",
     "Python.2085. Count Common Words With One Occurrence.executor": "Run",
+    "Python.2094. Finding 3-Digit Even Numbers.executor": "Run",
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
     "Python.2124. Check if All A's Appears Before All B's.executor": "Run",
     "Python.2129. Capitalize the Title.executor": "Run",
     "Python.2138. Divide a String Into Groups of Size k.executor": "Run",
     "Python.2160. Minimum Sum of Four Digit Number After Splitting Digits.executor": "Run",
+    "Python.2164. Sort Even and Odd Indices Independently.executor": "Run",
+    "Python.217. Contains Duplicate.executor": "Run",
     "Python.2176. Count Equal and Divisible Pairs in an Array.executor": "Run",
     "Python.2206. Divide Array Into Equal Pairs.executor": "Run",
     "Python.2215. Find the Difference of Two Arrays.executor": "Run",
     "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
     "Python.2224. Minimum Number of Operations to Convert Time.executor": "Run",
+    "Python.2231. Largest Number After Digit Swaps by Parity.executor": "Run",
     "Python.2248. Intersection of Multiple Arrays.executor": "Run",
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2278. Percentage of Letter in String.executor": "Run",
@@ -288,6 +300,7 @@
     "Python.821. Shortest Distance to a Character.executor": "Run",
     "Python.824. Goat Latin.executor": "Run",
     "Python.832. Flipping an Image.executor": "Run",
+    "Python.888. Fair Candy Swap.executor": "Run",
     "Python.892. Surface Area of 3D Shapes.executor": "Run",
     "Python.9. Palindrome Number.executor": "Run",
     "Python.922. Sort Array By Parity II.executor": "Run",
@@ -344,22 +357,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00217" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1738097219201</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1738097219201</updated>
-    </task>
-    <task id="LOCAL-00218" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1738097722933</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1738097722934</updated>
     </task>
     <task id="LOCAL-00219" summary="Basic">
       <option name="closed" value="true" />
@@ -737,7 +734,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741442428911</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741443432729</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1741443432729</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741716477264</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1741716477264</updated>
+    </task>
+    <option name="localTasksCounter" value="268" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

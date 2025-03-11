@@ -22,7 +22,6 @@ Output: 1389537
 
 """
 
-
 def tribonacci(n: int) -> int:
     if n == 0 :
         return 0
