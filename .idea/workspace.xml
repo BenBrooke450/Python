@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2164. Sort Even and Odd Indices Independently.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/217. Contains Duplicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/888. Fair Candy Swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1995. Count Special Quadruplets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1137. N-th Tribonacci Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1137. N-th Tribonacci Number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +83,7 @@
     "Python.1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
     "Python.1491. Average Salary Excluding the Minimum and Maximum Salary.executor": "Run",
+    "Python.1496. Path Crossing.executor": "Run",
     "Python.1502. Can Make Arithmetic Progression From Sequence.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
     "Python.1518. Water Bottles.executor": "Run",
@@ -133,6 +131,7 @@
     "Python.1967. Number of Strings That Appear as Substrings in Word.executor": "Run",
     "Python.1979. Find Greatest Common Divisor of Array.executor": "Run",
     "Python.1991. Find the Middle Index in Array.executor": "Run",
+    "Python.1995. Count Special Quadruplets.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
     "Python.2000. Reverse Prefix of Word.executor": "Run",
@@ -357,22 +356,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00219" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1738169493129</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1738169493129</updated>
-    </task>
-    <task id="LOCAL-00220" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1738172503976</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1738172503976</updated>
     </task>
     <task id="LOCAL-00221" summary="Basic">
       <option name="closed" value="true" />
@@ -750,7 +733,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741716477264</updated>
     </task>
-    <option name="localTasksCounter" value="268" />
+    <task id="LOCAL-00268" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741737006907</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1741737006907</updated>
+    </task>
+    <task id="LOCAL-00269" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741796197725</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1741796197725</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
