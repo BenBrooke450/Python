@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/896. Monotonic Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/.idea/Python Bookcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/.idea/Python Bookcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 10 Errors and Exceptions Handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 10 Errors and Exceptions Handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 11 Milestone 2 Warmup Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 11 Milestone 2 Warmup Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 12 Python Decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 12 Python Decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 13 Python Generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 13 Python Generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 14 Advanced Python Modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 14 Advanced Python Modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 5 Python Statements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 5 Python Statements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 6 Methods and Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 6 Methods and Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 7 Milestone Project - 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 7 Milestone Project - 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 8 Object Oriented Programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 8 Object Oriented Programming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Bookcamp/Section 9 Modules and Packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Bookcamp (Udemy)/Section 9 Modules and Packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/.idea/Python for Eveyone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/.idea/Python for Eveyone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/Code 2 Foundation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/Code 2 Foundation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/Code 3 Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/Code 3 Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/Code 4 String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/Code 4 String.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python for Eveyone/Code 7 Object Oriented.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python for Eveyone (Coursera)/Code 7 Object Oriented.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,14 +387,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00228" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1738796258131</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1738796258132</updated>
     </task>
     <task id="LOCAL-00229" summary="Basic">
       <option name="closed" value="true" />
@@ -756,7 +772,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742317636213</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742395087667</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1742395087667</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
