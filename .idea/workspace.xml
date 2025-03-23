@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2903. Find Indices With Index and Value Difference I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2566. Maximum Difference by Remapping a Digit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,6 +190,7 @@
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
     "Python.2553. Separate the Digits in an Array.executor": "Run",
     "Python.2562. Find the Array Concatenation Value.executor": "Run",
+    "Python.2566. Maximum Difference by Remapping a Digit.executor": "Run",
     "Python.2570. Merge Two 2D Arrays by Summing Values.executor": "Run",
     "Python.2578. Split With Minimum Sum.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
@@ -365,14 +366,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00235" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739129105343</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1739129105343</updated>
     </task>
     <task id="LOCAL-00236" summary="Basic">
       <option name="closed" value="true" />
@@ -758,7 +751,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742683569763</updated>
     </task>
-    <option name="localTasksCounter" value="284" />
+    <task id="LOCAL-00284" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742684799733</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1742684799733</updated>
+    </task>
+    <option name="localTasksCounter" value="285" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
