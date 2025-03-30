@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2016. Maximum Difference Between Increasing Elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2465. Number of Distinct Averages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,6 +175,7 @@
     "Python.2309. Greatest English Letter in Upper and Lower Case.executor": "Run",
     "Python.231. Power of Two.executor": "Run",
     "Python.2315. Count Asterisks.executor": "Run",
+    "Python.2335. Minimum Amount of Time to Fill Cups.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
     "Python.2395. Find Subarrays With Equal Sum.executor": "Run",
@@ -182,6 +183,7 @@
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
     "Python.2460. Apply Operations to an Array.executor": "Run",
+    "Python.2465. Number of Distinct Averages.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
     "Python.2485. Find the Pivot Integer.executor": "Run",
     "Python.2490. Circular Sentence.executor": "Run",
@@ -371,22 +373,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00242" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739719934456</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1739719934457</updated>
-    </task>
-    <task id="LOCAL-00243" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739816027505</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1739816027505</updated>
     </task>
     <task id="LOCAL-00244" summary="Basic">
       <option name="closed" value="true" />
@@ -764,7 +750,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743097035408</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743271483452</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1743271483452</updated>
+    </task>
+    <task id="LOCAL-00292" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743274083646</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1743274083646</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
