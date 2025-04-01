@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/860. Lemonade Change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1984. Minimum Difference Between Highest and Lowest of K Scores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2540. Minimum Common Value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +135,7 @@
     "Python.1957. Delete Characters to Make Fancy String.executor": "Run",
     "Python.1967. Number of Strings That Appear as Substrings in Word.executor": "Run",
     "Python.1979. Find Greatest Common Divisor of Array.executor": "Run",
+    "Python.1984. Minimum Difference Between Highest and Lowest of K Scores.executor": "Run",
     "Python.1991. Find the Middle Index in Array.executor": "Run",
     "Python.1995. Count Special Quadruplets.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
@@ -193,6 +195,7 @@
     "Python.2520. Count the Digits That Divide a Number.executor": "Run",
     "Python.2529. Maximum Count of Positive Integer and Negative Integer.executor": "Run",
     "Python.2535. Difference Between Element Sum and Digit Sum of an Array.executor": "Run",
+    "Python.2540. Minimum Common Value.executor": "Run",
     "Python.2553. Separate the Digits in an Array.executor": "Run",
     "Python.2562. Find the Array Concatenation Value.executor": "Run",
     "Python.2566. Maximum Difference by Remapping a Digit.executor": "Run",
@@ -374,22 +377,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00245" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739910568674</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1739910568674</updated>
-    </task>
-    <task id="LOCAL-00246" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739913390050</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1739913390050</updated>
     </task>
     <task id="LOCAL-00247" summary="Basic">
       <option name="closed" value="true" />
@@ -767,7 +754,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743357425094</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743377001740</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1743377001740</updated>
+    </task>
+    <task id="LOCAL-00295" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743439638715</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1743439638715</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
