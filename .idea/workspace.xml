@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1984. Minimum Difference Between Highest and Lowest of K Scores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2540. Minimum Common Value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1437. Check If All 1's Are at Least Length K Places Away.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/345. Reverse Vowels of a String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1984. Minimum Difference Between Highest and Lowest of K Scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1984. Minimum Difference Between Highest and Lowest of K Scores.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,6 +264,7 @@
     "Python.3417. Zigzag Grid Traversal With Skip.executor": "Run",
     "Python.342. Power of Four.executor": "Run",
     "Python.344. Reverse String.executor": "Run",
+    "Python.345. Reverse Vowels of a String.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.389. Find the Difference.executor": "Run",
     "Python.412. Fizz Buzz.executor": "Run",
@@ -377,14 +379,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00247" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739915527303</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1739915527303</updated>
     </task>
     <task id="LOCAL-00248" summary="Basic">
       <option name="closed" value="true" />
@@ -770,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743439638715</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743536502681</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1743536502681</updated>
+    </task>
+    <option name="localTasksCounter" value="297" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -95,7 +95,7 @@ def minimumDifference(nums: list[int], k: int) -> int:
         y = [nums[i:i + 2] for i in range(len(nums) - 1)]
     return substrings, y
 
-#print(minimumDifference(nums = [9,4,1,7], k = 2))
+print(minimumDifference(nums = [9,4,1,7], k = 2))
 
 
 
