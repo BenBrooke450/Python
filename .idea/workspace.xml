@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1437. Check If All 1's Are at Least Length K Places Away.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/345. Reverse Vowels of a String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/697. Degree of an Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1984. Minimum Difference Between Highest and Lowest of K Scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1984. Minimum Difference Between Highest and Lowest of K Scores.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,6 +302,7 @@
     "Python.680. Valid Palindrome II.executor": "Run",
     "Python.682. Baseball Game.executor": "Run",
     "Python.69. Sqrt(x).executor": "Run",
+    "Python.697. Degree of an Array.executor": "Run",
     "Python.70. Climbing Stairs.executor": "Run",
     "Python.709. To Lower Case.executor": "Run",
     "Python.724. Find Pivot Index.executor": "Run",
@@ -379,14 +378,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00248" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1739917280262</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1739917280262</updated>
     </task>
     <task id="LOCAL-00249" summary="Basic">
       <option name="closed" value="true" />
@@ -772,7 +763,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743536502681</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743626232773</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1743626232773</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
