@@ -36,6 +36,42 @@ Ashe is poisoned for seconds 1, 2, and 3, which is 3 seconds in total.
 """
 import numpy as np
 
+def findPoisonedDuration(list1: list[int], n: int) -> int:
+    array1 = np.array(list1)
+    a = 0
+    for i in range(len(list1) - 1):
+        x = array1[i + 1]
+        y = array1[i]
+        if x < (y + n):
+            a = a + int((x - y))
+            if i + 2 == len(list1):
+                a = a + n
+        else:
+            a = a + n
+            if i + 2 == len(list1):
+                a = a + n
+    if (len(list1)) == 1:
+        return n
+    return a
+
+
+print(findPoisonedDuration([1], 100000))
+
+
+
+
+
+
+
+
+
+
+
+##########################################################
+
+
+
+
 
 def teemo(list1:list[int],number:int):
 
@@ -43,9 +79,6 @@ def teemo(list1:list[int],number:int):
     for x in list1:
         list2.update(list(range(x,x+number)))
     return len(list2)
-
-
-print(teemo([1,4], 2))
 
 
 
@@ -61,10 +94,6 @@ def teemo(list1:list[int],number:int):
 
 
 
-print(teemo([1,4], 2))
-#4
-
-print(list(range(1,10000)))
 
 
 
