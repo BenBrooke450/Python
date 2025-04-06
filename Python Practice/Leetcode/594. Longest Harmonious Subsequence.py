@@ -38,7 +38,6 @@ def func(list1:list[int]):
     array2 = np.array([[x,list1.count(x)] for x in set(list1)])
     m = 0
     array3 = array2[np.argsort(array2[:, 0])]
-    print(array3,np.argsort(array2[:, 0]))
     for i in np.arange(len(array2)-1):
         if array2[i,0] + 1 == array2[i+1,0]:
             plus = array2[i, 1] + array2[i + 1, 1]
