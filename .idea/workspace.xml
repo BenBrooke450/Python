@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2582. Pass the Pillow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/409. Longest Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/953. Verifying an Alien Dictionary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/594. Longest Harmonious Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/594. Longest Harmonious Subsequence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,6 +267,7 @@
     "Python.345. Reverse Vowels of a String.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.389. Find the Difference.executor": "Run",
+    "Python.409. Longest Palindrome.executor": "Run",
     "Python.412. Fizz Buzz.executor": "Run",
     "Python.414. Third Maximum Number.executor": "Run",
     "Python.415. Add Strings.executor": "Run",
@@ -350,6 +351,7 @@
     "Python.Section 8 Object Oriented Programming Homework Ex.executor": "Run",
     "Python.abc.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python",
@@ -368,7 +370,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6a3326d57233-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.24807.21" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -380,14 +382,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00252" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1740141683416</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1740141683416</updated>
     </task>
     <task id="LOCAL-00253" summary="Basic">
       <option name="closed" value="true" />
@@ -773,7 +767,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743863978864</updated>
     </task>
-    <option name="localTasksCounter" value="301" />
+    <task id="LOCAL-00301" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743960403585</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1743960403585</updated>
+    </task>
+    <option name="localTasksCounter" value="302" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
