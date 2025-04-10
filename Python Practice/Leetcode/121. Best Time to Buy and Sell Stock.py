@@ -149,7 +149,7 @@ print(maxProfit([7,1,5,3,6,4]))
 
 
 
-"""
+
 def max_num(prices : list[int]):
 
     max_diff = 0
@@ -330,4 +330,4 @@ def max_num(prices : list[int]):
 
 print(max_num([7,1,5,3,6,4]))
 
-"""
+
