@@ -30,7 +30,18 @@ Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0.
 """
 
+import numpy as np
 
+
+class Solution:
+    def maxProfit(prices: list[int]) -> int:
+        q = 0
+        prices = np.array(prices)
+        for i in np.arange(len(prices) - 1):
+            t = np.max(prices[i + 1:]) - prices[i]
+            if t > q and prices[i] < np.max(prices[i + 1:]):
+                q = t
+        return int(q)
 
 
 ####################################################################
