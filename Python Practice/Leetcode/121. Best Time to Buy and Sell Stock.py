@@ -31,6 +31,125 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 """
 
 
+
+
+####################################################################
+
+
+import numpy as np
+def maxProfit(prices: list[int]) -> int:
+    i = 0
+    l = len(prices) - 1
+    q = 0
+    while i < len(prices):
+        t = prices[l] - prices[i]
+        if t < 0:
+            prices = prices[1:]
+            i = i + 1
+            if t > q:
+                q = t
+        elif t >= 0:
+            prices = prices[:-1]
+            l = l - 1
+            if t > q:
+                q = t
+    return q
+
+
+print(maxProfit([1,2,11,4,7]))
+
+#print(maxProfit([2,1,2,1,0,1,2]))
+
+
+####################################################################
+
+
+import numpy as np
+def maxProfit(prices: list[int]) -> int:
+    diff = np.array(np.diff(prices))
+    m = sum(diff)
+    for n in diff:
+        x = np.sum(diff[1:])
+        y = np.sum(diff[:-1])
+        print(diff,m)
+        if x >= y:
+            diff = diff[1:]
+            if np.sum(diff) > m:
+                m = np.sum(diff)
+        elif y >= x:
+            diff = diff[:-1]
+            if np.sum(diff) > m:
+                m = np.sum(diff)
+    return int(m)
+
+
+print(maxProfit([1,2,11,4,7]))
+
+print(maxProfit([2,1,2,1,0,1,2]))
+
+
+
+
+####################################################################
+
+
+
+import numpy as np
+def maxProfit(prices: list[int]) -> int:
+    diff = np.array(np.diff(prices))
+    substrings = [(diff[i:j]) for i in range(len(diff)) if diff[i] > 0 for j in range(i + 1, len(diff) + 1)]
+    return  substrings
+
+print(maxProfit([7,1,5,3,6,4]))
+
+
+
+
+
+
+
+####################################################################
+
+
+
+
+import numpy as np
+def maxProfit(prices: list[int]) -> int:
+    diff = np.array(np.diff(prices))
+    m = 0
+    q = 0
+    for i, n in enumerate(diff):
+        m = 0
+        if n <= 0:
+            continue
+        elif i + 1 == len(diff):
+            if n > q:
+                q = n
+        elif n > q:
+            q = n
+        for t in diff[i + 1:]:
+            m = n + t + m
+            n = 0
+            if m > q:
+                q = m
+    return int(q)
+
+print(maxProfit([7,1,5,3,6,4]))
+
+
+
+
+
+
+
+####################################################################
+
+
+
+
+
+
+"""
 def max_num(prices : list[int]):
 
     max_diff = 0
@@ -211,4 +330,4 @@ def max_num(prices : list[int]):
 
 print(max_num([7,1,5,3,6,4]))
 
-
+"""
