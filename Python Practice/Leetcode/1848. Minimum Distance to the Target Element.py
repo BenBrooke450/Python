@@ -32,7 +32,7 @@ Explanation: Every value of nums is 1, but nums[0] minimizes abs(i - start), whi
 
 def getMinDistance(nums: list[int], target: int, start: int) -> int:
     t = 10000000
-    the_list = [x for i,x in enumerate(nums) if x == target]
+    the_list = [i for i,x in enumerate(nums) if x == target]
     for n in the_list:
         m = abs(n - start)
         if m < t:
