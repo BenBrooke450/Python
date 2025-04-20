@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1848. Minimum Distance to the Target Element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1317. Convert Integer to the Sum of Two No-Zero Integers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Python.13. Roman to Integer.executor": "Run",
     "Python.1309. Decrypt String from Alphabet to Integer Mapping.executor": "Run",
     "Python.1313. Decompress Run-Length Encoded List.executor": "Run",
+    "Python.1317. Convert Integer to the Sum of Two No-Zero Integers.executor": "Run",
     "Python.1323. Maximum 69 Number.executor": "Run",
     "Python.1342. Number of Steps to Reduce a Number to Zero.executor": "Run",
     "Python.136. Single Number.executor": "Run",
@@ -206,6 +207,7 @@
     "Python.258. Add Digits.executor": "Run",
     "Python.2582. Pass the Pillow.executor": "Run",
     "Python.2600. K Items With the Maximum Sum.executor": "Run",
+    "Python.2605. Form Smallest Number From Two Digit Arrays.executor": "Run",
     "Python.263. Ugly Number.executor": "Debug",
     "Python.2639. Find the Width of Columns of a Grid.executor": "Run",
     "Python.2652. Sum Multiples.executor": "Run",
@@ -387,30 +389,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00264" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1741279619490</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1741279619490</updated>
-    </task>
-    <task id="LOCAL-00265" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1741442428910</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1741442428911</updated>
-    </task>
-    <task id="LOCAL-00266" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1741443432729</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1741443432729</updated>
     </task>
     <task id="LOCAL-00267" summary="Basic">
       <option name="closed" value="true" />
@@ -780,7 +758,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744839663145</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744903748624</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1744903748624</updated>
+    </task>
+    <task id="LOCAL-00314" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744903772886</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1744903772886</updated>
+    </task>
+    <task id="LOCAL-00315" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1745188778146</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1745188778148</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
