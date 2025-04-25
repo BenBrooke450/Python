@@ -52,8 +52,6 @@ def convertToTitle(self, columnNumber: int) -> str:
     return alphabet.get(x) + t
 
 
-print(excel(702))
-print(excel(701))
 
 
 
