@@ -32,72 +32,33 @@ Output: "ZY"
 
 
 """
-from string import ascii_lowercase, ascii_uppercase
-
-num = 2147483647
-
-print(2147483647/26)
-
-def excel(number : int):
 
 
 
-    zip(range(1,2147483647),)
-
+def convertToTitle(self, columnNumber: int) -> str:
     alphabet = {1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E', 6: 'F', 7: 'G',
                 8: 'H', 9: 'I', 10: 'J', 11: 'K', 12: 'L', 13: 'M',
                 14: 'N', 15: 'O', 16: 'P', 17: 'Q', 18: 'R', 19: 'S',
-                20: 'T', 21: 'U', 22: 'V', 23: 'W', 24: 'X', 25: 'Y',26:'Z'}
+                20: 'T', 21: 'U', 22: 'V', 23: 'W', 24: 'X', 25: 'Y', 26: 'Z', 0: 'Z'}
+    x = columnNumber
+    t = ""
+    while x > 26:
+        y = x % 26
+        x = x // 26
+        t = alphabet.get(y) + t
+        if y == 0:
+            x = x - 1
 
-    #lets create a new diction for big numbers
-
-
-
-    if number < 27:
-        return alphabet.get(number)
-
-    elif number >= 27:
-
-        interation_below = number // 26
-
-        if number % 26 == 0:
-            interation_over = 26
-
-        else:
-            interation_over = number % 26
-            print(interation_over)
-
-    print(alphabet.get(interation_below),alphabet.get(interation_over))
+    return alphabet.get(x) + t
 
 
-print(excel(27))
+print(excel(702))
+print(excel(701))
+
 
 
 
 
 
 al = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-
-
-
-print(ascii_uppercase)
-
-print(ascii_lowercase)
-print(ascii_uppercase)
-
-
-uppercase_alphabet = ''.join(chr(i) for i in range(ord('A'), ord("Z") + 1))
-
-print(ord("B"))
-
-print(chr(66))
-
-print(uppercase_alphabet)
-
-
-
-
-
-
-
 
