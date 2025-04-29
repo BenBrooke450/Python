@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/219. Contains Duplicate II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/392. Is Subsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,6 +276,7 @@
     "Python.345. Reverse Vowels of a String.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.389. Find the Difference.executor": "Run",
+    "Python.392. Is Subsequence.executor": "Run",
     "Python.409. Longest Palindrome.executor": "Run",
     "Python.412. Fizz Buzz.executor": "Run",
     "Python.414. Third Maximum Number.executor": "Run",
@@ -391,22 +393,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00274" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1742150189207</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1742150189207</updated>
-    </task>
-    <task id="LOCAL-00275" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1742241153327</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1742241153328</updated>
     </task>
     <task id="LOCAL-00276" summary="Basic">
       <option name="closed" value="true" />
@@ -784,7 +770,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745611257909</updated>
     </task>
-    <option name="localTasksCounter" value="323" />
+    <task id="LOCAL-00323" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1745770447818</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1745770447818</updated>
+    </task>
+    <task id="LOCAL-00324" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1745770558968</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1745770558968</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
