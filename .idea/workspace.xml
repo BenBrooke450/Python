@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1805. Number of Different Integers in a String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1232. Check If It Is a Straight Line.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,7 @@
     "Python.1207. Unique Number of Occurrences.executor": "Run",
     "Python.121. Best Time to Buy and Sell Stock.executor": "Run",
     "Python.1217. Minimum Cost to Move Chips to The Same Position.executor": "Run",
+    "Python.1232. Check If It Is a Straight Line.executor": "Run",
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
@@ -400,14 +401,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00285" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1742772345398</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
-      <option name="project" value="LOCAL" />
-      <updated>1742772345398</updated>
     </task>
     <task id="LOCAL-00286" summary="Basic">
       <option name="closed" value="true" />
@@ -793,7 +786,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746641041139</updated>
     </task>
-    <option name="localTasksCounter" value="334" />
+    <task id="LOCAL-00334" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1746739660569</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1746739660569</updated>
+    </task>
+    <option name="localTasksCounter" value="335" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
