@@ -33,7 +33,11 @@ def reorderSpaces(text: str) -> str:
     spaces = sum(1 for x in text if x == " ")
     words = sum(1 for x in text.split(" ") if x != "")
 
+    if spaces == 0 or words == 1:
+        return text.strip() + spaces * " "
+
     text =  [x for x in text.strip()]
+
 
     if spaces % (words-1) == 0:
         number  = spaces / (words-1)
