@@ -29,3 +29,6 @@ def checkIfExist(arr: list[int]) -> bool:
     return False
 
 print(checkIfExist([3,1,7,11]))
+
+
+
