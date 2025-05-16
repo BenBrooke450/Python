@@ -38,18 +38,33 @@ includes the prime factor 7.
   # if it can be done nby any other then it´s false
 
 
-def ugly(n: int):
 
-    out = []
 
-    for num in range(6, n + 1):
-        if all(num % i != 0 for i in range(2, int(num**.5 ) + 1)):
-            if num % n == 0:
-                return False
 
-    return True
 
-print(ugly(2147483647))
+import numpy as np
+
+
+
+def isUgly(n: int) -> bool:
+    t = 0
+    while t == 0 and n != 1 and n > 0:
+        if n % 2 == 0 or n / 2 == 1:
+            n = int(n / 2)
+            continue
+        elif n % 3 == 0 or n / 3 == 1:
+            n = int(n / 3)
+            continue
+        elif n % 5 == 0 or n / 5 == 1:
+            n = int(n / 5)
+            continue
+        t = 1
+    if n == 1:
+        return True
+    return False
+
+
+print(ugly(123124))
 
 
 
@@ -72,8 +87,6 @@ def ugly(n: int):
 
     return True
 
-print(ugly(4))
-
 
 
 
@@ -83,7 +96,7 @@ print(ugly(4))
 
 def ugly(number: int):
     out = list()
-    for num in range(1, n+1):
+    for num in range(1, number+1):
         print(list(num % i != 0 for i in range(2, num)),num)
         if all(num % i != 0 for i in range(2, num)):
             out.append(num)
