@@ -21,6 +21,48 @@ Input: nums = [-1,-2,-3]
 Output: -6
 
 """
+
+
+def maximumProduct(number_list: list[int]) -> int:
+    number_list.sort()
+    if len(number_list) < 6:
+        t = -1000000
+        for i,x in enumerate(number_list[:-2]):
+            for j,y in enumerate(number_list[i+1:-1]):
+                for z in number_list[j+1:]:
+                    print(x,y,z)
+                    if x*y*z > t:
+                        t = x*y*z
+
+    elif len(number_list) >= 6:
+        nums = number_list[:3] + number_list[-3:]
+        t = -1000000
+        for i,x in enumerate(nums[:-2]):
+            for j,y in enumerate(nums[i+1:-1]):
+                for z in nums[j+1:]:
+                    print(x,y,z)
+                    if x*y*z > t:
+                        t = x*y*z
+    return t
+
+print(maximumProduct([1,2,3]))
+print(maximumProduct([-5,-3,1,2,1,-1,-2,-3,3,4,5,23,-10]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################################################
+
+
 from sphinx.addnodes import index
 
 
@@ -54,7 +96,6 @@ def max_num(number_list : list[int]):
 
 
 
-print(max_num([1,2,1,-1,-2,-3]))
 
 
 
