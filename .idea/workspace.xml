@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1282. Group the People Given the Group Size They Belong To.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2807. Insert Greatest Common Divisors in Linked List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2807. Insert Greatest Common Divisors in Linked List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Linked Lists/1.Basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/1.Basics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Linked Lists/2.Basic Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/2.Basic Example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,7 @@
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
+    "Python.1282. Group the People Given the Group Size They Belong To.executor": "Run",
     "Python.1295. Find Numbers with Even Number of Digits.executor": "Run",
     "Python.1299. Replace Elements with Greatest Element on Right Side.executor": "Run",
     "Python.13. Roman to Integer.executor": "Run",
@@ -417,22 +416,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00305" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1744320982678</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1744320982678</updated>
-    </task>
-    <task id="LOCAL-00306" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1744321040286</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1744321040286</updated>
     </task>
     <task id="LOCAL-00307" summary="Basic">
       <option name="closed" value="true" />
@@ -810,7 +793,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748524892747</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <task id="LOCAL-00354" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748535234503</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1748535234503</updated>
+    </task>
+    <task id="LOCAL-00355" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748536421820</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1748536421820</updated>
+    </task>
+    <option name="localTasksCounter" value="356" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
