@@ -38,10 +38,10 @@ class Solution:
             print(curr.val, prev.val)
             gcd = math.gcd(curr.val, prev.val)
             new_node = ListNode(gcd)
-            new_node.next = curr.next
+            new_node.next = prev.next
+            prev.next = new_node
             prev = new_node.next
             curr = prev.next
-            self.print_linked_list(head)
         return head
 
 
