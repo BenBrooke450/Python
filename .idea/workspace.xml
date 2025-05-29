@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2259. Remove Digit From Number to Maximize Result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2807. Insert Greatest Common Divisors in Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/1.Basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/2.Basic Examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1. Two Sum.executor": "Run",
+    "Python.1.Basics.executor": "Run",
     "Python.1013. Partition Array Into Three Parts With Equal Sum.executor": "Run",
     "Python.1025. Divisor Game.executor": "Run",
     "Python.1037. Valid Boomerang.executor": "Run",
@@ -148,6 +151,7 @@
     "Python.1991. Find the Middle Index in Array.executor": "Run",
     "Python.1995. Count Special Quadruplets.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
+    "Python.2.Basic Examples.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
     "Python.2000. Reverse Prefix of Word.executor": "Run",
     "Python.2011. Final Value of Variable After Performing Operations.executor": "Run",
@@ -232,6 +236,7 @@
     "Python.2710. Remove Trailing Zeros From a String.executor": "Run",
     "Python.2717. Semi-Ordered Permutation.executor": "Run",
     "Python.2724. Sort By.executor": "Run",
+    "Python.2739. Total Distance Traveled.executor": "Run",
     "Python.2744. Find Maximum Number of String Pairs.executor": "Run",
     "Python.2778. Sum of Squares of Special Elements.executor": "Run",
     "Python.2798. Number of Employees Who Met the Target.executor": "Run",
@@ -410,22 +415,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00301" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1743960403585</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1743960403585</updated>
-    </task>
-    <task id="LOCAL-00302" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1744040565282</created>
-      <option name="number" value="00302" />
-      <option name="presentableId" value="LOCAL-00302" />
-      <option name="project" value="LOCAL" />
-      <updated>1744040565283</updated>
     </task>
     <task id="LOCAL-00303" summary="Basic">
       <option name="closed" value="true" />
@@ -803,7 +792,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748021165172</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <task id="LOCAL-00350" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748382151538</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1748382151538</updated>
+    </task>
+    <task id="LOCAL-00351" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748440203001</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1748440203001</updated>
+    </task>
+    <option name="localTasksCounter" value="352" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
