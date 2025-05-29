@@ -23,10 +23,24 @@ class LinkedList:
             last = last.next
         last.next = new_node
 
-    def double(self,input_list):
-        if not isinstance(input_list, LinkedList):
-            raise TypeError("Input must be a LinkedList")
+    def double(self):
+        # First, check that there are at least two nodes
+        count = 0
+        temp = self.head
+        while temp:
+            count += 1
+            temp = temp.next
+        if count < 2:
+            raise ValueError("Not enough nodes to process")
 
+        # Now loop through and double every even-positioned node
+        index = 0
+        current = self.head
+        while current:
+            if index % 2 == 0:
+                current.data *= 2
+            current = current.next
+            index += 1
 
     # Print the list
     def print_list(self):
@@ -41,9 +55,19 @@ ll = LinkedList()
 ll.append(10)
 ll.append(20)
 ll.append(30)
+ll.append(10)
+ll.append(20)
+ll.append(30)
+ll.append(40)
+ll.append(50)
+ll.append(60)
 
 ll.print_list()
-#10 → 20 → 30 → None
+#10 → 20 → 30 → 10 → 20 → 30 → 40 → 50 → 60 → None
+
+ll.double()
+ll.print_list()
+#20 → 20 → 60 → 10 → 40 → 30 → 80 → 50 → 120 → None
 
 
 
