@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2807. Insert Greatest Common Divisors in Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/1.Basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/2.Basic Examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2807. Insert Greatest Common Divisors in Linked List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2807. Insert Greatest Common Divisors in Linked List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Linked Lists/1.Basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/1.Basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Linked Lists/2.Basic Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Linked Lists/2.Basic Example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +151,7 @@
     "Python.1991. Find the Middle Index in Array.executor": "Run",
     "Python.1995. Count Special Quadruplets.executor": "Run",
     "Python.2. Add Two Numbers.executor": "Run",
+    "Python.2.Basic Example.executor": "Run",
     "Python.2.Basic Examples.executor": "Run",
     "Python.20. Valid Parentheses.executor": "Run",
     "Python.2000. Reverse Prefix of Word.executor": "Run",
@@ -241,6 +242,7 @@
     "Python.2778. Sum of Squares of Special Elements.executor": "Run",
     "Python.2798. Number of Employees Who Met the Target.executor": "Run",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
+    "Python.2807. Insert Greatest Common Divisors in Linked List.executor": "Run",
     "Python.2824. Count Pairs Whose Sum is Less than Target.executor": "Run",
     "Python.2828. Check if a String Is an Acronym of Words.executor": "Run",
     "Python.2843. Count Symmetric Integers.executor": "Run",
@@ -415,22 +417,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00303" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1744121498939</created>
-      <option name="number" value="00303" />
-      <option name="presentableId" value="LOCAL-00303" />
-      <option name="project" value="LOCAL" />
-      <updated>1744121498939</updated>
-    </task>
-    <task id="LOCAL-00304" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1744210895288</created>
-      <option name="number" value="00304" />
-      <option name="presentableId" value="LOCAL-00304" />
-      <option name="project" value="LOCAL" />
-      <updated>1744210895288</updated>
     </task>
     <task id="LOCAL-00305" summary="Basic">
       <option name="closed" value="true" />
@@ -808,7 +794,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748440203001</updated>
     </task>
-    <option name="localTasksCounter" value="352" />
+    <task id="LOCAL-00352" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748521884981</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1748521884981</updated>
+    </task>
+    <task id="LOCAL-00353" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748524892747</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1748524892747</updated>
+    </task>
+    <option name="localTasksCounter" value="354" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
