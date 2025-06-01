@@ -1,4 +1,11 @@
 
+from typing import Optional
+
+# Definition for singly-linked list.
+class ListNode:
+     def __init__(self, val=0, next=None):
+         self.val = val
+         self.next = next
 
 class Solution:
     def build_linked_list(self, values):
@@ -11,8 +18,16 @@ class Solution:
             current = current.next
         return head
 
-    def mergeNodes(self, head: Optional[listNode]) -> Optional[ListNode]:
-        dummy = listNode(0)  # Temporary start node
+    def to_list(self,head):
+        result = []
+        current = head
+        while current:
+            result.append(current.val)
+            current = current.next
+        return result
+
+    def mergeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode(0)  # Temporary start node
         tail = dummy
         total = 0
         curr = head
@@ -29,9 +44,13 @@ class Solution:
 
         return dummy.next
 
+sol = Solution()
 
 x = [0,3,1,0,4,5,2,0]
 
-sol = Solution()
+y = sol.build_linked_list(x)
 
-sol
+z = sol.mergeNodes(y)
+
+print(sol.to_list(z))
+#[4, 11]
