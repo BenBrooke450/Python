@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2130. Maximum Twin Sum of a Linked List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/725. Split Linked List in Parts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/725. Split Linked List in Parts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,6 +345,7 @@
     "Python.70. Climbing Stairs.executor": "Run",
     "Python.709. To Lower Case.executor": "Run",
     "Python.724. Find Pivot Index.executor": "Run",
+    "Python.725. Split Linked List in Parts.executor": "Run",
     "Python.728. Self Dividing Numbers.executor": "Run",
     "Python.744. Find Smallest Letter Greater Than Target.executor": "Run",
     "Python.746. Min Cost Climbing Stairs.executor": "Run",
@@ -419,30 +421,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00314" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1744903772886</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1744903772886</updated>
-    </task>
-    <task id="LOCAL-00315" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745188778146</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1745188778148</updated>
-    </task>
-    <task id="LOCAL-00316" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745190317369</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1745190317369</updated>
     </task>
     <task id="LOCAL-00317" summary="Basic">
       <option name="closed" value="true" />
@@ -812,7 +790,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748884593456</updated>
     </task>
-    <option name="localTasksCounter" value="363" />
+    <task id="LOCAL-00363" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748891301761</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1748891301761</updated>
+    </task>
+    <task id="LOCAL-00364" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748891333955</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1748891333955</updated>
+    </task>
+    <task id="LOCAL-00365" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748965999842</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1748965999842</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -26,6 +26,11 @@ The input has been split into consecutive parts with size difference at most 1, 
 
 """
 
+from typing import Optional
+# Definition for singly-linked list.
+
+import numpy as np
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
