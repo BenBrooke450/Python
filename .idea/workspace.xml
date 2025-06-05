@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1561. Maximum Number of Coins You Can Get.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/725. Split Linked List in Parts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/725. Split Linked List in Parts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +99,7 @@
     "Python.1539. Kth Missing Positive Number.executor": "Run",
     "Python.1544. Make The String Great.executor": "Run",
     "Python.1556. Thousand Separator.executor": "Run",
+    "Python.1561. Maximum Number of Coins You Can Get.executor": "Run",
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
     "Python.1592. Rearrange Spaces Between Words.executor": "Run",
     "Python.160. Find Words That Can Be Formed by Characters.executor": "Run",
@@ -198,7 +199,9 @@
     "Python.2315. Count Asterisks.executor": "Run",
     "Python.2335. Minimum Amount of Time to Fill Cups.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
+    "Python.2375. Construct Smallest Number From DI String.executor": "Run",
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
+    "Python.2391. Minimum Amount of Time to Collect Garbage.executor": "Run",
     "Python.2395. Find Subarrays With Equal Sum.executor": "Run",
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
     "Python.242. Valid Anagram.executor": "Run",
@@ -421,22 +424,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00317" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745234783271</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1745234783271</updated>
-    </task>
-    <task id="LOCAL-00318" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745349793499</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1745349793499</updated>
     </task>
     <task id="LOCAL-00319" summary="Basic">
       <option name="closed" value="true" />
@@ -814,7 +801,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748965999842</updated>
     </task>
-    <option name="localTasksCounter" value="366" />
+    <task id="LOCAL-00366" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1748967541438</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1748967541438</updated>
+    </task>
+    <task id="LOCAL-00367" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749066201331</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1749066201331</updated>
+    </task>
+    <option name="localTasksCounter" value="368" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
