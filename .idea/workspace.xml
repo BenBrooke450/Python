@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1561. Maximum Number of Coins You Can Get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/950. Reveal Cards In Increasing Order.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2375. Construct Smallest Number From DI String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2375. Construct Smallest Number From DI String.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     "Python.1037. Valid Boomerang.executor": "Run",
     "Python.1046. Last Stone Weight.executor": "Run",
     "Python.1051. Height Checker.executor": "Run",
+    "Python.1079. Letter Tile Possibilities.executor": "Run",
     "Python.1103. Distribute Candies to People.executor": "Run",
     "Python.1108. Defanging an IP Address.executor": "Run",
     "Python.1137. N-th Tribonacci Number.executor": "Run",
@@ -371,6 +373,7 @@
     "Python.925. Long Pressed Name.executor": "Run",
     "Python.929. Unique Email Addresses.executor": "Run",
     "Python.942. DI String Match.executor": "Run",
+    "Python.950. Reveal Cards In Increasing Order.executor": "Run",
     "Python.977. Squares of a Sorted Array.executor": "Run",
     "Python.999. Available Captures for Rook.executor": "Run",
     "Python.Crappy code.executor": "Run",
@@ -424,22 +427,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00319" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745349936206</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1745349936206</updated>
-    </task>
-    <task id="LOCAL-00320" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745422113005</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1745422113005</updated>
     </task>
     <task id="LOCAL-00321" summary="Basic">
       <option name="closed" value="true" />
@@ -817,7 +804,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749066201331</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749141692705</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1749141692705</updated>
+    </task>
+    <task id="LOCAL-00369" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749165262821</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1749165262821</updated>
+    </task>
+    <option name="localTasksCounter" value="370" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -39,7 +39,7 @@ def smallestNumber(pattern: str) -> str:
     while k + 1 < len(n):
         if pattern[k] == "I":
             list1.append(n[k])
-            
+
         k = k + 1
 
     return n
@@ -63,21 +63,3 @@ print(smallestNumber("IIIDIDDD"))
             x = "I".split(pattern[i:])
             x = len([0])
             j = j + """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
