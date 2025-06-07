@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/950. Reveal Cards In Increasing Order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1409. Queries on a Permutation With Key.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2375. Construct Smallest Number From DI String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2375. Construct Smallest Number From DI String.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,7 @@
     "Python.14. Longest Common Prefix.executor": "Run",
     "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
     "Python.1408. String Matching in an Array.executor": "Run",
+    "Python.1409. Queries on a Permutation With Key.executor": "Run",
     "Python.1422. Maximum Score After Splitting a String.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1436. Destination City.executor": "Run",
@@ -427,14 +427,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00321" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745611245393</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1745611245394</updated>
     </task>
     <task id="LOCAL-00322" summary="Basic">
       <option name="closed" value="true" />
@@ -820,7 +812,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749165262821</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749226248890</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1749226248890</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
