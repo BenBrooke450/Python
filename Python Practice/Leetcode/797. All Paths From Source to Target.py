@@ -25,6 +25,29 @@ Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
 
 def allPathsSourceTarget(graph: list[list[int]]) -> list[list[int]]:
 
+    node_zero = graph[0]
+    dict1 = dict()
+    list1 = []
+    list2 = []
+    for i,x in enumerate(node_zero):
+        list1 = [0]
+        j = 0
+        while True:
+            x in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

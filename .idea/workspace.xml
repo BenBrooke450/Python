@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1669. Merge In Between Linked Lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1551. Minimum Operations to Make Array Equal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +101,7 @@
     "Python.1534. Count Good Triplets.executor": "Run",
     "Python.1539. Kth Missing Positive Number.executor": "Run",
     "Python.1544. Make The String Great.executor": "Run",
+    "Python.1551. Minimum Operations to Make Array Equal.executor": "Run",
     "Python.1556. Thousand Separator.executor": "Run",
     "Python.1561. Maximum Number of Coins You Can Get.executor": "Run",
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
@@ -429,14 +430,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00323" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745770447818</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1745770447818</updated>
     </task>
     <task id="LOCAL-00324" summary="Basic">
       <option name="closed" value="true" />
@@ -822,7 +815,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749297527274</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749398147239</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1749398147239</updated>
+    </task>
+    <option name="localTasksCounter" value="373" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
