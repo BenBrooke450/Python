@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1551. Minimum Operations to Make Array Equal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1877. Minimize Maximum Pair Sum in Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +143,7 @@
     "Python.1844. Replace All Digits with Characters.executor": "Run",
     "Python.1848. Minimum Distance to the Target Element.executor": "Run",
     "Python.1854. Maximum Population Year.executor": "Run",
+    "Python.1877. Minimize Maximum Pair Sum in Array.executor": "Run",
     "Python.1903. Largest Odd Number in String.executor": "Run",
     "Python.1913. Maximum Product Difference Between Two Pairs.executor": "Run",
     "Python.1925. Count Square Sum Triples.executor": "Run",
@@ -430,14 +430,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00324" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745770558968</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1745770558968</updated>
     </task>
     <task id="LOCAL-00325" summary="Basic">
       <option name="closed" value="true" />
@@ -823,7 +815,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749398147239</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <task id="LOCAL-00373" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749589626636</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1749589626636</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
