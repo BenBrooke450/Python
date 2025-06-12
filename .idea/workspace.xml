@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1877. Minimize Maximum Pair Sum in Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/78. Subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -360,6 +360,7 @@
     "Python.747. Largest Number At Least Twice of Others.executor": "Run",
     "Python.748. Shortest Completing Word.executor": "Run",
     "Python.771. Jewels and Stones.executor": "Run",
+    "Python.78. Subsets.executor": "Run",
     "Python.796. Rotate String.executor": "Run",
     "Python.804. Unique Morse Code Words.executor": "Run",
     "Python.806. Number of Lines To Write String.executor": "Run",
@@ -430,14 +431,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00325" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1745937400317</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1745937400319</updated>
     </task>
     <task id="LOCAL-00326" summary="Basic">
       <option name="closed" value="true" />
@@ -823,7 +816,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749589626636</updated>
     </task>
-    <option name="localTasksCounter" value="374" />
+    <task id="LOCAL-00374" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1749656268244</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1749656268244</updated>
+    </task>
+    <option name="localTasksCounter" value="375" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
