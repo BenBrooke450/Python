@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2785. Sort Vowels in a String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2442. Count Number of Distinct Integers After Reverse Operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,6 +211,7 @@
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
+    "Python.2442. Count Number of Distinct Integers After Reverse Operations.executor": "Run",
     "Python.2460. Apply Operations to an Array.executor": "Run",
     "Python.2465. Number of Distinct Averages.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
@@ -251,6 +252,7 @@
     "Python.2739. Total Distance Traveled.executor": "Run",
     "Python.2744. Find Maximum Number of String Pairs.executor": "Run",
     "Python.2778. Sum of Squares of Special Elements.executor": "Run",
+    "Python.2785. Sort Vowels in a String.executor": "Run",
     "Python.2798. Number of Employees Who Met the Target.executor": "Run",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
     "Python.2807. Insert Greatest Common Divisors in Linked List.executor": "Run",
@@ -421,7 +423,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
@@ -433,14 +435,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00329" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1746286411870</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1746286411870</updated>
     </task>
     <task id="LOCAL-00330" summary="Basic">
       <option name="closed" value="true" />
@@ -826,7 +820,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750004789729</updated>
     </task>
-    <option name="localTasksCounter" value="378" />
+    <task id="LOCAL-00378" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1750005746050</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1750005746050</updated>
+    </task>
+    <option name="localTasksCounter" value="379" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
