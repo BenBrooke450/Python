@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2442. Count Number of Distinct Integers After Reverse Operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2079. Watering Plants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +170,7 @@
     "Python.2057. Smallest Index With Equal Value.executor": "Run",
     "Python.2062. Count Vowel Substrings of a String.executor": "Run",
     "Python.2078. Two Furthest Houses With Different Colors.executor": "Run",
+    "Python.2079. Watering Plants.executor": "Run",
     "Python.2085. Count Common Words With One Occurrence.executor": "Run",
     "Python.2094. Finding 3-Digit Even Numbers.executor": "Run",
     "Python.2103. Rings and Rods.executor": "Run",
@@ -435,14 +436,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00330" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1746380622757</created>
-      <option name="number" value="00330" />
-      <option name="presentableId" value="LOCAL-00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1746380622757</updated>
     </task>
     <task id="LOCAL-00331" summary="Basic">
       <option name="closed" value="true" />
@@ -828,7 +821,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750005746050</updated>
     </task>
-    <option name="localTasksCounter" value="379" />
+    <task id="LOCAL-00379" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1750097448782</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1750097448783</updated>
+    </task>
+    <option name="localTasksCounter" value="380" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
