@@ -35,16 +35,15 @@ def canVisitAllRooms(rooms: list[list[int]]) -> bool:
 
     def again(room):
         for x in room:
-            print(x,room,i)
-            list1.append(x)
-            room = rooms[x]
-            if len(room) == 0 or x in room:
-                return
+            if x in list1:
+                continue
             else:
-                again(room)
+                print("IN:",x, room)
+                list1.append(x)
+                new_room = rooms[x]
+                again(new_room)
 
-    for i in range(len(rooms)):
-        again(rooms[i])
+    again(rooms[0])
 
     if len(set(list1)) == l:
         return True
