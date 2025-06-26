@@ -38,17 +38,11 @@ def combinationSum(candidates: list[int], target: int) -> list[list[int]]:
     list1 = []
     i = 0
     j = 0
-    while i < len(candidates):
-        new_target = target - candidates[j]
-        print(new_target)
-        if new_target < 0:
-            new_target = new_target + candidates[j]
-            if new_target in candidates:
-                print(new_target)
-            else:
+    def backt(cand):
+        temp = []
+        for i in range(len(cand)):
 
-
-        elif new_target == 0:
+            temp.append(cand[i])
 
 
 
@@ -73,7 +67,9 @@ def combinationSum(candidates: list[int], target: int) -> list[list[int]]:
 
     return list1
 
+
 print(combinationSum(candidates = [2,3,6,7], target = 7))
+#[(), (2,), (3,), (6,), (7,), (2, 3), (2, 6), (2, 7), (3, 6), (3, 7), (6, 7), (2, 3, 6), (2, 3, 7), (2, 6, 7), (3, 6, 7)]
 
 
 
