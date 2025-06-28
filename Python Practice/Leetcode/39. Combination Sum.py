@@ -33,17 +33,20 @@ Output: []
 
 """
 
-from itertools import combinations, chain
 def combinationSum(candidates: list[int], target: int) -> list[list[int]]:
     list1 = []
-    i = 0
-    j = 0
-    def backt(cand):
-        temp = []
-        for i in range(len(cand)):
+    def backtrack(start, path):
+        for i in range(start, len(candidates)):
+            path.append(candidates[i])
+            if sum(path) < target:
+                backtrack(i, path)
+            elif sum(path) == target:
+                list1.append(path)
+                print(list1)
+            backtrack(i + 1, path)
+            path.pop()
 
-            temp.append(cand[i])
-
+    backtrack(0, [])
 
 
 
@@ -68,7 +71,7 @@ def combinationSum(candidates: list[int], target: int) -> list[list[int]]:
     return list1
 
 
-print(combinationSum(candidates = [2,3,6,7], target = 7))
+#print(combinationSum(candidates = [2,3,6,7], target = 7))
 #[(), (2,), (3,), (6,), (7,), (2, 3), (2, 6), (2, 7), (3, 6), (3, 7), (6, 7), (2, 3, 6), (2, 3, 7), (2, 6, 7), (3, 6, 7)]
 
 
