@@ -35,21 +35,22 @@ Output: []
 
 def combinationSum(candidates: list[int], target: int) -> list[list[int]]:
     list1 = []
+    seen = set()
     def backtrack(start, path):
         for i in range(start, len(candidates)):
+            print(path)
             path.append(candidates[i])
             if sum(path) < target:
                 backtrack(i, path)
             elif sum(path) == target:
-                list1.append(path)
-                print(list1)
+                if tuple(path) not in seen:
+                    seen.add(tuple(path))
+                    list1.append(path[:])
+                    pass
             backtrack(i + 1, path)
             path.pop()
-
     backtrack(0, [])
-
-
-
+    return list1
 
 
 print(combinationSum(candidates = [2,3,6,7], target = 7))
