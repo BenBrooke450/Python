@@ -5,6 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/Section 14.1 Python Collections Module.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/Section 14.2 Math and Random Module.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -443,22 +458,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00344" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1747437427214</created>
-      <option name="number" value="00344" />
-      <option name="presentableId" value="LOCAL-00344" />
-      <option name="project" value="LOCAL" />
-      <updated>1747437427214</updated>
-    </task>
-    <task id="LOCAL-00345" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1747605408007</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
-      <option name="project" value="LOCAL" />
-      <updated>1747605408008</updated>
-    </task>
     <task id="LOCAL-00346" summary="Basic">
       <option name="closed" value="true" />
       <created>1747661222924</created>
@@ -835,8 +834,35 @@
       <option name="project" value="LOCAL" />
       <updated>1751111889928</updated>
     </task>
-    <option name="localTasksCounter" value="393" />
+    <task id="LOCAL-00393" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1751113015911</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1751113015911</updated>
+    </task>
+    <task id="LOCAL-00394" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1751113162401</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1751113162401</updated>
+    </task>
+    <option name="localTasksCounter" value="395" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic" />
