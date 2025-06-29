@@ -317,6 +317,7 @@ while game_on:
                     player_one_cards.append(player_one.remove_one())
                     player_two_cards.append(player_two.remove_one())
 
+"""
 Round 1
 Round 2
 Round 3
@@ -442,7 +443,7 @@ Round 113
 WAR!
 Player Two unable to play war! Game Over at War
 Player One Wins! Player One Loses!
-
+"""
 
 ####################################################################
 #HOW TO DO IT IN THE ACTUAL COURSE WITH CLASSES
