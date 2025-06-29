@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/Section 5.1 For Loops.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/Section 5.2 While loop.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/Section 5.3 Useful Operators.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Bookcamp - Udemy/Section 5.4 List Comprehensions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/75. Sort Colors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -373,6 +370,7 @@
     "Python.746. Min Cost Climbing Stairs.executor": "Run",
     "Python.747. Largest Number At Least Twice of Others.executor": "Run",
     "Python.748. Shortest Completing Word.executor": "Run",
+    "Python.75. Sort Colors.executor": "Run",
     "Python.771. Jewels and Stones.executor": "Run",
     "Python.78. Subsets.executor": "Run",
     "Python.796. Rotate String.executor": "Run",
@@ -448,14 +446,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00348" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1747926511714</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
-      <option name="project" value="LOCAL" />
-      <updated>1747926511714</updated>
     </task>
     <task id="LOCAL-00349" summary="Basic">
       <option name="closed" value="true" />
@@ -841,7 +831,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751196544534</updated>
     </task>
-    <option name="localTasksCounter" value="397" />
+    <task id="LOCAL-00397" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1751200769967</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1751200769967</updated>
+    </task>
+    <option name="localTasksCounter" value="398" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
