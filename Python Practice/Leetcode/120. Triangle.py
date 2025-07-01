@@ -31,12 +31,21 @@ def minimumTotal(triangle: list[list[int]]) -> int:
 
     def move(n,list1,i,j):
         print("FIRST:",list1[i])
-        print("SECOND:",list1[i][0:j + 2])
-
+        print("SECOND:",list1[i][0])
         i = i + 1
-        j = j + 1
         if i >= len(list1):
-            return
+            if len(list1[-1]) == 1:
+                return
+            else:
+                print("NEW-------")
+                j = j + 1
+                if j >= len(list1):
+                    j = 0
+                    pass
+                print(i,j)
+                list1[i-j] = list1[i-j][1:]
+                i = 0
+                move(n, list1, i, j)
         else:
             move(n,list1,i,j)
 
