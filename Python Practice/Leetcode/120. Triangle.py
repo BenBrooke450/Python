@@ -27,6 +27,47 @@ Output: -10
 
 
 def minimumTotal(triangle: list[list[int]]) -> int:
+    # Start from second last row and go upward
+    for row in range(len(triangle) - 2, -1, -1):
+        for col in range(len(triangle[row])):
+            print(row,col)
+            # Update each element with min path sum from row below
+            print(triangle)
+            triangle[row][col] += min(triangle[row + 1][col], triangle[row + 1][col + 1])
+
+    # The top element now contains the minimum path sum
+    return triangle[0][0]
+
+
+
+print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
+"""
+2 0
+[[2], [3, 4], [6, 5, 7], [4, 1, 8, 3]]
+2 1
+[[2], [3, 4], [7, 5, 7], [4, 1, 8, 3]]
+2 2
+[[2], [3, 4], [7, 6, 7], [4, 1, 8, 3]]
+1 0
+[[2], [3, 4], [7, 6, 10], [4, 1, 8, 3]]
+1 1
+[[2], [9, 4], [7, 6, 10], [4, 1, 8, 3]]
+0 0
+[[2], [9, 10], [7, 6, 10], [4, 1, 8, 3]]
+11
+"""
+
+
+
+
+
+
+
+
+
+
+
+def minimumTotal(triangle: list[list[int]]) -> int:
 
 
     def move(n,list1,i,j):
@@ -53,10 +94,3 @@ def minimumTotal(triangle: list[list[int]]) -> int:
 
     return triangle
 
-
-
-
-
-
-
-print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
