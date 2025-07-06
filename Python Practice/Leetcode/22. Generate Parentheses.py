@@ -20,9 +20,32 @@ from itertools  import combinations,permutations
 def generateParenthesis(n: int) -> list[str]:
     string = "("*n + n*")"
     com_strings = list(set("".join(x) for x in list(permutations(string))))
+    list1 = []
     for y in com_strings:
-        for j in y:
-            if j == ")":
+        t = 0
+        for i in range(len(y)):
+            print(i,t)
+            if y[i] == ")":
+                t = t - 1
+                if t < 0:
+                    break
+
+                elif i + 1 == len(y) and t == 0:
+                    list1.append(y)
+
+            elif y[i] == "(":
+                t = t + 1
+                if i + 1 == len(y) and t == 0:
+                    list1.append(y)
+    return list1
+
+
+
+
+
+
+
+
 
     return com_strings
 
