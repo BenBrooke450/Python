@@ -40,16 +40,7 @@ def generateParenthesis(n: int) -> list[str]:
     return list1
 
 
-
-
-
-
-
-
-
-    return com_strings
-
-print(generateParenthesis(3))
+print(generateParenthesis(7))
 
 
 
