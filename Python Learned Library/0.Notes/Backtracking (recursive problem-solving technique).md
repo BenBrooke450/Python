@@ -278,3 +278,39 @@ print(generate(5))
 #[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
 
 ```
+
+
+
+
+
+
+
+
+
+# Example 2
+
+```python
+
+def generateParenthesis(n: int) -> list[str]:
+    result = []
+
+    def backtrack(current, open_count, close_count):
+        # Base case: valid combination
+        if len(current) == 2 * n:
+            result.append(current)
+            return
+
+        # Add an open parenthesis if we still can
+        if open_count < n:
+            backtrack(current + "(", open_count + 1, close_count)
+
+        # Add a close parenthesis if it won’t break validity
+        if close_count < open_count:
+            backtrack(current + ")", open_count, close_count + 1)
+
+    # Start the recursion
+    backtrack("", 0, 0)
+    return result
+
+print(generateParenthesis(2))
+``
