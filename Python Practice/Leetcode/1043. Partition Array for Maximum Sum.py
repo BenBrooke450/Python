@@ -35,27 +35,65 @@ Output: 1
 
 """
 
+
+
+
+
+
+
+
 import numpy as np
 def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
-    for shift in range(k+2):
+    q = 0
+    for shift in range(k):
         chunks = []
         idx = 0
-        print(k)
         while idx < len(arr):
             size = k
+            if shift > k:
+                shift = shift%k
+            if shift > 0:
+                if len(chunks) == 0:
+                    size = shift
+                else:
+                    size = k
+            chunk = max(arr[idx:idx + size])*len(arr[idx:idx + size])
+            if chunk:
+                chunks.append(chunk)
+            idx += size
+        t = sum(chunks)
+        if t > q:
+            q = t
+    return q
+
+print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
+
+
+
+
+import numpy as np
+def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
+    for shift in range(k+1):
+        chunks = []
+        idx = 0
+        while idx < len(arr):
+            size = k
+            if shift > k:
+                shift = shift%k
             if shift > 0:
                 if len(chunks) == 0:
                     size = shift
                 else:
                     size = k
             chunk = arr[idx:idx + size]
+            print(chunk)
             if chunk:
                 chunks.append(chunk)
             idx += size
 
         print(f"Shift {shift}: {chunks}")
 
-print(maxSumAfterPartitioning(arr = [1,4,1,5,7,3,6,1,9,9,3], k = 4))
+print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
 
 
 

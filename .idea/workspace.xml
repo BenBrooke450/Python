@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2966. Divide Array Into Arrays With Max Difference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1043. Partition Array for Maximum Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1043. Partition Array for Maximum Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "Python.1013. Partition Array Into Three Parts With Equal Sum.executor": "Run",
     "Python.1025. Divisor Game.executor": "Run",
     "Python.1037. Valid Boomerang.executor": "Run",
+    "Python.1043. Partition Array for Maximum Sum.executor": "Run",
     "Python.1046. Last Stone Weight.executor": "Run",
     "Python.1051. Height Checker.executor": "Run",
     "Python.1079. Letter Tile Possibilities.executor": "Run",
@@ -453,22 +454,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00365" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1748965999842</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1748965999842</updated>
-    </task>
-    <task id="LOCAL-00366" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1748967541438</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1748967541438</updated>
-    </task>
     <task id="LOCAL-00367" summary="Basic">
       <option name="closed" value="true" />
       <created>1749066201331</created>
@@ -845,7 +830,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751913857169</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1751997616534</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1751997616534</updated>
+    </task>
+    <task id="LOCAL-00415" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1752017570014</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1752017570014</updated>
+    </task>
+    <option name="localTasksCounter" value="416" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
