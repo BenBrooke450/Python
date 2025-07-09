@@ -34,6 +34,19 @@ Input: arr = [1], k = 1
 Output: 1
 
 """
+import numpy as np
+def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
+
+    arr_max = sorted(arr,reverse=True)[:k]
+    for i,x in enumerate(arr_max):
+        w = arr.index(x)
+        arr[w] = -i
+
+
+    return arr
+
+
+print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
 
 
 
@@ -66,7 +79,6 @@ def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
             q = t
     return q
 
-print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
 
 
 
@@ -93,7 +105,6 @@ def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
 
         print(f"Shift {shift}: {chunks}")
 
-print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
 
 
 
