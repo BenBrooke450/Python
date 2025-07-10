@@ -40,19 +40,22 @@ def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
     i = 0
     q = 0
     j = 0
+    r = 0
     while i < len(arr):
-        max_x = max(arr[j:j+k+1])
+        max_x = max(arr[j:j+k+1 - r])
 
-        print(arr[j:j + k + 1],"MAX:",max_x," length:",len(arr[j:j + k + 1])," total:",q,"position: ",i%k+2, k+1)
+        print(arr[j:j + k + 1 - r],len(arr[j:j + k + 1 - r]))
 
         if np.argmax(arr[j:j + k + 1]) + 1 == len(arr[j:j + k + 1]) and len(arr[j:j + k + 1]) > k :
             j = i + 1
             q = q + arr[i]
+            r = 1
+            print(q,arr[i])
 
-        if i%k+2 == k+1:
+        if i%k+2 == len(arr[j:j + k]) + 1:
+            print(q, max_x,len(arr[j:j + k]))
             q = q + max_x*len(arr[j:j + k])
             j = i + 1
-
         i = i + 1
 
     return q
