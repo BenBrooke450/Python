@@ -35,19 +35,29 @@ Output: 1
 
 """
 import numpy as np
+import itertools as it
 def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
+    i = 0
+    q = 0
+    j = 0
+    while i < len(arr):
+        max_x = max(arr[j:j+k+1])
+        print(arr[j:j + k + 1],len(arr[j:j + k + 1]),q)
+        if np.argmax(arr[j:j + k + 1]) + 1 == len(arr[j:j + k + 1]) and len(arr[j:j + k + 1]) > k :
+            j = i + 1
+            q = q + arr[i]
 
-    arr_max = sorted(arr,reverse=True)[:k]
-    for i,x in enumerate(arr_max):
-        w = arr.index(x)
-        arr[w] = -i
+        if i%k+2 == k+1:
+            q = q + max_x*k
+            j = i + 1
+        i = i + 1
 
-
-    return arr
-
+    return q
 
 print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
 
+
+print(maxSumAfterPartitioning([1,4,1,5,7,3,6,1,9,9,3]))
 
 
 
