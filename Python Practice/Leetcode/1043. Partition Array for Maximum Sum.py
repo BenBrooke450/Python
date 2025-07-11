@@ -34,6 +34,37 @@ Input: arr = [1], k = 1
 Output: 1
 
 """
+
+
+def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
+    n = len(arr)
+    dp = [0] * (n + 1)
+
+    i = n - 1
+    while i >= 0:
+        max_val = 0
+        best = 0
+        for j in range(i, min(i + k, n)):
+            print(" j:",j," i:",i," min:",min(i + k, n))
+            max_val = max(max_val, arr[j])
+            print("max_val:",max_val,)
+            length = j - i + 1
+            total = max_val * length + dp[j + 1]
+            best = max(best, total)
+        dp[i] = best
+        i -= 1
+
+    return dp[0]
+
+print(maxSumAfterPartitioning([1,4,1,5,7,3,6,1,9,9,3], k = 4))
+
+
+
+
+
+
+
+
 import numpy as np
 import itertools as it
 def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
@@ -62,7 +93,7 @@ def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
 
 #print(maxSumAfterPartitioning(arr = [1,15,7,9,2,5,10], k = 3))
 
-print(maxSumAfterPartitioning([1,4,1,5,7,3,6,1,9,9,3], k = 4))
+#print(maxSumAfterPartitioning([1,4,1,5,7,3,6,1,9,9,3], k = 4))
 
 
 
