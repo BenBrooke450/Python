@@ -45,9 +45,7 @@ def maxSumAfterPartitioning(arr: list[int], k: int) -> int:
         max_val = 0
         best = 0
         for j in range(i, min(i + k, n)):
-            print(" j:",j," i:",i," min:",min(i + k, n))
             max_val = max(max_val, arr[j])
-            print("max_val:",max_val,)
             length = j - i + 1
             total = max_val * length + dp[j + 1]
             best = max(best, total)
