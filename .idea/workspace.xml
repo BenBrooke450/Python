@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2545. Sort the Students by Their Kth Score.py" afterDir="false" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Merge remote-tracking branch 'PYnative/main'">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2125. Number of Laser Beams in a Bank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1043. Partition Array for Maximum Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1043. Partition Array for Maximum Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +183,7 @@
     "Python.2103. Rings and Rods.executor": "Run",
     "Python.2119. A Number After a Double Reversal.executor": "Run",
     "Python.2124. Check if All A's Appears Before All B's.executor": "Run",
+    "Python.2125. Number of Laser Beams in a Bank.executor": "Run",
     "Python.2129. Capitalize the Title.executor": "Run",
     "Python.2130. Maximum Twin Sum of a Linked List.executor": "Run",
     "Python.2138. Divide a String Into Groups of Size k.executor": "Run",
@@ -455,14 +455,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00373" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1749589626636</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1749589626636</updated>
     </task>
     <task id="LOCAL-00374" summary="Basic">
       <option name="closed" value="true" />
@@ -848,7 +840,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752247677746</updated>
     </task>
-    <option name="localTasksCounter" value="422" />
+    <task id="LOCAL-00422" summary="Merge remote-tracking branch 'PYnative/main'">
+      <option name="closed" value="true" />
+      <created>1752270065856</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1752270065857</updated>
+    </task>
+    <option name="localTasksCounter" value="423" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -864,6 +864,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic" />
+    <MESSAGE value="Merge remote-tracking branch 'PYnative/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'PYnative/main'" />
   </component>
 </project>
