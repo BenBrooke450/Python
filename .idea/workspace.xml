@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1769. Minimum Number of Operations to Move All Balls to Each Box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
     "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
     "Python.1282. Group the People Given the Group Size They Belong To.executor": "Run",
+    "Python.1290. Convert Binary Number in a Linked List to Integer.executor": "Run",
     "Python.1295. Find Numbers with Even Number of Digits.executor": "Run",
     "Python.1299. Replace Elements with Greatest Element on Right Side.executor": "Run",
     "Python.13. Roman to Integer.executor": "Run",
@@ -138,6 +139,7 @@
     "Python.1752. Check if Array Is Sorted and Rotated.executor": "Run",
     "Python.1763. Longest Nice Substring.executor": "Run",
     "Python.1768. Merge Strings Alternately.executor": "Run",
+    "Python.1769. Minimum Number of Operations to Move All Balls to Each Box.executor": "Run",
     "Python.1780. Check if Number is a Sum of Powers of Three.executor": "Run",
     "Python.1791. Find Center of Star Graph.executor": "Run",
     "Python.1805. Number of Different Integers in a String.executor": "Run",
@@ -426,7 +428,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python",
-    "settings.editor.selected.configurable": "org.jetbrains.r.configuration.RSettingsProjectConfigurable"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -456,22 +458,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00379" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750097448782</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1750097448783</updated>
-    </task>
-    <task id="LOCAL-00380" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750172100200</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1750172100200</updated>
     </task>
     <task id="LOCAL-00381" summary="Basic">
       <option name="closed" value="true" />
@@ -849,7 +835,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752503750974</updated>
     </task>
-    <option name="localTasksCounter" value="428" />
+    <task id="LOCAL-00428" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752504316689</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504316689</updated>
+    </task>
+    <task id="LOCAL-00429" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752511977541</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1752511977541</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
