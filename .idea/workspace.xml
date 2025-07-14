@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="Merge remote-tracking branch 'PYnative/main'">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/890. Find and Replace Pattern.py" afterDir="false" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,22 +457,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00377" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750004789728</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1750004789729</updated>
-    </task>
-    <task id="LOCAL-00378" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750005746050</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1750005746050</updated>
-    </task>
     <task id="LOCAL-00379" summary="Basic">
       <option name="closed" value="true" />
       <created>1750097448782</created>
@@ -849,7 +833,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752331138859</updated>
     </task>
-    <option name="localTasksCounter" value="426" />
+    <task id="LOCAL-00426" summary="Merge remote-tracking branch 'PYnative/main'">
+      <option name="closed" value="true" />
+      <created>1752408022287</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1752408022288</updated>
+    </task>
+    <task id="LOCAL-00427" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752503750974</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1752503750974</updated>
+    </task>
+    <option name="localTasksCounter" value="428" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -866,6 +866,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic" />
     <MESSAGE value="Merge remote-tracking branch 'PYnative/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'PYnative/main'" />
+    <MESSAGE value="basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic" />
   </component>
 </project>

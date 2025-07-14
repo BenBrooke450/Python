@@ -371,7 +371,8 @@ ll.print_list()
 
 
 
-```python
+<br><br>
+
 You can create a new linked list by copying or selectively
     adding elements from an existing linked list. 
         This is a common pattern when you want to:
@@ -379,21 +380,22 @@ You can create a new linked list by copying or selectively
 Filter or transform the data, Remove certain nodes, Clone the list, or Build a new one with added logic.
  
 
- 
 
 Example: Create a new linked list from another
 
 Let’s assume you already have a basic ListNode and LinkedList class like this:
 
  
+<br><br>
 
- 
+# Example 1
 
+```python
 #########################################################
 
-list1: ListNode → function expects a non-empty linked list (head node). Cannot pass None.
+#list1: ListNode → function expects a non-empty linked list (head node). Cannot pass None.
 
-list1: Optional[ListNode] → function can handle an empty list (None) or a regular linked list (ListNode).
+#list1: Optional[ListNode] → function can handle an empty list (None) or a regular linked list (ListNode).
 
  
 
@@ -428,7 +430,7 @@ class ListNode:
 
  
 
-🧪 Example 1: Copy elements to a new list
+# Example 1: Copy elements to a new list
 
 
 
@@ -575,5 +577,105 @@ z = sol.mergeNodes(y)
 print(sol.to_list(z))
 
 #[4, 11]
+
+```
+
+
+
+# Example 2
+
+from typing import Optional
+
+import numpy as np
+
+# Definition for singly-linked list.
+
+ 
+
+```python
+
+class ListNode:
+
+     def __init__(self, val=0, next=None):
+
+         self.val = val
+
+         self.next = next
+
+ 
+
+ 
+
+class Solution:
+
+    def build_linked_list(self, values):
+
+        if not values:
+
+            return None
+
+        head = ListNode(values[0])
+
+        current = head
+
+        for val in values[1:]:
+
+            current.next = ListNode(val)
+
+            current = current.next
+
+        return head
+
+ 
+
+    def mergeInBetween(list1: ListNode, a: int, b: int, list2: ListNode):
+
+ 
+
+        array1 = np.array([])
+
+        array2 = np.array([])
+
+        curr_1 = list1
+
+        curr_2 = list2
+
+ 
+
+        # Process list1
+
+        while curr_1:
+
+            array1 = np.append(array1, curr_1.val)
+
+            curr_1 = curr_1.next
+
+ 
+
+        # Process list2
+
+        while curr_2:
+
+            array2 = np.append(array2, curr_2.val)
+
+            curr_2 = curr_2.next
+
+        return array1, array2
+
+ 
+
+ 
+
+sol = Solution()
+
+x = sol.build_linked_list([10,1,13,6,9,5])
+
+y = sol.build_linked_list([1000000,1000001,1000002])
+
+ 
+
+print(Solution.mergeInBetween(list1 = x, a = 3, b = 4, list2 = y))
+
+#(array([10.,  1., 13.,  6.,  9.,  5.]), array([1000000., 1000001., 1000002.]))
 
 ```
