@@ -57,7 +57,9 @@ class LinkedList:
 Variants:
 
 Singly Linked List – each node points to next only
+
 Doubly Linked List – each node has next and prev
+
 Circular Linked List – last node points back to head
  
 
@@ -164,12 +166,6 @@ ll = LinkedList()         # create an empty linked list
 ll.head = Node(10)        # add first node manually
 
 ll.head.next = Node(20)   # link second node
-
-```
-
-<br><br><br> 
-
-```python
 
 #What does this line do?
 
@@ -360,7 +356,7 @@ ll.append(10)  # you're passing 10 to the 'data' parameter
 
  
 
-#2️⃣ def print_list(self):
+#2 def print_list(self):
 
 #This method does not need any extra information. It simply loops through the list and prints what's already there.
 
@@ -369,9 +365,6 @@ ll.print_list()
  
 ```
 
-
-
-<br><br>
 
 You can create a new linked list by copying or selectively
     adding elements from an existing linked list. 
@@ -390,71 +383,59 @@ Let’s assume you already have a basic ListNode and LinkedList class like this:
 
 # Example 1
 
+### list1: ListNode → function expects a non-empty linked list (head node). Cannot pass None.
+
+### list1: Optional[ListNode] → function can handle an empty list (None) or a regular linked list (ListNode).
+
+ 
+
+ 
 ```python
-#########################################################
-
-#list1: ListNode → function expects a non-empty linked list (head node). Cannot pass None.
-
-#list1: Optional[ListNode] → function can handle an empty list (None) or a regular linked list (ListNode).
-
- 
-
- 
-
-def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
-
-#Then your function will be called by the test system with arguments like this:
-
-list1 = ListNode(1, ListNode(3, ListNode(5)))
-
-list2 = ListNode(2, ListNode(4, ListNode(6)))
-
-mergeTwoLists(list1, list2)
-
- 
-
- 
-
-#########################################################
-
- 
-
- 
-
- 
 
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+        
+class Soltuion:        
+    def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
 
- 
+        #Then your function will be called by the test system with arguments like this:
+
+        list1 = ListNode(1, ListNode(3, ListNode(5)))
+        list2 = ListNode(2, ListNode(4, ListNode(6)))
+
+        
+mergeTwoLists(list1, list2)
+
+
+#########################################################
 
 # Example 1: Copy elements to a new list
 
 
 
-def copy_linked_list(head):
-
-    if not head:
-
-        return None
-
-    dummy = ListNode(0)  # Temporary start node
-
-    tail = dummy
-
-    current = head
-
-    while current:
-
-        tail.next = ListNode(current.val)  # Copy the node
-
-        tail = tail.next
-
-        current = current.next
-
-    return dummy.next # this takes every node but the first missing the 0 you put
+    def copy_linked_list(head):
+    
+        if not head:
+    
+            return None
+    
+        dummy = ListNode(0)  # Temporary start node
+    
+        tail = dummy
+    
+        current = head
+    
+        while current:
+    
+            tail.next = ListNode(current.val)  # Copy the node
+    
+            tail = tail.next
+    
+            current = current.next
+    
+        return dummy.next # this takes every node but the first missing the 0 you put
 
  
 
@@ -475,49 +456,33 @@ from typing import Optional
  
 
 class ListNode:
-
      def __init__(self, val=0, next=None):
-
          self.val = val
-
          self.next = next
 
  
 
 class Solution:
-
     def build_linked_list(self, values):
-
         if not values:
-
             return None
 
         head = ListNode(values[0])
-
         current = head
 
         for val in values[1:]:
-
             current.next = ListNode(val)
-
             current = current.next
-
         return head
 
  
 
     def to_list(self,head):
-
         result = []
-
         current = head
-
         while current:
-
             result.append(current.val)
-
             current = current.next
-
         return result
 
  
@@ -580,57 +545,48 @@ print(sol.to_list(z))
 
 ```
 
+<br><br><br><br>
+
+## def mergeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
+
+## What is head: Optional[ListNode]?
+
+ - head: This is usually the head node of a singly linked list.
+
+ - Optional[ListNode]: This means head can either be a ListNode or None. (Optional is a type hint from Python’s typing module.)
+
+
+<br><br><br><br>
 
 
 # Example 2
 
+## Definition for singly-linked list.
+
+```python
 from typing import Optional
 
 import numpy as np
 
-# Definition for singly-linked list.
-
- 
-
-```python
-
 class ListNode:
-
      def __init__(self, val=0, next=None):
-
          self.val = val
-
          self.next = next
 
- 
-
- 
-
 class Solution:
-
     def build_linked_list(self, values):
-
         if not values:
-
             return None
-
         head = ListNode(values[0])
-
         current = head
-
         for val in values[1:]:
-
             current.next = ListNode(val)
-
             current = current.next
-
         return head
 
  
 
     def mergeInBetween(list1: ListNode, a: int, b: int, list2: ListNode):
-
- 
 
         array1 = np.array([])
 
@@ -640,26 +596,18 @@ class Solution:
 
         curr_2 = list2
 
- 
 
         # Process list1
 
         while curr_1:
-
             array1 = np.append(array1, curr_1.val)
-
             curr_1 = curr_1.next
-
- 
 
         # Process list2
 
         while curr_2:
-
             array2 = np.append(array2, curr_2.val)
-
             curr_2 = curr_2.next
-
         return array1, array2
 
  
@@ -679,3 +627,87 @@ print(Solution.mergeInBetween(list1 = x, a = 3, b = 4, list2 = y))
 #(array([10.,  1., 13.,  6.,  9.,  5.]), array([1000000., 1000001., 1000002.]))
 
 ```
+
+
+<br><br><br><br>
+
+
+# Example 3
+
+## Definition for singly-linked list.
+
+
+```python
+
+from typing import Optional
+
+import numpy as np
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def getDecimalValue(self, head: Optional[ListNode]) -> int:
+        result = []
+        current = head
+        while current:
+            result.append(str(current.val))
+            current = current.next
+        result = "".join(result)
+        return int(result, 2)
+
+
+node3 = ListNode(1)
+node2 = ListNode(0, node3)
+node1 = ListNode(1, node2)
+
+sol = Solution()
+
+print(sol.getDecimalValue(node1))
+['1', '0', '1']
+5
+
+
+
+
+
+
+
+
+
+
+from typing import Optional
+
+import numpy as np
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def getDecimalValue(self, head: Optional[ListNode]) -> int:
+        result = []
+        current = head
+        while current:
+            result.append(current.val)
+            current = current.next
+        return result
+
+
+node3 = ListNode(1)
+node2 = ListNode(0, node3)
+node1 = ListNode(1, node2)
+
+sol = Solution()
+
+print(sol.getDecimalValue(node1))
+#[1, 0, 1]
+
+```
+
+
+

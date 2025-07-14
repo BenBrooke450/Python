@@ -20,5 +20,76 @@ Output: 0
 
 """
 
-def getDecimalValue(self, head: Optional[ListNode]) -> int:
+from typing import Optional
 
+import numpy as np
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def getDecimalValue(self, head: Optional[ListNode]) -> int:
+        result = []
+        current = head
+        while current:
+            result.append(str(current.val))
+            current = current.next
+        result = "".join(result)
+        return int(result, 2)
+
+
+node3 = ListNode(1)
+node2 = ListNode(0, node3)
+node1 = ListNode(1, node2)
+
+sol = Solution()
+
+print(sol.getDecimalValue(node1))
+
+
+
+
+
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def getDecimalValue(self, head: Optional[ListNode]) -> int:
+        result = []
+        current = head
+        while current:
+            result.append(current.val)
+            current = current.next
+        return result
+
+
+node3 = ListNode(1)
+node2 = ListNode(0, node3)
+node1 = ListNode(1, node2)
+
+sol = Solution()
+
+print(sol.getDecimalValue(node1))
+#[1, 0, 1]
+
+
+
+
+
+
+x = 10
+binary = bin(x)                   # '0b101'
+stripped_binary = binary.lstrip('-0b')  # '101'
+print(stripped_binary)           # '101'
+
+stripped_binary = "1011101"
+binary_str = str(stripped_binary)
+x = int(binary_str, 2)
+print(x)  # Output: 5
