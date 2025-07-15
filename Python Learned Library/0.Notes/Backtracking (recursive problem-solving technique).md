@@ -287,7 +287,7 @@ print(generate(5))
 
 
 
-# Example 2
+# Example 3
 
 ```python
 
@@ -313,4 +313,143 @@ def generateParenthesis(n: int) -> list[str]:
     return result
 
 print(generateParenthesis(2))
-``
+```
+
+
+
+
+
+# Example 4
+
+```python
+"""
+Given a directed acyclic graph (DAG) of n nodes labeled
+    from 0 to n - 1, find all possible paths from node 0
+     to node n - 1 and return them in any order.
+
+The graph is given as follows: graph[i] is a list of
+    all nodes you can visit from node i (i.e., there
+     is a directed edge from node i to node graph[i][j]).
+
+
+
+Example 1:
+Input: graph = [[1,2],[3],[3],[]]
+Output: [[0,1,3],[0,2,3]]
+Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
+
+Example 2:
+Input: graph = [[4,3,1],[3,2,4],[3],[4],[]]
+Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
+
+"""
+
+
+def allPathsSourceTarget(graph: list[list[int]]) -> list[list[int]]:
+
+    list1 = []
+    empty_list = []
+
+    def recur(graph,t,empty_list):
+        x = graph[t]
+
+        empty_list.append(t)
+
+        if len(x) == 0:
+            list1.append(empty_list.copy())  # Save a copy of the current path
+            return
+
+        for y in x:
+            recur(graph, y, empty_list.copy())
+            
+        return list1
+    return recur(graph,0,empty_list)
+
+
+print(allPathsSourceTarget(graph = [[1,2],[3],[3],[]]))
+
+```
+
+## Graph Representation
+This is an adjacency list — each index represents a node, and the list at each index tells you which nodes it points to.
+
+
+```python
+graph = [[1, 2], [3], [3], []]
+```
+
+| Node | Points To  |
+| ---- | ---------- |
+| 0    | 1, 2       |
+| 1    | 3          |
+| 2    | 3          |
+| 3    | \[] (leaf) |
+
+
+
+## Let's Walk Through It Line-by-Line
+
+
+### First Call: recur(graph, 0, [])
+ - t = 0
+
+ - x = [1, 2] → Node 0 has neighbors 1 and 2
+
+ - path_so_far = [0]
+
+ - We loop through [1, 2] and call recur() for each.
+
+
+<br>
+
+### <> First Branch: recur(graph, 1, [0])
+
+ - t = 1
+
+ - x = [3] → Node 1 points to 3
+
+ - path_so_far = [0, 1]
+
+ - Loop through [3]:
+
+ 
+
+<br>
+
+#### Next: recur(graph, 3, [0, 1])
+
+ - t = 3
+
+ - x = [] → Node 3 is a leaf
+
+ - path_so_far = [0, 1, 3]
+
+ - We append path_so_far.copy() → list1 = [[0, 1, 3]]
+
+We return.
+
+<br>
+
+### <>Second Branch: recur(graph, 2, [0])
+
+ - t = 2
+
+ - x = [3] → Node 2 points to 3
+
+ - path_so_far = [0, 2]
+
+#### Next: recur(graph, 3, [0, 2])
+
+ - t = 3
+
+ - x = [] → Leaf node
+
+ - path_so_far = [0, 2, 3]
+
+ - We append path_so_far.copy() → list1 = [[0, 1, 3], [0, 2, 3]]
+
+
+## Final Output
+
+[[0, 1, 3], [0, 2, 3]]
+

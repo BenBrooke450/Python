@@ -26,27 +26,20 @@ Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
 def allPathsSourceTarget(graph: list[list[int]]) -> list[list[int]]:
 
     list1 = []
-    empty_list = [0]
+    empty_list = []
 
     def recur(graph,t,empty_list):
 
         x = graph[t]
 
-        for y in range(len(x)):
-            print("place in sublist: ",x[y])
-            print("sublist: ",x)
-            print(empty_list)
-            print(graph[x[y]])
+        empty_list.append(t)
 
-            if len(graph[x[y]]) == 0:
-                empty_list.append(x[y])
-                print("len(x): ", empty_list)
-                list1.append(empty_list)
-                empty_list = [0]
-                recur(graph, t, empty_list)
+        if len(x) == 0:
+            list1.append(empty_list.copy())  # Save a copy of the current path
+            return
 
-            empty_list.append(x[y])
-            recur(graph,x[y],empty_list)
+        for y in x:
+            recur(graph, y, empty_list.copy())
 
         return list1
 
@@ -54,6 +47,8 @@ def allPathsSourceTarget(graph: list[list[int]]) -> list[list[int]]:
 
 
 print(allPathsSourceTarget(graph = [[1,2],[3],[3],[]]))
+
+
 
 
 
