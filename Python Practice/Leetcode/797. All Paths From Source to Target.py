@@ -22,6 +22,27 @@ Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
 
 """
 
+class Solution:
+    def allPathsSourceTarget(self, graph: list[list[int]]) -> list[list[int]]:
+        list1 = []
+        empty_list = []
+        def recur(graph,t,empty_list):
+            x = graph[t]
+            empty_list.append(t)
+            if t + 1 == len(graph):
+                list1.append(empty_list.copy())  # Save a copy of the current path
+                return
+            for y in x:
+                recur(graph, y, empty_list.copy())
+            return list1
+        return recur(graph,0,empty_list)
+
+
+
+
+
+
+
 
 def allPathsSourceTarget(graph: list[list[int]]) -> list[list[int]]:
 
