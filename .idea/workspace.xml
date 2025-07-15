@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1769. Minimum Number of Operations to Move All Balls to Each Box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,6 +385,7 @@
     "Python.771. Jewels and Stones.executor": "Run",
     "Python.78. Subsets.executor": "Run",
     "Python.796. Rotate String.executor": "Run",
+    "Python.797. All Paths From Source to Target.executor": "Run",
     "Python.804. Unique Morse Code Words.executor": "Run",
     "Python.806. Number of Lines To Write String.executor": "Run",
     "Python.819. Most Common Word.executor": "Run",
@@ -458,14 +459,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00381" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750267518464</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1750267518464</updated>
     </task>
     <task id="LOCAL-00382" summary="Basic">
       <option name="closed" value="true" />
@@ -851,7 +844,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752511977541</updated>
     </task>
-    <option name="localTasksCounter" value="430" />
+    <task id="LOCAL-00430" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752514714469</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1752514714469</updated>
+    </task>
+    <option name="localTasksCounter" value="431" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
