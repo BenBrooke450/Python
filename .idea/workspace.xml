@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions/.copy().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking (recursive problem-solving technique).md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking (recursive problem-solving technique).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/797. All Paths From Source to Target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/237. Delete Node in a Linked List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,6 +217,7 @@
     "Python.2315. Count Asterisks.executor": "Run",
     "Python.2335. Minimum Amount of Time to Fill Cups.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
+    "Python.237. Delete Node in a Linked List.executor": "Run",
     "Python.2375. Construct Smallest Number From DI String.executor": "Run",
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
     "Python.2390. Removing Stars From a String.executor": "Run",
@@ -460,30 +461,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00383" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750708359763</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1750708359763</updated>
-    </task>
-    <task id="LOCAL-00384" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750712808994</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1750712808994</updated>
-    </task>
-    <task id="LOCAL-00385" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750764512786</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1750764512786</updated>
     </task>
     <task id="LOCAL-00386" summary="Basic">
       <option name="closed" value="true" />
@@ -853,7 +830,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752598784963</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752614127962</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1752614127962</updated>
+    </task>
+    <task id="LOCAL-00433" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752614183486</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1752614183486</updated>
+    </task>
+    <task id="LOCAL-00434" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752615233631</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1752615233631</updated>
+    </task>
+    <option name="localTasksCounter" value="435" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

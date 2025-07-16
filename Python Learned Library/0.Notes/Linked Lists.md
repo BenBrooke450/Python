@@ -190,12 +190,6 @@ Head still points to 10.
 
  
 
-```
-
-<br><br><br><br>
-
- 
-```python
 #Part 1: append(self, data)
 #This method adds a new node to the end of the linked list.
 # Define a Linked List
