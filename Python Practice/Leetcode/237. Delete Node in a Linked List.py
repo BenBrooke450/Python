@@ -7,6 +7,15 @@ class ListNode:
         self.next = None
 
 class Solution:
+    def deleteNode(self, node):
+        node.val = node.next.val       # overwrite current node’s value
+        node.next = node.next.next
+
+
+
+
+##### INCORRECT
+class Solution:
 
     def linked_list(self, values):
 
@@ -19,18 +28,26 @@ class Solution:
         for val in values[1:]:
             current.next = ListNode(val)
             current = current.next
+            print(current.val)
+
+        self.head = head
         return head
 
 
     def deleteNode(self, node):
 
-        dummy = ListNode(0)
+        current = self.head
+        prev = None
 
-        while dummy:
-            if dummy == node:
-                print(current.data, end=" → ")
-
+        while current:
+            if prev:
+                prev.next = current.next
+            else:
+                self.head = current.next
+            break
+            prev = current
             current = current.next
+        return current
 
 
 sol = Solution()
@@ -40,6 +57,9 @@ list_sol = sol.linked_list([1,2,3,4,5])
 print(list_sol)
 
 sol.deleteNode(3)
+
+
+##### incorrect
 
 
 

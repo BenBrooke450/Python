@@ -30,13 +30,37 @@ Explanation: After flipping values in the first two columns, the last two rows h
 import numpy as np
 def maxEqualRowsAfterFlips(matrix: list[list[int]]) -> int:
     matrix = np.array(matrix)
-    print(matrix[:,:1])
 
-    return matrix
+    print(matrix[:,:1])
+    print(matrix.shape[0])
+    t = 0
+
+    for y in range(matrix.shape[1]):
+        print(matrix[:, y:y+1])
+
+        for x in range(matrix.shape[0]):
+            print("shape:",matrix[x:x+1,:][0])
+            s = sum(matrix[x:x+1,:][0])
+            if s == 1 or s == 3:
+                t = t + 1
+
+    return t
 
 #print(maxEqualRowsAfterFlips(matrix = [[0,1],[1,1]]))
 
 #print(maxEqualRowsAfterFlips(matrix = [[0,1],[1,0]]))
 
 print(maxEqualRowsAfterFlips(matrix = [[0,0,0],[0,0,1],[1,1,0]]))
+
+
+
+
+
+
+
+
+
+
+
+
 
