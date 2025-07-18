@@ -7,7 +7,6 @@
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1072. Flip Columns For Maximum Number of Equal Rows.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1072. Flip Columns For Maximum Number of Equal Rows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/237. Delete Node in a Linked List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/237. Delete Node in a Linked List.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +155,7 @@
     &quot;Python.1854. Maximum Population Year.executor&quot;: &quot;Run&quot;,
     &quot;Python.1877. Minimize Maximum Pair Sum in Array.executor&quot;: &quot;Run&quot;,
     &quot;Python.1903. Largest Odd Number in String.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1910. Remove All Occurrences of a Substring.executor&quot;: &quot;Run&quot;,
     &quot;Python.1913. Maximum Product Difference Between Two Pairs.executor&quot;: &quot;Run&quot;,
     &quot;Python.1925. Count Square Sum Triples.executor&quot;: &quot;Run&quot;,
     &quot;Python.1935. Maximum Number of Words You Can Type.executor&quot;: &quot;Run&quot;,
@@ -462,30 +462,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00388" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750947957721</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
-      <option name="project" value="LOCAL" />
-      <updated>1750947957721</updated>
-    </task>
-    <task id="LOCAL-00389" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1750954459323</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1750954459323</updated>
-    </task>
-    <task id="LOCAL-00390" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1751109453820</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1751109453820</updated>
     </task>
     <task id="LOCAL-00391" summary="Basic">
       <option name="closed" value="true" />
@@ -855,7 +831,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752681455905</updated>
     </task>
-    <option name="localTasksCounter" value="437" />
+    <task id="LOCAL-00437" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752700280483</created>
+      <option name="number" value="00437" />
+      <option name="presentableId" value="LOCAL-00437" />
+      <option name="project" value="LOCAL" />
+      <updated>1752700280483</updated>
+    </task>
+    <task id="LOCAL-00438" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752700317901</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1752700317901</updated>
+    </task>
+    <task id="LOCAL-00439" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752760976252</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1752760976252</updated>
+    </task>
+    <option name="localTasksCounter" value="440" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
