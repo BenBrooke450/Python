@@ -44,13 +44,14 @@ def maxEqualRowsAfterFlips(matrix: list[list[int]]) -> int:
             if row[j] == current_segment[0]:
                 current_segment.append(row[j])
             else:
-                list1[i].append(current_segment)
+                list1[i].append(len(current_segment))
                 current_segment = [row[j]]
 
         if current_segment:
-            list1[i].append(current_segment)
+            list1[i].append(len(current_segment))
 
-    return list1
+
+    return max([list1.count(x) for x in list1])
 
 
 #print(maxEqualRowsAfterFlips(matrix = [[0,1],[1,1]]))
@@ -94,7 +95,7 @@ def maxEqualRowsAfterFlips(matrix: list[list[int]]) -> int:
 
 #print(maxEqualRowsAfterFlips(matrix = [[0,1],[1,0]]))
 
-print(maxEqualRowsAfterFlips(matrix = [[0,0,0],[0,0,1],[1,1,0]]))
+#print(maxEqualRowsAfterFlips(matrix = [[0,0,0],[0,0,1],[1,1,0]]))
 
 
 
