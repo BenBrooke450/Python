@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/1233. Remove Sub-Folders from the Filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1233. Remove Sub-Folders from the Filesystem.py" afterDir="false" />
-    </list>
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -464,22 +461,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00394" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1751113162401</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1751113162401</updated>
-    </task>
-    <task id="LOCAL-00395" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1751113535024</created>
-      <option name="number" value="00395" />
-      <option name="presentableId" value="LOCAL-00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1751113535024</updated>
-    </task>
     <task id="LOCAL-00396" summary="Basic">
       <option name="closed" value="true" />
       <created>1751196544533</created>
@@ -856,7 +837,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752937912633</updated>
     </task>
-    <option name="localTasksCounter" value="443" />
+    <task id="LOCAL-00443" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752962365788</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1752962365788</updated>
+    </task>
+    <task id="LOCAL-00444" summary="basic">
+      <option name="closed" value="true" />
+      <created>1752962378800</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1752962378800</updated>
+    </task>
+    <option name="localTasksCounter" value="445" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

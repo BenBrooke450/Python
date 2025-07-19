@@ -25,37 +25,14 @@ Input: folder = ["/a/b/c","/a/b/ca","/a/b/d"]
 Output: ["/a/b/c","/a/b/ca","/a/b/d"]
 
 """
+
 def removeSubfolders(folder: List[str]) -> List[str]:
-    # Sort the folder paths lexicographically
     folder.sort()
-
-    # Use a list to keep the result
-    result = []
-
-    # Iterate through the sorted list
-    for i in range(len(folder)):
-        # Check if the current folder is not a prefix of the next folder
-        if i == len(folder) - 1 or not folder[i + 1].startswith(folder[i] + '/'):
-            result.append(folder[i])
-
-    return result
-
-
-def removeSubfolders(folder: List[str]) -> List[str]:
-# Sort the folder paths by length in descending order
-    folder.sort(key=len, reverse=True)
-
-    # Use a set to keep track of folders to remove
-    to_remove = set()
-
-    for i, x in enumerate(folder):
-        for j, y in enumerate(folder):
-            # Check if x is a prefix of y and they are not the same path
-            if i != j and x.startswith(y):
-                to_remove.add(x)
-
-    # Return the list of folders not in the to_remove set
-    return [x for x in folder if x not in to_remove]
+    res = []
+    for path in folder:
+        if not res or not path.startswith(res[-1] + '/'):
+            res.append(path)
+    return res
 
 
 
