@@ -26,7 +26,7 @@ Output: ["/a/b/c","/a/b/ca","/a/b/d"]
 
 """
 
-def removeSubfolders(folder: List[str]) -> List[str]:
+def removeSubfolders(folder: list[str]) -> list[str]:
     folder.sort()
     res = []
     for path in folder:
