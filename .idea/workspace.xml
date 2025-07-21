@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2396. Strictly Palindromic Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2405. Optimal Partition of String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,6 +227,7 @@
     "Python.2395. Find Subarrays With Equal Sum.executor": "Run",
     "Python.2396. Strictly Palindromic Number.executor": "Run",
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
+    "Python.2405. Optimal Partition of String.executor": "Run",
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
     "Python.2442. Count Number of Distinct Integers After Reverse Operations.executor": "Run",
@@ -464,14 +465,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00398" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1751206899714</created>
-      <option name="number" value="00398" />
-      <option name="presentableId" value="LOCAL-00398" />
-      <option name="project" value="LOCAL" />
-      <updated>1751206899714</updated>
     </task>
     <task id="LOCAL-00399" summary="Basic">
       <option name="closed" value="true" />
@@ -857,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753033153469</updated>
     </task>
-    <option name="localTasksCounter" value="447" />
+    <task id="LOCAL-00447" summary="basic">
+      <option name="closed" value="true" />
+      <created>1753036950157</created>
+      <option name="number" value="00447" />
+      <option name="presentableId" value="LOCAL-00447" />
+      <option name="project" value="LOCAL" />
+      <updated>1753036950157</updated>
+    </task>
+    <option name="localTasksCounter" value="448" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
