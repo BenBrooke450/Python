@@ -27,26 +27,26 @@ Note that 'A' and 'a' are treated as two different characters.
 
 """
 
-import numpy as np
+
 def frequencySort(s: str) -> str:
 
-    s = [x for x in s]
-
-    set_s = list(s)
-
-    dict1 = dict()
 
     dict2 = {x: s.count(x) for x in s}
 
-    print(dict2)
+    items = dict2.items()
 
-    s = sorted(s, key= lambda x: set_s.count(x),reverse=True)
+    # Sort the list of tuples based on the second element (the count)
+    s = sorted(items, key=lambda x: x[1], reverse=True)
 
-    return "".join(s)
+    s = "".join(x[0]*x[1]  for x in s)
+
+    return s
 
 print(frequencySort("tree"))
+#eetr
 
 print(frequencySort("trrreerrrroooooiifg"))
+#rrrrrrroooooeeiitfg
 
 print(frequencySort("trrreeEErrRRrroooooiifg"))
 

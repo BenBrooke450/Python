@@ -4,4 +4,17 @@
     <option name="sdkName" value="/opt/anaconda3" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="/opt/anaconda3" project-jdk-type="Python SDK" />
+  <component name="RMarkdownSettings">
+    <option name="renderProfiles">
+      <map>
+        <entry key="file://$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/1.List.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>
