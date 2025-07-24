@@ -32,8 +32,44 @@ Explanation: The two servers in the first row can communicate
 """
 
 
-
+import numpy as np
 def countServers(grid: list[list[int]]) -> int:
+    array_grid = np.array(grid)
+    t = 0
+    for n in range(array_grid.shape[0]):
+        print(array_grid[n,:])
+        q = list(array_grid[n,:]).count(1)
+        if q > 1:
+            t = t + q
+            array_grid[n, :][array_grid[n, :] == 0] = -1
+            array_grid[n, :][array_grid[n, :] == 1] = 2
+        else:
+            array_grid[n,:][array_grid[n,:] == 0] = -1
+            array_grid[n, :][array_grid[n, :] == 1] = 3
+
+    print(array_grid)
+
+    for n in range(array_grid.shape[1]):
+        print(array_grid[:, n:n+1])
+        q = list(array_grid[n, :]).count(3)
+        if q > 1:
+            t = t + q
+
+    return array_grid,t
+
+#print(countServers(grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]))
+
+print(countServers(grid = [[1,0],[1,1]]))
+
+
+
+
+
+
+
+
+
+
 
 
 
