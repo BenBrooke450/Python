@@ -36,8 +36,46 @@ Note that other answers, such as [3, 3], would also be accepted.
 
 """
 
-
+import numpy as np
 def pancakeSort(arr: list[int]) -> list[int]:
+    i = 0
+    list1 = []
+    while len(arr) != 1:
+        max_arr = arr.index(max(arr))
+
+        if max_arr == 0:
+            list1.append(len(arr))
+            arr = arr[::-1]
+            arr = arr[:len(arr)-1]
+            print("NEXT :",arr)
+
+        elif all(x == 1 for x in np.diff(arr)):
+                break
+
+        else:
+            list1.append(max_arr+1)
+            print("max: ",max_arr)
+            print(arr[max_arr::-1])
+            arr = arr[max_arr::-1] + arr[max_arr+1:]
+            print("ALL:",arr)
+
+        i = i + 1
+
+    return list1
+
+print(pancakeSort(arr = [3,2,4,1]))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
