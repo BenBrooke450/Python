@@ -34,6 +34,47 @@ Output: [["Table","Bean Burrito","Beef Burrito","Soda"],["2","1","1","1"]]
 """
 
 import numpy as np
+
+def displayTable(orders: list[list[str]]) -> list[list[str]]:
+    # Extract only table number and food name
+    orders = np.array(orders)[:, 1:3]
+
+    # Unique sorted food items with 'Table' as first column
+    food_items = sorted(set(orders[:, 1]))
+    col_indices = {food: i + 1 for i, food in enumerate(food_items)}  # +1 to leave col 0 for 'Table'
+
+    # Unique sorted table numbers (as ints)
+    table_nums = sorted(set(int(x) for x in orders[:, 0]))
+    table_indices = {table: i + 1 for i, table in enumerate(table_nums)}  # +1 to leave row 0 for header
+
+    # Initialize zero matrix (tables + header row) x (foods + 'Table' column)
+    grid = np.zeros((len(table_nums) + 1, len(food_items) + 1), dtype=object)
+
+    # Set column headers
+    grid[0, 0] = 'Table'
+    for food, col in col_indices.items():
+        grid[0, col] = food
+
+    # Set row headers
+    for table, row in table_indices.items():
+        grid[row, 0] = str(table)
+
+    # Fill in order counts
+    for table_str, food in orders:
+        row = table_indices[int(table_str)]
+        col = col_indices[food]
+        if grid[row, col] == 0:
+            grid[row, col] = 1
+        else:
+            grid[row, col] += 1
+
+    # Convert all cells to strings for final output
+    result = [[str(cell) for cell in row] for row in grid]
+
+    return result
+
+
+import numpy as np
 def displayTable(orders: list[list[str]]) -> list[list[str]]:
 
     orders = np.array(orders)[:,1:3]
