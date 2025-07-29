@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Other Python Libraries/2.Itertools/product.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1418. Display Table of Food Orders in a Restaurant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,7 @@
     "Python.1403. Minimum Subsequence in Non-Increasing Order.executor": "Run",
     "Python.1408. String Matching in an Array.executor": "Run",
     "Python.1409. Queries on a Permutation With Key.executor": "Run",
+    "Python.1418. Display Table of Food Orders in a Restaurant.executor": "Run",
     "Python.1422. Maximum Score After Splitting a String.executor": "Run",
     "Python.1431. Kids With the Greatest Number of Candies.executor": "Run",
     "Python.1436. Destination City.executor": "Run",
@@ -469,22 +471,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00421" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1752247677746</created>
-      <option name="number" value="00421" />
-      <option name="presentableId" value="LOCAL-00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1752247677746</updated>
-    </task>
-    <task id="LOCAL-00422" summary="Merge remote-tracking branch 'PYnative/main'">
-      <option name="closed" value="true" />
-      <created>1752270065856</created>
-      <option name="number" value="00422" />
-      <option name="presentableId" value="LOCAL-00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1752270065857</updated>
     </task>
     <task id="LOCAL-00423" summary="Merge remote-tracking branch 'PYnative/main'">
       <option name="closed" value="true" />
@@ -862,7 +848,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753733452733</updated>
     </task>
-    <option name="localTasksCounter" value="470" />
+    <task id="LOCAL-00470" summary="basic">
+      <option name="closed" value="true" />
+      <created>1753733520475</created>
+      <option name="number" value="00470" />
+      <option name="presentableId" value="LOCAL-00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1753733520475</updated>
+    </task>
+    <task id="LOCAL-00471" summary="basic">
+      <option name="closed" value="true" />
+      <created>1753733547790</created>
+      <option name="number" value="00471" />
+      <option name="presentableId" value="LOCAL-00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1753733547790</updated>
+    </task>
+    <option name="localTasksCounter" value="472" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
