@@ -46,9 +46,10 @@ def displayTable(orders: list[list[str]]) -> list[list[str]]:
 
     zeros = np.zeros((len(tables)+1,len(foods)))
 
-    zeros[0,:] = range(len(foods))
-    zeros[1:,0] = tables
+    zeros[1:, 0] = tables
     zeros.sort(axis=0)
+    zeros[0,:] = range(len(foods))
+
 
     print(tables)
     print(zeros)
@@ -65,10 +66,6 @@ def displayTable(orders: list[list[str]]) -> list[list[str]]:
     list_zeros = list(zeros)
     list_zeros[0] = foods.keys()
     list_zeros = [list(x) for x in list_zeros]
-
-    list_zeros = [
-        [str(int(item)) if isinstance(item, float) and item.is_integer() else str(item) for item in sublist]
-        for sublist in list_zeros]
 
     return list_zeros
 
