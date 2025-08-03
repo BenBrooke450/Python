@@ -27,10 +27,21 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 
 """
 
-
+import numpy as np
 def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
 
+    players = np.array(players)
+    trainers = np.array(trainers)
+
     for p in players:
+        print(p)
+        x = np.where(p >= trainers)
+        print(x)
+
+
+print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
+
+
 
 
 
