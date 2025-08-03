@@ -28,32 +28,6 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 """
 
 
-import numpy as np
-def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
-
-    s_players = sorted(players)
-    s_trainers = sorted(trainers)
-
-    max_trainers = np.argmax(s_trainers)
-    max_player = np.argmax(s_players)
-
-
-    p_len = len(s_players[:max_player])
-
-
-
-
-
-
-
-
-
-print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
-
-
-
-
-
 
 import numpy as np
 def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
@@ -67,7 +41,7 @@ def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
             print(p,t)
             if t >= p:
                 j = j + 1
-                trainers[i] = 0
+                trainers = trainers[i+1:]
                 break
     return j
 
