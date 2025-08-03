@@ -27,31 +27,115 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 
 """
 
+
 import numpy as np
 def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
 
-    players = np.array(players, dtype=float)
-    trainers = np.array(trainers, dtype=float)
+    s_players = sorted(players)
+    s_trainers = sorted(trainers)
+
+    max_trainers = np.argmax(s_trainers)
+    max_player = np.argmax(s_players)
+
+
+    p_len = len(s_players[:max_player])
+
+
+
+
+
+
+
+
+
+print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
+
+
+
+
+
+
+import numpy as np
+def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
+
+    players = np.sort(np.array(players))
+    trainers = np.sort(np.array(trainers))
+    j = 0
+    for p in players:
+        print(trainers)
+        for i,t in enumerate(trainers):
+            print(p,t)
+            if t >= p:
+                j = j + 1
+                trainers[i] = 0
+                break
+    return j
+
+print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
+
+
+
+
+
+
+
+
+
+
+
+import numpy as np
+def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
+
+    players = sorted(players)
+    trainers = sorted(trainers)
+    j = 0
+    for p in players:
+        print(trainers)
+        for i,t in enumerate(trainers):
+            print(p,t)
+            if t >= p:
+                j = j + 1
+                trainers[i] = 0
+                break
+    return j
+
+
+
+print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
+
+
+
+
+
+
+
+
+
+"""import numpy as np
+def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
+
+    players = np.array(players, dtype=object)
+    trainers = np.array(trainers, dtype=object)
 
     i = 0
 
     for p in players:
         print("player : ",p)
-        x = np.where(p <= trainers)
-        print(trainers[x])
+        x = np.where(trainers < p)
+        print(x)
         if len(x) == 0:
             continue
         else:
-            y = np.argmin(trainers[x])
+            y = np.argmin(x)
             print("Where lowest trainer: y:",y)
-            trainers[y] = np.nan
+            trainers[y] = "_"
             i = i + 1
-        print(trainers)
+        print("trainers:",trainers)
     return i
 
 
 print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
-
+"""
 
 
 
