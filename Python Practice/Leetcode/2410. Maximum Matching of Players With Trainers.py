@@ -30,13 +30,24 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 import numpy as np
 def matchPlayersAndTrainers(players: list[int], trainers: list[int]) -> int:
 
-    players = np.array(players)
-    trainers = np.array(trainers)
+    players = np.array(players, dtype=float)
+    trainers = np.array(trainers, dtype=float)
+
+    i = 0
 
     for p in players:
-        print(p)
-        x = np.where(p >= trainers)
-        print(x)
+        print("player : ",p)
+        x = np.where(p <= trainers)
+        print(trainers[x])
+        if len(x) == 0:
+            continue
+        else:
+            y = np.argmin(trainers[x])
+            print("Where lowest trainer: y:",y)
+            trainers[y] = np.nan
+            i = i + 1
+        print(trainers)
+    return i
 
 
 print(matchPlayersAndTrainers(players = [4,7,9], trainers = [8,2,5,8]))
