@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/904. Fruit Into Baskets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1248. Count Number of Nice Subarrays.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +70,7 @@
     "Python.1217. Minimum Cost to Move Chips to The Same Position.executor": "Run",
     "Python.1232. Check If It Is a Straight Line.executor": "Run",
     "Python.1233. Remove Sub-Folders from the Filesystem.executor": "Run",
+    "Python.1248. Count Number of Nice Subarrays.executor": "Run",
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
@@ -474,14 +475,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00431" summary="basic">
-      <option name="closed" value="true" />
-      <created>1752598784963</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1752598784963</updated>
-    </task>
     <task id="LOCAL-00432" summary="basic">
       <option name="closed" value="true" />
       <created>1752614127962</created>
@@ -866,7 +859,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754252520989</updated>
     </task>
-    <option name="localTasksCounter" value="480" />
+    <task id="LOCAL-00480" summary="basic">
+      <option name="closed" value="true" />
+      <created>1754324916886</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1754324916886</updated>
+    </task>
+    <option name="localTasksCounter" value="481" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
