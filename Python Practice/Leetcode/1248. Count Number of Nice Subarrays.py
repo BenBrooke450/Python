@@ -23,7 +23,19 @@ Output: 16
 
 """
 
-import numpy as np
+def numberOfSubarrays(nums: list[int], k: int) -> int:
+    t = 0
+    for x in range(0,len(nums)):
+
+            if sum(1 for x in nums[x:x+k] if x % 2 != 0) == k:
+            t = t + 1
+
+        print("start:",start,"  end:",end)
+
+    return t
+
+
+
 def numberOfSubarrays(nums: list[int], k: int) -> int:
     t = 0
     for x in range(0,len(nums)):
