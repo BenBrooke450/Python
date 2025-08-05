@@ -25,17 +25,27 @@ Output: 16
 
 import numpy as np
 def numberOfSubarrays(nums: list[int], k: int) -> int:
-    nums = np.array(nums)
     t = 0
-    for x in range(len(nums)):
-        print(nums[x:x+k])
-        if sum(1 for x in nums[x:x+k] if x%2 !=0) == k:
+    for x in range(0,len(nums)):
+
+        if sum(1 for x in nums if x % 2 != 0) == k:
             t = t + 1
+
+        start = nums[x + 1:]
+        if sum(1 for x in start if x % 2 != 0) == k:
+            t = t + 1
+
+        end = nums[:-x - 1]
+        if sum(1 for x in end if x % 2 != 0) == k:
+            t = t + 1
+
+        print("start:",start,"  end:",end)
 
     return t
 
-print(numberOfSubarrays(nums = [1,1,2,1,1], k = 3))
-
+print(numberOfSubarrays(nums = [1,1,1,1,1], k = 3))
+#print(numberOfSubarrays(nums = [2,4,6], k = 1))
+#print(numberOfSubarrays(nums = [2,2,2,1,2,2,1,2,2,2], k = 2))
 
 
 
