@@ -24,40 +24,78 @@ Output: 16
 """
 
 def numberOfSubarrays(nums: list[int], k: int) -> int:
-    t = 0
-    for x in range(0,len(nums)):
+    # Step 1: Convert each number to 1 if odd, 0 if even
+    nums = [1 if x % 2 != 0 else 0 for x in nums]
 
-            if sum(1 for x in nums[x:x+k] if x % 2 != 0) == k:
-            t = t + 1
+    t = 0  # Counter for valid subarrays
+    prefix_sum = {0: 1}  # Dictionary to store prefix sums
+    current_sum = 0  # Running sum of odd counts
 
-        print("start:",start,"  end:",end)
+    for n in nums:
+        current_sum = current_sum + n
+
+        # Check if there's a previous prefix sum equal to current_sum - k
+        if (current_sum - k) in prefix_sum:
+            print(prefix_sum)
+            print(current_sum - k)
+            print(prefix_sum[current_sum - k])
+
+            t = t + prefix_sum[current_sum - k]
+
+        # Update the prefix_sum dictionary
+        if current_sum in prefix_sum:
+            prefix_sum[current_sum] = prefix_sum[current_sum] + 1
+        else:
+            prefix_sum[current_sum] = 1
 
     return t
 
+#print(numberOfSubarrays(nums = [1,1,2,1,1], k = 3))
+#print(numberOfSubarrays(nums = [2,4,6], k = 1))
+print(numberOfSubarrays(nums = [2,2,2,1,2,2,1,2,2,2], k = 2))
 
 
+
+import numpy as np
 def numberOfSubarrays(nums: list[int], k: int) -> int:
     t = 0
-    for x in range(0,len(nums)):
+    nums = np.array([ 1 if x % 2 != 0 else 0 for x in nums])
+    print(nums)
 
-        if sum(1 for x in nums if x % 2 != 0) == k:
-            t = t + 1
 
-        start = nums[x + 1:]
-        if sum(1 for x in start if x % 2 != 0) == k:
-            t = t + 1
+    for x in np.arange(k+1, len(nums)+1):
+        for i in np.arange(len(nums)-x+1):
 
-        end = nums[:-x - 1]
-        if sum(1 for x in end if x % 2 != 0) == k:
-            t = t + 1
-
-        print("start:",start,"  end:",end)
+            if sum(nums[i:i + x]) == k:
+                t = t + 1
 
     return t
 
-print(numberOfSubarrays(nums = [1,1,1,1,1], k = 3))
-#print(numberOfSubarrays(nums = [2,4,6], k = 1))
-#print(numberOfSubarrays(nums = [2,2,2,1,2,2,1,2,2,2], k = 2))
+
+
+
+
+
+
+
+
+
+
+
+
+import numpy as np
+def numberOfSubarrays(nums: list[int], k: int) -> int:
+    t = 0
+    nums = np.array(nums)
+
+    for x in np.arange(k, len(nums)+1):
+        for i in np.arange(len(nums)-x+1):
+            if np.sum(1 for x in nums[i:i + x] if x % 2 != 0) == k:
+                t = t + 1
+
+    return t
+
+
 
 
 
