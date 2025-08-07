@@ -9,38 +9,6 @@ Return the maximum area of an island in grid. If there is no island, return 0.
 
 """
 
-import numpy as np
-
-def maxAreaOfIsland(grid: list[list[int]]) -> int:
-
-    row = 0
-    for i,x in enumerate(grid):
-        for j,y in enumerate(x):
-            if y == 1:
-                grid[i][j] = [j,row]
-        row = row + 1
-
-    row = 0
-    column = 0
-    max_island = []
-
-    def where(grid: list[list[int]] ,column: int(), row: int(),max_island: list()):
-
-        row_i = grid[row]
-
-        for i,unit in enumerate(row_i):
-                if unit == 1:
-                    column_i = column[i]
-
-
-    where(grid,column,row,max_island)
-
-    return grid
-
-
-
-
-
 
 
 def numIslands(grid):
