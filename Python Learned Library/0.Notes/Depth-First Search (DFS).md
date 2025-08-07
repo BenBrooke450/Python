@@ -207,7 +207,50 @@ count = 0
 
 <br><br><br><br>
 
-# Example 1
+# Example 2
+
+
+```python
+def numIslands(grid):
+
+    rows, cols = len(grid), len(grid[0])
+    visited = set()
+    q = 0
+    list1 = []
+
+    def dfs(r, c):
+        if (r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == 0 or (r, c) in visited):
+            return 0
+
+        visited.add((r, c))
+
+        count = 1
+
+        # Explore in all 4 directions
+        count = count + dfs(r+1, c)  # down
+        count = count + dfs(r-1, c)  # up
+        count = count + dfs(r, c+1)  # right
+        count = count + dfs(r, c-1)  # left
+
+        return count
+
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == 1 and (r, c) not in visited:
+                size = dfs(r, c)
+                list1.append(size)
+
+                if size > q:
+                    q = size
+                size = 0
+
+    return list1, q
+```
+
+
+print(numIslands(grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]))
+
+
 
 
 
