@@ -47,34 +47,36 @@ def numIslands(grid):
 
     rows, cols = len(grid), len(grid[0])
     visited = set()
-    count = 0
     q = 0
     list1 = []
 
     def dfs(r, c):
         if (r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == 0 or (r, c) in visited):
-            return
+            return 0
 
         visited.add((r, c))
-        count = count + 1
+
+        count = 1
 
         # Explore in all 4 directions
-        dfs(r+1, c)
-        dfs(r-1, c)
-        dfs(r, c+1)
-        dfs(r, c-1)
+        count = count + dfs(r+1, c)  # down
+        count = count + dfs(r-1, c)  # up
+        count = count + dfs(r, c+1)  # right
+        count = count + dfs(r, c-1)  # left
+
+        return count
 
     for r in range(rows):
         for c in range(cols):
             if grid[r][c] == 1 and (r, c) not in visited:
-                count += 1
-                dfs(r, c)
-                list1.append(count)
-                if count > q:
-                    q = count
-                count = 0
+                size = dfs(r, c)
+                list1.append(size)
 
-    return q,list1
+                if size > q:
+                    q = size
+                size = 0
+
+    return list1, q
 
 
 
