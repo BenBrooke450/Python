@@ -49,8 +49,7 @@ def findWinners(matches: list[list[int]]) -> list[list[int]]:
         all.add(x[1])
         all.add(x[0])
 
-
-    winners = sorted(np.setdiff1d(list(all),[x for x,y in losers.items() if y > 0]))
+    winners = sorted([x for x in list(all) if x not in losers.keys()])
     losers = sorted([x for x, y in losers.items() if y == 1])
 
     return [winners,losers]
