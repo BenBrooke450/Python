@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2225. Find Players With Zero or One Losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/9. Spiral Matrix II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,6 +414,7 @@
     "Python.892. Surface Area of 3D Shapes.executor": "Run",
     "Python.896. Monotonic Array.executor": "Run",
     "Python.9. Palindrome Number.executor": "Run",
+    "Python.9. Spiral Matrix II.executor": "Run",
     "Python.904. Fruit Into Baskets.executor": "Run",
     "Python.922. Sort Array By Parity II.executor": "Run",
     "Python.925. Long Pressed Name.executor": "Run",
@@ -476,22 +477,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00444" summary="basic">
-      <option name="closed" value="true" />
-      <created>1752962378800</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1752962378800</updated>
-    </task>
-    <task id="LOCAL-00445" summary="basic">
-      <option name="closed" value="true" />
-      <created>1752962605382</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1752962605382</updated>
     </task>
     <task id="LOCAL-00446" summary="basic">
       <option name="closed" value="true" />
@@ -869,7 +854,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754600953760</updated>
     </task>
-    <option name="localTasksCounter" value="493" />
+    <task id="LOCAL-00493" summary="basic">
+      <option name="closed" value="true" />
+      <created>1754677839949</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1754677839949</updated>
+    </task>
+    <task id="LOCAL-00494" summary="basic">
+      <option name="closed" value="true" />
+      <created>1754678278928</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1754678278928</updated>
+    </task>
+    <option name="localTasksCounter" value="495" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
