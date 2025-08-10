@@ -20,32 +20,42 @@ Explanation: There is 1 choose 1 = 1 total combination.
 
 """
 
-from itertools import combinations, permutations
 def combine(n: int, k: int) -> list[list[int]]:
 
-    ran = list(range(1,n+1))
-    start = 1
+    ran = []
+    new = list(range(1,n+1))
+    start = 0
+    end = 1
 
+    def com(ran: list[int],new,start, end ,k):
 
-    def com(ran: list[int],start,k):
+        if start > n - k or end > n - (k - 1):
+            return
 
-        part = [start]
-        part.extend(ran[start:k-1])
+        part = [new[start]]
+        print(end,k+end-1,new)
+        part.extend(new[end:k+end-1])
         print("Part :",part)
 
-        if k < len(ran):
-            k = k + 1
-            com(ran, start, k)
+        ran.append(part)
+        print(ran)
 
-        start = k
-        k = k + start
+        if end + 1 < n:
+            part = []
+            end = end + 1
+            com(ran, new, start, end, k)
 
-        if start > len(ran):
-            return part
+        start = start + 1
+        end = start + 1
+        part = []
 
-        com(ran, start, k)
+        com(ran, new, start, end, k)
 
-    com(ran,0,k)
+        return ran
+
+    x = com(ran,new,start,end, k)
+
+    return x
 
 print(combine(n = 8, k = 2))
 
