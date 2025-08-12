@@ -21,6 +21,40 @@ Explanation: There is 1 choose 1 = 1 total combination.
 """
 
 
+import numpy as np
+
+def combine(n: int, k: int) -> list[list[int]]:
+    ran = []
+    number = list(range(1, k + 1))  # starting combination
+
+    def com(number, pos):
+        # If pos is out of range, stop recursion
+        if pos < 0:
+            return
+
+        # Try increasing the current position
+        while number[pos] <= n - (k - pos) + 1:
+            print(f"number[{pos}]:",number[pos], "----pass:",n - (k - pos) + 1,"    number:", number)
+            if pos == k - 1:  # last position
+                ran.append(number.copy())
+            else:
+                print("break")
+                com(number, pos + 1)
+
+            number[pos] += 1
+
+
+        # Reset this position to minimal possible value for backtracking
+        print("\n","number[pos]:",f"number[{pos}]:",number[pos],"\n")
+        number[pos] = number[pos]
+        print("\n","number[pos]:",f"number[{pos}]:",number[pos],"\n")
+
+    com(number, 0)
+    return ran
+
+
+print(combine(n = 6, k = 3))
+
 
 
 
@@ -53,13 +87,7 @@ def combine(n: int, k: int) -> list[list[int]]:
             ran.append(part)
 
         if end + 1 < n:
-
-            if end + 1 == n:
-                com(ran, new, start, end + 1, k)
-
-
-            else:
-                com(ran, new, start, end + 1, k)
+            com(ran, new, start, end + 1, k)
 
         if start + 1 < n:
             com(ran, new, start + 1, start + 2, k)
@@ -71,7 +99,6 @@ def combine(n: int, k: int) -> list[list[int]]:
     return ran # ✅ added return here
 
 
-print(combine(n = 6, k = 3))
 
 
 
