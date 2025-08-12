@@ -29,7 +29,7 @@ def combine(n: int, k: int) -> list[list[int]]:
 
     def com(ran: list[int],new,start, end ,k):
 
-        if start > n - k or end > n - (k - 1):
+        if start >= n or end > n:
             return
 
         part = [new[start]]
@@ -37,7 +37,10 @@ def combine(n: int, k: int) -> list[list[int]]:
         part.extend(new[end:k+end-1])
         print("Part :",part)
 
-        ran.append(part)
+        if len(part) == k:
+            ran.append(part)
+            print(ran)
+
         print(ran)
 
         if end + 1 < n:
@@ -49,18 +52,14 @@ def combine(n: int, k: int) -> list[list[int]]:
         end = start + 1
         part = []
 
-        com(ran, new, start, end, k)
+        if start < n:
+            com(ran, new, start, end, k)
 
         return ran
 
-    x = com(ran,new,start,end, k)
+    com(ran, new, start, end, k)
 
-    return x
-
-print(combine(n = 8, k = 2))
-
-
-
+    return ran
 
 
 
@@ -71,20 +70,36 @@ print(combine(n = 8, k = 2))
 
 def combine(n: int, k: int) -> list[list[int]]:
 
-    all_list = set()
+    ran = []
+    new = list(range(1, n+1))
+    start = 0
+    end = 1
 
-    for x in range(1,n-k+3):
-        for y in range(1,n-k+3):
-            if (x,y) not in all_list and (y,x) not in all_list and x != y:
-                all_list.add((x,y))
+    def com(ran: list[int], new, start, end, k):
 
-    return [list(x) for x in all_list]
+        if start >= n or end > n:
+            return
+
+        part = [new[start]]
+        part.extend(new[end:k+end-1])
+
+        if len(part) == k and part not in ran:
+            ran.append(part)
+
+        if end + 1 < n:
+            com(ran, new, start, end + 1, k)
+
+        if start + 1 < n:
+            com(ran, new, start + 1, start + 2, k)
+
+        return ran
+
+    com(ran, new, start, end, k)
+
+    return ran # ✅ added return here
 
 
-
-
-
-
+print(combine(n = 8, k = 2))
 
 
 
