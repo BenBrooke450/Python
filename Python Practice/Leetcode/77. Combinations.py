@@ -20,46 +20,11 @@ Explanation: There is 1 choose 1 = 1 total combination.
 
 """
 
-def combine(n: int, k: int) -> list[list[int]]:
 
-    ran = []
-    new = list(range(1,n+1))
-    start = 0
-    end = 1
 
-    def com(ran: list[int],new,start, end ,k):
 
-        if start >= n or end > n:
-            return
 
-        part = [new[start]]
-        print(end,k+end-1,new)
-        part.extend(new[end:k+end-1])
-        print("Part :",part)
 
-        if len(part) == k:
-            ran.append(part)
-            print(ran)
-
-        print(ran)
-
-        if end + 1 < n:
-            part = []
-            end = end + 1
-            com(ran, new, start, end, k)
-
-        start = start + 1
-        end = start + 1
-        part = []
-
-        if start < n:
-            com(ran, new, start, end, k)
-
-        return ran
-
-    com(ran, new, start, end, k)
-
-    return ran
 
 
 
@@ -80,14 +45,21 @@ def combine(n: int, k: int) -> list[list[int]]:
         if start >= n or end > n:
             return
 
-        part = [new[start]]
+        part = new[start:k+start-1]
         part.extend(new[end:k+end-1])
+        print(part)
 
         if len(part) == k and part not in ran:
             ran.append(part)
 
         if end + 1 < n:
-            com(ran, new, start, end + 1, k)
+
+            if end + 1 == n:
+                com(ran, new, start, end + 1, k)
+
+
+            else:
+                com(ran, new, start, end + 1, k)
 
         if start + 1 < n:
             com(ran, new, start + 1, start + 2, k)
@@ -99,7 +71,7 @@ def combine(n: int, k: int) -> list[list[int]]:
     return ran # ✅ added return here
 
 
-print(combine(n = 8, k = 2))
+print(combine(n = 6, k = 3))
 
 
 
