@@ -28,4 +28,17 @@ Explanation:
 
 
 def diffWaysToCompute(expression: str) -> list[int]:
-    
+
+    return int(expression)
+
+print(diffWaysToCompute("2*3-4*5"))
+
+
+
+
+
+
+
+
+
+

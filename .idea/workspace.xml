@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/283. Move Zeroes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2221. Find Triangular Sum of an Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/1.List.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/1.List.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/241. Different Ways to Add Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/241. Different Ways to Add Parentheses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,6 +209,7 @@
     "Python.2206. Divide Array Into Equal Pairs.executor": "Run",
     "Python.2215. Find the Difference of Two Arrays.executor": "Run",
     "Python.2220. Minimum Bit Flips to Convert Number.executor": "Run",
+    "Python.2221. Find Triangular Sum of an Array.executor": "Run",
     "Python.2224. Minimum Number of Operations to Convert Time.executor": "Run",
     "Python.2225. Find Players With Zero or One Losses.executor": "Run",
     "Python.2231. Largest Number After Digit Swaps by Parity.executor": "Run",
@@ -237,6 +238,7 @@
     "Python.2396. Strictly Palindromic Number.executor": "Run",
     "Python.2399. Check Distances Between Same Letters.executor": "Run",
     "Python.2405. Optimal Partition of String.executor": "Run",
+    "Python.241. Different Ways to Add Parentheses.executor": "Run",
     "Python.2410. Maximum Matching of Players With Trainers.executor": "Run",
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
@@ -485,14 +487,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00466" summary="basic">
-      <option name="closed" value="true" />
-      <created>1753628563234</created>
-      <option name="number" value="00466" />
-      <option name="presentableId" value="LOCAL-00466" />
-      <option name="project" value="LOCAL" />
-      <updated>1753628563234</updated>
     </task>
     <task id="LOCAL-00467" summary="basic">
       <option name="closed" value="true" />
@@ -878,7 +872,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757671938431</updated>
     </task>
-    <option name="localTasksCounter" value="515" />
+    <task id="LOCAL-00515" summary="basic">
+      <option name="closed" value="true" />
+      <created>1757679646698</created>
+      <option name="number" value="00515" />
+      <option name="presentableId" value="LOCAL-00515" />
+      <option name="project" value="LOCAL" />
+      <updated>1757679646698</updated>
+    </task>
+    <option name="localTasksCounter" value="516" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
