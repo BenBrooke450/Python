@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2373. Largest Local Values in a Matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +102,7 @@
     "Python.1436. Destination City.executor": "Run",
     "Python.1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
+    "Python.1470. Shuffle the Array.executor": "Run",
     "Python.1491. Average Salary Excluding the Minimum and Maximum Salary.executor": "Run",
     "Python.1496. Path Crossing.executor": "Run",
     "Python.1502. Can Make Arithmetic Progression From Sequence.executor": "Run",
@@ -223,6 +227,7 @@
     "Python.2335. Minimum Amount of Time to Fill Cups.executor": "Run",
     "Python.2367. Number of Arithmetic Triplets.executor": "Run",
     "Python.237. Delete Node in a Linked List.executor": "Run",
+    "Python.2373. Largest Local Values in a Matrix.executor": "Run",
     "Python.2375. Construct Smallest Number From DI String.executor": "Run",
     "Python.2389. Longest Subsequence With Limited Sum.executor": "Run",
     "Python.2390. Removing Stars From a String.executor": "Run",
@@ -476,14 +481,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00457" summary="basic">
-      <option name="closed" value="true" />
-      <created>1753214850641</created>
-      <option name="number" value="00457" />
-      <option name="presentableId" value="LOCAL-00457" />
-      <option name="project" value="LOCAL" />
-      <updated>1753214850641</updated>
     </task>
     <task id="LOCAL-00458" summary="basic">
       <option name="closed" value="true" />
@@ -869,7 +866,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757636459290</updated>
     </task>
-    <option name="localTasksCounter" value="506" />
+    <task id="LOCAL-00506" summary="basic">
+      <option name="closed" value="true" />
+      <created>1757636763498</created>
+      <option name="number" value="00506" />
+      <option name="presentableId" value="LOCAL-00506" />
+      <option name="project" value="LOCAL" />
+      <updated>1757636763498</updated>
+    </task>
+    <option name="localTasksCounter" value="507" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
