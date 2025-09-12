@@ -112,4 +112,53 @@ But ignored in previous layers → original call returns [3, 5, 7, 9] ❌
 
 ---
 
+Exactly! Let’s break it down clearly.
+
+---
+
+### **How recursion works**
+
+When you do a recursive call like this:
+
+```python
+trin_add(next_layer)
+```
+
+* Python **calls the function again** with `next_layer`.
+* That call goes **deeper** until it hits the base case.
+* The base case calculates the **final value**.
+
+If you **don’t put `return` in front**, that final value is calculated but **never passed back** to the previous call. The previous call just continues and returns whatever it had before (in your case, the current `nums` list).
+
+---
+
+### **With `return` in front**
+
+```python
+return trin_add(next_layer)
+```
+
+* Now the result of the deepest recursive call is **returned immediately** to the previous layer.
+* Each previous layer doesn’t just ignore the result—it **passes it back up**.
+* Eventually, the original function call receives the deepest result (the final triangular sum).
+
+Think of it like a **message in a bucket chain**:
+
+```
+Deepest calculation → value 8
+     ↑ returned to previous layer
+          ↑ returned to layer above
+               ↑ returned all the way to top call
+```
+
+Without `return`, the “message” (the final value) **never leaves the deepest function**, and the top-level function just returns its own local `nums`.
+
+---
+
+So yes: **putting `return` in front ensures the most “indepth” (deepest) calculation is sent back through all layers of recursion.**
+
+---
+
+
+
 
