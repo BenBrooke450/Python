@@ -24,6 +24,28 @@ Explanation: Notice that the 2 is contained within every contiguous 3 x 3 matrix
 
 """
 
+
+class Solution:
+    def largestLocal(grid: list[list[int]]) -> list[list[int]]:
+        n = len(grid)
+        grid_m = np.array(grid)
+        # Use list comprehension to create the result directly
+        return [
+            [
+                int(np.max(grid_m[i:i+3, j:j+3]))
+                for j in range(n - 2)
+            ]
+            for i in range(n - 2)
+        ]
+
+### OPTIMIZED CODE
+
+
+
+
+
+
+
 import numpy as np
 def largestLocal(grid: list[list[int]]) -> list[list[int]]:
     list1 = []
