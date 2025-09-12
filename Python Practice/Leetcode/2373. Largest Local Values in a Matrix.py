@@ -24,6 +24,7 @@ Explanation: Notice that the 2 is contained within every contiguous 3 x 3 matrix
 
 """
 
+### OPTIMIZED CODE
 
 class Solution:
     def largestLocal(grid: list[list[int]]) -> list[list[int]]:
