@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/283. Move Zeroes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/1.List.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/1.List.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,6 +290,7 @@
     "Python.2807. Insert Greatest Common Divisors in Linked List.executor": "Run",
     "Python.2824. Count Pairs Whose Sum is Less than Target.executor": "Run",
     "Python.2828. Check if a String Is an Acronym of Words.executor": "Run",
+    "Python.283. Move Zeroes.executor": "Run",
     "Python.2843. Count Symmetric Integers.executor": "Run",
     "Python.2848. Points That Intersect With Cars.executor": "Run",
     "Python.2864. Maximum Odd Binary Number.executor": "Run",
@@ -480,14 +485,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00465" summary="basic">
-      <option name="closed" value="true" />
-      <created>1753466414584</created>
-      <option name="number" value="00465" />
-      <option name="presentableId" value="LOCAL-00465" />
-      <option name="project" value="LOCAL" />
-      <updated>1753466414584</updated>
     </task>
     <task id="LOCAL-00466" summary="basic">
       <option name="closed" value="true" />
@@ -873,7 +870,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757670114125</updated>
     </task>
-    <option name="localTasksCounter" value="514" />
+    <task id="LOCAL-00514" summary="basic">
+      <option name="closed" value="true" />
+      <created>1757671938431</created>
+      <option name="number" value="00514" />
+      <option name="presentableId" value="LOCAL-00514" />
+      <option name="project" value="LOCAL" />
+      <updated>1757671938431</updated>
+    </task>
+    <option name="localTasksCounter" value="515" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
