@@ -29,6 +29,33 @@ Explanation: All the integer arrays are [0, 0] except for "bob", which correspon
 
 """
 
+
+### OPTIMIZED
+
+from collections import Counter
+import numpy as np
+
+
+def oddString(words: list[str]) -> str:
+    # Compute difference patterns for each word
+    diffs = []
+    for word in words:
+        values = [ord(c) - ord('a') for c in word]
+        diffs.append(tuple(np.diff(values)))
+
+    # Count patterns and find the unique one
+    freq = Counter(diffs)
+    odd_pattern = next(pattern for pattern, count in freq.items() if count == 1)
+
+    # Return the word with that unique pattern
+    return words[diffs.index(odd_pattern)]
+
+### OPTIMIZED
+
+
+
+
+
 import numpy as np
 def oddString(words: list[str]) -> str:
 
