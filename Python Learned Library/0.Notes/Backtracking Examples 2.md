@@ -1,6 +1,14 @@
+
+
+
+
+## Example 1
+
 Let’s visualize **why your original code is incorrect** using a diagram. I’ll show each step for your input `[1, 2, 3, 4, 5]` and highlight where the recursion fails.
 
 ---
+
+<br>
 
 ### **Step 1: Initial call**
 
@@ -12,6 +20,8 @@ triangularSum([1, 2, 3, 4, 5])
 ```
 
 ---
+
+<br>
 
 ### **Step 2: Build next\_layer**
 
@@ -32,6 +42,8 @@ return nums      # ⚠ Problem: returns [3, 5, 7, 9] instead of final value
 
 ---
 
+<br>
+
 ### **Step 3: Recursion happens but result is ignored**
 
 ```
@@ -48,6 +60,8 @@ return nums           # ⚠ Still returns [3, 5, 7, 9] from previous layer
 * Each recursive call calculates the next layer but **its return is never used**.
 
 ---
+
+<br>
 
 ### **Step 4: Why the final result is wrong**
 
@@ -98,6 +112,4 @@ But ignored in previous layers → original call returns [3, 5, 7, 9] ❌
 
 ---
 
-If you want, I can **draw a neat triangular diagram of the numbers**, showing all layers like a real “triangle sum,” with arrows indicating how your code fails to return the final value.
 
-Do you want me to do that?

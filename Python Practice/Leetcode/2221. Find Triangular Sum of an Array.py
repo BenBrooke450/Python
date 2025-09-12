@@ -44,11 +44,9 @@ def triangularSum(nums: list[int]) -> int:
 
         print(next_layer)
 
-        trin_add(nums)
+        return trin_add(nums)
 
-        return nums
-
-    return trin_add(nums)
+    return trin_add(nums)[0]
 
 print(triangularSum([1,2,3,4,5]))
 
