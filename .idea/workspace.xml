@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3285. Find Indices of Stable Mountains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/iter() &amp; next().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2451. Odd String Difference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,6 +241,7 @@
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
     "Python.2442. Count Number of Distinct Integers After Reverse Operations.executor": "Run",
+    "Python.2451. Odd String Difference.executor": "Run",
     "Python.2460. Apply Operations to an Array.executor": "Run",
     "Python.2465. Number of Distinct Averages.executor": "Run",
     "Python.2469. Convert the Temperature.executor": "Run",
@@ -326,6 +329,7 @@
     "Python.326. Power of Three.executor": "Run",
     "Python.3274. Check if Two Chessboard Squares Have the Same Color.executor": "Run",
     "Python.3280. Convert Date to Binary.executor": "Run",
+    "Python.3285. Find Indices of Stable Mountains.executor": "Run",
     "Python.3289. The Two Sneaky Numbers of Digitville.executor": "Run",
     "Python.3300. Minimum Element After Replacement With Digit Sum.executor": "Run",
     "Python.3304. Find the K-th Character in String Game I.executor": "Run",
@@ -480,14 +484,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00462" summary="basic">
-      <option name="closed" value="true" />
-      <created>1753387083967</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1753387083968</updated>
     </task>
     <task id="LOCAL-00463" summary="basic">
       <option name="closed" value="true" />
@@ -873,7 +869,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757664445989</updated>
     </task>
-    <option name="localTasksCounter" value="511" />
+    <task id="LOCAL-00511" summary="basic">
+      <option name="closed" value="true" />
+      <created>1757664917843</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1757664917843</updated>
+    </task>
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
