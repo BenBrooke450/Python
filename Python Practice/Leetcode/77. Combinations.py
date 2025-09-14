@@ -20,6 +20,28 @@ Explanation: There is 1 choose 1 = 1 total combination.
 
 """
 
+from itertools import combinations,permutations
+def combine(n: int, k: int) -> list[list[int]]:
+
+    numbers = list(range(1,n+1))
+
+    print(list(combinations(numbers,k)))
+
+print(combine(4,3))
+#[(1, 2, 3), (1, 2, 4), (1, 3, 4), (2, 3, 4)]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import numpy as np
 
@@ -43,7 +65,6 @@ def combine(n: int, k: int) -> list[list[int]]:
 
             number[pos] += 1
 
-
         # Reset this position to minimal possible value for backtracking
         print("\n","number[pos]:",f"number[{pos}]:",number[pos],"\n")
         number[pos] = number[pos]
@@ -53,7 +74,6 @@ def combine(n: int, k: int) -> list[list[int]]:
     return ran
 
 
-print(combine(n = 6, k = 3))
 
 
 
