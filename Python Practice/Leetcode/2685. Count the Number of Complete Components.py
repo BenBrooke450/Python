@@ -28,7 +28,12 @@ Explanation: The component containing vertices 0, 1, and 2 is complete since the
 
 def countCompleteComponents(n: int, edges: list[list[int]]) -> int:
 
-    edges = [y for x in edges for y in x]
+
+
+    def dfs(edges,m,total):
+        
+
+
 
 
 

@@ -141,7 +141,7 @@ dfs(r, c+1)
 dfs(r, c-1)
 ```
 
-We then move back to this statement. This again check if we have met any of the conditions. If we do meet one of these conditions we return back to the previous space/area. 
+We then move back to this statement. This again checks if we have met any of the conditions. If we do meet one of these conditions we return back to the previous space/area. 
  - BUT you have to remember if we then find a 0 below that 1, we return to the one and then move into the next **dfs(r-1, c)** and we work our way down the list of dfs
 
 ```python
@@ -201,59 +201,6 @@ count = 0
                 dfs(r, c)
                 count += 1
 ```
-
-
-
-
-<br><br><br><br>
-
-# Example 2
-
-
-```python
-def numIslands(grid):
-
-    rows, cols = len(grid), len(grid[0])
-    visited = set()
-    q = 0
-    list1 = []
-
-    def dfs(r, c):
-        if (r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == 0 or (r, c) in visited):
-            return 0
-
-        visited.add((r, c))
-
-        count = 1
-
-        # Explore in all 4 directions
-        count = count + dfs(r+1, c)  # down
-        count = count + dfs(r-1, c)  # up
-        count = count + dfs(r, c+1)  # right
-        count = count + dfs(r, c-1)  # left
-
-        return count
-
-    for r in range(rows):
-        for c in range(cols):
-            if grid[r][c] == 1 and (r, c) not in visited:
-                size = dfs(r, c)
-                list1.append(size)
-
-                if size > q:
-                    q = size
-                size = 0
-
-    return list1, q
-```
-
-
-print(numIslands(grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]))
-
-
-
-
-
 
 
 
