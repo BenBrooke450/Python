@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1905. Count Sub Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/17. Letter Combinations of a Phone Number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Depth-First Search (DFS).md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Depth-First Search (DFS).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2685. Count the Number of Complete Components.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2685. Count the Number of Complete Components.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +134,7 @@
     "Python.1684. Count the Number of Consistent Strings.executor": "Run",
     "Python.1688. Count of Matches in Tournament.executor": "Run",
     "Python.169. Majority Element.executor": "Run",
+    "Python.17. Letter Combinations of a Phone Number.executor": "Run",
     "Python.1700. Number of Students Unable to Eat Lunch.executor": "Run",
     "Python.1704. Determine if String Halves Are Alike.executor": "Run",
     "Python.171. Excel Sheet Column Number.executor": "Run",
@@ -490,14 +489,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00472" summary="basic">
-      <option name="closed" value="true" />
-      <created>1753807253632</created>
-      <option name="number" value="00472" />
-      <option name="presentableId" value="LOCAL-00472" />
-      <option name="project" value="LOCAL" />
-      <updated>1753807253632</updated>
     </task>
     <task id="LOCAL-00473" summary="basic">
       <option name="closed" value="true" />
@@ -883,7 +874,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757834865488</updated>
     </task>
-    <option name="localTasksCounter" value="521" />
+    <task id="LOCAL-00521" summary="basic">
+      <option name="closed" value="true" />
+      <created>1757844486528</created>
+      <option name="number" value="00521" />
+      <option name="presentableId" value="LOCAL-00521" />
+      <option name="project" value="LOCAL" />
+      <updated>1757844486528</updated>
+    </task>
+    <option name="localTasksCounter" value="522" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
