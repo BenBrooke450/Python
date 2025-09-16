@@ -42,25 +42,26 @@ def letterCombinations(digits: str) -> list[str]:
 
     def loop(numbers : list[list[str]],list2,start:list[str],i):
 
-
         for x in start:
             for y in list1[1 + i]:
-                list2.append([x,y])
-
-        start = list2
-        list2 = []
-        print("start:  ",start)
+                if i == 0 :
+                    list2.append([x,y])
+                else:
+                    list3 = []
+                    list3.extend(x)
+                    list3.extend(y)
+                    list2.append(list3)
 
         if i + 2 < len(list1):
-            loop(list1,list2,start, i+1)
+            start = list2
+            list2 = []
+            last = loop(list1,list2,start, i+1)
+            return last
 
-        else:
-            return start
+        return list2
 
-    loop(list1,list2,start,i)
-
-    return start
+    return ["".join(x) for x in loop(list1,list2,start,i)]
 
 
-print(letterCombinations("2324"))
+print(letterCombinations("232"))
 

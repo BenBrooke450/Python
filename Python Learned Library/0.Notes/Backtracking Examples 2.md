@@ -162,3 +162,185 @@ So yes: **putting `return` in front ensures the most “indepth” (deepest) cal
 
 
 
+
+
+## Example 2
+
+# Broken Example
+
+```python
+def letterCombinations(digits: str) -> list[str]:
+
+    tele = {"2":['a', 'b', 'c'], "3":['d', 'e', 'f'], "4":['g', 'h', 'i'], "5":['j', 'k', 'l'], "6":['m', 'n', 'o'], "7":['p', 'q', 'r','s'], "8": ['t', 'u', 'v'], "9": ['w','x','y','z']}
+
+    list1 = []
+
+    for x in digits:
+        list1.append(tele[x])
+
+    list2 = []
+    start = list1[0]
+    i = 0
+
+    def loop(numbers : list[list[str]],list2,start:list[str],i):
+
+        for z,x in enumerate(start):
+            for j,y in enumerate(list1[1 + i]):
+
+                if i == 0 :
+                    list2.append([x,y])
+                else:
+                    list3 = []
+                    list3.extend(x)
+                    list3.extend(y)
+                    list2.append(list3)
+
+        if i + 2 < len(list1):
+            start = list2
+            list2 = []
+            start = loop(list1,list2,start, i+1)
+            return start
+
+        return start
+
+    loop(list1,list2,start,i)
+
+    return start
+
+
+
+
+print(letterCombinations("23"))
+#['a', 'b', 'c']
+```
+
+Perfect — let’s trace with a small example so you can **see exactly where the results vanish**.
+
+Suppose you call your function with:
+
+```python
+digits = "23"
+```
+
+so:
+
+```python
+list1 = [['a','b','c'], ['d','e','f']]
+```
+
+---
+
+### Step 1 — first call (`i = 0`)
+
+* `start = ['a','b','c']`
+* Inside the nested loops, you pair each from `start` with each from `list1[1]` → `[['a','d'], ['a','e'], ... , ['c','f']]`
+* Now:
+
+  ```python
+  start = list2   # (list2 has those 9 pairs)
+  list2 = []      # <-- here you wipe it out
+  ```
+
+At this point `start` holds your **9 pairs**, but `list2` is empty.
+
+---
+
+### Step 2 — recursive call (`i = 1`)
+
+* You call `loop(list1, list2, start, 1)`
+  BUT notice: `list2` is `[]` (you just reset it before).
+* Inside this call, the loops try to use `list1[2]` … but `len(list1) = 2`, so `i+1 = 2` is out of range.
+* Therefore, the inner loops do **nothing**.
+* Then the condition `if i + 2 < len(list1)` → `if 3 < 2` is false.
+* So you fall to `return start`.
+
+Here, `start` still has the **9 pairs**, so this deepest call returns them. ✅
+
+---
+
+### Step 3 — back at the first call
+
+* The recursive call returned the 9 pairs…
+* BUT you never captured them:
+
+  ```python
+  loop(list1, list2, start, i+1)   # result ignored
+  return start                     # returns the *old* start
+  ```
+
+So the top-level call just hands back its own `start` (whatever it was before recursion), not what recursion computed.
+
+---
+
+### 🔑 Key insight
+
+* Your deepest call *does* return the right result.
+* The parent call ignores it because you don’t do:
+
+  ```python
+  start = loop(list1, list2, start, i+1)
+  ```
+* Instead, you just throw it away and return your local `start`.
+
+---
+
+That’s why you never see the “final” results bubble all the way back out.
+
+
+<br>
+
+# Fixed Example 2
+
+```python
+def letterCombinations(digits: str) -> list[str]:
+
+    tele = {"2":['a', 'b', 'c'], "3":['d', 'e', 'f'], "4":['g', 'h', 'i'], "5":['j', 'k', 'l'], "6":['m', 'n', 'o'], "7":['p', 'q', 'r','s'], "8": ['t', 'u', 'v'], "9": ['w','x','y','z']}
+
+    list1 = []
+
+    for x in digits:
+        list1.append(tele[x])
+
+    print(list1)
+
+    list2 = []
+    start = list1[0]
+    i = 0
+
+    def loop(numbers : list[list[str]],list2,start:list[str],i):
+
+        for z,x in enumerate(start):
+            for j,y in enumerate(list1[1 + i]):
+
+                if i == 0 :
+                    list2.append([x,y])
+                else:
+                    list3 = []
+                    list3.extend(x)
+                    list3.extend(y)
+                    list2.append(list3)
+
+        if i + 2 < len(list1):
+            start = list2
+            list2 = []
+            last = loop(list1,list2,start, i+1)
+            return last
+
+        return list2
+
+    return loop(list1,list2,start,i)
+
+
+print(letterCombinations("23"))
+```
+
+
+
+
+
+
+
+
+
+
+
