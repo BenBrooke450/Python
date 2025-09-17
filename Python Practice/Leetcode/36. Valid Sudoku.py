@@ -83,12 +83,10 @@ def isValidSudoku(board: list[list[str]]) -> bool:
                     cube = 3
                 all.append(numbers)
 
-                if True in (True for x in range(9)) or True in (True for x in range(9) if
-                                                                board[r].count(str(x)) == 2) or True in (True for x in
-                                                                                                         range(9) if
-                                                                                                         board[x][
-                                                                                                             c].count(
-                                                                                                                 str(x)) == 2):
+                row_vals = [x for x in board[r] if x != "."]
+                col_vals = [board[x][c] for x in range(9) if board[x][c] != "."]
+
+                if len(row_vals) != len(set(row_vals)) or len(col_vals) != len(set(col_vals)):
                     return False
 
                 numbers = []
