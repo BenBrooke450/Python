@@ -81,12 +81,25 @@ def isValidSudoku(board: list[list[str]]) -> bool:
                 if cube > 9:
                     row = row + 3
                     cube = 3
+
                 all.append(numbers)
 
                 row_vals = [x for x in board[r] if x != "."]
                 col_vals = [board[x][c] for x in range(9) if board[x][c] != "."]
 
-                if len(row_vals) != len(set(row_vals)) or len(col_vals) != len(set(col_vals)):
+
+                start_row = (r // 3) * 3
+                start_col = (c // 3) * 3
+                cube_vals = []
+                for i in range(3):
+                    for j in range(3):
+                        val = board[start_row + i][start_col + j]
+                        if val != ".":
+                            cube_vals.append(val)
+
+                if len(row_vals) != len(set(row_vals)) \
+                   or len(col_vals) != len(set(col_vals)) \
+                   or len(cube_vals) != len(set(cube_vals)):
                     return False
 
                 numbers = []
@@ -133,4 +146,4 @@ print(isValidSudoku(board =[[".",".","4",".",".",".","6","3","."],
                             [".",".",".",".",".",".",".",".","."]]))
 
 
-
+print(numpy.array([["7",".",".",".","4",".",".",".","."],[".",".",".","8","6","5",".",".","."],[".","1",".","2",".",".",".",".","."],[".",".",".",".",".","9",".",".","."],[".",".",".",".","5",".","5",".","."],[".",".",".",".",".",".",".",".","."],[".",".",".",".",".",".","2",".","."],[".",".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".",".","."]]))
