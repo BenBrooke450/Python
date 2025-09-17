@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/36. Valid Sudoku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking Examples 2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking Examples 2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/17. Letter Combinations of a Phone Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/17. Letter Combinations of a Phone Number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,6 +349,7 @@
     "Python.3442. Maximum Difference Between Even and Odd Frequency I.executor": "Run",
     "Python.345. Reverse Vowels of a String.executor": "Run",
     "Python.3471. Find the Largest Almost Missing Integer.executor": "Run",
+    "Python.36. Valid Sudoku.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.386. Lexicographical Numbers.executor": "Run",
     "Python.389. Find the Difference.executor": "Run",
@@ -490,14 +490,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00474" summary="basic">
-      <option name="closed" value="true" />
-      <created>1753828262122</created>
-      <option name="number" value="00474" />
-      <option name="presentableId" value="LOCAL-00474" />
-      <option name="project" value="LOCAL" />
-      <updated>1753828262122</updated>
     </task>
     <task id="LOCAL-00475" summary="basic">
       <option name="closed" value="true" />
@@ -883,7 +875,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757978992970</updated>
     </task>
-    <option name="localTasksCounter" value="523" />
+    <task id="LOCAL-00523" summary="basic">
+      <option name="closed" value="true" />
+      <created>1758035857874</created>
+      <option name="number" value="00523" />
+      <option name="presentableId" value="LOCAL-00523" />
+      <option name="project" value="LOCAL" />
+      <updated>1758035857874</updated>
+    </task>
+    <option name="localTasksCounter" value="524" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
