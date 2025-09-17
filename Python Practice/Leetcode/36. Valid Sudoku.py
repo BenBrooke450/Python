@@ -43,6 +43,7 @@ Explanation: Same as Example 1, except with the 5 in the top left corner being m
 
 
 """
+import numpy
 
 
 def isValidSudoku(board: list[list[str]]) -> bool:
@@ -50,20 +51,14 @@ def isValidSudoku(board: list[list[str]]) -> bool:
     visited = set()
     numbers = []
     all = []
-    alert = set()
 
     def dfs(r, c):
         if ((r < row-3 or r >= row) or (c < cube-3 or c >= cube) or (r, c) in visited):
             return
 
         visited.add((r, c))
-        print([x for x in range(9) if board[r].count(str(x))==2],[x for x in range(9) if board[x][c].count(str(x)) == 2])
 
-        if board[r][c] in numbers or (x for x in range(9) if board[r].count(str(x)) == 2) or (x for x in range(9) if board[x][r].count(str(x)) == 2):
-            print(board[r][c],numbers)
-            alert.add("alart")
-
-        elif board[r][c] != ".":
+        if board[r][c] != ".":
             numbers.append(board[r][c])
 
         # Explore in all 4 directions
@@ -80,16 +75,16 @@ def isValidSudoku(board: list[list[str]]) -> bool:
         for c in range(9):
             if (r, c) not in visited:
                 dfs(r, c)
-                print(r,c)
                 cube = cube + 3
                 if cube > 9:
                     row = row + 3
                     cube = 3
                 all.append(numbers)
-                numbers = []
 
-                if len(alert) > 0:
+                if True in (numbers.count(str(x)) == 2 for x in range(9)) or True in (board[r].count(str(x)) == 2 for x in range(9)) or True in (board[x][r].count(str(x)) == 2 for x in range(9)):
                     return False
+
+                numbers = []
 
     return True
 
@@ -106,14 +101,23 @@ print(isValidSudoku(board=[["5","3",".",".","7",".",".",".","."]
 ,[".",".",".",".","8",".",".","7","9"]]))
 
 
+print(isValidSudoku(board =
+[["8","3",".",".","7",".",".",".","."]
+,["6",".",".","1","9","5",".",".","."]
+,[".","9","8",".",".",".",".","6","."]
+,["8",".",".",".","6",".",".",".","3"]
+,["4",".",".","8",".","3",".",".","1"]
+,["7",".",".",".","2",".",".",".","6"]
+,[".","6",".",".",".",".","2","8","."]
+,[".",".",".","4","1","9",".",".","5"]
+,[".",".",".",".","8",".",".","7","9"]]))
 
 
 
 
 
 
-
-
+print(numpy.array([[".",".","4",".",".",".","6","3","."],[".",".",".",".",".",".",".",".","."],["5",".",".",".",".",".",".","9","."],[".",".",".","5","6",".",".",".","."],["4",".","3",".",".",".",".",".","1"],[".",".",".","7",".",".",".",".","."],[".",".",".","5",".",".",".",".","."],[".",".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".",".","."]]))
 
 
 
