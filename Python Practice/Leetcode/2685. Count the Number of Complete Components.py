@@ -24,13 +24,51 @@ Explanation: The component containing vertices 0, 1, and 2 is complete since the
     Thus, the number of complete components in this graph is 1.
 
 """
+from gc import unfreeze
 
 
 def countCompleteComponents(n: int, edges: list[list[int]]) -> int:
 
+    """
+    A connected component is complete if and only if the number of edges in the component is equal to m*(m-1)/2, where m is the number of nodes in the component.
+    """
+
+    nodes = set()
+    triangles = set()
+
+    def dfs(y):
+        for q in edges:
+            if y in q and tuple(q) not in nodes:
+                nodes.add(tuple(q))
+                for t in q:
+                    dfs(t)
+
+    j = 0
+    for x in edges:
+        nodes.add(tuple(x))  # convert to tuple here
+        for y in x:
+            dfs(y)
+            j = j + 1
+            if j == 2:
+                triangles.add(frozenset(nodes))  # frozenset to make it hashable
+                nodes = set()
+                j = 0
+
+    return n -  len(set(q for x in triangles for y in x for q in y)),[len(set(x)) for x in triangles],[set(x) for x in triangles]
 
 
-    def dfs(edges,m,total):
+print(countCompleteComponents(6,[[0,1],[0,2],[1,2],[3,4]]))
+
+print(countCompleteComponents(6,[[0,1],[0,2],[1,2],[3,4],[3,5]]))
+
+print(countCompleteComponents(4,[[2,1],[3,0],[3,1],[3,2]]))
+
+
+
+
+
+
+
         
 
 
@@ -87,11 +125,6 @@ def countCompleteComponents(n: int, edges: list[list[int]]) -> int:
 
     return m + n - len(set(edges))
 
-
-
-print(countCompleteComponents(n = 5, edges = [[1,2],[3,4],[1,4],[2,3],[1,3],[2,4]]))
-
-print(countCompleteComponents(n=4, edges = [[2,1],[3,0],[3,1],[3,2]]))
 
 
 
