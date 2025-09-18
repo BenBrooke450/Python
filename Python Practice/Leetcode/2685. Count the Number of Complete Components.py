@@ -66,12 +66,53 @@ print(countCompleteComponents(4,[[2,1],[3,0],[3,1],[3,2]]))
 
 
 
+#################### chatGPT
 
 
+def countCompleteComponents(n: int, edges: list[list[int]]) -> int:
+    """
+    A connected component is complete if and only if the number of edges
+    in the component is equal to m*(m-1)/2, where m is the number of nodes
+    in the component.
+    """
+
+    # adjacency list
+    adj = {i: [] for i in range(n)}
+    for u, v in edges:
+        adj[u].append(v)
+        adj[v].append(u)
+
+    visited = set()
+    triangles = set()   # will hold frozensets of nodes in each component
+
+    def dfs(node, component):
+        if node in visited:
+            return
+        visited.add(node)
+        component.add(node)
+        for nei in adj[node]:
+            dfs(nei, component)
+
+    for i in range(n):
+        if i not in visited:
+            comp_nodes = set()
+            dfs(i, comp_nodes)
+            triangles.add(frozenset(comp_nodes))  # store as frozenset so it's hashable
+
+    # check completeness
+    complete_count = 0
+    for comp in triangles:
+        m = len(comp)
+        # count edges inside this component
+        edge_count = sum(1 for u in comp for v in adj[u] if v in comp) // 2
+        if edge_count == m * (m - 1) // 2:
+            complete_count += 1
+
+    return complete_count
 
         
 
-
+#################### chatGPT
 
 
 
