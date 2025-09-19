@@ -23,25 +23,39 @@ def minPathSum(grid: list[list[int]]) -> int:
 
     cols = len(grid[0])
     rows = len(grid)
+    path = []
+    visited = set()
+    sums = []
+    print(rows,cols)
 
     def dfs(r, c):
-        if (r < 0 or r >= rows or c < 0 or c >= cols):
-            return
+        if (r < 0 or r >= rows or c < 0 or c >= cols or (r,c) in visited):
+            if r+1 == rows and c+1 == cols:
+                sums.append(sum(path))
+                return
+            else:
+                return
 
-        # Explore in all 4 directions
-        dfs(r + 1, c)
-        dfs(r - 1, c)
+        visited.add((r,c))
+        path.append(grid[r][c])
+        print(path,r,c,)
+
         dfs(r, c + 1)
-        dfs(r, c - 1)
+        dfs(r + 1, c)
+
 
     count = 0
+    c = 0
 
     for r in range(rows):
-        for c in range(cols):
-            if grid[r][c] == 1 and (r, c) not in visited:
-                dfs(r, c)
-                count += 1
+        dfs(r, c)
+        visited = set()
+        path = []
 
+    return sums
+
+
+print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
 
 
 
