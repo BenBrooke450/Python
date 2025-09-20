@@ -18,3 +18,63 @@ print(a)      # Output: [1, 2]    ← not changed!
 ```
 
 
+
+
+<br><br><br><br>
+---
+
+
+Great question 🚀 — this goes to the **heart of backtracking**.
+
+When you do something like:
+
+```python
+if (r,c) == end:
+    solutions.append(path.copy())
+```
+
+the important part is the `.copy()`.
+
+---
+
+### Why?
+
+* In **backtracking**, you usually maintain a single mutable list `path` that you **push** onto (append) and **pop** off as you explore.
+* If you just do `solutions.append(path)`, then every entry in `solutions` would point to the **same underlying list object**.
+* That means when you later backtrack (pop items), all the "solutions" would change too — you'd end up with multiple references to the same evolving list.
+
+---
+
+### ✅ Example
+
+Without `.copy()`:
+
+```python
+path = [1, 2]
+solutions = []
+solutions.append(path)
+path.append(3)   # mutates path
+print(solutions)  # [[1, 2, 3]]   <-- changed!
+```
+
+With `.copy()`:
+
+```python
+path = [1, 2]
+solutions = []
+solutions.append(path.copy())
+path.append(3)
+print(solutions)  # [[1, 2]]   <-- frozen in time
+```
+
+---
+
+### Rule of Thumb in Backtracking
+
+* Use `.append(item)` and `.pop()` to explore.
+* When you want to **save a snapshot** of your current path, use `.copy()` (or `list(path)`) to store an **independent version**.
+
+---
+
+In short: `.copy()` ensures that when you reach a solution, you lock in that exact state of the path — otherwise your stored solutions would all mutate as backtracking continues.
+

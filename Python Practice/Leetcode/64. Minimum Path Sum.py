@@ -18,13 +18,54 @@ Output: 12
 
 """
 
+def minPathSum(grid: list[list[int]]) -> int:
+    cols = len(grid[0])
+    rows = len(grid)
+    path = []
+    sums = []
+
+    def dfs(r, c):
+        # if out of bounds
+        if r < 0 or r >= rows or c < 0 or c >= cols:
+            return
+
+        # add current cell
+        path.append(grid[r][c])
+
+        # if we reached bottom-right, record path sum
+        if r == rows - 1 and c == cols - 1:
+            sums.append(sum(path))
+        else:
+            # move right
+            dfs(r, c + 1)
+            # move down
+            dfs(r + 1, c)
+
+        # backtrack
+        path.pop()
+
+    dfs(0, 0)   # always start top-left
+
+    return min(sums)
+
+
+print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
+
+
+
+
+
+
+
+
+
+
 
 def minPathSum(grid: list[list[int]]) -> int:
 
     cols = len(grid[0])
     rows = len(grid)
     path = []
-    visited = set()
     sums = []
     print(rows,cols)
 
@@ -36,17 +77,13 @@ def minPathSum(grid: list[list[int]]) -> int:
             else:
                 return
 
-        visited.add((r,c))
+        visited.remove((r, c))
         path.append(grid[r][c])
         print(path,r,c,sums)
 
         dfs(r, c + 1)
         dfs(r + 1, c)
 
-        if r + 1 != rows and c > 1:
-            path.clear()
-
-    count = 0
     c = 0
 
     for r in range(rows):
