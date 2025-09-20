@@ -29,7 +29,7 @@ def minPathSum(grid: list[list[int]]) -> int:
     print(rows,cols)
 
     def dfs(r, c):
-        if (r < 0 or r >= rows or c < 0 or c >= cols or (r,c) in visited):
+        if (r < 0 or r >= rows or c < 0 or c >= cols or (r,c) in visited or r+1 == rows and c+1 == cols):
             if r+1 == rows and c+1 == cols:
                 sums.append(sum(path))
                 return
@@ -38,11 +38,13 @@ def minPathSum(grid: list[list[int]]) -> int:
 
         visited.add((r,c))
         path.append(grid[r][c])
-        print(path,r,c,)
+        print(path,r,c,sums)
 
         dfs(r, c + 1)
         dfs(r + 1, c)
 
+        if r + 1 != rows and c > 1:
+            path.clear()
 
     count = 0
     c = 0
