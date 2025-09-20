@@ -160,8 +160,240 @@ Then .pop() is called to remove 3 → backtrack!
 
 
 
+```python
+def minPathSum(grid: list[list[int]]) -> int:
+    cols = len(grid[0])
+    rows = len(grid)
+    path = []
+    sums = []
+
+    def dfs(r, c):
+        # if out of bounds
+        if r < 0 or r >= rows or c < 0 or c >= cols:
+            return
+
+        # add current cell
+        path.append(grid[r][c])
+
+        # if we reached bottom-right, record path sum
+        if r == rows - 1 and c == cols - 1:
+            sums.append(sum(path))
+        else:
+            # move right
+            dfs(r, c + 1)
+            # move down
+            dfs(r + 1, c)
+
+        # backtrack
+        path.pop()
+
+    dfs(0, 0)   # always start top-left
+
+    return min(sums)
+
+
+print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
+```
+
+
+Absolutely! Let’s go **step by step** and see exactly how recursion and `path.pop()` work together in your `minPathSum` function. We’ll use your example grid:
+
+```
+grid = [
+ [1, 3, 1],
+ [1, 5, 1],
+ [4, 2, 1]
+]
+```
+
+---
+
+### Step 0 — Initial state
+
+```python
+path = []
+sums = []
+dfs(0, 0)
+```
+
+* We start at the top-left: `r = 0, c = 0`.
+* `path = []`
+
+---
+
+### Step 1 — Visit (0,0)
+
+```python
+path.append(grid[0][0])  # append 1
+```
+
+* `path = [1]`
+* Not bottom-right, so we recurse **right** first: `dfs(0, 1)`
+
+---
+
+### Step 2 — Visit (0,1)
+
+```python
+path.append(grid[0][1])  # append 3
+```
+
+* `path = [1, 3]`
+* Not bottom-right → recurse **right**: `dfs(0, 2)`
+
+---
+
+### Step 3 — Visit (0,2)
+
+```python
+path.append(grid[0][2])  # append 1
+```
+
+* `path = [1, 3, 1]`
+* Not bottom-right → try **right**: `dfs(0, 3)` → **out of bounds**, returns.
+* Then try **down**: `dfs(1, 2)`
+
+---
+
+### Step 4 — Visit (1,2)
+
+```python
+path.append(grid[1][2])  # append 1
+```
+
+* `path = [1, 3, 1, 1]`
+* Not bottom-right → recurse right: `dfs(1,3)` → out of bounds → returns.
+* Then recurse down: `dfs(2,2)`
+
+---
+
+### Step 5 — Visit (2,2) → Bottom-right
+
+```python
+path.append(grid[2][2])  # append 1
+```
+
+* `path = [1, 3, 1, 1, 1]`
+* Bottom-right reached → compute sum: `sum(path) = 7`
+* Append to `sums`: `sums = [7]`
+
+---
+
+### Step 6 — Backtrack from (2,2)
+
+```python
+path.pop()
+```
+
+* Remove last element (1) from `path`
+* `path = [1, 3, 1, 1]`
+* Control returns to the call at (1,2)
+
+---
+
+### Step 7 — Backtrack from (1,2)
+
+```python
+path.pop()
+```
+
+* Remove last element (1)
+* `path = [1, 3, 1]`
+* Control returns to the call at (0,2)
+* Now DFS explores other directions (down already tried, right already done) → backtrack again
+
+---
+
+### Step 8 — Backtrack from (0,2)
+
+```python
+path.pop()
+```
+
+* Remove last element (1)
+* `path = [1, 3]`
+* Control returns to the call at (0,1)
+* Now explore **down**: `dfs(1,1)`
+
+---
+
+### Step 9 — DFS explores new path (0,1 → 1,1)
+
+```python
+path.append(grid[1][1])  # append 5
+```
+
+* `path = [1, 3, 5]`
+* And recursion continues similarly…
+
+---
+
+### 🔑 How `pop()` works
+
+* **Every recursive call has its own “stack frame”**, but they **share the same `path` list**.
+* `.append()` adds a value as you go deeper.
+* When a call finishes exploring all options from that cell, `.pop()` **removes the last element**, restoring `path` to the state before this cell was added.
+* This **undoes the move**, allowing other branches to explore without leftover values.
+
+Think of it like:
+
+```
+path = []  # start
+dfs(0,0)  # append 1
+  dfs(0,1)  # append 3
+    dfs(0,2)  # append 1
+      dfs(1,2)  # append 1
+        dfs(2,2)  # append 1, reached end, sum=7
+        pop()  # remove last 1
+      pop()  # remove 1 from (1,2)
+    pop()  # remove 1 from (0,2)
+  pop()  # remove 3 from (0,1)
+pop()  # remove 1 from (0,0)
+```
+
+* At each pop, the **list returns to the previous state**, allowing DFS to explore **all possible paths**.
+
+---
+
+### ✅ Final Result
+
+All paths from top-left to bottom-right are explored, sums collected, and the **minimum path sum** is returned:
+
+```
+print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))  # Output: 7
+```
 
 
 
-
-
+Start: [1]  (0,0)
+├─ Right → [1,3]  (0,1)
+│   ├─ Right → [1,3,1]  (0,2)
+│   │   ├─ Down → [1,3,1,1]  (1,2)
+│   │   │   ├─ Down → [1,3,1,1,1]  (2,2) ✔ sum=7
+│   │   │   └─ Backtrack → [1,3,1,1]
+│   │   └─ Backtrack → [1,3,1]
+│   └─ Down → [1,3,5]  (1,1)
+│       ├─ Right → [1,3,5,1]  (1,2)
+│       │   ├─ Down → [1,3,5,1,1]  (2,2) ✔ sum=11
+│       │   └─ Backtrack → [1,3,5,1]
+│       └─ Down → [1,3,5,2]  (2,1)
+│           ├─ Right → [1,3,5,2,1]  (2,2) ✔ sum=12
+│           └─ Backtrack → [1,3,5,2]
+│       └─ Backtrack → [1,3,5]
+│   └─ Backtrack → [1,3]
+└─ Down → [1,1]  (1,0)
+    ├─ Right → [1,1,5]  (1,1)
+    │   ├─ Right → [1,1,5,1]  (1,2)
+    │   │   ├─ Down → [1,1,5,1,1]  (2,2) ✔ sum=9
+    │   │   └─ Backtrack → [1,1,5,1]
+    │   └─ Down → [1,1,5,2]  (2,1)
+    │       ├─ Right → [1,1,5,2,1]  (2,2) ✔ sum=10
+    │       └─ Backtrack → [1,1,5,2]
+    │   └─ Backtrack → [1,1,5]
+    └─ Down → [1,1,4]  (2,0)
+        ├─ Right → [1,1,4,2]  (2,1)
+        │   ├─ Right → [1,1,4,2,1]  (2,2) ✔ sum=9
+        │   └─ Backtrack → [1,1,4,2]
+        └─ Down → [1,1,4]  (3,0) → out of bounds → return
+    └─ Backtrack → [1,1]
+└─ Backtrack → [1]
