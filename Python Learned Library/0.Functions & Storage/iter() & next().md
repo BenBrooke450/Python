@@ -1,6 +1,4 @@
-Here's a concise summary of `iter()` and `next()` in Python, along with examples:
 
----
 
 ### **`iter()` Function**
 
@@ -10,10 +8,10 @@ Here's a concise summary of `iter()` and `next()` in Python, along with examples
   - `sentinel` (optional): A value that signals when iteration should stop (used with callable iterables).
 
 
-<br><br><br><br>
+<br>
 
 
-### Example:
+### Example 1:
 ```python
 my_list = [1, 2, 3]
 my_iterator = iter(my_list)
@@ -22,9 +20,6 @@ print(next(my_iterator))  # Output: 1
 print(next(my_iterator))  # Output: 2
 ```
 
-
-
-<br><br><br><br>
 
 ---
 
@@ -61,7 +56,7 @@ unique_index = (i for i, tup in enumerate(list1) if list1.count(tup) == 1)
 
 ---
 
-#### Example
+### Example 3
 
 Let's say you have:
 
