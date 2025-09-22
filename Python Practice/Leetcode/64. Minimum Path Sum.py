@@ -60,41 +60,38 @@ print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
 
 
 
-
+import numpy as np
 def minPathSum(grid: list[list[int]]) -> int:
 
     cols = len(grid[0])
     rows = len(grid)
     path = []
-    sums = []
-    print(rows,cols)
+
+    grid = np.array(grid)
 
     def dfs(r, c):
-        if (r < 0 or r >= rows or c < 0 or c >= cols or (r,c) in visited or r+1 == rows and c+1 == cols):
-            if r+1 == rows and c+1 == cols:
-                sums.append(sum(path))
-                return
-            else:
-                return
 
-        visited.remove((r, c))
+        if r < 0 or r >= rows or c < 0 or c >= cols:
+            return
+
         path.append(grid[r][c])
-        print(path,r,c,sums)
 
-        dfs(r, c + 1)
-        dfs(r + 1, c)
+        print(grid[r,:],grid[:,c])
+        if np.sum(grid[r:]) < np.sum(grid[:,c]):
+            dfs(r, c + 1)
+        else:
+            dfs(r + 1, c)
 
-    c = 0
+    dfs(0, 0)   # always start top-left
 
-    for r in range(rows):
-        dfs(r, c)
-        visited = set()
-        path = []
-
-    return sums
-
+    return path
 
 print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
+
+
+
+
+
 
 
 
