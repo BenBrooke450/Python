@@ -20,14 +20,6 @@ Output: 12
 
 
 
-def minPathSum(grid: list[list[int]]) -> int:
-
-
-
-
-
-
-
 
 
 def minPathSum(grid: list[list[int]]) -> int:
@@ -57,7 +49,7 @@ def minPathSum(grid: list[list[int]]) -> int:
         print(f"Removing: {r,c}")
         path.pop()
 
-    dfs(0, 0)
+    dfs(0, 0,)
 
     return min(sums)
 
