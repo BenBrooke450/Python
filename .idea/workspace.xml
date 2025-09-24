@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/131. Palindrome Partitioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/131. Palindrome Partitioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/64. Minimum Path Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/64. Minimum Path Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -493,14 +494,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00489" summary="basic">
-      <option name="closed" value="true" />
-      <created>1754586060778</created>
-      <option name="number" value="00489" />
-      <option name="presentableId" value="LOCAL-00489" />
-      <option name="project" value="LOCAL" />
-      <updated>1754586060778</updated>
-    </task>
     <task id="LOCAL-00490" summary="basic">
       <option name="closed" value="true" />
       <created>1754588965535</created>
@@ -885,7 +878,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758579674849</updated>
     </task>
-    <option name="localTasksCounter" value="538" />
+    <task id="LOCAL-00538" summary="basic">
+      <option name="closed" value="true" />
+      <created>1758581032057</created>
+      <option name="number" value="00538" />
+      <option name="presentableId" value="LOCAL-00538" />
+      <option name="project" value="LOCAL" />
+      <updated>1758581032057</updated>
+    </task>
+    <option name="localTasksCounter" value="539" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
