@@ -197,3 +197,5 @@ BFS will return the **shortest path**:
 ---
 
 Would you like me to also make a **side-by-side visualization (like Plotly or ASCII)** so you can *see* how DFS vs BFS explores the grid differently?
+
+
