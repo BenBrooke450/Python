@@ -7,6 +7,9 @@ It tries all possible paths, and if a path doesn't work, it goes back (or “bac
 
 
 
+
+# Example 1
+
 ```python
 def backtrack(start, path):
     print("Subset:", path)
@@ -157,7 +160,9 @@ Then .pop() is called to remove 3 → backtrack!
 
 
 
+<br><br><br><br><br><br><br><br>
 
+# Example 2
 
 
 ```python
@@ -363,6 +368,63 @@ All paths from top-left to bottom-right are explored, sums collected, and the **
 print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))  # Output: 7
 ```
 
+```python
+"""
+In bounds: (0, 0)
+In bounds: (0, 1)
+In bounds: (0, 2)
+Returning: (0, 3) out of bounds
+In bounds: (1, 2)
+Returning: (1, 3) out of bounds
+In bounds: (2, 2)
+Reached the end (2, 2)
+Removing: (2, 2)
+Removing: (1, 2)
+Removing: (0, 2)
+In bounds: (1, 1)
+In bounds: (1, 2)
+Returning: (1, 3) out of bounds
+In bounds: (2, 2)
+Reached the end (2, 2)
+Removing: (2, 2)
+Removing: (1, 2)
+In bounds: (2, 1)
+In bounds: (2, 2)
+Reached the end (2, 2)
+Removing: (2, 2)
+Returning: (3, 1) out of bounds
+Removing: (2, 1)
+Removing: (1, 1)
+Removing: (0, 1)
+In bounds: (1, 0)
+In bounds: (1, 1)
+In bounds: (1, 2)
+Returning: (1, 3) out of bounds
+In bounds: (2, 2)
+Reached the end (2, 2)
+Removing: (2, 2)
+Removing: (1, 2)
+In bounds: (2, 1)
+In bounds: (2, 2)
+Reached the end (2, 2)
+Removing: (2, 2)
+Returning: (3, 1) out of bounds
+Removing: (2, 1)
+Removing: (1, 1)
+In bounds: (2, 0)
+In bounds: (2, 1)
+In bounds: (2, 2)
+Reached the end (2, 2)
+Removing: (2, 2)
+Returning: (3, 1) out of bounds
+Removing: (2, 1)
+Returning: (3, 0) out of bounds
+Removing: (2, 0)
+Removing: (1, 0)
+Removing: (0, 0)
+7"""
+
+
 
 
 Start: [1]  (0,0)
@@ -397,3 +459,4 @@ Start: [1]  (0,0)
         └─ Down → [1,1,4]  (3,0) → out of bounds → return
     └─ Backtrack → [1,1]
 └─ Backtrack → [1]
+```

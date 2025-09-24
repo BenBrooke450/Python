@@ -31,6 +31,7 @@ def partition(s: str) -> list[list[str]]:
                 if t == t[::-1]:
 
 
+
     loop(s)
 
     return list1
