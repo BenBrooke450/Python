@@ -21,20 +21,61 @@ Output: [["Q"]]
 """
 
 
+
+def solveNQueens(n: int) -> list[list[str]]:
+
+
+
+
+
+
+
+
+
+
+
 def solveNQueens(n: int) -> list[list[str]]:
 
     rows = n
     cols = n
 
+    if n == 1:
+        return [["Q"]]
+
     grid = [["." for x in range(n)] for y in range(n)]
 
-    grid[0][1] = "Q"
+    visited = set()
+    queen = []
+
+    def dfs(r,c):
+
+        if ((r,c) in visited or r < 0 or r >= rows or c < 0
+                or c >= cols or grid[r+1][c+1] == "Q"
+                or grid[r-1][c-1] == "Q"
+                or grid[r-1][c+1] == "Q"
+                or grid[r+1][c-1] == "Q"):
+            return
 
 
+        if "Q" not in grid[r] and "Q" not in [grid[x][c] for x in range(cols-1)]:
+            grid[r][c] = "Q"
 
+        visited.add((r,c))
 
+        dfs(r, c + 1)
+        dfs(r + 1, c)
+        dfs(r ,c - 1)
+        dfs(r - 1, c)
 
-    print(grid)
+    for x in range(n):
+        dfs(0,x)
+        queen.append(["".join(x) for x in grid])
+        queen.append(["".join(x)[::-1] for x in grid])
+        visited.clear()
+        grid = [["." for x in range(n)] for y in range(n)]
+
+    return queen
+
 
 print(solveNQueens(4))
 
