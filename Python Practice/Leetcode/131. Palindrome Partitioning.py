@@ -29,6 +29,7 @@ def partition(s: str) -> list[list[str]]:
                 t = s[i:j]
                 print(i,j,t,"    ",t[::-1])
                 if t == t[::-1]:
+                    pass
 
 
 
