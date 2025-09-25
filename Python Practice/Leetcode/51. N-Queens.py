@@ -22,9 +22,21 @@ Output: [["Q"]]
 
 
 def solveNQueens(n: int) -> list[list[str]]:
-    pass
+
+    rows = n
+    cols = n
+
+    grid = [["." for x in range(n)] for y in range(n)]
+
+    grid[0][1] = "Q"
 
 
+
+
+
+    print(grid)
+
+print(solveNQueens(4))
 
 
 
