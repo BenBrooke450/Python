@@ -25,15 +25,60 @@ Output: [["Q"]]
 def solveNQueens(n: int) -> list[list[str]]:
 
     grid = [["." for x in range(n)] for y in range(n)]
+    lines = []
+    all_q = []
 
+    def dfs(r,c):
+        t = 0
 
+        if r+1 == n:
+            return lines
 
+        for y in range(n):
 
+            i, j = r - 1, y - 1
+            while i >= 0 and j >= 0:
+                if grid[i][j] == "Q" or "Q" in [grid[i][y] for x in range(i)]:
+                    t = 1
+                    break
+                i -= 1
+                j -= 1
 
+            if t == 1:
+                t = 0
+                continue
 
+            i, j = r - 1, y + 1
+            while i >= 0 and j < n:
+                if grid[i][j] == "Q" or "Q" in [grid[i][y] for x in range(i)]:
+                    t = 1
+                    break
+                i -= 1
+                j += 1
+
+            if t == 1:
+                t = 0
+                continue
+
+            grid[r][y] = "Q"
+
+            lines.append(grid[r])
+
+            dfs(r + 1, c)
+
+    c = 0
+    r = 0
     for x in range(n):
+        print(x)
+        grid[0][x] = "Q"
+        dfs(r+1,c)
+        all_q.append(lines)
+        lines = []
+
+    return all_q
 
 
+print(solveNQueens(4))
 
 
 
@@ -85,13 +130,6 @@ def solveNQueens(n: int) -> list[list[str]]:
         grid = [["." for x in range(n)] for y in range(n)]
 
     return queen
-
-
-print(solveNQueens(4))
-
-
-
-
 
 
 
