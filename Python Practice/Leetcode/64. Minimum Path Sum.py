@@ -18,6 +18,81 @@ Output: 12
 
 """
 
+import numpy as np
+def minPathSum(grid: list[list[int]]) -> int:
+    rows = len(grid)
+    cols = len(grid[0])
+
+    grid = np.array(grid)
+
+    # Start from the top-left corner and update each cell with min path sum
+    for r in range(rows):
+        for c in range(cols):
+            print(grid)
+            if r == 0 and c == 0:
+                continue  # start cell, nothing to do
+            elif r == 0:
+                grid[r,c] += grid[r,c - 1]  # first row, can only come from left
+            elif c == 0:
+                grid[r,c] += grid[r - 1,c]  # first column, can only come from top
+            else:
+                grid[r,c] += min(grid[r - 1,c], grid[r,c - 1])  # min from top or left
+
+    return grid[-1,-1]
+
+
+# Example
+print(minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]]))  # Output: 7
+"""
+[1 3 1]
+ [1 5 1]
+ [4 2 1]]
+ 
+[[1 3 1]
+ [1 5 1]
+ [4 2 1]]
+ 
+[[1 4 1]
+ [1 5 1]
+ [4 2 1]]
+ 
+[[1 4 5]
+ [1 5 1]
+ [4 2 1]]
+ 
+[[1 4 5]
+ [2 5 1]
+ [4 2 1]]
+ 
+[[1 4 5]
+ [2 7 1]
+ [4 2 1]]
+ 
+[[1 4 5]
+ [2 7 6]
+ [4 2 1]]
+ 
+[[1 4 5]
+ [2 7 6]
+ [6 2 1]]
+ 
+[[1 4 5]
+ [2 7 6]
+ [6 8 1]]
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
