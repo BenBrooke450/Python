@@ -29,6 +29,8 @@ def minPathSum(grid: list[list[int]]) -> int:
     for r in range(rows):
         for c in range(cols):
             print(grid)
+            print("Coordinates:  ",[r,c])
+            print("  ")
             if r == 0 and c == 0:
                 continue  # start cell, nothing to do
             elif r == 0:
@@ -38,47 +40,58 @@ def minPathSum(grid: list[list[int]]) -> int:
             else:
                 grid[r,c] += min(grid[r - 1,c], grid[r,c - 1])  # min from top or left
 
+
+
     return grid[-1,-1]
 
 
 # Example
 print(minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]]))  # Output: 7
 """
-[1 3 1]
- [1 5 1]
- [4 2 1]]
- 
 [[1 3 1]
  [1 5 1]
  [4 2 1]]
- 
+Coordinates:   [0, 0]
+
+[[1 3 1]
+ [1 5 1]
+ [4 2 1]]
+Coordinates:   [0, 1]
+
 [[1 4 1]
  [1 5 1]
  [4 2 1]]
- 
+Coordinates:   [0, 2]
+
 [[1 4 5]
  [1 5 1]
  [4 2 1]]
- 
+Coordinates:   [1, 0]
+
 [[1 4 5]
  [2 5 1]
  [4 2 1]]
- 
+Coordinates:   [1, 1]
+
 [[1 4 5]
  [2 7 1]
  [4 2 1]]
- 
+Coordinates:   [1, 2]
+
 [[1 4 5]
  [2 7 6]
  [4 2 1]]
- 
+Coordinates:   [2, 0]
+
 [[1 4 5]
  [2 7 6]
  [6 2 1]]
- 
+Coordinates:   [2, 1]
+
 [[1 4 5]
  [2 7 6]
  [6 8 1]]
+Coordinates:   [2, 2]
 """
 
 
