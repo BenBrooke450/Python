@@ -23,7 +23,16 @@ Output: [["Q"]]
 
 
 def solveNQueens(n: int) -> list[list[str]]:
-    pass
+
+    grid = [["." for x in range(n)] for y in range(n)]
+
+
+
+
+
+
+    for x in range(n):
+
 
 
 
