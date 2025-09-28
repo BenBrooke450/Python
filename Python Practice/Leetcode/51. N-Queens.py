@@ -21,6 +21,64 @@ Output: [["Q"]]
 """
 
 
+def solveNQueens(n: int) -> list[list[str]]:
+    grid = [["." for _ in range(n)] for _ in range(n)]
+    all_q = []
+
+    def dfs(r: int):
+        if r == n:  # base case: placed queens in all rows
+            # make a copy of the board as strings
+            solution = ["".join(row) for row in grid]
+            all_q.append(solution)
+            return
+
+        for y in range(n):
+            valid = True
+
+            # check column
+            for x in range(r):
+                if grid[x][y] == "Q":
+                    valid = False
+                    break
+
+            # check diagonal ↖
+            i, j = r - 1, y - 1
+            while i >= 0 and j >= 0:
+                if grid[i][j] == "Q":
+                    valid = False
+                    break
+                i -= 1
+                j -= 1
+
+            # check diagonal ↗
+            i, j = r - 1, y + 1
+            while i >= 0 and j < n:
+                if grid[i][j] == "Q":
+                    valid = False
+                    break
+                i -= 1
+                j += 1
+
+            if not valid:
+                continue
+
+            # place queen
+            grid[r][y] = "Q"
+
+            # recurse
+            dfs(r + 1)
+
+            # backtrack (reset state)
+            grid[r][y] = "."
+
+    dfs(0)
+    return all_q
+
+
+print(solveNQueens(4))
+
+
+
 
 def solveNQueens(n: int) -> list[list[str]]:
 
