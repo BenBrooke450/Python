@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/122. Best Time to Buy and Sell Stock II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/51. N-Queens.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/51. N-Queens.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,14 +497,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00504" summary="basic">
-      <option name="closed" value="true" />
-      <created>1757636242540</created>
-      <option name="number" value="00504" />
-      <option name="presentableId" value="LOCAL-00504" />
-      <option name="project" value="LOCAL" />
-      <updated>1757636242540</updated>
-    </task>
     <task id="LOCAL-00505" summary="basic">
       <option name="closed" value="true" />
       <created>1757636459290</created>
@@ -889,7 +881,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759010629030</updated>
     </task>
-    <option name="localTasksCounter" value="553" />
+    <task id="LOCAL-00553" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759061306882</created>
+      <option name="number" value="00553" />
+      <option name="presentableId" value="LOCAL-00553" />
+      <option name="project" value="LOCAL" />
+      <updated>1759061306882</updated>
+    </task>
+    <option name="localTasksCounter" value="554" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
