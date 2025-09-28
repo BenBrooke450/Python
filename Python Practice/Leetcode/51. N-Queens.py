@@ -31,10 +31,7 @@ def solveNQueens(n: int) -> list[list[str]]:
     def dfs(r,c):
         t = 0
 
-        print(grid,lines,[grid[x][c] for x in range(n)])
-
-        if r+1 == n:
-            return lines
+        print(grid,[grid[x][c] for x in range(n)])
 
         for y in range(n):
 
@@ -74,14 +71,25 @@ def solveNQueens(n: int) -> list[list[str]]:
 
             dfs(r + 1, c)
 
+            p = [x.count("Q") for x in lines]
+
+            print("P:  ", p)
+
+            if all(y != 1 for y in p) or len(p) != n:
+                lines = []
+
+            else:
+                all_q.append(lines)
+                lines = []
+
     c = 0
     r = 0
     for x in range(n):
         print("STARTING ROW:  ",x)
         grid[0][x] = "Q"
         dfs(r+1,c)
-        all_q.append(lines)
-        lines = []
+
+        grid = [["." for x in range(n)] for y in range(n)]
 
     return all_q
 
