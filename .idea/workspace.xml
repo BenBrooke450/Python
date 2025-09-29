@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Class.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/For loop.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/While loop.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/F-string.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Backtracking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/131. Palindrome Partitioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/131. Palindrome Partitioning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,11 +475,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage" />
       <recent name="$PROJECT_DIR$/Python Bookcamp - Udemy" />
       <recent name="$PROJECT_DIR$/Python Bookcamp - Udemy/images" />
       <recent name="$PROJECT_DIR$/Python Practice/Leetcode" />
       <recent name="$PROJECT_DIR$/Python Practice" />
-      <recent name="$PROJECT_DIR$/PYnative" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -499,30 +497,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00508" summary="basic">
-      <option name="closed" value="true" />
-      <created>1757638561004</created>
-      <option name="number" value="00508" />
-      <option name="presentableId" value="LOCAL-00508" />
-      <option name="project" value="LOCAL" />
-      <updated>1757638561004</updated>
-    </task>
-    <task id="LOCAL-00509" summary="basic">
-      <option name="closed" value="true" />
-      <created>1757638582492</created>
-      <option name="number" value="00509" />
-      <option name="presentableId" value="LOCAL-00509" />
-      <option name="project" value="LOCAL" />
-      <updated>1757638582492</updated>
-    </task>
-    <task id="LOCAL-00510" summary="basic">
-      <option name="closed" value="true" />
-      <created>1757664445989</created>
-      <option name="number" value="00510" />
-      <option name="presentableId" value="LOCAL-00510" />
-      <option name="project" value="LOCAL" />
-      <updated>1757664445989</updated>
     </task>
     <task id="LOCAL-00511" summary="basic">
       <option name="closed" value="true" />
@@ -892,7 +866,31 @@
       <option name="project" value="LOCAL" />
       <updated>1759075138237</updated>
     </task>
-    <option name="localTasksCounter" value="557" />
+    <task id="LOCAL-00557" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759076948297</created>
+      <option name="number" value="00557" />
+      <option name="presentableId" value="LOCAL-00557" />
+      <option name="project" value="LOCAL" />
+      <updated>1759076948297</updated>
+    </task>
+    <task id="LOCAL-00558" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759077127703</created>
+      <option name="number" value="00558" />
+      <option name="presentableId" value="LOCAL-00558" />
+      <option name="project" value="LOCAL" />
+      <updated>1759077127703</updated>
+    </task>
+    <task id="LOCAL-00559" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759077186497</created>
+      <option name="number" value="00559" />
+      <option name="presentableId" value="LOCAL-00559" />
+      <option name="project" value="LOCAL" />
+      <updated>1759077186497</updated>
+    </task>
+    <option name="localTasksCounter" value="560" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -23,14 +23,27 @@ def partition(s: str) -> list[list[str]]:
     list1 = []
     list1.append([x for x in s])
 
-    def loop(s: str):
-        for i in range(len(s)-1):
-            for j in range(len(s)-1,0,-1):
-                t = s[i:j]
-                print(i,j,t,"    ",t[::-1])
-                if t == t[::-1]:
-                    pass
 
+    def loop(s: list[str]):
+
+        for i in range(len(s)):
+            for j in range(1, len(s)):
+
+                t = s[i:j]
+
+                print(i, j, t, "    ", t[::-1])
+
+                if t == t[::-1]:
+
+                    one = [s[:i-1],s[i:j],s[j:]]
+                    list1.append(one)
+
+                    loop(s)
+
+
+
+            if not j == len(s) and :
+                continue
 
 
     loop(s)
