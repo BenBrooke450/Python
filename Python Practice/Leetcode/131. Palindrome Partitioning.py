@@ -35,15 +35,10 @@ def partition(s: str) -> list[list[str]]:
 
                 if t == t[::-1]:
 
-                    one = [s[:i-1],s[i:j],s[j:]]
-                    list1.append(one)
+                    list1.append(s[i:j])
 
-                    loop(s)
+                    loop(s[j:])
 
-
-
-            if not j == len(s) and :
-                continue
 
 
     loop(s)
