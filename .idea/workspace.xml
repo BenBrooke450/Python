@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/copy().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.copy().md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/sort() &amp; sorted().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.sort() &amp; sorted().md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/287. Find the Duplicate Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/287. Find the Duplicate Number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -497,14 +500,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00519" summary="basic">
-      <option name="closed" value="true" />
-      <created>1757771232097</created>
-      <option name="number" value="00519" />
-      <option name="presentableId" value="LOCAL-00519" />
-      <option name="project" value="LOCAL" />
-      <updated>1757771232097</updated>
-    </task>
     <task id="LOCAL-00520" summary="basic">
       <option name="closed" value="true" />
       <created>1757834865488</created>
@@ -889,7 +884,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759610908699</updated>
     </task>
-    <option name="localTasksCounter" value="568" />
+    <task id="LOCAL-00568" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759611158391</created>
+      <option name="number" value="00568" />
+      <option name="presentableId" value="LOCAL-00568" />
+      <option name="project" value="LOCAL" />
+      <updated>1759611158391</updated>
+    </task>
+    <option name="localTasksCounter" value="569" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

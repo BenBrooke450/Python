@@ -24,7 +24,10 @@ Output: 3
 """
 
 
-def findDuplicate(self, nums: list[int]) -> int:
+def findDuplicate(nums: list[int]) -> int:
+
+    sum(nums)
+
 
 
 
