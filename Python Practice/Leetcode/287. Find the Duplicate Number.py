@@ -24,6 +24,10 @@ Output: 3
 """
 
 
+def findDuplicate(self, nums: list[int]) -> int:
+
+
+
 
 
 
