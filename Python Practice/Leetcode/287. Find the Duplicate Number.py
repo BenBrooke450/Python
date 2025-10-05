@@ -26,16 +26,15 @@ Output: 3
 
 def findDuplicate(nums: list[int]) -> int:
 
-    n = len(nums) - 1
-    xor_all = 0
 
-    for num in nums:
-        xor_all ^= num
+    for i,x in enumerate(nums):
+        if nums.index(x) != nums.index(x,i):
+            return x
 
-    for i in range(1, n + 1):
-        xor_all ^= i
 
-    return xor_all
+
+
+
 
 print(findDuplicate([1,3,4,2,2]))
 
