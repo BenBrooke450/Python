@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.index() ##.find().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.join() ##.split().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.strip() ##.replace().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/all() any().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/isinstance() type().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/min() max().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/sum() ##.count().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/zip().md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/^ XOR.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/^ XOR.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/iter() &amp; next().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/iter() next().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/287. Find the Duplicate Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/287. Find the Duplicate Number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,22 +498,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00522" summary="basic">
-      <option name="closed" value="true" />
-      <created>1757978992970</created>
-      <option name="number" value="00522" />
-      <option name="presentableId" value="LOCAL-00522" />
-      <option name="project" value="LOCAL" />
-      <updated>1757978992970</updated>
-    </task>
-    <task id="LOCAL-00523" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758035857874</created>
-      <option name="number" value="00523" />
-      <option name="presentableId" value="LOCAL-00523" />
-      <option name="project" value="LOCAL" />
-      <updated>1758035857874</updated>
-    </task>
     <task id="LOCAL-00524" summary="basic">
       <option name="closed" value="true" />
       <created>1758116680184</created>
@@ -899,7 +874,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759613413880</updated>
     </task>
-    <option name="localTasksCounter" value="571" />
+    <task id="LOCAL-00571" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759623634066</created>
+      <option name="number" value="00571" />
+      <option name="presentableId" value="LOCAL-00571" />
+      <option name="project" value="LOCAL" />
+      <updated>1759623634066</updated>
+    </task>
+    <task id="LOCAL-00572" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759623915180</created>
+      <option name="number" value="00572" />
+      <option name="presentableId" value="LOCAL-00572" />
+      <option name="project" value="LOCAL" />
+      <updated>1759623915180</updated>
+    </task>
+    <option name="localTasksCounter" value="573" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
