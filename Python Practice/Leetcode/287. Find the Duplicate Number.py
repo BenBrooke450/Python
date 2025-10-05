@@ -26,14 +26,24 @@ Output: 3
 
 def findDuplicate(nums: list[int]) -> int:
 
-
-    for i,x in enumerate(nums):
-        if nums.index(x) != nums.index(x,i):
-            return x
+    slow = nums[0]
+    fast = nums[0]
 
 
+    while True:
+        print(slow,fast)
+        slow = nums[slow]
+        fast = nums[nums[fast]]
+        if slow == fast:
+            break
 
 
+    slow = nums[0]
+    while slow != fast:
+        slow = nums[slow]
+        fast = nums[fast]
+
+    return slow
 
 
 print(findDuplicate([1,3,4,2,2]))
