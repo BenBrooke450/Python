@@ -54,7 +54,7 @@ print(x)  # 6
 
  - 5 (101) and 3 (011) differ in the first two bits, so the result has those bits set (110 = 6).
 
- - 5(1##) 3(0##)  = (1..) >  5(#0#) 3(#1#) = (11.) > 5(##1) 3(##1) = (110)
+ - 5(1##) 3(0##)  = (1..) >  5(#0#) 3(#1#) = (11.) > 5(##1) 3(##1) = 6(110)
 
 """
 
@@ -76,7 +76,7 @@ print(x)  # 6
 
  - 5(101) and 3(011) differ in the first two bits, so the result has those bits set (110 = 6).
 
- - 5(1##) 3(0##)  = (1..) >  5(#0#) 3(#1#) = (11.) > 5(##1) 3(##1) = (110)
+ - 5(1##) 3(0##)  = (1..) >  5(#0#) 3(#1#) = (11.) > 5(##1) 3(##1) = 6(110)
 
 ```
 
@@ -89,7 +89,7 @@ nums = [3, 0, 1]
 xor_all = 0
 
 for num in nums:
-    xor_all ^= num   # same as xor_all = xor_all ^ num
+    xor_all = xor_all ^ num # or xor_all ^= num
 
 print(xor_all)  # 2
 ```
@@ -112,7 +112,7 @@ nums = [4, 7, 4]
 xor_all = 0
 
 for num in nums:
-    xor_all ^= num
+    xor_all = xor_all ^ num # or xor_all ^= num
 
 print(xor_all)  # 7
 ```
