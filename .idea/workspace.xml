@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Startswith() Endswith() Startswith() Endswith().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/range().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists #2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists #3.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -496,14 +501,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00527" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758125237727</created>
-      <option name="number" value="00527" />
-      <option name="presentableId" value="LOCAL-00527" />
-      <option name="project" value="LOCAL" />
-      <updated>1758125237727</updated>
-    </task>
     <task id="LOCAL-00528" summary="basic">
       <option name="closed" value="true" />
       <created>1758125780241</created>
@@ -888,7 +885,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759666295604</updated>
     </task>
-    <option name="localTasksCounter" value="576" />
+    <task id="LOCAL-00576" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759666774150</created>
+      <option name="number" value="00576" />
+      <option name="presentableId" value="LOCAL-00576" />
+      <option name="project" value="LOCAL" />
+      <updated>1759666774150</updated>
+    </task>
+    <option name="localTasksCounter" value="577" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
