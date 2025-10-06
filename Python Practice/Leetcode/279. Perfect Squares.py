@@ -20,22 +20,25 @@ Explanation: 13 = 4 + 9.
 
 """
 
+import math
 
 def numSquares(n: int) -> int:
 
     minumum = [1 for x in range(n)]
+    perfect_squares = tuple(i * i for i in range(1, n//2))
 
 
     def checker(number_list):
 
         start = 0
         for x in number_list:
-            start =+ x
-            if start
+            start += x
+            per_squ = int(math.sqrt(start))
 
+            if per_squ in perfect_squares and start != 1:
+                print(start)
 
-
-
+    checker(number_list=minumum)
 
     return minumum
 
