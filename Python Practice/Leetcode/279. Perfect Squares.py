@@ -25,7 +25,7 @@ import math
 def numSquares(n: int) -> int:
 
     minumum = [1 for x in range(n)]
-    perfect_squares = tuple(i * i for i in range(1, n//2))
+    perfect_squares = tuple(i * i for i in range(1, n//3))
 
 
     def checker(number_list):
@@ -33,10 +33,14 @@ def numSquares(n: int) -> int:
         start = 0
         for x in number_list:
             start += x
-            per_squ = int(math.sqrt(start))
+
+            per_squ = math.sqrt(start)
+            print(per_squ)
+
 
             if per_squ in perfect_squares and start != 1:
-                print(start)
+                pass
+
 
     checker(number_list=minumum)
 
