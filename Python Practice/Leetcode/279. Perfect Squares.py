@@ -22,8 +22,8 @@ Explanation: 13 = 4 + 9.
 
 
 def numSquares(n: int) -> int:
-    m = n//4
-    minumum = sorted([4 for x in range(m)] + [1 for x in range(n-m*4)])
+
+    minumum = [1 for x in range(n)]
 
 
     def checker(number_list):
@@ -31,13 +31,10 @@ def numSquares(n: int) -> int:
         start = 0
         for x in number_list:
             start =+ x
+            if start
 
 
 
-
-
-
-    checker(numbers_list)
 
 
     return minumum
