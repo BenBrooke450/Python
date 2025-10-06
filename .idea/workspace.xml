@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Startswith() Endswith() Startswith() Endswith().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/range().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists #2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/Linked Lists #3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/279. Perfect Squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,6 +293,7 @@
     "Python.2744. Find Maximum Number of String Pairs.executor": "Run",
     "Python.2778. Sum of Squares of Special Elements.executor": "Run",
     "Python.2785. Sort Vowels in a String.executor": "Run",
+    "Python.279. Perfect Squares.executor": "Run",
     "Python.2798. Number of Employees Who Met the Target.executor": "Run",
     "Python.28. Find the Index of the First Occurrence in a String.executor": "Run",
     "Python.2807. Insert Greatest Common Divisors in Linked List.executor": "Run",
@@ -500,22 +499,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00528" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758125780241</created>
-      <option name="number" value="00528" />
-      <option name="presentableId" value="LOCAL-00528" />
-      <option name="project" value="LOCAL" />
-      <updated>1758125780241</updated>
-    </task>
-    <task id="LOCAL-00529" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758223648276</created>
-      <option name="number" value="00529" />
-      <option name="presentableId" value="LOCAL-00529" />
-      <option name="project" value="LOCAL" />
-      <updated>1758223648276</updated>
     </task>
     <task id="LOCAL-00530" summary="basic">
       <option name="closed" value="true" />
@@ -893,7 +876,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759666774150</updated>
     </task>
-    <option name="localTasksCounter" value="577" />
+    <task id="LOCAL-00577" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759667103309</created>
+      <option name="number" value="00577" />
+      <option name="presentableId" value="LOCAL-00577" />
+      <option name="project" value="LOCAL" />
+      <updated>1759667103309</updated>
+    </task>
+    <task id="LOCAL-00578" summary="basic">
+      <option name="closed" value="true" />
+      <created>1759667221144</created>
+      <option name="number" value="00578" />
+      <option name="presentableId" value="LOCAL-00578" />
+      <option name="project" value="LOCAL" />
+      <updated>1759667221144</updated>
+    </task>
+    <option name="localTasksCounter" value="579" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
