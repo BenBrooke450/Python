@@ -34,7 +34,7 @@ def numSquares(n: int) -> int:
         for x in number_list:
             start += x
 
-            per_squ = math.sqrt(start)
+            per_squ = math.isqrt(start)
             print(per_squ)
 
 
