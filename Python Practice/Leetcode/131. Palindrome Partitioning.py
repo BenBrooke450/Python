@@ -20,32 +20,35 @@ Output: [["a"]]
 from itertools import combinations, permutations
 
 def partition(s: str) -> list[list[str]]:
+
     list1 = []
-    list1.append([x for x in s])
 
+    for x in range(len(s)):
+        for y in range(x+1,len(s)):
+            if s[x:y] == s[x:y][::-1] and len(s[x:y])>1:
+                if len(s[:x]) == 0:
+                    list1.append([s[x:y].split(",")[0]] + [x for x in s[y:]])
+                else:
+                    list1.append([x for x in s[:x]] + [s[x:y].split(",")[0]] + [x for x in s[y:]])
 
-    def loop(s: list[str]):
+    for q in list1:
+        for x in range(len(q)):
+            for y in range(x + 1, len(q)):
 
-        for i in range(len(s)):
-            for j in range(1, len(s)):
+                if len(q[x]) > 1:
+                    break
 
-                t = s[i:j]
+                if q[x:y] == q[x:y][::-1] and len(q[x:y]) > 1:
+                    if len(q[:x]) == 0:
+                        list1.append([q[x:y].split(",")[0]] + [x for x in q[y:]])
+                    else:
+                        list1.append([x for x in q[:x]] + [q[x:y].split(",")[0]] + [x for x in q[y:]])
 
-                print(i, j, t, "    ", t[::-1])
-
-                if t == t[::-1]:
-
-                    list1.append(s[i:j])
-
-                    loop(s[j:])
-
-
-
-    loop(s)
 
     return list1
 
-print(partition(s = "aab"))
+
+print(partition(s = "aabaabba"))
 
 
 
