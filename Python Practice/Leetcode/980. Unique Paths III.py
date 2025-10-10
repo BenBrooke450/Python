@@ -73,7 +73,7 @@ def uniquePathsIII(grid: list[list[int]]) -> int:
 
         visted.pop()
 
-
+    # r, c = next((i, j) for i, row in enumerate(grid) for j, val in enumerate(row) if val == 1)
     x = [[i,j] for i,x in enumerate(grid) for j,y in enumerate(x) if y ==1]
     r = x[0][0]
     c = x[0][1]
