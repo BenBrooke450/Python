@@ -532,3 +532,59 @@ def solveNQueens(n: int) -> list[list[str]]:
     return all_q
 ```
 
+
+
+
+<br><br><br><br><br>
+
+# Example 3
+
+
+```python
+def uniquePathsIII(grid: list[list[int]]) -> int:
+
+    visted = list()
+    col_b = len(grid[0])
+    row_b = len(grid)
+    full_walk = []
+    ones = sum(1 for x in grid for y in x if y == -1)
+
+    def dfs(r,c):
+        if (r,c) in visted or r < 0 or r >= row_b or c < 0 or c >= col_b or grid[r][c] == -1:
+            print("out: ",(r, c))
+            return
+
+        visted.append((r,c))
+
+        print((r,c))
+
+        if grid[r][c] == 2 and len(visted) == col_b * row_b - ones:
+            print("got it",(r,c))
+            full_walk.append(visted[:])
+
+        else:
+            dfs(r,c+1)
+            print((r, c))
+            dfs(r+1,c)
+            print((r, c))
+            dfs(r,c-1)
+            print((r, c))
+            dfs(r-1,c)
+
+        visted.pop()
+
+    # r, c = next((i, j) for i, row in enumerate(grid) for j, val in enumerate(row) if val == 1)
+    x = [[i,j] for i,x in enumerate(grid) for j,y in enumerate(x) if y ==1]
+    r = x[0][0]
+    c = x[0][1]
+    dfs(r,c)
+
+    print(full_walk)
+
+    return len(full_walk)
+```
+
+
+
+
+
