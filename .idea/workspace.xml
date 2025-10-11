@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/980. Unique Paths III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.isalpha().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.upper().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/784. Letter Case Permutation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/sum() ##.count().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/sum() ##.count(##).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/131. Palindrome Partitioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/131. Palindrome Partitioning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Startswith() Endswith() Startswith() Endswith().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/##.startswith(##), ##.endswith(##), ##.startswith(##) endswith().md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,6 +425,7 @@
     "Python.77. Combinations.executor": "Run",
     "Python.771. Jewels and Stones.executor": "Run",
     "Python.78. Subsets.executor": "Run",
+    "Python.784. Letter Case Permutation.executor": "Run",
     "Python.796. Rotate String.executor": "Run",
     "Python.797. All Paths From Source to Target.executor": "Run",
     "Python.804. Unique Morse Code Words.executor": "Run",
@@ -503,30 +505,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00537" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758579674849</created>
-      <option name="number" value="00537" />
-      <option name="presentableId" value="LOCAL-00537" />
-      <option name="project" value="LOCAL" />
-      <updated>1758579674849</updated>
-    </task>
-    <task id="LOCAL-00538" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758581032057</created>
-      <option name="number" value="00538" />
-      <option name="presentableId" value="LOCAL-00538" />
-      <option name="project" value="LOCAL" />
-      <updated>1758581032057</updated>
-    </task>
-    <task id="LOCAL-00539" summary="basic">
-      <option name="closed" value="true" />
-      <created>1758734286211</created>
-      <option name="number" value="00539" />
-      <option name="presentableId" value="LOCAL-00539" />
-      <option name="project" value="LOCAL" />
-      <updated>1758734286211</updated>
     </task>
     <task id="LOCAL-00540" summary="basic">
       <option name="closed" value="true" />
@@ -896,7 +874,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760026202526</updated>
     </task>
-    <option name="localTasksCounter" value="586" />
+    <task id="LOCAL-00586" summary="basic">
+      <option name="closed" value="true" />
+      <created>1760134636642</created>
+      <option name="number" value="00586" />
+      <option name="presentableId" value="LOCAL-00586" />
+      <option name="project" value="LOCAL" />
+      <updated>1760134636642</updated>
+    </task>
+    <task id="LOCAL-00587" summary="basic">
+      <option name="closed" value="true" />
+      <created>1760134705250</created>
+      <option name="number" value="00587" />
+      <option name="presentableId" value="LOCAL-00587" />
+      <option name="project" value="LOCAL" />
+      <updated>1760134705250</updated>
+    </task>
+    <task id="LOCAL-00588" summary="basic">
+      <option name="closed" value="true" />
+      <created>1760134878184</created>
+      <option name="number" value="00588" />
+      <option name="presentableId" value="LOCAL-00588" />
+      <option name="project" value="LOCAL" />
+      <updated>1760134878184</updated>
+    </task>
+    <option name="localTasksCounter" value="589" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
