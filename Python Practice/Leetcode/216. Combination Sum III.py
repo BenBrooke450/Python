@@ -36,31 +36,25 @@ Using 4 different numbers in the range [1,9], the smallest sum we can get is 1+2
 
 def combinationSum3(k: int, n: int) -> list[list[int]]:
 
-    numbers = list(range(1,n+1))
     nine = []
     result = []
 
-    def sum_nums_back(index_num):
+    def sum_nums_back(start,path):
+        for i in range(start,n+1):
+            if sum(nine) == n and len(nine) == k:
+                result.append(nine)
 
-        if sum(nine) == n and len(nine) == k:
-            result.append(nine)
-            return
+            nine.append(i)
+            print("TEST",nine)
 
-        num = numbers[index_num]
-        nine.append(num)
-        print("TEST",nine)
+            if len(nine) >= k:
+                nine.pop()
 
-        if len(nine) == k:
+            sum_nums_back(start + 1,nine)
             nine.pop()
 
-        sum_nums_back(index_num + 1)
-        nine.pop()
 
-
-
-
-
-    sum_nums_back(0)
+    sum_nums_back(start=1,path=[])
 
 
 print(combinationSum3(3,9))
