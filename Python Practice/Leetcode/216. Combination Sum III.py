@@ -54,7 +54,6 @@ def combinationSum3(k: int, n: int) -> list[list[int]]:
 
             new_path.pop()
 
-
     sum_nums_back(start=1,path=[])
 
     return result
