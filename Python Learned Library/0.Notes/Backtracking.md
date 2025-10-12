@@ -464,10 +464,122 @@ Start: [1]  (0,0)
 
 
 
+<br><br><br><br><br><br><br>
+
+# Example 2
+
+
+```python
+def letterCasePermutation(s: str) -> list[str]:
+    result = []
+    path = []
+
+    def backtrack(index: int):
+        print("---- PASS THROUGH ----")
+        if index == len(s):
+            print("ADDED TO RESULT (NO CAP):  ",path)
+            result.append("".join(path))
+            return
+
+        char = s[index]
+
+        print("Path: ",path)
+
+        path.append(char)
+        backtrack(index + 1)
+        path.pop()
+        print("POP", char)
+        print("AFTER POP:  ", path)
+
+        if char.isalpha():
+            print("IT'S A LETTER, it now passes the through:  ",char)
+            path.append(char.swapcase())
+            print("Added to the path:  ",char.swapcase())
+            print("ADDED TO RESULT (CAP):  ", path)
+            backtrack(index + 1)
+            print("POP (CAP)", char.swapcase())
+            path.pop()
+
+    backtrack(0)
+    return result
+
+
+print(letterCasePermutation("a1b2"))
 
 
 
 
+
+---- PASS THROUGH ----
+Path:  []
+
+---- PASS THROUGH ----
+Path:  ['a']
+
+---- PASS THROUGH ----
+Path:  ['a', '1']
+
+---- PASS THROUGH ----
+Path:  ['a', '1', 'b']
+
+---- PASS THROUGH ----
+ADDED TO RESULT (NO CAP):   ['a', '1', 'b', '2']
+POP 2
+AFTER POP:   ['a', '1', 'b']
+POP b
+AFTER POP:   ['a', '1']
+IT'S A LETTER, it now passes the through:   b
+Added to the path:   B
+ADDED TO RESULT (CAP):   ['a', '1', 'B']
+
+---- PASS THROUGH ----
+Path:  ['a', '1', 'B']
+
+---- PASS THROUGH ----
+ADDED TO RESULT (NO CAP):   ['a', '1', 'B', '2']
+POP 2
+AFTER POP:   ['a', '1', 'B']
+POP (CAP) B
+POP 1
+AFTER POP:   ['a']
+POP a
+AFTER POP:   []
+IT'S A LETTER, it now passes the through:   a
+Added to the path:   A
+ADDED TO RESULT (CAP):   ['A']
+
+---- PASS THROUGH ----
+Path:  ['A']
+
+---- PASS THROUGH ----
+Path:  ['A', '1']
+
+---- PASS THROUGH ----
+Path:  ['A', '1', 'b']
+
+---- PASS THROUGH ----
+ADDED TO RESULT (NO CAP):   ['A', '1', 'b', '2']
+POP 2
+AFTER POP:   ['A', '1', 'b']
+POP b
+AFTER POP:   ['A', '1']
+IT'S A LETTER, it now passes the through:   b
+Added to the path:   B
+ADDED TO RESULT (CAP):   ['A', '1', 'B']
+
+---- PASS THROUGH ----
+Path:  ['A', '1', 'B']
+
+---- PASS THROUGH ----
+ADDED TO RESULT (NO CAP):   ['A', '1', 'B', '2']
+POP 2
+AFTER POP:   ['A', '1', 'B']
+POP (CAP) B
+POP 1
+AFTER POP:   ['A']
+POP (CAP) A
+['a1b2', 'a1B2', 'A1b2', 'A1B2']
+````
 
 
 
@@ -475,7 +587,7 @@ Start: [1]  (0,0)
 
 <br><br><br><br><br><br><br>
 
-# Example 3
+# Example 4
 
 ```python
 def solveNQueens(n: int) -> list[list[str]]:
@@ -537,7 +649,7 @@ def solveNQueens(n: int) -> list[list[str]]:
 
 <br><br><br><br><br>
 
-# Example 3
+# Example 5
 
 
 ```python

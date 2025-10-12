@@ -30,9 +30,9 @@ def letterCasePermutation(s: str) -> list[str]:
     path = []
 
     def backtrack(index: int):
-        # Base case: we’ve built one full string
+        print("---- PASS THROUGH ----")
         if index == len(s):
-            print("First Full (RETURN):  ",path)
+            print("ADDED TO RESULT (NO CAP):  ",path)
             result.append("".join(path))
             return
 
@@ -40,18 +40,19 @@ def letterCasePermutation(s: str) -> list[str]:
 
         print("Path: ",path)
 
-        # Case 1: use the character as is
         path.append(char)
         backtrack(index + 1)
         path.pop()
-        print("AFTER POP:  ", path, "CHAR", char)
+        print("POP", char)
+        print("AFTER POP:  ", path)
 
-        # Case 2: if it’s a letter, toggle its case
         if char.isalpha():
-            print("letter: ",char)
+            print("IT'S A LETTER, it now passes the through:  ",char)
             path.append(char.swapcase())
-            print("Second Full (RETURN):  ", path)
+            print("Added to the path:  ",char.swapcase())
+            print("ADDED TO RESULT (CAP):  ", path)
             backtrack(index + 1)
+            print("POP (CAP)", char.swapcase())
             path.pop()
 
     backtrack(0)
