@@ -43,7 +43,7 @@ def letterCasePermutation(s: str) -> list[str]:
         path.append(char)
         backtrack(index + 1)
         path.pop()
-        print("POP", char)
+        print("BACK - POP", char)
         print("AFTER POP:  ", path)
 
         if char.isalpha():
@@ -52,14 +52,14 @@ def letterCasePermutation(s: str) -> list[str]:
             print("Added to the path:  ",char.swapcase())
             print("ADDED TO RESULT (CAP):  ", path)
             backtrack(index + 1)
-            print("POP (CAP)", char.swapcase())
+            print("BACK - POP (CAP)", char.swapcase())
             path.pop()
 
     backtrack(0)
     return result
 
 
-print(letterCasePermutation("a1b2"))
+print(letterCasePermutation("a1b2cd2r"))
 
 
 
