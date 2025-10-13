@@ -41,18 +41,21 @@ def combinationSum3(k: int, n: int) -> list[list[int]]:
 
     def sum_nums_back(start,path):
         for i in range(start,n+1):
-
+            print(i)
+            print("Path:  ", path)
             new_path = path + [i]
-            print(new_path)
+            print("New path:  ",new_path)
 
             if sum(new_path) == n and len(new_path) == k:
                 result.append(new_path)
                 continue
 
             if len(new_path) < k:
+                print("----Next Step----  ", new_path)
                 sum_nums_back(i + 1, new_path)
 
             new_path.pop()
+            print("Pop:  ", new_path)
 
     sum_nums_back(start=1,path=[])
 
