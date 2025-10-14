@@ -583,6 +583,659 @@ POP (CAP) A
 
 
 
+<br><br><br><br><br><br><br>
+
+# Example 3
+
+```python
+
+
+def combinationSum3(k: int, n: int) -> list[list[int]]:
+
+    nine = []
+    result = []
+
+    def sum_nums_back(start,path):
+        for i in range(start,n+1):
+            print(i)
+            print("Path:  ", path)
+            new_path = path + [i]
+            print("New path:  ",new_path)
+
+            if sum(new_path) == n and len(new_path) == k:
+                result.append(new_path)
+                continue
+
+            if len(new_path) < k:
+                print("----Next Step----  ", new_path)
+                sum_nums_back(i + 1, new_path)
+                print("-----DROPPING out of the loop------")
+
+            new_path.pop()
+            print("Pop:  ", new_path)
+
+    sum_nums_back(start=1,path=[])
+
+    return result
+
+print(combinationSum3(3,9))
+    
+
+1
+Path:   []
+New path:   [1]
+----Next Step----   [1]
+2
+Path:   [1]
+New path:   [1, 2]
+----Next Step----   [1, 2]
+3
+Path:   [1, 2]
+New path:   [1, 2, 3]
+Pop:   [1, 2]
+4
+Path:   [1, 2]
+New path:   [1, 2, 4]
+Pop:   [1, 2]
+5
+Path:   [1, 2]
+New path:   [1, 2, 5]
+Pop:   [1, 2]
+6
+Path:   [1, 2]
+New path:   [1, 2, 6]
+7
+Path:   [1, 2]
+New path:   [1, 2, 7]
+Pop:   [1, 2]
+8
+Path:   [1, 2]
+New path:   [1, 2, 8]
+Pop:   [1, 2]
+9
+Path:   [1, 2]
+New path:   [1, 2, 9]
+Pop:   [1, 2]
+-----DROPPING out of the loop------
+Pop:   [1]
+3
+Path:   [1]
+New path:   [1, 3]
+----Next Step----   [1, 3]
+4
+Path:   [1, 3]
+New path:   [1, 3, 4]
+Pop:   [1, 3]
+5
+Path:   [1, 3]
+New path:   [1, 3, 5]
+6
+Path:   [1, 3]
+New path:   [1, 3, 6]
+Pop:   [1, 3]
+7
+Path:   [1, 3]
+New path:   [1, 3, 7]
+Pop:   [1, 3]
+8
+Path:   [1, 3]
+New path:   [1, 3, 8]
+Pop:   [1, 3]
+9
+Path:   [1, 3]
+New path:   [1, 3, 9]
+Pop:   [1, 3]
+-----DROPPING out of the loop------
+Pop:   [1]
+4
+Path:   [1]
+New path:   [1, 4]
+----Next Step----   [1, 4]
+5
+Path:   [1, 4]
+New path:   [1, 4, 5]
+Pop:   [1, 4]
+6
+Path:   [1, 4]
+New path:   [1, 4, 6]
+Pop:   [1, 4]
+7
+Path:   [1, 4]
+New path:   [1, 4, 7]
+Pop:   [1, 4]
+8
+Path:   [1, 4]
+New path:   [1, 4, 8]
+Pop:   [1, 4]
+9
+Path:   [1, 4]
+New path:   [1, 4, 9]
+Pop:   [1, 4]
+-----DROPPING out of the loop------
+Pop:   [1]
+5
+Path:   [1]
+New path:   [1, 5]
+----Next Step----   [1, 5]
+6
+Path:   [1, 5]
+New path:   [1, 5, 6]
+Pop:   [1, 5]
+7
+Path:   [1, 5]
+New path:   [1, 5, 7]
+Pop:   [1, 5]
+8
+Path:   [1, 5]
+New path:   [1, 5, 8]
+Pop:   [1, 5]
+9
+Path:   [1, 5]
+New path:   [1, 5, 9]
+Pop:   [1, 5]
+-----DROPPING out of the loop------
+Pop:   [1]
+6
+Path:   [1]
+New path:   [1, 6]
+----Next Step----   [1, 6]
+7
+Path:   [1, 6]
+New path:   [1, 6, 7]
+Pop:   [1, 6]
+8
+Path:   [1, 6]
+New path:   [1, 6, 8]
+Pop:   [1, 6]
+9
+Path:   [1, 6]
+New path:   [1, 6, 9]
+Pop:   [1, 6]
+-----DROPPING out of the loop------
+Pop:   [1]
+7
+Path:   [1]
+New path:   [1, 7]
+----Next Step----   [1, 7]
+8
+Path:   [1, 7]
+New path:   [1, 7, 8]
+Pop:   [1, 7]
+9
+Path:   [1, 7]
+New path:   [1, 7, 9]
+Pop:   [1, 7]
+-----DROPPING out of the loop------
+Pop:   [1]
+8
+Path:   [1]
+New path:   [1, 8]
+----Next Step----   [1, 8]
+9
+Path:   [1, 8]
+New path:   [1, 8, 9]
+Pop:   [1, 8]
+-----DROPPING out of the loop------
+Pop:   [1]
+9
+Path:   [1]
+New path:   [1, 9]
+----Next Step----   [1, 9]
+-----DROPPING out of the loop------
+Pop:   [1]
+-----DROPPING out of the loop------
+Pop:   []
+2
+Path:   []
+New path:   [2]
+----Next Step----   [2]
+3
+Path:   [2]
+New path:   [2, 3]
+----Next Step----   [2, 3]
+4
+Path:   [2, 3]
+New path:   [2, 3, 4]
+5
+Path:   [2, 3]
+New path:   [2, 3, 5]
+Pop:   [2, 3]
+6
+Path:   [2, 3]
+New path:   [2, 3, 6]
+Pop:   [2, 3]
+7
+Path:   [2, 3]
+New path:   [2, 3, 7]
+Pop:   [2, 3]
+8
+Path:   [2, 3]
+New path:   [2, 3, 8]
+Pop:   [2, 3]
+9
+Path:   [2, 3]
+New path:   [2, 3, 9]
+Pop:   [2, 3]
+-----DROPPING out of the loop------
+Pop:   [2]
+4
+Path:   [2]
+New path:   [2, 4]
+----Next Step----   [2, 4]
+5
+Path:   [2, 4]
+New path:   [2, 4, 5]
+Pop:   [2, 4]
+6
+Path:   [2, 4]
+New path:   [2, 4, 6]
+Pop:   [2, 4]
+7
+Path:   [2, 4]
+New path:   [2, 4, 7]
+Pop:   [2, 4]
+8
+Path:   [2, 4]
+New path:   [2, 4, 8]
+Pop:   [2, 4]
+9
+Path:   [2, 4]
+New path:   [2, 4, 9]
+Pop:   [2, 4]
+-----DROPPING out of the loop------
+Pop:   [2]
+5
+Path:   [2]
+New path:   [2, 5]
+----Next Step----   [2, 5]
+6
+Path:   [2, 5]
+New path:   [2, 5, 6]
+Pop:   [2, 5]
+7
+Path:   [2, 5]
+New path:   [2, 5, 7]
+Pop:   [2, 5]
+8
+Path:   [2, 5]
+New path:   [2, 5, 8]
+Pop:   [2, 5]
+9
+Path:   [2, 5]
+New path:   [2, 5, 9]
+Pop:   [2, 5]
+-----DROPPING out of the loop------
+Pop:   [2]
+6
+Path:   [2]
+New path:   [2, 6]
+----Next Step----   [2, 6]
+7
+Path:   [2, 6]
+New path:   [2, 6, 7]
+Pop:   [2, 6]
+8
+Path:   [2, 6]
+New path:   [2, 6, 8]
+Pop:   [2, 6]
+9
+Path:   [2, 6]
+New path:   [2, 6, 9]
+Pop:   [2, 6]
+-----DROPPING out of the loop------
+Pop:   [2]
+7
+Path:   [2]
+New path:   [2, 7]
+----Next Step----   [2, 7]
+8
+Path:   [2, 7]
+New path:   [2, 7, 8]
+Pop:   [2, 7]
+9
+Path:   [2, 7]
+New path:   [2, 7, 9]
+Pop:   [2, 7]
+-----DROPPING out of the loop------
+Pop:   [2]
+8
+Path:   [2]
+New path:   [2, 8]
+----Next Step----   [2, 8]
+9
+Path:   [2, 8]
+New path:   [2, 8, 9]
+Pop:   [2, 8]
+-----DROPPING out of the loop------
+Pop:   [2]
+9
+Path:   [2]
+New path:   [2, 9]
+----Next Step----   [2, 9]
+-----DROPPING out of the loop------
+Pop:   [2]
+-----DROPPING out of the loop------
+Pop:   []
+3
+Path:   []
+New path:   [3]
+----Next Step----   [3]
+4
+Path:   [3]
+New path:   [3, 4]
+----Next Step----   [3, 4]
+5
+Path:   [3, 4]
+New path:   [3, 4, 5]
+Pop:   [3, 4]
+6
+Path:   [3, 4]
+New path:   [3, 4, 6]
+Pop:   [3, 4]
+7
+Path:   [3, 4]
+New path:   [3, 4, 7]
+Pop:   [3, 4]
+8
+Path:   [3, 4]
+New path:   [3, 4, 8]
+Pop:   [3, 4]
+9
+Path:   [3, 4]
+New path:   [3, 4, 9]
+Pop:   [3, 4]
+-----DROPPING out of the loop------
+Pop:   [3]
+5
+Path:   [3]
+New path:   [3, 5]
+----Next Step----   [3, 5]
+6
+Path:   [3, 5]
+New path:   [3, 5, 6]
+Pop:   [3, 5]
+7
+Path:   [3, 5]
+New path:   [3, 5, 7]
+Pop:   [3, 5]
+8
+Path:   [3, 5]
+New path:   [3, 5, 8]
+Pop:   [3, 5]
+9
+Path:   [3, 5]
+New path:   [3, 5, 9]
+Pop:   [3, 5]
+-----DROPPING out of the loop------
+Pop:   [3]
+6
+Path:   [3]
+New path:   [3, 6]
+----Next Step----   [3, 6]
+7
+Path:   [3, 6]
+New path:   [3, 6, 7]
+Pop:   [3, 6]
+8
+Path:   [3, 6]
+New path:   [3, 6, 8]
+Pop:   [3, 6]
+9
+Path:   [3, 6]
+New path:   [3, 6, 9]
+Pop:   [3, 6]
+-----DROPPING out of the loop------
+Pop:   [3]
+7
+Path:   [3]
+New path:   [3, 7]
+----Next Step----   [3, 7]
+8
+Path:   [3, 7]
+New path:   [3, 7, 8]
+Pop:   [3, 7]
+9
+Path:   [3, 7]
+New path:   [3, 7, 9]
+Pop:   [3, 7]
+-----DROPPING out of the loop------
+Pop:   [3]
+8
+Path:   [3]
+New path:   [3, 8]
+----Next Step----   [3, 8]
+9
+Path:   [3, 8]
+New path:   [3, 8, 9]
+Pop:   [3, 8]
+-----DROPPING out of the loop------
+Pop:   [3]
+9
+Path:   [3]
+New path:   [3, 9]
+----Next Step----   [3, 9]
+-----DROPPING out of the loop------
+Pop:   [3]
+-----DROPPING out of the loop------
+Pop:   []
+4
+Path:   []
+New path:   [4]
+----Next Step----   [4]
+5
+Path:   [4]
+New path:   [4, 5]
+----Next Step----   [4, 5]
+6
+Path:   [4, 5]
+New path:   [4, 5, 6]
+Pop:   [4, 5]
+7
+Path:   [4, 5]
+New path:   [4, 5, 7]
+Pop:   [4, 5]
+8
+Path:   [4, 5]
+New path:   [4, 5, 8]
+Pop:   [4, 5]
+9
+Path:   [4, 5]
+New path:   [4, 5, 9]
+Pop:   [4, 5]
+-----DROPPING out of the loop------
+Pop:   [4]
+6
+Path:   [4]
+New path:   [4, 6]
+----Next Step----   [4, 6]
+7
+Path:   [4, 6]
+New path:   [4, 6, 7]
+Pop:   [4, 6]
+8
+Path:   [4, 6]
+New path:   [4, 6, 8]
+Pop:   [4, 6]
+9
+Path:   [4, 6]
+New path:   [4, 6, 9]
+Pop:   [4, 6]
+-----DROPPING out of the loop------
+Pop:   [4]
+7
+Path:   [4]
+New path:   [4, 7]
+----Next Step----   [4, 7]
+8
+Path:   [4, 7]
+New path:   [4, 7, 8]
+Pop:   [4, 7]
+9
+Path:   [4, 7]
+New path:   [4, 7, 9]
+Pop:   [4, 7]
+-----DROPPING out of the loop------
+Pop:   [4]
+8
+Path:   [4]
+New path:   [4, 8]
+----Next Step----   [4, 8]
+9
+Path:   [4, 8]
+New path:   [4, 8, 9]
+Pop:   [4, 8]
+-----DROPPING out of the loop------
+Pop:   [4]
+9
+Path:   [4]
+New path:   [4, 9]
+----Next Step----   [4, 9]
+-----DROPPING out of the loop------
+Pop:   [4]
+-----DROPPING out of the loop------
+Pop:   []
+5
+Path:   []
+New path:   [5]
+----Next Step----   [5]
+6
+Path:   [5]
+New path:   [5, 6]
+----Next Step----   [5, 6]
+7
+Path:   [5, 6]
+New path:   [5, 6, 7]
+Pop:   [5, 6]
+8
+Path:   [5, 6]
+New path:   [5, 6, 8]
+Pop:   [5, 6]
+9
+Path:   [5, 6]
+New path:   [5, 6, 9]
+Pop:   [5, 6]
+-----DROPPING out of the loop------
+Pop:   [5]
+7
+Path:   [5]
+New path:   [5, 7]
+----Next Step----   [5, 7]
+8
+Path:   [5, 7]
+New path:   [5, 7, 8]
+Pop:   [5, 7]
+9
+Path:   [5, 7]
+New path:   [5, 7, 9]
+Pop:   [5, 7]
+-----DROPPING out of the loop------
+Pop:   [5]
+8
+Path:   [5]
+New path:   [5, 8]
+----Next Step----   [5, 8]
+9
+Path:   [5, 8]
+New path:   [5, 8, 9]
+Pop:   [5, 8]
+-----DROPPING out of the loop------
+Pop:   [5]
+9
+Path:   [5]
+New path:   [5, 9]
+----Next Step----   [5, 9]
+-----DROPPING out of the loop------
+Pop:   [5]
+-----DROPPING out of the loop------
+Pop:   []
+6
+Path:   []
+New path:   [6]
+----Next Step----   [6]
+7
+Path:   [6]
+New path:   [6, 7]
+----Next Step----   [6, 7]
+8
+Path:   [6, 7]
+New path:   [6, 7, 8]
+Pop:   [6, 7]
+9
+Path:   [6, 7]
+New path:   [6, 7, 9]
+Pop:   [6, 7]
+-----DROPPING out of the loop------
+Pop:   [6]
+8
+Path:   [6]
+New path:   [6, 8]
+----Next Step----   [6, 8]
+9
+Path:   [6, 8]
+New path:   [6, 8, 9]
+Pop:   [6, 8]
+-----DROPPING out of the loop------
+Pop:   [6]
+9
+Path:   [6]
+New path:   [6, 9]
+----Next Step----   [6, 9]
+-----DROPPING out of the loop------
+Pop:   [6]
+-----DROPPING out of the loop------
+Pop:   []
+7
+Path:   []
+New path:   [7]
+----Next Step----   [7]
+8
+Path:   [7]
+New path:   [7, 8]
+----Next Step----   [7, 8]
+9
+Path:   [7, 8]
+New path:   [7, 8, 9]
+Pop:   [7, 8]
+-----DROPPING out of the loop------
+Pop:   [7]
+9
+Path:   [7]
+New path:   [7, 9]
+----Next Step----   [7, 9]
+-----DROPPING out of the loop------
+Pop:   [7]
+-----DROPPING out of the loop------
+Pop:   []
+8
+Path:   []
+New path:   [8]
+----Next Step----   [8]
+9
+Path:   [8]
+New path:   [8, 9]
+----Next Step----   [8, 9]
+-----DROPPING out of the loop------
+Pop:   [8]
+-----DROPPING out of the loop------
+Pop:   []
+9
+Path:   []
+New path:   [9]
+----Next Step----   [9]
+-----DROPPING out of the loop------
+Pop:   []
+[[1, 2, 6], [1, 3, 5], [2, 3, 4]]
+
+Process finished with exit code 0
+
+```
+
+
+
+
+
+
+
 
 
 <br><br><br><br><br><br><br>
@@ -649,7 +1302,7 @@ def solveNQueens(n: int) -> list[list[str]]:
 
 <br><br><br><br><br>
 
-# Example 5
+# Example 4
 
 
 ```python
