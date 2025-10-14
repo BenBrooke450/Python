@@ -33,6 +33,46 @@ Using 4 different numbers in the range [1,9], the smallest sum we can get is 1+2
 
 """
 
+def combinationSum3(k: int, n: int) -> list[list[int]]:
+
+    nine = []
+    result = []
+
+    def sum_nums_back(start,path):
+        for i in range(start,10):
+            print(i)
+            print("Path:  ", path)
+            new_path = path + [i]
+            print("New path:  ",new_path)
+
+            if sum(new_path) == n and len(new_path) == k:
+                result.append(new_path)
+                continue
+
+            if sum(new_path) >= n:
+                break
+
+            if len(new_path) < k:
+                print("----Next Step----  ", new_path)
+                sum_nums_back(i + 1, new_path)
+                print("-----DROPPING out of the loop------")
+
+            new_path.pop()
+            print("Pop:  ", new_path)
+
+    sum_nums_back(start=1,path=[])
+
+    return result
+
+print(combinationSum3(3,9))
+
+
+
+
+
+
+
+
 
 def combinationSum3(k: int, n: int) -> list[list[int]]:
 
