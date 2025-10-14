@@ -53,6 +53,7 @@ def combinationSum3(k: int, n: int) -> list[list[int]]:
             if len(new_path) < k:
                 print("----Next Step----  ", new_path)
                 sum_nums_back(i + 1, new_path)
+                print("-----DROPPING out of the loop------")
 
             new_path.pop()
             print("Pop:  ", new_path)
