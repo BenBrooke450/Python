@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/216. Combination Sum III.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/216. Combination Sum III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/6.Standalone functions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/1255. Maximum Score Words Formed by Letters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,7 @@
     "Python.1248. Count Number of Nice Subarrays.executor": "Run",
     "Python.125. Valid Palindrome.executor": "Run",
     "Python.1252. Cells with Odd Values in a Matrix.executor": "Run",
+    "Python.1255. Maximum Score Words Formed by Letters.executor": "Run",
     "Python.1266. Minimum Time Visiting All Points.executor": "Run",
     "Python.1267. Count Servers that Communicate.executor": "Run",
     "Python.1282. Group the People Given the Group Size They Belong To.executor": "Run",
@@ -503,30 +506,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00551" summary="basic">
-      <option name="closed" value="true" />
-      <created>1759009890393</created>
-      <option name="number" value="00551" />
-      <option name="presentableId" value="LOCAL-00551" />
-      <option name="project" value="LOCAL" />
-      <updated>1759009890393</updated>
-    </task>
-    <task id="LOCAL-00552" summary="basic">
-      <option name="closed" value="true" />
-      <created>1759010629030</created>
-      <option name="number" value="00552" />
-      <option name="presentableId" value="LOCAL-00552" />
-      <option name="project" value="LOCAL" />
-      <updated>1759010629030</updated>
-    </task>
-    <task id="LOCAL-00553" summary="basic">
-      <option name="closed" value="true" />
-      <created>1759061306882</created>
-      <option name="number" value="00553" />
-      <option name="presentableId" value="LOCAL-00553" />
-      <option name="project" value="LOCAL" />
-      <updated>1759061306882</updated>
-    </task>
     <task id="LOCAL-00554" summary="basic">
       <option name="closed" value="true" />
       <created>1759063413637</created>
@@ -895,7 +874,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760461488199</updated>
     </task>
-    <option name="localTasksCounter" value="600" />
+    <task id="LOCAL-00600" summary="basic">
+      <option name="closed" value="true" />
+      <created>1760462176486</created>
+      <option name="number" value="00600" />
+      <option name="presentableId" value="LOCAL-00600" />
+      <option name="project" value="LOCAL" />
+      <updated>1760462176486</updated>
+    </task>
+    <task id="LOCAL-00601" summary="basic">
+      <option name="closed" value="true" />
+      <created>1760462290908</created>
+      <option name="number" value="00601" />
+      <option name="presentableId" value="LOCAL-00601" />
+      <option name="project" value="LOCAL" />
+      <updated>1760462290908</updated>
+    </task>
+    <task id="LOCAL-00602" summary="basic">
+      <option name="closed" value="true" />
+      <created>1760625474502</created>
+      <option name="number" value="00602" />
+      <option name="presentableId" value="LOCAL-00602" />
+      <option name="project" value="LOCAL" />
+      <updated>1760625474502</updated>
+    </task>
+    <option name="localTasksCounter" value="603" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
