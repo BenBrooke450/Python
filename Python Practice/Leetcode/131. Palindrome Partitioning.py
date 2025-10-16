@@ -20,6 +20,25 @@ Output: [["a"]]
 def partition(s: str) -> list[list[str]]:
 
 
+    p_word = []
+    all_words = []
+
+    def word(word:str(), letter_index:int()):
+
+
+        l = s[letter_index]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
