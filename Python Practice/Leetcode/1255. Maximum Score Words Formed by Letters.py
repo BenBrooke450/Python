@@ -38,20 +38,41 @@ def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int
 
     alphabet = {chr(i) : j for i,j in zip(range(97, 123),score)}
 
-    def max_p():
-        m = 0
-        for w in words:
-            if all(x in letters for x in w) and all(w.count(x) <= letters.count(x) for x in w):
-                print(w)
-                for l in w:
-                    m = m + alphabet.get(l)
-                    letters[letters.index(l)] = "_"
-        max_p()
+    scores = []
 
-    return m
+    path = []
+
+    def max_p(word_index:int()):
+        m = 0
+        for i in range(word_index, len(words)):
+
+            word = words[i]
+            path.append(word)
+
+            print(path,i)
+
+            for w in path:
+                if all(x in letters for x in w) and all("".join(path).count(x) <= letters.count(x) for x in w):
+                    print(w)
+                    for l in w:
+                        m = m + alphabet.get(l)
+                else:
+                    return
+
+            scores.append(m)
+
+            print("PASS")
+            max_p(word_index+1)
+
+            path.pop()
+
+    max_p(0)
+
+    return scores
 
 
 print(maxScoreWords(words = ["xxxz","ax","bx","cx"], letters = ["z","a","b","c","x","x","x"], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]))
+
 
 
 
