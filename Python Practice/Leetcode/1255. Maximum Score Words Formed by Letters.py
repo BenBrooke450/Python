@@ -37,19 +37,21 @@ Letter "e" can only be used once.
 def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int:
 
     alphabet = {chr(i) : j for i,j in zip(range(97, 123),score)}
-    m = 0
-    for w in words:
-        if all(x in letters for x in w) and all(w.count(x) <= letters.count(x) for x in w):
-            print(w)
-            for l in w:
-                m = m + alphabet.get(l)
-                letters[letters.index(l)] = "_"
+
+    def max_p():
+        m = 0
+        for w in words:
+            if all(x in letters for x in w) and all(w.count(x) <= letters.count(x) for x in w):
+                print(w)
+                for l in w:
+                    m = m + alphabet.get(l)
+                    letters[letters.index(l)] = "_"
+        max_p()
 
     return m
 
 
-print(maxScoreWords(words = ["leetcode"], letters = ["l","e","t","c","o","d"], score = [0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0]))
-
+print(maxScoreWords(words = ["xxxz","ax","bx","cx"], letters = ["z","a","b","c","x","x","x"], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]))
 
 
 
