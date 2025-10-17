@@ -33,7 +33,7 @@ Letter "e" can only be used once.
 
 """
 
-
+"""
 def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int:
 
     alphabet = {chr(i) : j for i,j in zip(range(97, 123),score)}
@@ -42,41 +42,62 @@ def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int
 
     path = []
 
-    def max_p(word_index:int()):
+    def max_p(word_index:int(),path):
         m = 0
-        for i in range(word_index, len(words)):
 
-            word = words[i]
-            path.append(word)
+        word = words[word_index]
+        path.append(word)
 
-            print(path,i)
+        print(path,word_index)
 
-            for w in path:
-                if all(x in letters for x in w) and all("".join(path).count(x) <= letters.count(x) for x in w):
-                    print(w)
-                    for l in w:
-                        m = m + alphabet.get(l)
-                else:
+        for w in path:
+            if all(x in letters for x in w) and all("".join(path).count(x) <= letters.count(x) for x in w):
+                print(w)
+                for l in w:
+                    m = m + alphabet.get(l)
+            else:
+                path.pop()
+                max_p(word_index + 1, path)
+
+                if len(words) == word_index + 1:
                     return
 
-            scores.append(m)
+        print("PASS")
+        max_p(word_index+1,path)
+        print("pop:")
 
-            print("PASS")
-            max_p(word_index+1)
+        path.pop()
+        print(path, word_index)
 
-            path.pop()
+        scores.append(m)
 
-    max_p(0)
+
+
+    max_p(0,path)
 
     return scores
 
 
 print(maxScoreWords(words = ["xxxz","ax","bx","cx"], letters = ["z","a","b","c","x","x","x"], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]))
 
+"""
 
 
+nums = [12,3,4,5,6,7]
+def backtrack(start, path):
+
+    for i in range(start, len(nums)):
+        path.append(nums[i])
+        print("Path:  ",path,f"      Start: {start}, End: {len(nums)}")
+
+        backtrack(i + 1, path)
 
 
+        print("-----------POP-------------",)
+        path.pop()
+
+
+backtrack(0,[])
 
 
 
