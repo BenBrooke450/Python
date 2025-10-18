@@ -11,126 +11,120 @@ It tries all possible paths, and if a path doesn't work, it goes back (or “bac
 # Example 1
 
 ```python
+nums = [1,2,3]
 def backtrack(start, path):
-    print("Subset:", path)
+    print()
+    print("------ENTER BACKTRACK--------")
+    print("TRYING", f"Start: {start}, End_len: {len(nums)}")
+    print()
     for i in range(start, len(nums)):
-        # Choose
+        print(f"append: {[nums[i]]}      Start: {start}, End_len: {len(nums)}")
         path.append(nums[i])
-        
-        # Explore
+        print("Path:  ",path)
+
+
         backtrack(i + 1, path)
-        
-        # Un-choose (Backtrack)
+        print()
+        print("-----DROP OUT----- :",f"Start: {start+1}, End_len: {len(nums)}")
+        print()
+
+        print(f"Path before drop {path}")
         path.pop()
+        print(f"Path after drop {path}")
+        print()
+        
+        
+        
+        
+
+------ENTER BACKTRACK--------
+TRYING Start: 0, End_len: 3
+
+append: [1]      Start: 0, End_len: 3
+Path:   [1]
+
+------ENTER BACKTRACK--------
+TRYING Start: 1, End_len: 3
+
+append: [2]      Start: 1, End_len: 3
+Path:   [1, 2]
+
+------ENTER BACKTRACK--------
+TRYING Start: 2, End_len: 3
+
+append: [3]      Start: 2, End_len: 3
+Path:   [1, 2, 3]
+
+------ENTER BACKTRACK--------
+TRYING Start: 3, End_len: 3
+
+
+-----DROP OUT----- : Start: 3, End_len: 3
+
+Path before drop [1, 2, 3]
+Path after drop [1, 2]
+
+
+-----DROP OUT----- : Start: 2, End_len: 3
+
+Path before drop [1, 2]
+Path after drop [1]
+
+append: [3]      Start: 1, End_len: 3
+Path:   [1, 3]
+
+------ENTER BACKTRACK--------
+TRYING Start: 3, End_len: 3
+
+
+-----DROP OUT----- : Start: 2, End_len: 3
+
+Path before drop [1, 3]
+Path after drop [1]
+
+
+-----DROP OUT----- : Start: 1, End_len: 3
+
+Path before drop [1]
+Path after drop []
+
+append: [2]      Start: 0, End_len: 3
+Path:   [2]
+
+------ENTER BACKTRACK--------
+TRYING Start: 2, End_len: 3
+
+append: [3]      Start: 2, End_len: 3
+Path:   [2, 3]
+
+------ENTER BACKTRACK--------
+TRYING Start: 3, End_len: 3
+
+
+-----DROP OUT----- : Start: 3, End_len: 3
+
+Path before drop [2, 3]
+Path after drop [2]
+
+
+-----DROP OUT----- : Start: 1, End_len: 3
+
+Path before drop [2]
+Path after drop []
+
+append: [3]      Start: 0, End_len: 3
+Path:   [3]
+
+------ENTER BACKTRACK--------
+TRYING Start: 3, End_len: 3
+
+
+-----DROP OUT----- : Start: 1, End_len: 3
+
+Path before drop [3]
+Path after drop []
 ```
 
-nums = [1, 2, 3]
-backtrack(0, [])
-
-```python
-"""
-Subset: []
-Subset: [1]
-Subset: [1, 2]
-Subset: [1, 2, 3]
-Subset: [1, 3]
-Subset: [2]
-Subset: [2, 3]
-Subset: [3]
-"""
-```
-
-## 1. Initial Call:
-
-```python
-nums = [1, 2, 3]
-
-backtrack(0, [])
-```
-
-start = 0
-
-path = []
-
-This is the empty subset → printed first: 
-
-Subset: []
-
-<br>
-
-
-## 2. First Loop (i = 0)
-
-```python 
-path.append(nums[0])  # path becomes [1]
-
-backtrack(1, [1])
-```
-
-Now inside this call:
-
-Subset: [1] is printed
-
-Next loop: i = 1
-
-<br>
-
-## 3. Next Level Down (i = 1)
-
-```python 
-path.append(nums[1])  # path becomes [1, 2]
-
-backtrack(2, [1, 2])
-```
-
-Subset: [1, 2] is printed
-
-Next: i = 2
-
-<br>
-
-## 4. One More Level (i = 2)
-
-```python 
-path.append(nums[2])  # path becomes [1, 2, 3]
-
-backtrack(3, [1, 2, 3])
-```
-
-Subset: [1, 2, 3] is printed
-
-#Now i = 3 is out of bounds → returns
-
-Backtrack: .pop() → path becomes [1, 2]
-
-<br>
-
-## 5. Backtracking Continues
-
-Back at [1, 2], loop is over → backtrack: .pop() → path becomes [1]
-
-Next loop: i = 2
-
-```python 
-path.append(nums[2])  # [1, 3]
-
-backtrack(3, [1, 3])
-```
-→ Subset: [1, 3]
-
-<br>
-
-## 6. More Backtracking
-Backtrack to [1], then to []
-
-Now i = 1, start fresh:
-
-```python
-path.append(nums[1])  # [2]
-
-backtrack(2, [2]) 
-```
-→ Subset: [2], then explores [2, 3], then backtracks.
 
 
 ## Key Line:

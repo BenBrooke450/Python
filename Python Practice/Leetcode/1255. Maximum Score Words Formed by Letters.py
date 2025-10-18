@@ -83,18 +83,27 @@ print(maxScoreWords(words = ["xxxz","ax","bx","cx"], letters = ["z","a","b","c",
 """
 
 
-nums = [12,3,4,5,6,7]
+nums = [1,2,3]
 def backtrack(start, path):
-
+    print()
+    print("------ENTER BACKTRACK--------")
+    print("TRYING", f"Start: {start}, End_len: {len(nums)}")
+    print()
     for i in range(start, len(nums)):
+        print(f"append: {[nums[i]]}      Start: {start}, End_len: {len(nums)}")
         path.append(nums[i])
-        print("Path:  ",path,f"      Start: {start}, End: {len(nums)}")
+        print("Path:  ",path)
+
 
         backtrack(i + 1, path)
+        print()
+        print("-----DROP OUT----- :",f"Start: {start+1}, End_len: {len(nums)}")
+        print()
 
-
-        print("-----------POP-------------",)
+        print(f"Path before drop {path}")
         path.pop()
+        print(f"Path after drop {path}")
+        print()
 
 
 backtrack(0,[])
