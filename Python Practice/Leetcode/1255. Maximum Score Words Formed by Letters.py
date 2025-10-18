@@ -33,7 +33,7 @@ Letter "e" can only be used once.
 
 """
 
-"""
+
 def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int:
 
     alphabet = {chr(i) : j for i,j in zip(range(97, 123),score)}
@@ -58,9 +58,8 @@ def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int
             else:
                 path.pop()
                 max_p(word_index + 1, path)
+                return
 
-                if len(words) == word_index + 1:
-                    return
 
         print("PASS")
         max_p(word_index+1,path)
@@ -80,33 +79,9 @@ def maxScoreWords(words: list[str], letters: list[str], score: list[int]) -> int
 
 print(maxScoreWords(words = ["xxxz","ax","bx","cx"], letters = ["z","a","b","c","x","x","x"], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]))
 
-"""
 
 
-nums = [1,2,3]
-def backtrack(start, path):
-    print()
-    print("------ENTER BACKTRACK--------")
-    print("TRYING", f"Start: {start}, End_len: {len(nums)}")
-    print()
-    for i in range(start, len(nums)):
-        print(f"append: {[nums[i]]}      Start: {start}, End_len: {len(nums)}")
-        path.append(nums[i])
-        print("Path:  ",path)
 
-
-        backtrack(i + 1, path)
-        print()
-        print("-----DROP OUT----- :",f"Start: {start+1}, End_len: {len(nums)}")
-        print()
-
-        print(f"Path before drop {path}")
-        path.pop()
-        print(f"Path after drop {path}")
-        print()
-
-
-backtrack(0,[])
 
 
 
