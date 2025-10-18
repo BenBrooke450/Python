@@ -10,6 +10,8 @@ It tries all possible paths, and if a path doesn't work, it goes back (or “bac
 
 # Example 1
 
+#### In this example it's important to understand the difference between taking the path through the recursion and not.
+
 ```python
 nums = [1,2,3]
 def backtrack(start, path):
@@ -59,9 +61,19 @@ Path:   [1, 2, 3]
 TRYING Start: 3, End_len: 3
 
 
+#### HERE WE HAVE REACHED THE MAX POINT AND THE INTERATION HAS FAILED CAUSING THE RETURN
+
+
 -----DROP OUT----- : Start: 3, End_len: 3
 
 Path before drop [1, 2, 3]
+
+```
+
+#### We don't pop the last element here, because we have taken the path through the recursion, when it failes we go back to the previous path which is simply [1,2] and then we pop again as we retuned 
+
+```python
+
 Path after drop [1, 2]
 
 
