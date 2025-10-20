@@ -620,7 +620,7 @@ Start: [1]  (0,0)
 
 <br><br><br><br><br><br><br>
 
-# Example 2
+# Example 3
 
 
 ```python
@@ -739,7 +739,7 @@ POP (CAP) A
 
 <br><br><br><br><br><br><br>
 
-# Example 3
+# Example 4
 
 ```python
 
@@ -1456,7 +1456,7 @@ def solveNQueens(n: int) -> list[list[str]]:
 
 <br><br><br><br><br>
 
-# Example 4
+# Example 5
 
 
 ```python

@@ -20,20 +20,25 @@ Output: [["a"]]
 def partition(s: str) -> list[list[str]]:
 
 
-    p_word = []
+    path_word = []
     all_words = []
 
-    def word(word:str(), letter_index:int()):
+    def word_back(letter_index:int(), path:list()):
+        for i in range(letter_index, len(s)):
+
+            path_word.append(s[i])
+            print(path_word)
+
+            word_back(i + 1, path_word)
+
+            path_word.pop()
+
+    word_back(0,[])
+
+    return path_word
 
 
-        l = s[letter_index]
-
-
-
-
-
-
-
+print(partition(s = "aabacba"))
 
 
 
