@@ -18,27 +18,6 @@ Explanation: 1 has no prime factors, therefore all of its prime factors are limi
 
 """
 
-import math
-
-def nthUglyNumber(n: int) -> int:
-
-    primes = set()
-
-    def is_prime(x):
-        if x < 2:
-            return False
-        for y in range(2, int(math.isqrt(x)) + 1):
-            if x % y == 0:
-                return False
-        return True
-
-
-    for x in range(n - 1, 1, -1):  # start from n-1 and go down
-        if not is_prime(x):
-            return x
-
-
-print(nthUglyNumber(10))
 
 
 
