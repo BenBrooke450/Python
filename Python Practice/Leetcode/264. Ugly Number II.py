@@ -26,21 +26,22 @@ Explanation: 1 has no prime factors, therefore all of its prime factors are limi
 def nthUglyNumber(n: int) -> int:
 
     primes = set()
+    l = 1
+    x = 2
 
-    for x in range(6,n+40):
-        if all(x%y!=0 for y in range(2,x) if y != x):
-            primes.add(x)
-
-    x = 0
-    list1 = []
-    while x != n:
-        if x not in primes and all(x%y!=0 for y in primes):
-            list1.append(x)
+    while l < n:
+        print(x,l,n)
+        if x%2 == 0 or x%3 == 0 or x%5 == 0:
+            if any(x%y == 0 for y in primes):
+                pass
+            else:
+                 l = l + 1
         else:
-            n = n + 1
+            primes.add(x)
         x = x + 1
+    return x
 
-    return list1[-1]
+print(nthUglyNumber(20))
 
 
 
