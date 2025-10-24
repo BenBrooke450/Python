@@ -23,23 +23,36 @@ Explanation: 1 has no prime factors, therefore all of its prime factors are limi
 
 
 
+
+
+
+
+
+
 def nthUglyNumber(n: int) -> int:
+    ugly = [1]  # first ugly number
+    i2 = i3 = i5 = 0  # pointers for multiples of 2, 3, 5
 
-    primes = set()
-    l = 1
-    x = 2
+    for _ in range(1, n):
+        next2 = ugly[i2] * 2
+        next3 = ugly[i3] * 3
+        next5 = ugly[i5] * 5
 
-    while l < n:
-        print(x,l,n)
-        if x%2 == 0 or x%3 == 0 or x%5 == 0:
-            if any(x%y == 0 for y in primes):
-                pass
-            else:
-                 l = l + 1
-        else:
-            primes.add(x)
-        x = x + 1
-    return x
+        print(next2,next3,next5)
+
+        next_ugly = min(next2, next3, next5)
+        ugly.append(next_ugly)
+
+        print(next_ugly,ugly)
+
+        if next_ugly == next2:
+            i2 += 1
+        if next_ugly == next3:
+            i3 += 1
+        if next_ugly == next5:
+            i5 += 1
+
+    return ugly[-1]
 
 print(nthUglyNumber(20))
 
