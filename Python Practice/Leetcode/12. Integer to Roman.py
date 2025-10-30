@@ -60,21 +60,23 @@ Explanation:
 
 def intToRoman(num: int) -> str:
 
-    numbers_10000 = num % 10000
-    numbers_1000 = num % 1000
-    numbers_100 = num % 100
-    numbers_10 = num % 10
-
-    number_1 = numbers_10000 - numbers_1000
-    number_2 = numbers_1000 - numbers_100
-    number_3 = numbers_100 - numbers_10
-    number_4 = numbers_10
-
     roman = []
 
     numbers_roman = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
 
-    if (number_1%1000) *
+    len_num = len(num)
+
+    for i in str(num):
+        i = int(i)
+        if i in (4,9):
+            if len_num == 4:
+                roman.append("M"*i)
+            elif len_num == 4:
+                if i == 4:
+                    roman.append("M" * i)
+
+        else:
+
 
 
 
