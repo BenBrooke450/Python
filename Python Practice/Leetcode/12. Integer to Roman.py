@@ -74,7 +74,7 @@ def intToRoman(num: int) -> str:
 
     numbers_roman = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
 
-    #if (number_1%1000) * 3
+    if (number_1%1000) *
 
 
 
