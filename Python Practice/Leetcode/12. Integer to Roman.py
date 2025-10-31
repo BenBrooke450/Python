@@ -62,7 +62,8 @@ def intToRoman(num: int) -> str:
 
     roman = []
 
-    numbers_roman = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
+    values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    symbols = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
 
     numbers_10000 = num % 10000
     numbers_1000 = num % 1000
@@ -75,10 +76,22 @@ def intToRoman(num: int) -> str:
     number_4 = numbers_10
 
     list1 = [number_1,number_2,number_3,number_4]
+    i = 0
+    for j in list1:
+        while j != 0:
+            j = j - values[i]
+            print(j,values[i])
+            if j >= 0:
+                roman.append(symbols[i])
+                print(symbols[i])
 
+            elif j < 0:
+                j = j + values[i]
+                i = i + 1
+        values = values[1:]
+        symbols = symbols[1:]
 
-
-    return number_1,number_2,number_3,number_4
+    return "".join(roman)
 
 
 
