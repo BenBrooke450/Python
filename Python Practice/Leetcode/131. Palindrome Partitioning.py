@@ -27,7 +27,10 @@ def partition(s: str) -> list[list[str]]:
         for i in range(letter_index, len(s)):
 
             path_word.append(s[i])
+
             print(path_word)
+
+            if len(path_word) ==
 
             word_back(i + 1, path_word)
 
