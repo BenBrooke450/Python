@@ -17,6 +17,10 @@ Example 1:
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
 
+P   A   H    N
+A P L S I  I G
+Y   I   R
+
 Example 2:
 Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
@@ -36,48 +40,54 @@ def convert(s: str, numRows: int) -> str:
     n = numRows * 2 - 2
     m = 0
     string_new = []
-    visited = set()
-
 
     def swirling_wind(n,m):
-        z = 1
+        z = 0
+        if m >= numRows/2:
+            z = 1
         i = 0
         if len(string_new) >= len(s):
-            return
+            return string_new
 
-        print("NEW")
+        print("NEW-----------")
 
-        while i + m <= len(s):
-            print(s[i+m],n,i,z)
-            if m > 0 and m < len(s):
-                if z%2 == 0 and (s[i+m],i) not in visited:
-                    string_new.append(s[i+m+2])
-                    print("NEW:",s[i+m+2], n, i+2, z)
-                    i = i + 4
+        while i + m < len(s):
+
+            if m > 0 and m + 1 < numRows:
+                if z%2 == 0:
+                    string_new.append(s[i+m])
+                    print("MID JUMP:",s[i+m], "BASE NUMBER:",n, f"  sum of {i} & {m}:",i+m, "  even or odd:",z)
                     z = z + 1
+                    i = i + 4
+                    print(i)
                     continue
+
+                    #"PINALSIGYAHRPI"
                 else:
                     string_new.append(s[i+m])
+                    print("Normal:", s[i + m], f"  sum of {i} & {m}:", i + m, "  even or odd:",z)
+                    z = z + 1
+                    if z % 2 == 0:
+                        i = i + 2
+                    else:
+                        i = i + n
+                    print(i)
+                    continue
 
-            elif (s[i+m],i) not in visited:
-                    string_new.append(s[i+m])
-
-            visited.add((s[i],i))
-            z = z + 1
-            i = i + n
+            string_new.append(s[i + m])
+            i = i + numRows * 2 - 2
 
         n = n - 2
         m = m + 1
-
 
         swirling_wind(n,m)
 
     swirling_wind(n,m)
 
-    return string_new, visited
+    return string_new
 
 
-print(convert(s = "PAYPALISHIRING", numRows = 4))
+print(convert(s = "PAYPALISHIRING", numRows = 3))
 
 
 
