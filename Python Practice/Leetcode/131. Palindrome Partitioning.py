@@ -19,26 +19,34 @@ Output: [["a"]]
 
 def partition(s: str) -> list[list[str]]:
 
-
-    path_word = []
     all_words = []
 
-    def word_back(letter_index:int(), path:list()):
-        for i in range(letter_index, len(s)):
+    def word_back(start_index: int, path: list):
 
-            path_word.append(s[i])
+        if start_index == len(s):
+            all_words.append(path.copy())
+            return
 
-            print(path_word)
 
-            if len(path_word) ==
+        for end_index in range(start_index, len(s)):
+            print(start_index,end_index+1)
 
-            word_back(i + 1, path_word)
+            substring = s[start_index:end_index + 1]
+            print("NONPASS: ", substring)
 
-            path_word.pop()
+            if substring == substring[::-1]:
+                print("PASS: ",substring)
+                path.append(substring)
+                print(path)
+                word_back(end_index + 1, path)
+                path.pop()
+                print("DROP BACK -- PATH:", path)
 
-    word_back(0,[])
+        print("DROP BACK")
 
-    return path_word
+    word_back(0, [])
+    return all_words
+
 
 
 print(partition(s = "aabacba"))
