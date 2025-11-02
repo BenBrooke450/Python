@@ -29,8 +29,6 @@ def numSquares(n: int) -> int:
     def checker(number_list):
 
 
-
-
     checker(number_list=minumum)
 
     return minumum

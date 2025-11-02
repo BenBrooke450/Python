@@ -36,16 +36,28 @@ Output: "A"
 
 """
 
+
+
+def convert(s: str, numRows: int) -> str:
+
+
+
+
+
+
+
+
+
 def convert(s: str, numRows: int) -> str:
     n = numRows * 2 - 2
     m = 0
     string_new = []
 
     def swirling_wind(n,m):
-        z = 0
+        z,i = 0
         if m >= numRows/2:
             z = 1
-        i = 0
+
         if len(string_new) >= len(s):
             return string_new
 
@@ -78,16 +90,15 @@ def convert(s: str, numRows: int) -> str:
             i = i + numRows * 2 - 2
 
         n = n - 2
-        m = m + 1
 
-        swirling_wind(n,m)
+        swirling_wind(n ,m + 1)
 
     swirling_wind(n,m)
 
     return string_new
 
 
-print(convert(s = "PAYPALISHIRING", numRows = 3))
+print(convert(s = "PAYPALISHIRING", numRows = 6))
 
 
 
