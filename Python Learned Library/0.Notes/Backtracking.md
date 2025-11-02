@@ -1394,7 +1394,7 @@ Process finished with exit code 0
 
 <br><br><br><br><br><br><br>
 
-# Example 4
+# Example 5
 
 ```python
 def solveNQueens(n: int) -> list[list[str]]:
@@ -1456,7 +1456,7 @@ def solveNQueens(n: int) -> list[list[str]]:
 
 <br><br><br><br><br>
 
-# Example 5
+# Example 6
 
 
 ```python
