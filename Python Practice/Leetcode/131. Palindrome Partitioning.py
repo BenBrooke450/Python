@@ -30,7 +30,7 @@ def partition(s: str) -> list[list[str]]:
 
         print(f"\n","---------NEW PASS-------",start_index,f"\n")
         for end_index in range(start_index, len(s)):
-            print(start_index,end_index,len(s))
+            print(start_index,end_index+1,len(s),s[start_index:end_index + 1])
 
             substring = s[start_index:end_index + 1]
 
@@ -46,8 +46,6 @@ def partition(s: str) -> list[list[str]]:
 
     word_back(0, [])
     return all_words
-
-
 
 print(partition(s = "aabacba"))
 
