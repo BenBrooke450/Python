@@ -25,24 +25,24 @@ def partition(s: str) -> list[list[str]]:
 
         if start_index == len(s):
             all_words.append(path.copy())
+            print("MAX OUTED - RETURN")
             return
 
-
+        print(f"\n","---------NEW PASS-------",start_index,f"\n")
         for end_index in range(start_index, len(s)):
-            print(start_index,end_index+1)
+            print(start_index,end_index,len(s))
 
             substring = s[start_index:end_index + 1]
-            print("NONPASS: ", substring)
 
             if substring == substring[::-1]:
                 print("PASS: ",substring)
                 path.append(substring)
-                print(path)
+                print(path, "LOOP +1")
                 word_back(end_index + 1, path)
                 path.pop()
                 print("DROP BACK -- PATH:", path)
 
-        print("DROP BACK")
+        print("DROP BACK OUT OF THE FUNCTION - remove another letter")
 
     word_back(0, [])
     return all_words
