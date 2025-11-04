@@ -29,26 +29,24 @@ def numSquares(n: int) -> int:
     perfect_list = []
 
     def checker(i):
-        print(number_list)
+
         if sum(number_list) == n:
             perfect_list.append(number_list.copy())
             return
-
-        if sum(number_list) > n:
+        if sum(number_list) > n or i >= len(perfect_squares):
             return
 
         number_list.append(perfect_squares[i])
-        checker(i)
+        checker(i)           # reuse the same square
         number_list.pop()
 
-        if i + 1 < len(perfect_squares) and sum(number_list) + perfect_squares[i+1] < n:
-            checker(i+1)
-            number_list.pop()
+        # move to next square
+        checker(i + 1)
 
 
     checker(0)
 
-    return perfect_list
+    return sorted(perfect_list,key = lambda x: len(x))[0]
 
 print(numSquares(12))
 
