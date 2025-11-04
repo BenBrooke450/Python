@@ -24,7 +24,7 @@ import math
 
 def numSquares(n: int) -> int:
 
-    perfect_squares = [i * i for i in range(1, n//3)][::-1]
+    perfect_squares = [i * i for i in range(1, n)][::-1]
     number_list= []
     perfect_list = []
 
@@ -33,6 +33,7 @@ def numSquares(n: int) -> int:
         if sum(number_list) == n:
             perfect_list.append(number_list.copy())
             return
+
         if sum(number_list) > n or i >= len(perfect_squares):
             return
 
@@ -46,8 +47,35 @@ def numSquares(n: int) -> int:
 
     checker(0)
 
-    return sorted(perfect_list,key = lambda x: len(x))[0]
+    return min(perfect_list, key=lambda x:len(x))
 
-print(numSquares(12))
+print(numSquares(165))
 
 
+
+
+##########################################
+#CHATCPT
+def numSquares(self, n: int) -> int:
+    perfect_squares = [i * i for i in range(1, int(n**0.5) + 1)][::-1]
+    min_length = float('inf')
+
+    def checker(i, current_sum, count):
+        nonlocal min_length
+
+        if count >= min_length:
+            return
+
+        if current_sum == n:
+            min_length = min(min_length, count)
+            return
+
+        if current_sum > n or i >= len(perfect_squares):
+            return
+
+        checker(i, current_sum + perfect_squares[i], count + 1)
+
+        checker(i + 1, current_sum, count)
+
+    checker(0, 0, 0)
+    return min_length
