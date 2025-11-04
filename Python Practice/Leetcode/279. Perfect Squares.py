@@ -25,10 +25,10 @@ import math
 def numSquares(n: int) -> int:
 
     perfect_squares = [i * i for i in range(1, n//3)][::-1]
-
+    number_list= []
     perfect_list = []
 
-    def checker(number_list,i):
+    def checker(i):
         print(number_list)
         if sum(number_list) == n:
             perfect_list.append(number_list.copy())
@@ -38,17 +38,15 @@ def numSquares(n: int) -> int:
             return
 
         number_list.append(perfect_squares[i])
+        checker(i)
+        number_list.pop()
 
-        if sum(number_list) < n:
-            checker(number_list,i)
+        if i + 1 < len(perfect_squares) and sum(number_list) + perfect_squares[i+1] < n:
+            checker(i+1)
             number_list.pop()
 
 
-        checker(number_list, i+1)
-        number_list.pop()
-
-
-    checker([],0)
+    checker(0)
 
     return perfect_list
 
