@@ -24,14 +24,34 @@ import math
 
 def numSquares(n: int) -> int:
 
-    perfect_squares = [i * i for i in range(1, n//3)]
+    perfect_squares = [i * i for i in range(1, n//3)][::-1]
 
-    def checker(number_list):
+    perfect_list = []
 
-    checker(number_list=minumum)
+    def checker(number_list,i):
+        print(number_list)
+        if sum(number_list) == n:
+            perfect_list.append(number_list.copy())
+            return
 
-    return minumum
+        if sum(number_list) > n:
+            return
 
-print(numSquares(13))
+        number_list.append(perfect_squares[i])
 
-print(numSquares(85))
+        if sum(number_list) < n:
+            checker(number_list,i)
+            number_list.pop()
+
+
+        checker(number_list, i+1)
+        number_list.pop()
+
+
+    checker([],0)
+
+    return perfect_list
+
+print(numSquares(12))
+
+
