@@ -25,28 +25,63 @@ The best way is to split it into [1,2,3] and [4,5], where the largest sum among 
 
 """
 
-from itertools import combinations, permutations
+
 def splitArray(nums: list[int], k: int) -> int:
 
-    a = k - 1
     b = len(nums)
-    i = 0
+    biggest_length = len(nums) - (k - 1)
+    if k == 2:
+        biggest_length = len(nums) - 1
+    small_max = []
 
-    def shuffle(m,n):
-        for x in range(m,n):
-            print(nums[:m],nums[m:x],nums[x:n],nums[n:])
+    def shuffle(biggest_length):
+        for i in range(b - biggest_length + 1):
+            print(i,nums[i:i + biggest_length],sum(nums[i:i + biggest_length]))
+            q = sum(nums[i:i + biggest_length])
+            if q > 0:
+                small_max.append(q)
 
-        if m == 0:
+        if biggest_length == k + 1:
             return
 
-        shuffle(m-1,n-1)
+        shuffle(biggest_length-1)
 
-    shuffle(a,b)
+    shuffle(biggest_length)
 
+    return min(small_max)
+
+
+
+
+print(splitArray(nums = [7,2,5,10,8], k = 2))
 
 
 
 print(splitArray(nums = [7,2,5,10,8,11,2,3,4,2,1,23,3,4,55,33], k = 4))
+
+
+
+
+"""len 6 = 5 , 1 group 2
+len 6 = 4, 1, 1 group 3
+len 6 = 3, 1, 1 ,1 group 4
+
+len 7 = 6 , 1 group 2
+len 7 = 5 , 1, 1 group 3
+
+len 10 = 9 , 1 group 2
+len 10 = 8, 1 , 1 group 3"""
+
+
+
+
+
+
+
+
+
+
+
 
 
 

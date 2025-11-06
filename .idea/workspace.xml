@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/410. Split Array Largest Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/410. Split Array Largest Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -514,14 +513,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00593" summary="basic">
-      <option name="closed" value="true" />
-      <created>1760274581004</created>
-      <option name="number" value="00593" />
-      <option name="presentableId" value="LOCAL-00593" />
-      <option name="project" value="LOCAL" />
-      <updated>1760274581004</updated>
-    </task>
     <task id="LOCAL-00594" summary="basic">
       <option name="closed" value="true" />
       <created>1760275885771</created>
@@ -906,7 +897,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762365719785</updated>
     </task>
-    <option name="localTasksCounter" value="642" />
+    <task id="LOCAL-00642" summary="basic">
+      <option name="closed" value="true" />
+      <created>1762429544394</created>
+      <option name="number" value="00642" />
+      <option name="presentableId" value="LOCAL-00642" />
+      <option name="project" value="LOCAL" />
+      <updated>1762429544394</updated>
+    </task>
+    <option name="localTasksCounter" value="643" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
