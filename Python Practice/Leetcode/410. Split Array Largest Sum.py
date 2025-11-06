@@ -32,13 +32,21 @@ def splitArray(nums: list[int], k: int) -> int:
     b = len(nums)
     i = 0
 
-    while i != b and k + i - 1 != b:
-        print(nums[:a+i],nums[a+i:])
-        i += 1
+    def shuffle(m,n):
+        for x in range(m,n):
+            print(nums[:m],nums[m:x],nums[x:n],nums[n:])
+
+        if m == 0:
+            return
+
+        shuffle(m-1,n-1)
+
+    shuffle(a,b)
 
 
 
-print(splitArray(nums = [7,2,5,10,8], k = 3))
+
+print(splitArray(nums = [7,2,5,10,8,11,2,3,4,2,1,23,3,4,55,33], k = 4))
 
 
 
