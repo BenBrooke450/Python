@@ -41,7 +41,7 @@ def splitArray(nums: list[int], k: int) -> int:
             if q > 0:
                 small_max.append(q)
 
-        if biggest_length == k + 1:
+        if biggest_length + 1 <= k:
             return
 
         shuffle(biggest_length-1)
@@ -53,11 +53,11 @@ def splitArray(nums: list[int], k: int) -> int:
 
 
 
-print(splitArray(nums = [7,2,5,10,8], k = 2))
+print(splitArray(nums = [7,2,5,10,8,6], k = 3))
 
 
 
-print(splitArray(nums = [7,2,5,10,8,11,2,3,4,2,1,23,3,4,55,33], k = 4))
+#print(splitArray(nums = [7,2,5,10,8,11,2,3,4,2,1,23,3,4,55,33], k = 4))
 
 
 

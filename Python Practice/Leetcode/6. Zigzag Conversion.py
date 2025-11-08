@@ -39,16 +39,6 @@ Output: "A"
 
 
 def convert(s: str, numRows: int) -> str:
-
-
-
-
-
-
-
-
-
-def convert(s: str, numRows: int) -> str:
     n = numRows * 2 - 2
     m = 0
     string_new = []
