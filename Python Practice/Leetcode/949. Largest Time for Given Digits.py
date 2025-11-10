@@ -23,28 +23,34 @@ Explanation: There are no valid 24-hour times as "55:55" is not valid.
 
 def largestTimeFromDigits(arr: list[int]) -> str:
 
-    max_list = []
+    max_list = list()
 
     for i,x in enumerate(arr):
-        for y in arr[i+1:]:
-            print(x,y)
-            x, y = str(x), str(y)
-            hour = int(x + y)
-            if hour < 24:
-                max_list.append(hour)
+        for j,y in enumerate(arr):
+            if i != j:
+                print(x,y)
+                x, y = str(x), str(y)
+                hour = int(x + y)
+                if hour < 24:
+                    max_list.append([hour,x + y])
+
+    print(max_list)
 
     if len(max_list) != 0:
-        hour = str(max(max_list))
+        hour = max(max_list,key=lambda x: x[0])
     else:
-        hour = 0
+        return ""
 
     print(hour)
 
-    for x in hour[0]:
+    hour = hour[1]
+    print("pass")
+
+    for x in str(hour[0]):
         i = arr.index(int(x))
         arr.pop(i)
 
-    for x in hour[1]:
+    for x in str(hour[1]):
         i = arr.index(int(x))
         arr.pop(i)
 
@@ -52,24 +58,29 @@ def largestTimeFromDigits(arr: list[int]) -> str:
 
     max_minute = 0
 
-    one = int("".join([str(x) for x in arr]))
-    two = int("".join([str(x) for x in arr][::-1]))
+    one = [str(x) for x in arr]
+    two = [str(x) for x in arr][::-1]
+
+    one = [int("".join(one)),str("".join(one))]
+    two = [int("".join(two)),str("".join(two))]
 
     print(one,two)
 
-    if one < 59 and two < 59:
-        max_minute = max(one,two)
-    elif one < 59:
-        max_minute = one
-    elif two < 59:
-        max_minute = two
-
-    if max_minute == 0 or hour == 0:
+    if one[0] < 59 and two[0] < 59:
+         if one[0] > two[0]:
+             max_minute = one[1]
+         else:
+             max_minute = two[1]
+    elif one[0] < 59:
+        max_minute = one[1]
+    elif one[0] < 59:
+        max_minute = two[1]
+    else:
         return ""
 
     return str(hour) + ":" + str(max_minute)
 
-print(largestTimeFromDigits(arr = [1,2,3,4]))
+print(largestTimeFromDigits(arr = [2,0,6,6]))
 
 
 
