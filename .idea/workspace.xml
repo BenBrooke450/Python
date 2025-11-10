@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/949. Largest Time for Given Digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/949. Largest Time for Given Digits.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,6 +455,7 @@
     "Python.925. Long Pressed Name.executor": "Run",
     "Python.929. Unique Email Addresses.executor": "Run",
     "Python.942. DI String Match.executor": "Run",
+    "Python.949. Largest Time for Given Digits.executor": "Run",
     "Python.950. Reveal Cards In Increasing Order.executor": "Run",
     "Python.969. Pancake Sorting.executor": "Run",
     "Python.977. Squares of a Sorted Array.executor": "Run",
@@ -513,14 +515,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00598" summary="basic">
-      <option name="closed" value="true" />
-      <created>1760461335069</created>
-      <option name="number" value="00598" />
-      <option name="presentableId" value="LOCAL-00598" />
-      <option name="project" value="LOCAL" />
-      <updated>1760461335069</updated>
     </task>
     <task id="LOCAL-00599" summary="basic">
       <option name="closed" value="true" />
@@ -906,7 +900,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762719961972</updated>
     </task>
-    <option name="localTasksCounter" value="647" />
+    <task id="LOCAL-00647" summary="basic">
+      <option name="closed" value="true" />
+      <created>1762813439896</created>
+      <option name="number" value="00647" />
+      <option name="presentableId" value="LOCAL-00647" />
+      <option name="project" value="LOCAL" />
+      <updated>1762813439896</updated>
+    </task>
+    <option name="localTasksCounter" value="648" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
