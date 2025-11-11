@@ -87,3 +87,30 @@ print(largestTimeFromDigits(arr = [1,9,6,0]))
 
 
 
+
+
+######################### chat gpt
+
+
+from itertools import permutations
+
+def largestTimeFromDigits(arr: list[int]) -> str:
+    max_time = -1
+
+    # Try every permutation of 4 digits
+    for h1, h2, m1, m2 in permutations(arr):
+        hour = h1 * 10 + h2
+        minute = m1 * 10 + m2
+
+        if hour < 24 and minute < 60:
+            total_minutes = hour * 60 + minute
+            max_time = max(max_time, total_minutes)
+
+    if max_time == -1:
+        return ""
+
+    # Convert back to HH:MM format
+    return f"{max_time // 60:02d}:{max_time % 60:02d}"
+
+
+
