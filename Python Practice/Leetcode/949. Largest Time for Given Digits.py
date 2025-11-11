@@ -25,23 +25,25 @@ def largestTimeFromDigits(arr: list[int]) -> str:
 
     max_list = list()
 
+    index = [0,1,2,3]
+
     for i,x in enumerate(arr):
         for j,y in enumerate(arr):
             if i != j:
-                print(x,y)
                 x, y = str(x), str(y)
                 hour = int(x + y)
-                if hour < 24:
+                hours_left = [str(arr[q]) for q in index if q != i and q != j]
+                hours_left_one = int("".join(hours_left))
+                hours_left_two = int("".join(hours_left[::-1]))
+                if hour < 24 and (hours_left_one < 60 or hours_left_two < 60):
                     max_list.append([hour,x + y])
 
-    print(max_list)
 
     if len(max_list) != 0:
         hour = max(max_list,key=lambda x: x[0])
     else:
         return ""
 
-    print(hour)
 
     hour = hour[1]
     print("pass")
@@ -66,21 +68,21 @@ def largestTimeFromDigits(arr: list[int]) -> str:
 
     print(one,two)
 
-    if one[0] < 59 and two[0] < 59:
+    if one[0] < 60 and two[0] < 60:
          if one[0] > two[0]:
              max_minute = one[1]
          else:
              max_minute = two[1]
-    elif one[0] < 59:
+    elif one[0] < 60:
         max_minute = one[1]
-    elif one[0] < 59:
+    elif two[0] < 60:
         max_minute = two[1]
     else:
         return ""
 
     return str(hour) + ":" + str(max_minute)
 
-print(largestTimeFromDigits(arr = [2,0,6,6]))
+print(largestTimeFromDigits(arr = [1,9,6,0]))
 
 
 
