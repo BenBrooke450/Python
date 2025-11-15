@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2829. Determine the Minimum Sum of a k-avoiding Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2765. Longest Alternating Subarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,6 +299,7 @@
     "Python.2724. Sort By.executor": "Run",
     "Python.2739. Total Distance Traveled.executor": "Run",
     "Python.2744. Find Maximum Number of String Pairs.executor": "Run",
+    "Python.2765. Longest Alternating Subarray.executor": "Run",
     "Python.2778. Sum of Squares of Special Elements.executor": "Run",
     "Python.2785. Sort Vowels in a String.executor": "Run",
     "Python.279. Perfect Squares.executor": "Run",
@@ -516,14 +517,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00603" summary="basic">
-      <option name="closed" value="true" />
-      <created>1760648326195</created>
-      <option name="number" value="00603" />
-      <option name="presentableId" value="LOCAL-00603" />
-      <option name="project" value="LOCAL" />
-      <updated>1760648326195</updated>
     </task>
     <task id="LOCAL-00604" summary="basic">
       <option name="closed" value="true" />
@@ -909,7 +902,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762874164726</updated>
     </task>
-    <option name="localTasksCounter" value="652" />
+    <task id="LOCAL-00652" summary="basic">
+      <option name="closed" value="true" />
+      <created>1762962685537</created>
+      <option name="number" value="00652" />
+      <option name="presentableId" value="LOCAL-00652" />
+      <option name="project" value="LOCAL" />
+      <updated>1762962685537</updated>
+    </task>
+    <option name="localTasksCounter" value="653" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
