@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2765. Longest Alternating Subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Data/First.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Data/Second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Data/Third.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/OS ALL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/OS ALL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/8.shutil/shutil ALL.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="RMarkdown.notebook" />
-        <option value="Jupyter Notebook" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -52,6 +59,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.1. Two Sum.executor": "Run",
     "Python.1.Basics.executor": "Run",
+    "Python.1.OS.executor": "Run",
     "Python.1013. Partition Array Into Three Parts With Equal Sum.executor": "Run",
     "Python.1025. Divisor Game.executor": "Run",
     "Python.1037. Valid Boomerang.executor": "Run",
@@ -464,6 +472,7 @@
     "Python.980. Unique Paths III.executor": "Run",
     "Python.999. Available Captures for Rook.executor": "Run",
     "Python.Crappy code.executor": "Run",
+    "Python.Files.executor": "Run",
     "Python.Python Basic Ex.executor": "Run",
     "Python.Python Classes and Objects Ex.executor": "Run",
     "Python.Python Data Structures Ex.executor": "Run",
@@ -517,14 +526,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00604" summary="basic">
-      <option name="closed" value="true" />
-      <created>1760713025303</created>
-      <option name="number" value="00604" />
-      <option name="presentableId" value="LOCAL-00604" />
-      <option name="project" value="LOCAL" />
-      <updated>1760713025303</updated>
     </task>
     <task id="LOCAL-00605" summary="basic">
       <option name="closed" value="true" />
@@ -910,7 +911,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762962685537</updated>
     </task>
-    <option name="localTasksCounter" value="653" />
+    <task id="LOCAL-00653" summary="basic">
+      <option name="closed" value="true" />
+      <created>1763167858177</created>
+      <option name="number" value="00653" />
+      <option name="presentableId" value="LOCAL-00653" />
+      <option name="project" value="LOCAL" />
+      <updated>1763167858177</updated>
+    </task>
+    <option name="localTasksCounter" value="654" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
