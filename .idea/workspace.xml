@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Class and __init__().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/16. 3Sum Closest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Class.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
       <list>
         <option value="RMarkdown.notebook" />
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -125,6 +128,7 @@
     "Python.1561. Maximum Number of Coins You Can Get.executor": "Run",
     "Python.1588. Sum of All Odd Length Subarrays.executor": "Run",
     "Python.1592. Rearrange Spaces Between Words.executor": "Run",
+    "Python.16. 3Sum Closest.executor": "Run",
     "Python.160. Find Words That Can Be Formed by Characters.executor": "Run",
     "Python.1614. Maximum Nesting Depth of the Parentheses.executor": "Run",
     "Python.1619. Mean of Array After Removing Some Elements.executor": "Run",
@@ -519,14 +523,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00606" summary="basic">
-      <option name="closed" value="true" />
-      <created>1760741354183</created>
-      <option name="number" value="00606" />
-      <option name="presentableId" value="LOCAL-00606" />
-      <option name="project" value="LOCAL" />
-      <updated>1760741354183</updated>
-    </task>
     <task id="LOCAL-00607" summary="basic">
       <option name="closed" value="true" />
       <created>1760776532010</created>
@@ -911,7 +907,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763226791079</updated>
     </task>
-    <option name="localTasksCounter" value="655" />
+    <task id="LOCAL-00655" summary="basic">
+      <option name="closed" value="true" />
+      <created>1763233619899</created>
+      <option name="number" value="00655" />
+      <option name="presentableId" value="LOCAL-00655" />
+      <option name="project" value="LOCAL" />
+      <updated>1763233619899</updated>
+    </task>
+    <option name="localTasksCounter" value="656" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
