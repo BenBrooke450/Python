@@ -21,6 +21,34 @@ Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
 """
 
 
+
+def threeSumClosest(nums: list[int], target: int) -> int:
+
+    lowest_num = 10000
+    cloest_sum = 0
+
+    for i in range(len(nums)):
+        for j in range(i+1,len(nums)):
+
+            sum_nums = nums[i] + nums[j]
+
+            diff = sum_nums - target
+
+            if abs(diff) < lowest_num:
+
+
+            if abs(diff) <= lowest_num:
+                lowest_num = abs(diff)
+                cloest_sum = sum_nums
+
+                if diff == 0:
+                    return abs(cloest_sum)
+
+    return abs(cloest_sum)
+
+print(threeSumClosest(nums = [-1,2,1,-4], target = 1))
+
+
 def threeSumClosest(nums: list[int], target: int) -> int:
 
     lowest_num = 10000
