@@ -58,7 +58,7 @@ def threeSumClosest(nums: list[int], target: int) -> int:
     for i in range(len(nums)):
         for j in range(i+1,len(nums)):
             for q in range(j+1,len(nums)):
-                sum_nums =  nums[i] + nums[j] + nums[q]
+                sum_nums = nums[i] + nums[j] + nums[q]
                 print(nums[i],nums[j],nums[q])
                 diff = sum_nums - target
 
