@@ -27,15 +27,14 @@ def threeSumClosest(nums: list[int], target: int) -> int:
     lowest_num = 10000
     cloest_sum = 0
 
+    nums = tuple(nums)
+
     for i in range(len(nums)):
         for j in range(i+1,len(nums)):
 
             sum_nums = nums[i] + nums[j]
 
             diff = sum_nums - target
-
-            if abs(diff) < lowest_num:
-
 
             if abs(diff) <= lowest_num:
                 lowest_num = abs(diff)
@@ -53,6 +52,8 @@ def threeSumClosest(nums: list[int], target: int) -> int:
 
     lowest_num = 10000
     cloest_sum = 0
+
+    nums = tuple(nums)
 
     for i in range(len(nums)):
         for j in range(i+1,len(nums)):
