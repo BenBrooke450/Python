@@ -72,24 +72,7 @@ def threeSumClosest(nums: list[int], target: int) -> int:
     print(nums)
 
     for i in range(len(nums)):
-        for j in range(i + 1, len(nums)):
-            for q in range(j + 1, len(nums)):
 
-                sum_nums = nums[i] + nums[j] + nums[q]
-
-                diff = sum_nums - target
-
-                print("numbers:",nums[i],nums[j],nums[q],   "   diff:"  ,abs(diff))
-
-                if abs(diff) > lowest_num:
-                    continue
-
-                if abs(diff) <= lowest_num:
-                    lowest_num = abs(diff)
-                    cloest_sum = sum_nums
-
-                    if diff == 0:
-                        return abs(cloest_sum)
 
 print(threeSumClosest(nums = [0,3,97,102,200], target = 300))
 
