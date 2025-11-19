@@ -59,22 +59,22 @@ print(threeSumClosest(nums = [-1,2,1,-4], target = 1))
 
 
 
+from itertools import combinations, permutations
 def threeSumClosest(nums: list[int], target: int) -> int:
 
-    lowest_num = 10000
-    cloest_sum = 0
+
+    remainders = {abs(sum(x)-target):sum(x) for x in combinations(nums,3)}
+
+    min_remainders = min(remainders.keys())
+
+    remainders[min_remainders]
+
+    return remainders[min_remainders],{sum(x):abs(sum(x)-target) for x in combinations(nums,3)}
 
 
-    nums = tuple(sorted(nums))
-    n = len(nums)
-    abs_ = abs
-
-    print(nums)
-
-    for i in range(len(nums)):
 
 
-print(threeSumClosest(nums = [0,3,97,102,200], target = 300))
+print(threeSumClosest(nums = [0,-9,1,-4,3,13], target = -10))
 
 
 

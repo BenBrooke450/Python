@@ -113,5 +113,26 @@ print(max(set(df["Sales"]), key=list(df["Sales"]).count))
 * Both support `key=`, allowing custom comparison logic (e.g., `len`, `abs`, lambda functions).
 * Great for tasks like **finding longest/shortest strings, largest by absolute value, or most frequent values**.
 
+
+
+
+
+
+<br><br><br><br>
+
+
+## WRONG
+
+```python
+remainders = {abs(sum(x)-target):sum(x) for x in combinations(nums,3)}
+
+min_remainders = min(remainders, key=remainders.keys())
 ```
 
+## CORRECT
+
+```python
+min_remainder_key = min(remainders.keys())
+
+closest_sum = remainders[min_remainder_key]
+```
