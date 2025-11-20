@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/min() max().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/min() max().md" afterDir="false" />
+    <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.getcwd().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.listdir(path).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.mkdir(path).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.path.exists().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.path.isfile() or os.path.isdir().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.path.join().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/os.walk().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/with, read(), open()...md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Data/Names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/OS ALL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/OS ALL.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/16. 3Sum Closest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/16. 3Sum Closest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +30,8 @@
       <list>
         <option value="RMarkdown.notebook" />
         <option value="HTML File" />
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -50,6 +62,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.0.Files.executor&quot;: &quot;Run&quot;,
     &quot;Python.1. Two Sum.executor&quot;: &quot;Run&quot;,
     &quot;Python.1.Basics.executor&quot;: &quot;Run&quot;,
     &quot;Python.1.OS.executor&quot;: &quot;Run&quot;,
@@ -498,11 +511,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Other Python Libraries/7.OS and Files" />
+      <recent name="$PROJECT_DIR$/Other Python Libraries/7.OS and Files/Data" />
       <recent name="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage" />
       <recent name="$PROJECT_DIR$/Python Bookcamp - Udemy" />
       <recent name="$PROJECT_DIR$/Python Bookcamp - Udemy/images" />
-      <recent name="$PROJECT_DIR$/Python Practice/Leetcode" />
-      <recent name="$PROJECT_DIR$/Python Practice" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -520,30 +533,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00614" summary="basic">
-      <option name="closed" value="true" />
-      <created>1760997222963</created>
-      <option name="number" value="00614" />
-      <option name="presentableId" value="LOCAL-00614" />
-      <option name="project" value="LOCAL" />
-      <updated>1760997222963</updated>
-    </task>
-    <task id="LOCAL-00615" summary="basic">
-      <option name="closed" value="true" />
-      <created>1761070561878</created>
-      <option name="number" value="00615" />
-      <option name="presentableId" value="LOCAL-00615" />
-      <option name="project" value="LOCAL" />
-      <updated>1761070561878</updated>
-    </task>
-    <task id="LOCAL-00616" summary="basic">
-      <option name="closed" value="true" />
-      <created>1761175530437</created>
-      <option name="number" value="00616" />
-      <option name="presentableId" value="LOCAL-00616" />
-      <option name="project" value="LOCAL" />
-      <updated>1761175530437</updated>
     </task>
     <task id="LOCAL-00617" summary="basic">
       <option name="closed" value="true" />
@@ -913,7 +902,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763562991722</updated>
     </task>
-    <option name="localTasksCounter" value="663" />
+    <task id="LOCAL-00663" summary="basic">
+      <option name="closed" value="true" />
+      <created>1763564169621</created>
+      <option name="number" value="00663" />
+      <option name="presentableId" value="LOCAL-00663" />
+      <option name="project" value="LOCAL" />
+      <updated>1763564169622</updated>
+    </task>
+    <task id="LOCAL-00664" summary="basic">
+      <option name="closed" value="true" />
+      <created>1763564193403</created>
+      <option name="number" value="00664" />
+      <option name="presentableId" value="LOCAL-00664" />
+      <option name="project" value="LOCAL" />
+      <updated>1763564193403</updated>
+    </task>
+    <task id="LOCAL-00665" summary="basic">
+      <option name="closed" value="true" />
+      <created>1763564844454</created>
+      <option name="number" value="00665" />
+      <option name="presentableId" value="LOCAL-00665" />
+      <option name="project" value="LOCAL" />
+      <updated>1763564844455</updated>
+    </task>
+    <option name="localTasksCounter" value="666" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
