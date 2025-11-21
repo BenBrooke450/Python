@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Other Python Libraries/10.Pillow/Image.open().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Python Libraries/9.sys/sys and sys.path.append().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/PACKAGES.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -525,14 +522,6 @@
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
     </task>
-    <task id="LOCAL-00618" summary="basic">
-      <option name="closed" value="true" />
-      <created>1761239949213</created>
-      <option name="number" value="00618" />
-      <option name="presentableId" value="LOCAL-00618" />
-      <option name="project" value="LOCAL" />
-      <updated>1761239949213</updated>
-    </task>
     <task id="LOCAL-00619" summary="basic">
       <option name="closed" value="true" />
       <created>1761324059960</created>
@@ -917,7 +906,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763646597065</updated>
     </task>
-    <option name="localTasksCounter" value="667" />
+    <task id="LOCAL-00667" summary="basic">
+      <option name="closed" value="true" />
+      <created>1763741340204</created>
+      <option name="number" value="00667" />
+      <option name="presentableId" value="LOCAL-00667" />
+      <option name="project" value="LOCAL" />
+      <updated>1763741340204</updated>
+    </task>
+    <option name="localTasksCounter" value="668" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
