@@ -99,7 +99,7 @@ touch module1.py module2.py
 
 <br><br><br><br><br>
 
-# IMPORTANT TO UNDERSTAND, look further down for when you want to build an actual python package
+# IMPORTANT TO UNDERSTAND, look further down for when you want to build an actual python package to call from anywhere
 
 ### **Step 4: Test imports**
 
