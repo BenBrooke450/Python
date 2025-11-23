@@ -151,12 +151,43 @@ print(search_insert([1,3,5,6], 5))  # 2
 print(search_insert([1,3,5,6], 2))  # 1
 ```
 
----
 
-## Pros & Cons
 
-✅ Very efficient: O(log n).
-✅ Works great for **sorted arrays**.
-⚠️ Cannot be used for unsorted data.
-⚠️ Recursive version may hit recursion depth for very large arrays (iterative is safer).
 
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+# Example 1
+```python
+def threeSumClosest(nums: list[int], target: int) -> int:
+
+    nums.sort()
+    closest_sum = float('inf')
+
+    print(nums)
+
+    for i in range(len(nums) - 2):
+        left, right = i + 1, len(nums) - 1
+
+        while left < right:
+            current = nums[i] + nums[left] + nums[right]
+
+            print(nums[:i+1],nums[left],nums[right:])
+            print(nums[i], nums[left], nums[right])
+            print("  ")
+
+            if abs(current - target) < abs(closest_sum - target):
+                closest_sum = current
+
+            if current < target:
+                left += 1
+            elif current > target:
+                right -= 1
+            else:
+                return current
+    return closest_sum
+
+print(threeSumClosest(nums = [0,-9,1,-4,3,13,-15,-2], target = 100))
+```
