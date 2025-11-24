@@ -214,6 +214,37 @@ Account1.deposit(400)   # 850
 Account1.withdraw(850)  # Account balance: 0
 ```
 
+
+
+# Example 4
+
+```python
+class Bank():
+    def __init__(self, balance:int):
+        self.balance = balance
+        print(f"Current Balance {balance}")
+
+
+    def withdraw(self, amount:int):
+        self.balance = self.balance - amount
+        print(f"Your balance is: {self.balance}")
+
+
+    def check_balance(self):
+        print(f"Your balance is: {self.balance}")
+
+
+ben_bank = Bank(120)
+#Current Balance 120
+
+ben_bank.withdraw(50)
+#Your balance is: 70
+
+ben_bank.check_balance()
+#Your balance is: 70
+```
+
+
 ---
 
 # Summary

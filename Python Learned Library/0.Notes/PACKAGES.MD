@@ -464,7 +464,23 @@ Instead of:
 from module_nn.model_builder import TinyVGG
 ```
 
----
+<br><br><br>
+
+2.Add a `setup.py` file in your package root:
+
+```python
+from setuptools import setup, find_packages
+
+setup(
+    name="my_package",
+    version="0.1",
+    packages=find_packages(),
+)
+```
+
+<br><br><br>
+
+
 
 # 🟦 **PART 2 — How to install your package properly**
 
