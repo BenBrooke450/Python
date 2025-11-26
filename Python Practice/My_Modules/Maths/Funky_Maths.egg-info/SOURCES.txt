@@ -1,0 +1,8 @@
+setup.py
+Funky_Maths/__init__.py
+Funky_Maths/abc_function.py
+Funky_Maths/def_functions.py
+Funky_Maths.egg-info/PKG-INFO
+Funky_Maths.egg-info/SOURCES.txt
+Funky_Maths.egg-info/dependency_links.txt
+Funky_Maths.egg-info/top_level.txt
