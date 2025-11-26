@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/My_Modules/Maths/Funky_Maths/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/My_Modules/Maths/Funky_Maths/abc_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/My_Modules/Maths/Funky_Maths/def_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/My_Modules/Maths/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/My_Modules/package_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/464. Can I Win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python Practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Class and __init__().md" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Functions &amp; Storage/Class and __init__().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Learned Library/0.Notes/PACKAGES.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Python Learned Library/0.Notes/PACKAGES.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,6 +392,7 @@
     "Python.459. Repeated Substring Pattern.executor": "Run",
     "Python.46. Permutations.executor": "Run",
     "Python.461. Hamming Distance.executor": "Run",
+    "Python.464. Can I Win.executor": "Run",
     "Python.482. License Key Formatting.executor": "Run",
     "Python.485. Max Consecutive Ones.executor": "Run",
     "Python.492. Construct the Rectangle.executor": "Run",
@@ -531,14 +527,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00624" summary="basic">
-      <option name="closed" value="true" />
-      <created>1761846798034</created>
-      <option name="number" value="00624" />
-      <option name="presentableId" value="LOCAL-00624" />
-      <option name="project" value="LOCAL" />
-      <updated>1761846798034</updated>
     </task>
     <task id="LOCAL-00625" summary="basic">
       <option name="closed" value="true" />
@@ -924,7 +912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763941154923</updated>
     </task>
-    <option name="localTasksCounter" value="673" />
+    <task id="LOCAL-00673" summary="basic">
+      <option name="closed" value="true" />
+      <created>1764020676997</created>
+      <option name="number" value="00673" />
+      <option name="presentableId" value="LOCAL-00673" />
+      <option name="project" value="LOCAL" />
+      <updated>1764020676997</updated>
+    </task>
+    <option name="localTasksCounter" value="674" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
