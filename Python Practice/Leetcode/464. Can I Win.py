@@ -32,15 +32,13 @@ Output: true
 
 """
 
-from itertools import combinations, permutations
+
 def canIWin(maxChoosableInteger: int, desiredTotal: int) -> bool:
 
     player = False
     total = 0
 
     numbers = list(range(1,maxChoosableInteger+1))
-    print(numbers)
-    print(list(permutations(numbers)))
 
     j = 0
     i = 0
