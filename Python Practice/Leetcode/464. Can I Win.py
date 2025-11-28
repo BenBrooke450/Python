@@ -43,8 +43,6 @@ def canIWin(maxChoosableInteger: int, desiredTotal: int) -> bool:
     j = 0
     i = 0
     while True:
-        print(numbers[i])
-
         if max(numbers) + total >= desiredTotal:
             if j % 2 == 0:
                 return True
@@ -57,8 +55,7 @@ def canIWin(maxChoosableInteger: int, desiredTotal: int) -> bool:
         j = j + 1
 
 
-
-print(canIWin(4,14))
+print(canIWin(6,14))
 
 
 
