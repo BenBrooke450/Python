@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/Other Python Libraries/12.tqdm/tqdm FULL SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2443. Sum of Number and Its Reverse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/464. Can I Win.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/464. Can I Win.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +260,7 @@
     "Python.242. Valid Anagram.executor": "Run",
     "Python.2427. Number of Common Factors.executor": "Run",
     "Python.2442. Count Number of Distinct Integers After Reverse Operations.executor": "Run",
+    "Python.2443. Sum of Number and Its Reverse.executor": "Run",
     "Python.2451. Odd String Difference.executor": "Run",
     "Python.2460. Apply Operations to an Array.executor": "Run",
     "Python.2465. Number of Distinct Averages.executor": "Run",
@@ -526,22 +528,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00628" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762004790687</created>
-      <option name="number" value="00628" />
-      <option name="presentableId" value="LOCAL-00628" />
-      <option name="project" value="LOCAL" />
-      <updated>1762004790687</updated>
-    </task>
-    <task id="LOCAL-00629" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762006867266</created>
-      <option name="number" value="00629" />
-      <option name="presentableId" value="LOCAL-00629" />
-      <option name="project" value="LOCAL" />
-      <updated>1762006867266</updated>
     </task>
     <task id="LOCAL-00630" summary="basic">
       <option name="closed" value="true" />
@@ -919,7 +905,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764202782239</updated>
     </task>
-    <option name="localTasksCounter" value="677" />
+    <task id="LOCAL-00677" summary="basic">
+      <option name="closed" value="true" />
+      <created>1764373101242</created>
+      <option name="number" value="00677" />
+      <option name="presentableId" value="LOCAL-00677" />
+      <option name="project" value="LOCAL" />
+      <updated>1764373101242</updated>
+    </task>
+    <task id="LOCAL-00678" summary="basic">
+      <option name="closed" value="true" />
+      <created>1764373771768</created>
+      <option name="number" value="00678" />
+      <option name="presentableId" value="LOCAL-00678" />
+      <option name="project" value="LOCAL" />
+      <updated>1764373771768</updated>
+    </task>
+    <option name="localTasksCounter" value="679" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
