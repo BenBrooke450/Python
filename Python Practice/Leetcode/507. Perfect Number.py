@@ -22,25 +22,29 @@ Input: num = 7
 Output: false
 
 """
-from dask.array import append
-from sqlalchemy.sql.operators import truediv
 
 
-def diviser(number:int):
 
-    # if sum(x for x in range(1,number) if number % x == 0) == number:
-        #return number
+def checkPerfectNumber(number: int) -> bool:
 
-    a = sum(x for x in range(1,number) if number % x == 0)
+    divisors = set()
 
-    if a == number:
+
+    for x in range(1, number // 2 + 1):
+
+        if number % x == 0:
+            divisors.add(x)
+
+    print(divisors)
+
+    if sum(divisors) == number:
         return True
 
     return False
 
-print(diviser(27))
 
 
+print(checkPerfectNumber(28))
 
 
 
