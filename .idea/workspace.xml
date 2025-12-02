@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Other Python Libraries/12.tqdm/tqdm FULL SUMMARY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2443. Sum of Number and Its Reverse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3704. Count No-Zero Pairs That Sum to N.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,6 +373,7 @@
     "Python.3471. Find the Largest Almost Missing Integer.executor": "Run",
     "Python.36. Valid Sudoku.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
+    "Python.3704. Count No-Zero Pairs That Sum to N.executor": "Run",
     "Python.386. Lexicographical Numbers.executor": "Run",
     "Python.389. Find the Difference.executor": "Run",
     "Python.39. Combination Sum.executor": "Run",
@@ -528,22 +528,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-    </task>
-    <task id="LOCAL-00630" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762007335134</created>
-      <option name="number" value="00630" />
-      <option name="presentableId" value="LOCAL-00630" />
-      <option name="project" value="LOCAL" />
-      <updated>1762007335134</updated>
-    </task>
-    <task id="LOCAL-00631" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762089723327</created>
-      <option name="number" value="00631" />
-      <option name="presentableId" value="LOCAL-00631" />
-      <option name="project" value="LOCAL" />
-      <updated>1762089723327</updated>
     </task>
     <task id="LOCAL-00632" summary="basic">
       <option name="closed" value="true" />
@@ -921,7 +905,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764373771768</updated>
     </task>
-    <option name="localTasksCounter" value="679" />
+    <task id="LOCAL-00679" summary="basic">
+      <option name="closed" value="true" />
+      <created>1764594011659</created>
+      <option name="number" value="00679" />
+      <option name="presentableId" value="LOCAL-00679" />
+      <option name="project" value="LOCAL" />
+      <updated>1764594011659</updated>
+    </task>
+    <task id="LOCAL-00680" summary="basic">
+      <option name="closed" value="true" />
+      <created>1764596376727</created>
+      <option name="number" value="00680" />
+      <option name="presentableId" value="LOCAL-00680" />
+      <option name="project" value="LOCAL" />
+      <updated>1764596376727</updated>
+    </task>
+    <option name="localTasksCounter" value="681" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

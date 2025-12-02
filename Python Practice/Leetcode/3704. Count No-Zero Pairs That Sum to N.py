@@ -1,0 +1,59 @@
+
+
+"""
+A no-zero integer is a positive integer that does not contain the digit 0 in its decimal representation.
+
+Given an integer n, count the number of pairs (a, b) where:
+
+a and b are no-zero integers.
+a + b = n
+Return an integer denoting the number of such pairs.
+
+
+
+Example 1:
+Input: n = 2
+Output: 1
+Explanation:
+The only pair is (1, 1).
+
+Example 2:
+Input: n = 3
+Output: 2
+Explanation:
+The pairs are (1, 2) and (2, 1).
+
+Example 3:
+Input: n = 11
+Output: 8
+Explanation:
+The pairs are (2, 9), (3, 8), (4, 7), (5, 6), (6, 5), (7, 4), (8, 3), and (9, 2). Note that (1, 10) and (10, 1) do not satisfy the conditions because 10 contains 0 in its decimal representation.
+
+"""
+
+
+
+def countNoZeroPairs(n: int) -> int:
+
+    p = 0
+    for x in range(n+1):
+
+        y = n - x
+        print(y,x)
+
+        if x + y == n:
+            if y % 10 == 0 or x % 10 == 0:
+                continue
+            p = p + 1
+
+    return p
+
+
+
+
+print(countNoZeroPairs(11))
+
+
+
+
+
