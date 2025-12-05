@@ -39,19 +39,17 @@ def countNoZeroPairs(n: int) -> int:
     for x in range(n+1):
 
         y = n - x
-        print(y,x)
 
-        if x + y == n:
-            if y % 10 == 0 or x % 10 == 0:
-                continue
-            p = p + 1
+        if "0" in str(y) or "0" in str(x):
+            print(y, x)
+            continue
+
+        p = p + 1
 
     return p
 
 
-
-
-print(countNoZeroPairs(11))
+print(countNoZeroPairs(114))
 
 
 
