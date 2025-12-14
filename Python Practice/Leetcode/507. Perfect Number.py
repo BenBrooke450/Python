@@ -27,21 +27,21 @@ Output: false
 
 def checkPerfectNumber(number: int) -> bool:
 
-    divisors = set()
+    divisors = 1
 
+    print(number ** 0.5)
 
-    for x in range(1, number // 2 + 1):
-
+    for x in range(2, int(number ** 0.5) + 1):
+        print(divisors)
         if number % x == 0:
-            divisors.add(x)
+            divisors = divisors + x
+            if x != number // x:
+                divisors += number // x
 
-    print(divisors)
-
-    if sum(divisors) == number:
+    if divisors == number:
         return True
 
     return False
-
 
 
 print(checkPerfectNumber(28))
