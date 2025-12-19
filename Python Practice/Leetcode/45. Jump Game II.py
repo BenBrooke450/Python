@@ -35,6 +35,12 @@ def jump(nums: list[int]) -> int:
 
     j = 0
 
+    if len(nums) == 1:
+        return 0
+
+    if nums[0] >= len(nums[1:]):
+        return 1
+
     while place < n:
 
         j += 1
