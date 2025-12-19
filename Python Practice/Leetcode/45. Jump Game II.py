@@ -33,15 +33,20 @@ def jump(nums: list[int]) -> int:
 
     n = len(nums) - 1
 
-    i = 0
+    j = 0
 
     while place < n:
 
-        i += 1
+        j += 1
 
         print(nums[place+1:jumps+1])
 
-        biggest_jump = np.argmax(nums[place+1:jumps+1]) + 1
+        max = 0
+        for i,x in enumerate(nums[place+1:jumps+1]):
+            test_max = x + i
+            if test_max > max:
+                biggest_jump = i + 1
+                max = test_max
 
         place =  biggest_jump + place
 
@@ -49,12 +54,13 @@ def jump(nums: list[int]) -> int:
 
         print("place:",place, "    we pick: ", nums[place])
 
-        if jumps > n:
+        if jumps >= n:
+            j += 1
             break
 
-    return i
+    return j
 
-print(jump(nums = [2,3,1,1,4,3,1,3,4,1,1]))
+print(jump(nums = [3,1,3,4,1,1,3,1,3,2,3,1,5,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1]))
 
 
 
