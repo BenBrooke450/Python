@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/3754. Concatenate Non-Zero Digits and Multiply by Sum I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2591. Distribute Money to Maximum Children.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +118,7 @@
     "Python.1502. Can Make Arithmetic Progression From Sequence.executor": "Run",
     "Python.1512. Number of Good Pairs.executor": "Run",
     "Python.1518. Water Bottles.executor": "Run",
+    "Python.1523. Count Odd Numbers in an Interval Range.executor": "Run",
     "Python.1528. Shuffle String.executor": "Run",
     "Python.1534. Count Good Triplets.executor": "Run",
     "Python.1539. Kth Missing Positive Number.executor": "Run",
@@ -281,6 +282,7 @@
     "Python.2578. Split With Minimum Sum.executor": "Run",
     "Python.258. Add Digits.executor": "Run",
     "Python.2582. Pass the Pillow.executor": "Run",
+    "Python.2591. Distribute Money to Maximum Children.executor": "Run",
     "Python.26. Remove Duplicates from Sorted Array.executor": "Run",
     "Python.260. Single Number III.executor": "Run",
     "Python.2600. K Items With the Maximum Sum.executor": "Run",
@@ -540,23 +542,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-      <workItem from="1768153341723" duration="1063000" />
-    </task>
-    <task id="LOCAL-00641" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762365719785</created>
-      <option name="number" value="00641" />
-      <option name="presentableId" value="LOCAL-00641" />
-      <option name="project" value="LOCAL" />
-      <updated>1762365719785</updated>
-    </task>
-    <task id="LOCAL-00642" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762429544394</created>
-      <option name="number" value="00642" />
-      <option name="presentableId" value="LOCAL-00642" />
-      <option name="project" value="LOCAL" />
-      <updated>1762429544394</updated>
+      <workItem from="1768153341723" duration="6981000" />
     </task>
     <task id="LOCAL-00643" summary="basic">
       <option name="closed" value="true" />
@@ -934,7 +920,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767458830663</updated>
     </task>
-    <option name="localTasksCounter" value="690" />
+    <task id="LOCAL-00690" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768154411355</created>
+      <option name="number" value="00690" />
+      <option name="presentableId" value="LOCAL-00690" />
+      <option name="project" value="LOCAL" />
+      <updated>1768154411356</updated>
+    </task>
+    <task id="LOCAL-00691" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768155448518</created>
+      <option name="number" value="00691" />
+      <option name="presentableId" value="LOCAL-00691" />
+      <option name="project" value="LOCAL" />
+      <updated>1768155448519</updated>
+    </task>
+    <option name="localTasksCounter" value="692" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -956,5 +958,10 @@
     <MESSAGE value="Merge remote-tracking branch 'PYnative/main'" />
     <MESSAGE value="basic" />
     <option name="LAST_COMMIT_MESSAGE" value="basic" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$3754__Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.coverage" NAME="3754. Concatenate Non-Zero Digits and Multiply by Sum I Coverage Results" MODIFIED="1768154266099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$1523__Count_Odd_Numbers_in_an_Interval_Range.coverage" NAME="1523. Count Odd Numbers in an Interval Range Coverage Results" MODIFIED="1768155133408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$2591__Distribute_Money_to_Maximum_Children.coverage" NAME="2591. Distribute Money to Maximum Children Coverage Results" MODIFIED="1768159570948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
   </component>
 </project>
