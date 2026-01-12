@@ -39,22 +39,31 @@ def distMoney(money: int, children: int) -> int:
     n = 0
 
     while True:
+
+        print(n, money)
+
         money = money - 7
 
         if money < 0:
             return n
 
-        if n == 3:
-            return n + 1
+        n += 1
+
+        if money == 3:
+            return n - 1
 
         if n + 1 == children and money > 7:
             return n
 
-        n += 1
+        if n + 1 == children and money < 7:
+            if money == 0:
+                return n + 1
+            return n
 
 
 
-print(distMoney(money = 13, children = 3))
+
+print(distMoney(money = 20,children = 3))
 
 
 
