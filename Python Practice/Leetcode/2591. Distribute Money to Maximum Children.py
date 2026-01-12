@@ -47,8 +47,6 @@ def distMoney(money: int, children: int) -> int:
         if money < 0:
             return n
 
-        n += 1
-
         if money == 3:
             return n - 1
 
@@ -60,7 +58,7 @@ def distMoney(money: int, children: int) -> int:
                 return n + 1
             return n
 
-
+        n += 1
 
 
 print(distMoney(money = 20,children = 3))
