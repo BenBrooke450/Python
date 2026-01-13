@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2591. Distribute Money to Maximum Children.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2591. Distribute Money to Maximum Children.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -542,15 +541,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-      <workItem from="1768153341723" duration="12001000" />
-    </task>
-    <task id="LOCAL-00645" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762719450586</created>
-      <option name="number" value="00645" />
-      <option name="presentableId" value="LOCAL-00645" />
-      <option name="project" value="LOCAL" />
-      <updated>1762719450586</updated>
+      <workItem from="1768153341723" duration="16277000" />
     </task>
     <task id="LOCAL-00646" summary="basic">
       <option name="closed" value="true" />
@@ -936,7 +927,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768235932085</updated>
     </task>
-    <option name="localTasksCounter" value="694" />
+    <task id="LOCAL-00694" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768236381602</created>
+      <option name="number" value="00694" />
+      <option name="presentableId" value="LOCAL-00694" />
+      <option name="project" value="LOCAL" />
+      <updated>1768236381602</updated>
+    </task>
+    <option name="localTasksCounter" value="695" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
