@@ -61,10 +61,6 @@ def distMoney(money: int, children: int) -> int:
         n += 1
 
 
-
-
-
-
 print(distMoney(money = 20,children = 3))
 
 
