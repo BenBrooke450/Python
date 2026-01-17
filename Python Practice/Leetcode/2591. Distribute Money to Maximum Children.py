@@ -40,28 +40,27 @@ def distMoney(money: int, children: int) -> int:
 
     while True:
 
-        print(n, money)
-
-        money = money - 7
+        print(money,n)
 
         if money < 0:
             return n
 
-        if money == 3:
-            return n - 1
-
         if n + 1 == children and money > 7:
             return n
 
-        if n + 1 == children and money < 7:
-            if money == 0:
+        if n + 1 == children or money <= 7:
+            if money == 7:
                 return n + 1
+            if money == 3 and n + 1 == children:
+                return n - 1
             return n
+
+        money = money - 7
 
         n += 1
 
 
-print(distMoney(money = 20,children = 3))
+print(distMoney(money = 17,children = 2))
 
 
 

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/2591. Distribute Money to Maximum Children.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/2591. Distribute Money to Maximum Children.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -372,6 +373,7 @@
     "Python.3442. Maximum Difference Between Even and Odd Frequency I.executor": "Run",
     "Python.345. Reverse Vowels of a String.executor": "Run",
     "Python.3471. Find the Largest Almost Missing Integer.executor": "Run",
+    "Python.357. Count Numbers with Unique Digits.executor": "Run",
     "Python.36. Valid Sudoku.executor": "Run",
     "Python.367. Valid Perfect Square.executor": "Run",
     "Python.3704. Count No-Zero Pairs That Sum to N.executor": "Run",
@@ -541,55 +543,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-      <workItem from="1768153341723" duration="16277000" />
-    </task>
-    <task id="LOCAL-00646" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762719961971</created>
-      <option name="number" value="00646" />
-      <option name="presentableId" value="LOCAL-00646" />
-      <option name="project" value="LOCAL" />
-      <updated>1762719961972</updated>
-    </task>
-    <task id="LOCAL-00647" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762813439896</created>
-      <option name="number" value="00647" />
-      <option name="presentableId" value="LOCAL-00647" />
-      <option name="project" value="LOCAL" />
-      <updated>1762813439896</updated>
-    </task>
-    <task id="LOCAL-00648" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762815372563</created>
-      <option name="number" value="00648" />
-      <option name="presentableId" value="LOCAL-00648" />
-      <option name="project" value="LOCAL" />
-      <updated>1762815372563</updated>
-    </task>
-    <task id="LOCAL-00649" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762818899774</created>
-      <option name="number" value="00649" />
-      <option name="presentableId" value="LOCAL-00649" />
-      <option name="project" value="LOCAL" />
-      <updated>1762818899774</updated>
-    </task>
-    <task id="LOCAL-00650" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762873864160</created>
-      <option name="number" value="00650" />
-      <option name="presentableId" value="LOCAL-00650" />
-      <option name="project" value="LOCAL" />
-      <updated>1762873864160</updated>
-    </task>
-    <task id="LOCAL-00651" summary="basic">
-      <option name="closed" value="true" />
-      <created>1762874164726</created>
-      <option name="number" value="00651" />
-      <option name="presentableId" value="LOCAL-00651" />
-      <option name="project" value="LOCAL" />
-      <updated>1762874164726</updated>
+      <workItem from="1768153341723" duration="32860000" />
     </task>
     <task id="LOCAL-00652" summary="basic">
       <option name="closed" value="true" />
@@ -935,7 +889,55 @@
       <option name="project" value="LOCAL" />
       <updated>1768236381602</updated>
     </task>
-    <option name="localTasksCounter" value="695" />
+    <task id="LOCAL-00695" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768328967887</created>
+      <option name="number" value="00695" />
+      <option name="presentableId" value="LOCAL-00695" />
+      <option name="project" value="LOCAL" />
+      <updated>1768328967887</updated>
+    </task>
+    <task id="LOCAL-00696" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768329684950</created>
+      <option name="number" value="00696" />
+      <option name="presentableId" value="LOCAL-00696" />
+      <option name="project" value="LOCAL" />
+      <updated>1768329684951</updated>
+    </task>
+    <task id="LOCAL-00697" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768428698695</created>
+      <option name="number" value="00697" />
+      <option name="presentableId" value="LOCAL-00697" />
+      <option name="project" value="LOCAL" />
+      <updated>1768428698695</updated>
+    </task>
+    <task id="LOCAL-00698" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768515730820</created>
+      <option name="number" value="00698" />
+      <option name="presentableId" value="LOCAL-00698" />
+      <option name="project" value="LOCAL" />
+      <updated>1768515730820</updated>
+    </task>
+    <task id="LOCAL-00699" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768515744773</created>
+      <option name="number" value="00699" />
+      <option name="presentableId" value="LOCAL-00699" />
+      <option name="project" value="LOCAL" />
+      <updated>1768515744774</updated>
+    </task>
+    <task id="LOCAL-00700" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768656653114</created>
+      <option name="number" value="00700" />
+      <option name="presentableId" value="LOCAL-00700" />
+      <option name="project" value="LOCAL" />
+      <updated>1768656653114</updated>
+    </task>
+    <option name="localTasksCounter" value="701" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,8 +961,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="basic" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$357__Count_Numbers_with_Unique_Digits.coverage" NAME="357. Count Numbers with Unique Digits Coverage Results" MODIFIED="1768656593219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$3754__Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.coverage" NAME="3754. Concatenate Non-Zero Digits and Multiply by Sum I Coverage Results" MODIFIED="1768154266099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$1523__Count_Odd_Numbers_in_an_Interval_Range.coverage" NAME="1523. Count Odd Numbers in an Interval Range Coverage Results" MODIFIED="1768155133408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
-    <SUITE FILE_PATH="coverage/Python$2591__Distribute_Money_to_Maximum_Children.coverage" NAME="2591. Distribute Money to Maximum Children Coverage Results" MODIFIED="1768235812566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$2591__Distribute_Money_to_Maximum_Children.coverage" NAME="2591. Distribute Money to Maximum Children Coverage Results" MODIFIED="1768660582567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
   </component>
 </project>
