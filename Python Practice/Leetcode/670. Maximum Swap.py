@@ -31,13 +31,13 @@ def maximumSwap(num: int) -> int:
     for i,x in enumerate(text_num):
         if int(x) == max([int(x) for x in text_num[i:]]):
             pass
-
         else:
             largest_num = max([int(x) for x in text_num[i:]])
             if text_num[i:].count(str(largest_num))>1:
                 text_num_reverse = text_num[::-1]
-                n_r = len(text_num) - 1
-                position_largest = n_r + text_num_reverse.index(str(largest_num))
+                n_r = len(text_num) - 1 - i
+                print(text_num_reverse[:i+1])
+                position_largest = i + text_num_reverse[:i+1].index(str(largest_num))
                 text_num[i], text_num[position_largest] = text_num[position_largest], text_num[i]
                 return int("".join(text_num))
 
