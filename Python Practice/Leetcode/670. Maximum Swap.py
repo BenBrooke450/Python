@@ -35,9 +35,9 @@ def maximumSwap(num: int) -> int:
             largest_num = max([int(x) for x in text_num[i:]])
             if text_num[i:].count(str(largest_num))>1:
                 text_num_reverse = text_num[::-1]
-                n_r = len(text_num) - 1 - i
-                print(text_num_reverse[:i+1])
-                position_largest = i + text_num_reverse[:i+1].index(str(largest_num))
+                passed = text_num_reverse.index(str(largest_num))
+                print(text_num_reverse[:passed+1])
+                position_largest = len(text_num) - 1 - passed
                 text_num[i], text_num[position_largest] = text_num[position_largest], text_num[i]
                 return int("".join(text_num))
 
@@ -46,7 +46,7 @@ def maximumSwap(num: int) -> int:
             return int("".join(text_num))
 
 
-print(maximumSwap(1993))
+print(maximumSwap(19931227))
 
 
 
