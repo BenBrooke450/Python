@@ -20,17 +20,31 @@ Explanation: No swap.
 
 """
 
-from itertools import combinations, permutations
+
 def maximumSwap(num: int) -> int:
 
-    if sorted(str(num)) == str(num):
+    if "".join(sorted(str(num),reverse=True)) == str(num) or len(str(num)) == 1:
         return num
 
-    text_num = str(num)
+    text_num = [y for y in str(num)]
 
-    nines = 0
+    for i,x in enumerate(text_num):
+        if int(x) == max([int(x) for x in text_num[i:]]):
+            pass
 
-    for x in text_num:
+        else:
+            largest_num = max([int(x) for x in text_num[i:]])
+            position_largest = i + text_num[i:].index(str(largest_num))
+            text_num[i], text_num[position_largest] = text_num[position_largest], text_num[i]
+
+    return int("".join(text_num))
+
+
+print(maximumSwap(10))
+
+
+
+
 
 
 
