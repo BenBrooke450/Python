@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change beforePath="$PROJECT_DIR$/Python Practice/Leetcode/670. Maximum Swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Practice/Leetcode/670. Maximum Swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/60. Permutation Sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,6 +422,7 @@
     "Python.594. Longest Harmonious Subsequence.executor": "Run",
     "Python.599. Minimum Index Sum of Two Lists.executor": "Run",
     "Python.6. Zigzag Conversion.executor": "Run",
+    "Python.60. Permutation Sequence.executor": "Run",
     "Python.605. Can Place Flowers.executor": "Run",
     "Python.628. Maximum Product of Three Numbers.executor": "Run",
     "Python.64. Minimum Path Sum.executor": "Run",
@@ -543,31 +545,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729978892248</updated>
-      <workItem from="1768153341723" duration="43574000" />
-    </task>
-    <task id="LOCAL-00655" summary="basic">
-      <option name="closed" value="true" />
-      <created>1763233619899</created>
-      <option name="number" value="00655" />
-      <option name="presentableId" value="LOCAL-00655" />
-      <option name="project" value="LOCAL" />
-      <updated>1763233619899</updated>
-    </task>
-    <task id="LOCAL-00656" summary="basic">
-      <option name="closed" value="true" />
-      <created>1763395444865</created>
-      <option name="number" value="00656" />
-      <option name="presentableId" value="LOCAL-00656" />
-      <option name="project" value="LOCAL" />
-      <updated>1763395444865</updated>
-    </task>
-    <task id="LOCAL-00657" summary="basic">
-      <option name="closed" value="true" />
-      <created>1763482509615</created>
-      <option name="number" value="00657" />
-      <option name="presentableId" value="LOCAL-00657" />
-      <option name="project" value="LOCAL" />
-      <updated>1763482509615</updated>
+      <workItem from="1768153341723" duration="48765000" />
+      <workItem from="1769703054235" duration="33000" />
+      <workItem from="1769790274957" duration="1289000" />
     </task>
     <task id="LOCAL-00658" summary="basic">
       <option name="closed" value="true" />
@@ -937,7 +917,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768936830888</updated>
     </task>
-    <option name="localTasksCounter" value="704" />
+    <task id="LOCAL-00704" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768937884477</created>
+      <option name="number" value="00704" />
+      <option name="presentableId" value="LOCAL-00704" />
+      <option name="project" value="LOCAL" />
+      <updated>1768937884477</updated>
+    </task>
+    <task id="LOCAL-00705" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768938240376</created>
+      <option name="number" value="00705" />
+      <option name="presentableId" value="LOCAL-00705" />
+      <option name="project" value="LOCAL" />
+      <updated>1768938240377</updated>
+    </task>
+    <task id="LOCAL-00706" summary="basic">
+      <option name="closed" value="true" />
+      <created>1768938880061</created>
+      <option name="number" value="00706" />
+      <option name="presentableId" value="LOCAL-00706" />
+      <option name="project" value="LOCAL" />
+      <updated>1768938880061</updated>
+    </task>
+    <option name="localTasksCounter" value="707" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -965,6 +969,7 @@
     <SUITE FILE_PATH="coverage/Python$3754__Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.coverage" NAME="3754. Concatenate Non-Zero Digits and Multiply by Sum I Coverage Results" MODIFIED="1768154266099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$1523__Count_Odd_Numbers_in_an_Interval_Range.coverage" NAME="1523. Count Odd Numbers in an Interval Range Coverage Results" MODIFIED="1768155133408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$2591__Distribute_Money_to_Maximum_Children.coverage" NAME="2591. Distribute Money to Maximum Children Coverage Results" MODIFIED="1768660582567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
-    <SUITE FILE_PATH="coverage/Python$670__Maximum_Swap.coverage" NAME="670. Maximum Swap Coverage Results" MODIFIED="1768937878934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$670__Maximum_Swap.coverage" NAME="670. Maximum Swap Coverage Results" MODIFIED="1768938834534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$60__Permutation_Sequence.coverage" NAME="60. Permutation Sequence Coverage Results" MODIFIED="1769792549081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
   </component>
 </project>
