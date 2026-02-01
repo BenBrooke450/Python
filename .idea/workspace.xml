@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/60. Permutation Sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/149. Max Points on a Line.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +113,7 @@
     "Python.1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence.executor": "Run",
     "Python.1464. Maximum Product of Two Elements in an Array.executor": "Run",
     "Python.1470. Shuffle the Array.executor": "Run",
+    "Python.149. Max Points on a Line.executor": "Run",
     "Python.1491. Average Salary Excluding the Minimum and Maximum Salary.executor": "Run",
     "Python.1496. Path Crossing.executor": "Run",
     "Python.1502. Can Make Arithmetic Progression From Sequence.executor": "Run",
@@ -532,8 +533,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
-        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.127" />
+        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
       </set>
     </attachedChunks>
   </component>
@@ -547,15 +548,8 @@
       <updated>1729978892248</updated>
       <workItem from="1768153341723" duration="48765000" />
       <workItem from="1769703054235" duration="33000" />
-      <workItem from="1769790274957" duration="1289000" />
-    </task>
-    <task id="LOCAL-00658" summary="basic">
-      <option name="closed" value="true" />
-      <created>1763482842608</created>
-      <option name="number" value="00658" />
-      <option name="presentableId" value="LOCAL-00658" />
-      <option name="project" value="LOCAL" />
-      <updated>1763482842608</updated>
+      <workItem from="1769790274957" duration="1940000" />
+      <workItem from="1769963228191" duration="2386000" />
     </task>
     <task id="LOCAL-00659" summary="basic">
       <option name="closed" value="true" />
@@ -941,7 +935,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768938880061</updated>
     </task>
-    <option name="localTasksCounter" value="707" />
+    <task id="LOCAL-00707" summary="basic">
+      <option name="closed" value="true" />
+      <created>1769792700004</created>
+      <option name="number" value="00707" />
+      <option name="presentableId" value="LOCAL-00707" />
+      <option name="project" value="LOCAL" />
+      <updated>1769792700008</updated>
+    </task>
+    <option name="localTasksCounter" value="708" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -968,6 +970,7 @@
     <SUITE FILE_PATH="coverage/Python$357__Count_Numbers_with_Unique_Digits.coverage" NAME="357. Count Numbers with Unique Digits Coverage Results" MODIFIED="1768656593219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$3754__Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.coverage" NAME="3754. Concatenate Non-Zero Digits and Multiply by Sum I Coverage Results" MODIFIED="1768154266099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$1523__Count_Odd_Numbers_in_an_Interval_Range.coverage" NAME="1523. Count Odd Numbers in an Interval Range Coverage Results" MODIFIED="1768155133408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$149__Max_Points_on_a_Line.coverage" NAME="149. Max Points on a Line Coverage Results" MODIFIED="1769965610831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$2591__Distribute_Money_to_Maximum_Children.coverage" NAME="2591. Distribute Money to Maximum Children Coverage Results" MODIFIED="1768660582567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$670__Maximum_Swap.coverage" NAME="670. Maximum Swap Coverage Results" MODIFIED="1768938834534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$60__Permutation_Sequence.coverage" NAME="60. Permutation Sequence Coverage Results" MODIFIED="1769792549081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
