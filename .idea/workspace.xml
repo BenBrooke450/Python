@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed100e8d-5ce9-4a8f-92f0-d40e0c8735d2" name="Changes" comment="basic">
-      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/149. Max Points on a Line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Practice/Leetcode/224. Basic Calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,6 +232,7 @@
     "Python.223. Rectangle Area.executor": "Run",
     "Python.2231. Largest Number After Digit Swaps by Parity.executor": "Run",
     "Python.2239. Find Closest Number to Zero.executor": "Run",
+    "Python.224. Basic Calculator.executor": "Run",
     "Python.2248. Intersection of Multiple Arrays.executor": "Run",
     "Python.2255. Count Prefixes of a Given String.executor": "Run",
     "Python.2259. Remove Digit From Number to Maximize Result.executor": "Run",
@@ -549,15 +550,8 @@
       <workItem from="1768153341723" duration="48765000" />
       <workItem from="1769703054235" duration="33000" />
       <workItem from="1769790274957" duration="1940000" />
-      <workItem from="1769963228191" duration="2386000" />
-    </task>
-    <task id="LOCAL-00659" summary="basic">
-      <option name="closed" value="true" />
-      <created>1763483734011</created>
-      <option name="number" value="00659" />
-      <option name="presentableId" value="LOCAL-00659" />
-      <option name="project" value="LOCAL" />
-      <updated>1763483734011</updated>
+      <workItem from="1769963228191" duration="3304000" />
+      <workItem from="1770038761711" duration="1019000" />
     </task>
     <task id="LOCAL-00660" summary="basic">
       <option name="closed" value="true" />
@@ -943,7 +937,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769792700008</updated>
     </task>
-    <option name="localTasksCounter" value="708" />
+    <task id="LOCAL-00708" summary="basic">
+      <option name="closed" value="true" />
+      <created>1769965693403</created>
+      <option name="number" value="00708" />
+      <option name="presentableId" value="LOCAL-00708" />
+      <option name="project" value="LOCAL" />
+      <updated>1769965693403</updated>
+    </task>
+    <option name="localTasksCounter" value="709" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -974,5 +976,6 @@
     <SUITE FILE_PATH="coverage/Python$2591__Distribute_Money_to_Maximum_Children.coverage" NAME="2591. Distribute Money to Maximum Children Coverage Results" MODIFIED="1768660582567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$670__Maximum_Swap.coverage" NAME="670. Maximum Swap Coverage Results" MODIFIED="1768938834534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
     <SUITE FILE_PATH="coverage/Python$60__Permutation_Sequence.coverage" NAME="60. Permutation Sequence Coverage Results" MODIFIED="1769792549081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
+    <SUITE FILE_PATH="coverage/Python$224__Basic_Calculator.coverage" NAME="224. Basic Calculator Coverage Results" MODIFIED="1770039330571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Practice/Leetcode" />
   </component>
 </project>
