@@ -8,14 +8,30 @@
 
 def calculate(s: str) -> int:
 
-    for x in s:
-        if any(['+', '-', '(', ')',' ']):
-            pass
+    nums_total = []
+    nums = []
+    def in_func(s):
+
+        for i,x in enumerate(s):
+            if x == '(':
+                in_func(s[i:])
+
+            elif x == ')':
+
+                return
+
+            if x == '+':
 
 
 
 
 
+
+
+
+
+
+#if not any(['+', '-', '(', ')',' ']):
 
 
 
