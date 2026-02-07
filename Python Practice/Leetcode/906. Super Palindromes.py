@@ -19,21 +19,17 @@ Output: 1
 
 """
 
-import numpy as np
+
 def superpalindromesInRange(left: str, right: str) -> int:
 
-    num_str = [str(x) for x in np.arange(int(left),int(right)+1)]
+    num_str = (x ** 0.5 for x in range(int(left), int(right) + 1) if str(x) == str(x)[::-1] and x ** 0.5 % 1 == 0)
 
     i = 0
 
     for x in num_str:
+        x = str(x)
         if x == x[::-1]:
-            x_int = int(x)**0.5
-            if x_int % 1 == 0:
-                x_int = str(int(x_int))
-                if x_int == x_int[::-1]:
-                    print(x)
-                    i = i + 1
+            i = i + 1
 
     return i
 
