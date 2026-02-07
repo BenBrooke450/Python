@@ -17,10 +17,8 @@ def calculate(s: str) -> int:
                 in_func(s[i:])
 
             elif x == ')':
-
                 return
 
-            if x == '+':
 
 
 
